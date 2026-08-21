@@ -1,0 +1,70 @@
+/*
+ * Metis — "Gradient" section style.
+ *
+ * CSS-only, Editor-safe section background. A fixed gradient from a contrasting
+ * colour at the top down to Base (theme-6, the page background), with a warm light
+ * drifting across the lower area. The contrast colour is Rule/theme-4 ("day"); when
+ * the visitor's OS is in dark mode it swaps to theme-3 (the periwinkle "night" tint)
+ * — text is untouched, only the tint changes (no full dark mode). Renders and
+ * animates in the Site Editor; motion off under prefers-reduced-motion. Applied as
+ * the "Gradient" block style on Group / section blocks — the target block must have
+ * NO Background of its own set, or that overrides this.
+ */
+.wp-block-group.is-style-gradient-flow {
+	--metis-gradient-top: var(--wp--preset--color--theme-4);
+	background-color: var(--wp--preset--color--theme-6);
+	background-image:
+		radial-gradient(
+			closest-side,
+			color-mix(in srgb, var(--metis-gradient-top) 55%, transparent) 0%,
+			transparent 100%
+		),
+		linear-gradient(
+			180deg,
+			var(--metis-gradient-top) 0%,
+			var(--wp--preset--color--theme-6) 100%
+		);
+	background-repeat: no-repeat, no-repeat;
+	background-size: 50% 55%, 100% 100%;
+	background-position: 0% 85%, 50% 0%;
+}
+
+/* Night: swap only the contrast colour (day theme-4 -> night theme-3). Text untouched. */
+@media (prefers-color-scheme: dark) {
+	.wp-block-group.is-style-gradient-flow {
+		--metis-gradient-top: var(--wp--preset--color--theme-3);
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.wp-block-group.is-style-gradient-flow {
+		animation: metis-gradient-drift 16s ease-in-out infinite;
+	}
+}
+
+/* Only the light layer (first position) drifts; the base gradient (second position) stays fixed. */
+@keyframes metis-gradient-drift {
+	0%,
+	100% {
+		background-position: 0% 85%, 50% 0%;
+	}
+	50% {
+		background-position: 100% 85%, 50% 0%;
+	}
+}
+
+/*
+ * Day/night solid background — a utility class matching the Gradient's tint switch.
+ * Add "metis-day-night" to a block (e.g. the header) via Advanced -> Additional CSS
+ * class(es), and CLEAR that block's own Background colour so it doesn't override.
+ * Gold (theme-4) by day; periwinkle (theme-3) when the visitor's OS is in dark mode.
+ */
+.metis-day-night {
+	background-color: var(--wp--preset--color--theme-4);
+}
+
+@media (prefers-color-scheme: dark) {
+	.metis-day-night {
+		background-color: var(--wp--preset--color--theme-3);
+	}
+}

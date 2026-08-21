@@ -1,0 +1,68 @@
+/* Font smoothing */
+body {
+	text-rendering: geometricprecision;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/*
+ * Link styles
+ * https://github.com/WordPress/gutenberg/issues/42319
+ */
+a {
+	text-decoration-thickness: 1px !important;
+	text-underline-offset: 0.1em;
+}
+
+/*
+ * Make sure footers have no margin.
+ * https://github.com/WordPress/gutenberg/issues/47637
+ */
+footer.wp-block-template-part {
+	margin-block-start: 0 !important;
+}
+
+/* Utility classes for removing text decoration from link. */
+.no-underline a {
+	text-decoration: none;
+}
+
+/* Utility — first-line indent for a paragraph or heading (mirrors style.css). */
+.indent-first-line {
+	text-indent: 33.33%;
+}
+
+/* Utility classes for custom ordering. */
+.order-0 {
+	order: 0;
+}
+
+.order-1 {
+	order: 1;
+}
+
+.grow-0 {
+	flex-grow: 0;
+}
+
+.grow {
+	flex-grow: 1;
+}
+
+@media (min-width: 600px) {
+	.md\:order-0 {
+		order: 0;
+	}
+
+	.md\:order-1 {
+		order: 1;
+	}
+
+	.md\:grow-0 {
+		flex-grow: 0;
+	}
+
+	.md\:grow {
+		flex-grow: 1;
+	}
+}

@@ -1,0 +1,53 @@
+/*
+ * Glossy button — a CSS-only gloss effect that keeps the Editor in control.
+ * Apply via the button's "Glossy" style (Styles tab). Colour, border radius,
+ * padding, size, and type are all still set in the Editor; this only adds a
+ * translucent sheen overlay, an inset rim for puffiness, and a springy
+ * hover-grow / press-squish. The overlay is see-through, so it inherits
+ * whatever colour and corner radius you choose.
+ */
+
+.wp-block-button.is-style-glossy .wp-block-button__link {
+	position: relative;
+	isolation: isolate;
+	/* No overflow:hidden — on the inline-block link it changes the baseline,
+	   inflates the line box ~7px, and misaligns the button in a flex row.
+	   The ::before gloss clips itself via border-radius:inherit, so nothing bleeds. */
+	transition: transform 260ms cubic-bezier(0.34, 1.56, 0.64, 1);
+	box-shadow:
+		inset 0 1px 1px rgba(255, 255, 255, 0.45),
+		inset 0 -10px 16px -6px rgba(0, 0, 0, 0.20);
+}
+
+/* Translucent gloss: a top-left sheen spot + a soft top band.
+   z-index -1 keeps it above the (Editor) background but below the label;
+   border-radius: inherit makes it follow the (Editor) corner radius. */
+.wp-block-button.is-style-glossy .wp-block-button__link::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	z-index: -1;
+	border-radius: inherit;
+	pointer-events: none;
+	opacity: 1;
+	transition: opacity 260ms ease;
+	background:
+		radial-gradient(120% 75% at 50% 8%, rgba(255, 255, 255, 0.50), rgba(255, 255, 255, 0) 46%),
+		linear-gradient(180deg, rgba(255, 255, 255, 0.20), rgba(255, 255, 255, 0) 40%);
+}
+
+/* On hover the sheen fades toward transparent (the gloss "settles") */
+.wp-block-button.is-style-glossy .wp-block-button__link:hover { transform: scale(1.04); }
+.wp-block-button.is-style-glossy .wp-block-button__link:hover::before { opacity: 0.25; }
+.wp-block-button.is-style-glossy .wp-block-button__link:active { transform: scale(0.97); }
+
+@media (prefers-reduced-motion: reduce) {
+	.wp-block-button.is-style-glossy .wp-block-button__link,
+	.wp-block-button.is-style-glossy .wp-block-button__link::before {
+		transition: none;
+	}
+	.wp-block-button.is-style-glossy .wp-block-button__link:hover,
+	.wp-block-button.is-style-glossy .wp-block-button__link:active {
+		transform: none;
+	}
+}
