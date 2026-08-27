@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ruleset name="Metis WordPress Coding Standards">
+	<description>WordPress Coding Standards for Metis PHP files.</description>
+
+	<rule ref="WordPress" />
+
+	<file>../functions.php</file>
+
+	<arg name="extensions" value="php" />
+	<arg name="parallel" value="8" />
+	<arg value="ps" />
+
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="metis" />
+			</property>
+		</properties>
+	</rule>
+
+	<rule ref="WordPress.NamingConventions.PrefixAllGlobals">
+		<properties>
+			<property name="prefixes" type="array">
+				<element value="metis" />
+			</property>
+		</properties>
+	</rule>
+</ruleset>

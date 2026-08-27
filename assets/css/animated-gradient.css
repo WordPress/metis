@@ -31,12 +31,14 @@
 
 /* Night: swap only the contrast colour (day theme-4 -> night theme-3). Text untouched. */
 @media (prefers-color-scheme: dark) {
+
 	.wp-block-group.is-style-gradient-flow {
 		--metis-gradient-top: var(--wp--preset--color--theme-3);
 	}
 }
 
 @media (prefers-reduced-motion: no-preference) {
+
 	.wp-block-group.is-style-gradient-flow {
 		animation: metis-gradient-drift 16s ease-in-out infinite;
 	}
@@ -44,10 +46,12 @@
 
 /* Only the light layer (first position) drifts; the base gradient (second position) stays fixed. */
 @keyframes metis-gradient-drift {
+
 	0%,
 	100% {
 		background-position: 0% 85%, 50% 0%;
 	}
+
 	50% {
 		background-position: 100% 85%, 50% 0%;
 	}
@@ -64,6 +68,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
+
 	.metis-day-night {
 		background-color: var(--wp--preset--color--theme-3);
 	}
