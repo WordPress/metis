@@ -53,6 +53,11 @@ footer.wp-block-template-part {
 	text-decoration: none;
 }
 
+.no-underline a:hover,
+.no-underline a:focus-visible {
+	text-decoration: underline;
+}
+
 /* Utility — first-line indent for a paragraph or heading.
    Add the class "indent-first-line" in the block's Advanced →
    Additional CSS class(es) panel. The 33.33% is measured against the
@@ -72,6 +77,64 @@ footer.wp-block-template-part {
 	.md\:order-1 { order: 1; }
 	.md\:grow-0 { flex-grow: 0; }
 	.md\:grow { flex-grow: 1; }
+}
+
+/* Utility — alternate Featured Image aspect ratios inside a Query Loop.
+   Add the class "alternate-ratios" to the Post Template block: odd posts
+   get 3:4, even posts 1:1, whatever ratio the block itself declares.
+   !important is required because the block emits its ratio as an inline
+   style; the block's own [style*=aspect-ratio] img rules (cover/fill)
+   keep applying, so images crop correctly at the new ratios. */
+.alternate-ratios > li:nth-child(odd) .wp-block-post-featured-image {
+	aspect-ratio: 3/4 !important;
+}
+
+.alternate-ratios > li:nth-child(even) .wp-block-post-featured-image {
+	aspect-ratio: 1/1 !important;
+}
+
+/* Core only applies its fill-and-crop rules when the figure carries an
+   inline aspect-ratio; ours comes from the rules above, so replicate. */
+.alternate-ratios .wp-block-post-featured-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/* Utility — hide a media column when the post has no Featured Image.
+   Add the class "media-column" to the column holding the Post Featured
+   Image block. With no image set, the block outputs no frontend markup,
+   so the column hides and the flexible siblings absorb its space.
+   (The editor mirror in editor-style.css keys on a missing <img> instead,
+   because the editor renders a placeholder that keeps the block class.) */
+.media-column:not(:has(.wp-block-post-featured-image)) {
+	display: none;
+}
+
+/* Utility — Row wraps below 1080px. Keep the Row's Wrapping toggle OFF
+   and add the class "wrap-on-small". The doubled class beats Gutenberg's
+   per-instance `flex-wrap: nowrap` layout rule (equal specificity, later
+   source order) without !important. Consumer: Homepage "Posts Text Only"
+   QL, "Excerpt and Date Row". */
+@media (max-width: 1079px) {
+	.wrap-on-small.wrap-on-small {
+		flex-wrap: wrap;
+	}
+}
+
+/* Utility — Columns stack below 1080px instead of core's 782px.
+   Add the class "stack-on-small" to the Columns block and leave its
+   "Stack on mobile" toggle ON. Core pins both properties with !important
+   between 782–1079px, so the overrides must be !important too; this
+   sheet loads after core's block CSS, so these win deterministically. */
+@media (max-width: 1079px) {
+	.wp-block-columns.stack-on-small {
+		flex-wrap: wrap !important;
+	}
+
+	.wp-block-columns.stack-on-small > .wp-block-column {
+		flex-basis: 100% !important;
+	}
 }
 
 /* Accordion bleed. Items are pulled together with negative margins so each item's

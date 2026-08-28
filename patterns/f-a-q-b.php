@@ -6,8 +6,8 @@
  * Description: A reflective opening line over an expandable timeline of long-running work.
  */
 ?>
-<!-- wp:group {"tagName":"section","metadata":{"name":"The long work"},"align":"wide","anchor":"the-long-work","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-5","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"}} -->
-<section id="the-long-work" class="wp-block-group alignwide" style="border-top-color:var(--wp--preset--color--theme-5);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:paragraph {"align":"wide","fontSize":"2-x-large"} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"The long work"},"align":"wide","anchor":"the-long-work","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-3","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"}} -->
+<section id="the-long-work" class="wp-block-group alignwide" style="border-top-color:var(--wp--preset--color--theme-3);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:paragraph {"align":"wide","fontSize":"2-x-large"} -->
 <p class="alignwide has-2-x-large-font-size"><?php esc_html_e('None of it was planned. Looking back, it makes a kind of line — the same few questions, asked in different weather.', 'metis');?></p>
 <!-- /wp:paragraph -->
 

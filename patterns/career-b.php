@@ -6,8 +6,8 @@
  * Description: Upcoming readings and talks as a short grid — date, event, and place.
  */
 ?>
-<!-- wp:group {"tagName":"section","metadata":{"name":"Appearances"},"align":"wide","anchor":"appearances","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-5","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"}} -->
-<section id="appearances" class="wp-block-group alignwide" style="border-top-color:var(--wp--preset--color--theme-5);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"metadata":{"name":"Header"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"Appearances"},"align":"wide","anchor":"appearances","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-3","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"}} -->
+<section id="appearances" class="wp-block-group alignwide" style="border-top-color:var(--wp--preset--color--theme-3);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"metadata":{"name":"Header"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-group alignwide"><!-- wp:heading -->
 <h2 class="wp-block-heading"><?php esc_html_e('Appearances', 'metis');?></h2>
 <!-- /wp:heading -->
@@ -27,8 +27,8 @@
 <h3 class="wp-block-heading has-large-font-size"><?php esc_html_e('A reading from Ground Truth', 'metis');?></h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"theme-5","fontSize":"small"} -->
-<p class="has-theme-5-color has-text-color has-small-font-size"><?php esc_html_e('Field Notes Festival', 'metis');?></p>
+<!-- wp:paragraph {"textColor":"theme-3","fontSize":"small"} -->
+<p class="has-theme-3-color has-text-color has-small-font-size"><?php esc_html_e('Field Notes Festival', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -41,8 +41,8 @@
 <h3 class="wp-block-heading has-large-font-size"><?php esc_html_e('In conversation with a cartographer', 'metis');?></h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"theme-5","fontSize":"small"} -->
-<p class="has-theme-5-color has-text-color has-small-font-size"><?php esc_html_e('Long Walk Assembly', 'metis');?></p>
+<!-- wp:paragraph {"textColor":"theme-3","fontSize":"small"} -->
+<p class="has-theme-3-color has-text-color has-small-font-size"><?php esc_html_e('Long Walk Assembly', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -55,8 +55,8 @@
 <h3 class="wp-block-heading has-large-font-size"><?php esc_html_e('Residency: the same coast, again', 'metis');?></h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"theme-5","fontSize":"small"} -->
-<p class="has-theme-5-color has-text-color has-small-font-size"><?php esc_html_e('Ordnance House', 'metis');?></p>
+<!-- wp:paragraph {"textColor":"theme-3","fontSize":"small"} -->
+<p class="has-theme-3-color has-text-color has-small-font-size"><?php esc_html_e('Ordnance House', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></section>

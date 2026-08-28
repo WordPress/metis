@@ -14,8 +14,8 @@
 <h1 class="wp-block-heading alignwide has-fit-text"><?php esc_html_e('Almanac', 'metis');?></h1>
 <!-- /wp:heading -->
 
-<!-- wp:heading {"level":6,"textColor":"theme-5"} -->
-<h6 class="wp-block-heading has-theme-5-color has-text-color"><?php esc_html_e('Issue No. 12 · Winter · A quarterly from Landmark', 'metis');?></h6>
+<!-- wp:heading {"level":6,"textColor":"theme-3"} -->
+<h6 class="wp-block-heading has-theme-3-color has-text-color"><?php esc_html_e('Issue No. 12 · Winter · A quarterly from Landmark', 'metis');?></h6>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -172,8 +172,8 @@
 <!-- /wp:group --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"tagName":"section","metadata":{"name":"Product List C","patternName":"metis/product-list-c","categories":["Call","to","Action"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-5","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"},"anchor":"archive"} -->
-<section class="wp-block-group alignwide" id="archive" style="border-top-color:var(--wp--preset--color--theme-5);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"align":"wide"} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"Product List C","patternName":"metis/product-list-c","categories":["Call","to","Action"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-3","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"},"anchor":"archive"} -->
+<section class="wp-block-group alignwide" id="archive" style="border-top-color:var(--wp--preset--color--theme-3);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"align":"wide"} -->
 <h2 class="wp-block-heading alignwide"><?php esc_html_e('Archive', 'metis');?></h2>
 <!-- /wp:heading -->
 
@@ -182,7 +182,7 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:post-featured-image {"isLink":true,"aspectRatio":"4/3"} /-->
 
-<!-- wp:post-terms {"term":"category","textColor":"theme-5","fontSize":"x-small","fontFamily":"recursive-mono"} /-->
+<!-- wp:post-terms {"term":"category","textColor":"theme-3","fontSize":"x-small","fontFamily":"recursive-mono"} /-->
 
 <!-- wp:post-title {"level":3,"isLink":true,"fontSize":"large"} /--></div>
 <!-- /wp:group -->

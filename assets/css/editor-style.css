@@ -22,9 +22,58 @@ footer.wp-block-template-part {
 	margin-block-start: 0 !important;
 }
 
-/* Utility classes for removing text decoration from link. */
+/* Utility — hide link underlines at rest, restore on hover/focus. */
 .no-underline a {
 	text-decoration: none;
+}
+
+.no-underline a:hover,
+.no-underline a:focus-visible {
+	text-decoration: underline;
+}
+
+/* Utility — alternate Featured Image aspect ratios (mirrors style.css).
+   The canvas renders a hidden duplicate <li> for the active item, which
+   shifts plain nth-child parity — so count only the visible items via
+   the `of` filter (the hidden duplicate carries display:none inline). */
+.alternate-ratios > li:nth-child(odd of li:not([style*="none"])) .wp-block-post-featured-image {
+	aspect-ratio: 3/4 !important;
+}
+
+.alternate-ratios > li:nth-child(even of li:not([style*="none"])) .wp-block-post-featured-image {
+	aspect-ratio: 1/1 !important;
+}
+
+.alternate-ratios .wp-block-post-featured-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/* Utility — hide the media column when the post has no image (mirrors
+   style.css). In the editor the Featured Image block renders a placeholder
+   that still carries the block class, so key on the absence of an actual
+   <img> rather than of the block. */
+.media-column:not(:has(img)) {
+	display: none;
+}
+
+/* Utility — Row wraps below 1080px (mirrors style.css). */
+@media (max-width: 1079px) {
+	.wrap-on-small.wrap-on-small {
+		flex-wrap: wrap;
+	}
+}
+
+/* Utility — Columns stack below 1080px (mirrors style.css). */
+@media (max-width: 1079px) {
+	.wp-block-columns.stack-on-small {
+		flex-wrap: wrap !important;
+	}
+
+	.wp-block-columns.stack-on-small > .wp-block-column {
+		flex-basis: 100% !important;
+	}
 }
 
 /* Utility — first-line indent for a paragraph or heading (mirrors style.css). */

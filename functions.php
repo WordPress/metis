@@ -68,7 +68,7 @@ add_action( 'wp_enqueue_scripts', 'metis_glossy_button_assets' );
 
 /*
  * "Animated Gradient" section style — a CSS-only background gradient from the Rule
- * colour (theme-4) to the Base colour (theme-1) that gently drifts. Registers a
+ * colour (theme-7) to the Base colour (theme-6) that gently drifts. Registers a
  * block style for core/group; the CSS loads on the front end here and in the editor
  * via add_editor_style() above, so it renders (and animates) in both. Motion is
  * disabled under prefers-reduced-motion.

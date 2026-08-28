@@ -6,8 +6,8 @@
  * Description: A two-by-two grid of projects — image, title, one line, and a short credit. A glanceable index of the work.
  */
 ?>
-<!-- wp:group {"tagName":"section","metadata":{"name":"Selected work"},"align":"wide","anchor":"work-grid","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-5","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"}} -->
-<section id="work-grid" class="wp-block-group alignwide" style="border-top-color:var(--wp--preset--color--theme-5);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"align":"wide"} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"Selected work"},"align":"wide","anchor":"work-grid","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-3","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"}} -->
+<section id="work-grid" class="wp-block-group alignwide" style="border-top-color:var(--wp--preset--color--theme-3);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"align":"wide"} -->
 <h2 class="wp-block-heading alignwide"><?php esc_html_e('Selected work', 'metis');?></h2>
 <!-- /wp:heading -->
 
@@ -25,8 +25,8 @@
 <p><?php esc_html_e('The studio’s long-form seasonal quarterly.', 'metis');?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"textColor":"theme-5","fontFamily":"recursive-mono","fontSize":"x-small"} -->
-<p class="has-theme-5-color has-text-color has-recursive-mono-font-family has-x-small-font-size"><?php esc_html_e('Design · 2022 – ongoing', 'metis');?></p>
+<!-- wp:paragraph {"textColor":"theme-3","fontFamily":"recursive-mono","fontSize":"x-small"} -->
+<p class="has-theme-3-color has-text-color has-recursive-mono-font-family has-x-small-font-size"><?php esc_html_e('Design · 2022 – ongoing', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -43,8 +43,8 @@
 <p><?php esc_html_e('A weekly paper, in print and on screen.', 'metis');?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"textColor":"theme-5","fontFamily":"recursive-mono","fontSize":"x-small"} -->
-<p class="has-theme-5-color has-text-color has-recursive-mono-font-family has-x-small-font-size"><?php esc_html_e('Design · 2023 – ongoing', 'metis');?></p>
+<!-- wp:paragraph {"textColor":"theme-3","fontFamily":"recursive-mono","fontSize":"x-small"} -->
+<p class="has-theme-3-color has-text-color has-recursive-mono-font-family has-x-small-font-size"><?php esc_html_e('Design · 2023 – ongoing', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -61,8 +61,8 @@
 <p><?php esc_html_e('Iris Calder’s book of essays.', 'metis');?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"textColor":"theme-5","fontFamily":"recursive-mono","fontSize":"x-small"} -->
-<p class="has-theme-5-color has-text-color has-recursive-mono-font-family has-x-small-font-size"><?php esc_html_e('Design · 2024', 'metis');?></p>
+<!-- wp:paragraph {"textColor":"theme-3","fontFamily":"recursive-mono","fontSize":"x-small"} -->
+<p class="has-theme-3-color has-text-color has-recursive-mono-font-family has-x-small-font-size"><?php esc_html_e('Design · 2024', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -79,8 +79,8 @@
 <p><?php esc_html_e('An interactive atlas you can walk.', 'metis');?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"textColor":"theme-5","fontFamily":"recursive-mono","fontSize":"x-small"} -->
-<p class="has-theme-5-color has-text-color has-recursive-mono-font-family has-x-small-font-size"><?php esc_html_e('Design · 2025', 'metis');?></p>
+<!-- wp:paragraph {"textColor":"theme-3","fontFamily":"recursive-mono","fontSize":"x-small"} -->
+<p class="has-theme-3-color has-text-color has-recursive-mono-font-family has-x-small-font-size"><?php esc_html_e('Design · 2025', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
