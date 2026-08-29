@@ -17,13 +17,13 @@
 
 <!-- wp:group {"metadata":{"name":"Meta"},"className":"has-link-color","style":{"spacing":{"blockGap":"0.2em","margin":{"bottom":"var:preset|spacing|60"}}},"layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group has-link-color" style="margin-bottom:var(--wp--preset--spacing--60)"><!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><?php esc_html_e('Written by ', 'metis');?></p>
+<p class="has-small-font-size"><?php esc_html_e( 'Written by ', 'metis' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:post-author-name {"isLink":true,"fontSize":"small"} /-->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><?php esc_html_e('in', 'metis');?></p>
+<p class="has-small-font-size"><?php esc_html_e( 'in', 'metis' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:post-terms {"term":"category","fontSize":"small"} /--></div>
@@ -47,7 +47,7 @@
 
 <!-- wp:comments {"className":"wp-block-comments-query-loop","style":{"spacing":{"margin":{"top":"var:preset|spacing|70"}}}} -->
 <div class="wp-block-comments wp-block-comments-query-loop" style="margin-top:var(--wp--preset--spacing--70)"><!-- wp:heading -->
-<h2 class="wp-block-heading"><?php esc_html_e('Comments', 'metis');?></h2>
+<h2 class="wp-block-heading"><?php esc_html_e( 'Comments', 'metis' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:comments-title {"level":3,"fontSize":"large"} /-->
