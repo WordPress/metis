@@ -9,6 +9,9 @@
  */
 
 if ( ! function_exists( 'metis_editor_style' ) ) :
+	/**
+	 * Add theme styles to the editor.
+	 */
 	function metis_editor_style() {
 		add_editor_style(
 			array(
@@ -22,6 +25,9 @@ endif;
 add_action( 'after_setup_theme', 'metis_editor_style' );
 
 if ( ! function_exists( 'metis_styles' ) ) :
+	/**
+	 * Enqueue the main theme stylesheet.
+	 */
 	function metis_styles() {
 		wp_register_style(
 			'metis-style',
@@ -42,6 +48,9 @@ add_action( 'wp_enqueue_scripts', 'metis_styles' );
  * the style only adds a translucent gloss + springy press.
  */
 if ( ! function_exists( 'metis_glossy_button_style' ) ) :
+	/**
+	 * Register the glossy button block style.
+	 */
 	function metis_glossy_button_style() {
 		register_block_style(
 			'core/button',
@@ -55,6 +64,9 @@ endif;
 add_action( 'init', 'metis_glossy_button_style' );
 
 if ( ! function_exists( 'metis_glossy_button_assets' ) ) :
+	/**
+	 * Enqueue the glossy button stylesheet.
+	 */
 	function metis_glossy_button_assets() {
 		wp_enqueue_style(
 			'metis-glossy-button',
@@ -74,6 +86,9 @@ add_action( 'wp_enqueue_scripts', 'metis_glossy_button_assets' );
  * disabled under prefers-reduced-motion.
  */
 if ( ! function_exists( 'metis_gradient_style' ) ) :
+	/**
+	 * Register the animated gradient group style.
+	 */
 	function metis_gradient_style() {
 		register_block_style(
 			'core/group',
@@ -87,6 +102,9 @@ endif;
 add_action( 'init', 'metis_gradient_style' );
 
 if ( ! function_exists( 'metis_gradient_assets' ) ) :
+	/**
+	 * Enqueue the animated gradient stylesheet.
+	 */
 	function metis_gradient_assets() {
 		wp_enqueue_style(
 			'metis-animated-gradient',
@@ -104,6 +122,9 @@ add_action( 'wp_enqueue_scripts', 'metis_gradient_assets' );
  * Slugs match the `Categories:` headers the patterns already use.
  */
 if ( ! function_exists( 'metis_pattern_categories' ) ) :
+	/**
+	 * Register the pattern categories used by the theme.
+	 */
 	function metis_pattern_categories() {
 		$categories = array(
 			'About'          => __( 'About', 'metis' ),

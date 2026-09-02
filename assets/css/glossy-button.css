@@ -10,6 +10,7 @@
 .wp-block-button.is-style-glossy .wp-block-button__link {
 	position: relative;
 	isolation: isolate;
+
 	/* No overflow:hidden — on the inline-block link it changes the baseline,
 	   inflates the line box ~7px, and misaligns the button in a flex row.
 	   The ::before gloss clips itself via border-radius:inherit, so nothing bleeds. */
@@ -38,14 +39,18 @@
 
 /* On hover the sheen fades toward transparent (the gloss "settles") */
 .wp-block-button.is-style-glossy .wp-block-button__link:hover { transform: scale(1.04); }
+
 .wp-block-button.is-style-glossy .wp-block-button__link:hover::before { opacity: 0.25; }
+
 .wp-block-button.is-style-glossy .wp-block-button__link:active { transform: scale(0.97); }
 
 @media (prefers-reduced-motion: reduce) {
+
 	.wp-block-button.is-style-glossy .wp-block-button__link,
 	.wp-block-button.is-style-glossy .wp-block-button__link::before {
 		transition: none;
 	}
+
 	.wp-block-button.is-style-glossy .wp-block-button__link:hover,
 	.wp-block-button.is-style-glossy .wp-block-button__link:active {
 		transform: none;

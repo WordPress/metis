@@ -50,6 +50,7 @@ footer.wp-block-template-part {
 }
 
 @media (min-width: 600px) {
+
 	.md\:order-0 {
 		order: 0;
 	}
