@@ -1,0 +1,44 @@
+name: Assign Linked Issues
+
+# Assigns any issue a newly opened PR references with a GitHub closing
+# keyword (fixes/closes/resolves #N) to that PR's author. Adapted from the
+# "Assign Fixed Issues" task in Gutenberg's project-management-automation
+# package, renamed here since the keyword only marks that the issue will
+# auto-close on merge, not that it's confirmed fixed:
+# https://github.com/WordPress/gutenberg/blob/trunk/packages/project-management-automation/lib/tasks/assign-fixed-issues/index.js
+
+on:
+  pull_request_target:
+    types: [opened]
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  assign-linked-issues:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Assign issues linked by this PR to its author
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = context.payload.pull_request.body || '';
+            const author = context.payload.pull_request.user.login;
+            const regex = /(?:close|closes|closed|fix|fixes|fixed|resolve|resolves|resolved):? +#(\d+)/gi;
+
+            const issueNumbers = new Set();
+            let match;
+            while ((match = regex.exec(body))) {
+              issueNumbers.add(Number(match[1]));
+            }
+
+            for (const issue_number of issueNumbers) {
+              core.info(`Assigning issue #${issue_number} to @${author}`);
+              await github.rest.issues.addAssignees({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number,
+                assignees: [author],
+              });
+            }
