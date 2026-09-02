@@ -4,6 +4,7 @@
 
 	<rule ref="WordPress" />
 
+	<!-- Block patterns mix HTML and PHP. Full WPCS is run on functions.php only. -->
 	<file>../functions.php</file>
 
 	<arg name="extensions" value="php" />
