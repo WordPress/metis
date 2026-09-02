@@ -336,3 +336,30 @@ close to stock — visual pass to follow in the Editor):
 - `patterns/single-with-sidebar.php` refined in the Editor: featured image
   16:9 wide inside the masthead, content wrapped and constrained left at
   medium size, comment title level default; structure otherwise as entry 13.
+
+## 15 · CBT save: single templates deepened, comment system styled (2026-09-02)
+
+**`patterns/single.php`** — title now 4-x-large centered wide; meta rebuilt
+("Meta Group B"): no-underline links, reading time added, categories with
+"+ " prefix.
+
+**`patterns/single-with-sidebar.php`** — content column matured: meta row
+with icon glyphs (people/clock) beside author and a Time-to-Read block;
+"Like and Share" band (placeholder Like element + Jetpack sharing buttons:
+Mastodon, Bluesky, LinkedIn, Mail, Share) between dotted rules; "Related
+Topics" (H6 + tags); comments rebuilt content-first (speech-bubble comment,
+then avatar/author/date/actions row); featured image back to natural ratio,
+wide.
+
+**`theme.json`** — the comment system styled as a design piece:
+comment-content as a speech bubble (White bg, asymmetric 20/20/5/20 radii,
+spacing-30 padding), Open Runde 600 author names, comment date/edit/reply
+links and pagination typography, post-time-to-read styling.
+
+**Plugin-dependent blocks now in the theme (deliberate, wireframe-phase):**
+`jetpack/sharing-buttons`, `core/post-time-to-read` (Gutenberg plugin),
+`wp:icon` — plus a "Like Button Element" placeholder paragraph. To resolve
+before release (tracked "along the way", cf. repo issue #8 territory).
+
+**Milestone:** first CBT save with ZERO string manglings — the CSS-based
+Read More "+" (entry 12's durable fix) held.
