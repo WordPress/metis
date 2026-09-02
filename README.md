@@ -1,6 +1,6 @@
-# Metis
+# Mētis
 
-Metis is an official WordPress block theme currently under development.
+Mētis is an official WordPress block theme currently under development.
 
 ## Development environment
 
@@ -43,7 +43,7 @@ npm run env:clean   # Delete its WordPress and database data.
 
 ### Existing WordPress installation
 
-You can also place this repository at `wp-content/themes/metis` in an existing WordPress development installation and activate Metis from Appearance → Themes.
+You can also place this repository at `wp-content/themes/metis` in an existing WordPress development installation and activate Mētis from Appearance → Themes.
 
 Enable theme development mode and debugging in that installation while contributing:
 
@@ -56,8 +56,4 @@ define( 'WP_DEBUG_DISPLAY', false );
 
 ### Browser-only testing
 
-WordPress Playground can install and run a ZIP of the theme entirely in the browser. A one-click repository Blueprint will be added after the public GitHub repository URL is available. Until then, open [WordPress Playground](https://playground.wordpress.net/), choose **Add theme**, upload a Metis ZIP, and activate it.
-
-## Validation and contribution guidance
-
-Automated checks, detailed contribution instructions, and agent guidance will be proposed separately so they can be reviewed independently from the environment setup.
+WordPress Playground can install and run a ZIP of the theme entirely in the browser. A one-click repository Blueprint will be added after the public GitHub repository URL is available. Until then, open [WordPress Playground](https://playground.wordpress.net/), choose **Add theme**, upload a Mētis ZIP, and activate it.
