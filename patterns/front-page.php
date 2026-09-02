@@ -71,7 +71,7 @@
 <main class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:group {"tagName":"section","metadata":{"name":"About"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|60"}},"layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"metadata":{"name":"Intro"},"align":"wide","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-group alignwide"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-small"} -->
-<p class="has-x-small-font-size" style="text-transform:uppercase"><?php esc_html_e( 'Meet Metis', 'metis' ); ?></p>
+<p class="has-x-small-font-size" style="text-transform:uppercase"><?php esc_html_e( 'Meet Mētis', 'metis' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"align":"wide","className":"indent-first-line","style":{"spacing":{"margin":{"top":"-1.5rem"}}},"anchor":"a-theme-for-people-who-work-in-more-than-one-form-a-place-of-your-own-kept-in-motion-as-the-work-changes-you-decide-what-goes-in-it-and-how-reading-your-own-situation-adjusting-as-it-shifts"} -->
@@ -148,7 +148,7 @@
 <!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:paragraph -->
-<p><?php esc_html_e( 'A way to introduce a team, a quote set against an image, a gallery of work. Metis ships with around forty-two. They are shapes to navigate by while you find the site you actually want.', 'metis' ); ?></p>
+<p><?php esc_html_e( 'A way to introduce a team, a quote set against an image, a gallery of work. Mētis ships with around forty-two. They are shapes to navigate by while you find the site you actually want.', 'metis' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -300,7 +300,7 @@ printf( esc_html__( 'A %1$sBusiness%2$s template for the services and products t
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><?php esc_html_e( 'A variation keeps the patterns and templates where they are and changes how the site carries itself—its type and colour, its whole posture. Metis will ship with around five or six, each a different mood for the same pages. Switch them in the Site Editor, under Styles.', 'metis' ); ?></p>
+<p><?php esc_html_e( 'A variation keeps the patterns and templates where they are and changes how the site carries itself—its type and colour, its whole posture. Mētis will ship with around five or six, each a different mood for the same pages. Switch them in the Site Editor, under Styles.', 'metis' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

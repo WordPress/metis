@@ -1,4 +1,4 @@
-== Metis ==
+== Mētis ==
 
 Contributors: Automattic
 Requires at least: 6.7
@@ -24,8 +24,8 @@ A block theme for creators, with flexible patterns and templates designed for re
 
 == Copyright ==
 
-Metis WordPress Theme, (C) 2026 Automattic
-Metis is distributed under the terms of the GNU GPL.
+Mētis WordPress Theme, (C) 2026 Automattic
+Mētis is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -38,5 +38,5 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
 
-Metis is based on Ichi (https://wordpress.org/themes/ichi/), (C) 2025 Automattic, [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)
+Mētis is based on Ichi (https://wordpress.org/themes/ichi/), (C) 2025 Automattic, [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)
 Ichi is based on Twenty Twenty-Five/twentytwentyfive (https://wordpress.org/themes/twentytwentyfive/), (C) the WordPress team, [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)
