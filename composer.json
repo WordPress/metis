@@ -1,7 +1,7 @@
 {
 	"name": "wordpress/metis",
 	"type": "wordpress-theme",
-	"description": "Development tooling for Metis, an official WordPress theme.",
+	"description": "Development tooling for Mētis, an official WordPress theme.",
 	"license": "GPL-2.0-or-later",
 	"authors": [
 		{

@@ -21,7 +21,7 @@ npm install
 npm run env:setup
 ```
 
-This starts WordPress, mounts and activates Metis, and installs and activates the Theme Check plugin.
+This starts WordPress, mounts and activates Mētis, and installs and activates the Theme Check plugin.
 
 - Site: <http://localhost:8898>
 - Administration: <http://localhost:8898/wp-admin/>
