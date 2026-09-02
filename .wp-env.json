@@ -8,6 +8,8 @@
 		"WP_DEBUG": true,
 		"WP_DEBUG_LOG": true,
 		"WP_DEBUG_DISPLAY": false,
+		"WP_DEVELOPMENT_MODE": "theme",
+		"WP_ENVIRONMENT_TYPE": "local",
 		"SCRIPT_DEBUG": true
 	}
 }
