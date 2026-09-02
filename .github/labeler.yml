@@ -1,0 +1,71 @@
+# Area labeling rules for a block theme's anatomy - only labels that exist
+# on GitHub (or, for the "[Area]" group, that this file is meant to create).
+
+'[Area] Templates':
+    - changed-files:
+          - any-glob-to-any-file: 'templates/**'
+
+'[Area] Template Parts':
+    - changed-files:
+          - any-glob-to-any-file: 'parts/**'
+
+'[Area] Patterns':
+    - changed-files:
+          - any-glob-to-any-file: 'patterns/**'
+
+'[Area] Global Styles':
+    - changed-files:
+          - any-glob-to-any-file:
+                - 'theme.json'
+                - 'style.css'
+
+'[Area] Block Styles':
+    - changed-files:
+          - any-glob-to-any-file: 'assets/css/**'
+
+'[Area] Theme Functions':
+    - changed-files:
+          - any-glob-to-any-file: 'functions.php'
+
+'[Area] Assets':
+    - changed-files:
+          - any-glob-to-any-file:
+                - 'assets/fonts/**'
+                - 'assets/images/**'
+                - 'assets/audio/**'
+                - 'screenshot.png'
+
+# Existing repo labels, mapped to the files that fit them.
+
+'GitHub Actions':
+    - changed-files:
+          - any-glob-to-any-file: '.github/workflows/**'
+
+'[Type] Tooling':
+    - changed-files:
+          - any-glob-to-any-file:
+                - '.github/**'
+                - '.husky/**'
+                - '.wp-env.json'
+                - 'package.json'
+                - 'package-lock.json'
+                - '.gitignore'
+
+'documentation':
+    - changed-files:
+          - any-glob-to-any-file:
+                - 'readme.txt'
+                - '**/*.md'
+
+'Internationalization (i18n)':
+    - changed-files:
+          - any-glob-to-any-file:
+                - 'languages/**'
+                - '**/*.pot'
+
+'l10n':
+    - changed-files:
+          - any-glob-to-any-file:
+                - 'languages/**'
+                - '**/*.po'
+                - '**/*.mo'
