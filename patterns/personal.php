@@ -10,16 +10,16 @@
 <!-- wp:group {"tagName":"main","metadata":{"name":"Content"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 <main class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:group {"tagName":"section","metadata":{"name":"Hero"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 <section class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"level":1,"fontSize":"4-x-large"} -->
-<h1 class="wp-block-heading has-4-x-large-font-size"><?php esc_html_e('Ada Fenn', 'metis');?></h1>
+<h1 class="wp-block-heading has-4-x-large-font-size"><?php esc_html_e( 'Ada Fenn', 'metis' ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size"><?php esc_html_e('She builds things that last, and keeps them running — the one at Landmark who turns Iris’s words and Cora’s maps into something you can actually use.', 'metis');?></p>
+<p class="has-large-font-size"><?php esc_html_e( 'She builds things that last, and keeps them running — the one at Landmark who turns Iris’s words and Cora’s maps into something you can actually use.', 'metis' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"x-small"} -->
-<p class="has-x-small-font-size"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sSay hello →%2$s', 'metis' ), '<a href="' . esc_url( 'mailto:ada@landmark.studio' ) . '">', '</a>' ); ?></p>
+<p class="has-x-small-font-size"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */
+printf( esc_html__( '%1$sSay hello →%2$s', 'metis' ), '<a href="' . esc_url( 'mailto:ada@landmark.studio' ) . '">', '</a>' ); ?></p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->
 
@@ -28,16 +28,16 @@ echo sprintf( esc_html__( '%1$sSay hello →%2$s', 'metis' ), '<a href="' . esc_
 <!-- wp:group {"tagName":"section","metadata":{"name":"The log, post cards","patternName":"metis/news-c","description":"A card grid of the latest posts — image, title, date — under a big heading and an inline link.","categories":["Posts"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-3","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"},"anchor":"log"} -->
 <section class="wp-block-group alignwide" id="log" style="border-top-color:var(--wp--preset--color--theme-3);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"metadata":{"name":"Header"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-group alignwide"><!-- wp:heading -->
-<h2 class="wp-block-heading"><?php esc_html_e('The log', 'metis');?></h2>
+<h2 class="wp-block-heading"><?php esc_html_e( 'The log', 'metis' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"x-small"} -->
-<p class="has-x-small-font-size"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sAll notes →%2$s', 'metis' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></p>
+<p class="has-x-small-font-size"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */
+printf( esc_html__( '%1$sAll notes →%2$s', 'metis' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:query {"queryId":41,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"ignore","inherit":false,"taxQuery":null,"parents":[]},"metadata":{"name":"Notes"},"align":"wide","layout":{"type":"default"}} -->
+<!-- wp:query {"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"ignore","inherit":false,"taxQuery":null,"parents":[]},"metadata":{"name":"Notes"},"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-query alignwide"><!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"grid","columnCount":3}} -->
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:post-featured-image {"isLink":true,"aspectRatio":"4/3"} /-->

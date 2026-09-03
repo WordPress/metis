@@ -20,7 +20,7 @@
 <div class="wp-block-group"><!-- wp:icon {"icon":"core/people"} /-->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><?php esc_html_e('By', 'metis');?></p>
+<p class="has-small-font-size"><?php esc_html_e( 'By', 'metis' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:post-author-name {"isLink":true,"className":"no-underline","fontSize":"small"} /--></div>
@@ -46,7 +46,7 @@
 <div class="wp-block-group"><!-- wp:post-comments-count /-->
 
 <!-- wp:paragraph {"fontSize":"small","fontFamily":"openrunde"} -->
-<p class="has-openrunde-font-family has-small-font-size"><?php esc_html_e('comments', 'metis');?></p>
+<p class="has-openrunde-font-family has-small-font-size"><?php esc_html_e( 'comments', 'metis' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -59,7 +59,7 @@
 
 <!-- wp:group {"metadata":{"name":"Like and Share"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}},"border":{"top":{"width":"1px","style":"dotted"},"bottom":{"width":"1px","style":"dotted"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group" style="border-top-style:dotted;border-top-width:1px;border-bottom-style:dotted;border-bottom-width:1px;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:paragraph -->
-<p><?php esc_html_e('Like Button Element', 'metis');?></p>
+<p><?php esc_html_e( 'Like Button Element', 'metis' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:jetpack/sharing-buttons {"styleType":"icon","iconColor":"theme-2","iconColorValue":"#1A1A1A","iconBackgroundColor":"theme-1","iconBackgroundColorValue":"#FAFAFA"} -->
@@ -77,7 +77,7 @@
 
 <!-- wp:group {"metadata":{"name":"Related Topics"},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":6} -->
-<h6 class="wp-block-heading"><?php esc_html_e('Related Topics', 'metis');?></h6>
+<h6 class="wp-block-heading"><?php esc_html_e( 'Related Topics', 'metis' ); ?></h6>
 <!-- /wp:heading -->
 
 <!-- wp:post-terms {"term":"post_tag","separator":"  "} /--></div>
@@ -86,7 +86,7 @@
 
 <!-- wp:comments {"className":"wp-block-comments-query-loop","style":{"spacing":{"margin":{"top":"var:preset|spacing|70"}}}} -->
 <div class="wp-block-comments wp-block-comments-query-loop" style="margin-top:var(--wp--preset--spacing--70)"><!-- wp:heading {"level":6} -->
-<h6 class="wp-block-heading"><?php esc_html_e('Comments', 'metis');?></h6>
+<h6 class="wp-block-heading"><?php esc_html_e( 'Comments', 'metis' ); ?></h6>
 <!-- /wp:heading -->
 
 <!-- wp:comments-title {"level":3} /-->

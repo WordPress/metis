@@ -29,7 +29,7 @@
 <div class="wp-block-group"><!-- wp:icon {"icon":"core/people"} /-->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><?php esc_html_e('By', 'metis');?></p>
+<p class="has-small-font-size"><?php esc_html_e( 'By', 'metis' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:post-author-name {"isLink":true,"className":"no-underline","fontSize":"small"} /--></div>
@@ -47,7 +47,7 @@
 
 <!-- wp:group {"metadata":{"name":"Like and Share"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}},"border":{"top":{"width":"1px","style":"dotted"},"bottom":{"width":"1px","style":"dotted"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group" style="border-top-style:dotted;border-top-width:1px;border-bottom-style:dotted;border-bottom-width:1px;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:paragraph -->
-<p><?php esc_html_e('Like Button Element', 'metis');?></p>
+<p><?php esc_html_e( 'Like Button Element', 'metis' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:jetpack/sharing-buttons {"styleType":"icon","iconColor":"theme-2","iconColorValue":"#1A1A1A","iconBackgroundColor":"theme-1","iconBackgroundColorValue":"#FAFAFA"} -->
@@ -65,7 +65,7 @@
 
 <!-- wp:group {"metadata":{"name":"Related Topics"},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":6} -->
-<h6 class="wp-block-heading"><?php esc_html_e('Related Topics', 'metis');?></h6>
+<h6 class="wp-block-heading"><?php esc_html_e( 'Related Topics', 'metis' ); ?></h6>
 <!-- /wp:heading -->
 
 <!-- wp:post-terms {"term":"post_tag","separator":"  "} /--></div>
@@ -74,7 +74,7 @@
 
 <!-- wp:comments {"className":"wp-block-comments-query-loop","style":{"spacing":{"margin":{"top":"var:preset|spacing|70"}}}} -->
 <div class="wp-block-comments wp-block-comments-query-loop" style="margin-top:var(--wp--preset--spacing--70)"><!-- wp:heading {"level":6} -->
-<h6 class="wp-block-heading"><?php esc_html_e('Comments', 'metis');?></h6>
+<h6 class="wp-block-heading"><?php esc_html_e( 'Comments', 'metis' ); ?></h6>
 <!-- /wp:heading -->
 
 <!-- wp:comments-title {"level":3} /-->
@@ -118,13 +118,13 @@
 
 <!-- wp:group {"metadata":{"name":"Card Wrapper"},"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:heading {"style":{"typography":{"textTransform":"uppercase"},"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}},"fontSize":"small"} -->
-<h2 class="wp-block-heading has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--40);text-transform:uppercase"><?php esc_html_e('Meet the author', 'metis');?></h2>
+<h2 class="wp-block-heading has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--40);text-transform:uppercase"><?php esc_html_e( 'Meet the author', 'metis' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:post-author-name {"isLink":true,"className":"no-underline","fontSize":"medium"} /-->
 
 <!-- wp:paragraph {"fontFamily":"openrunde"} -->
-<p class="has-openrunde-font-family"><?php esc_html_e('iris@iriscalder.com', 'metis');?></p>
+<p class="has-openrunde-font-family"><?php esc_html_e( 'iris@iriscalder.com', 'metis' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -133,10 +133,10 @@
 <!-- wp:group {"metadata":{"name":"Related Posts"},"style":{"spacing":{"blockGap":"var:preset|spacing|30","margin":{"top":"var:preset|spacing|60"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--60)"><!-- wp:group {"metadata":{"name":"Card Wrapper"},"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}},"border":{"radius":{"topLeft":"20px","topRight":"20px","bottomLeft":"20px","bottomRight":"20px"},"width":"1px"}},"backgroundColor":"theme-6","borderColor":"theme-4","layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group has-border-color has-theme-4-border-color has-theme-6-background-color has-background" style="border-width:1px;border-top-left-radius:20px;border-top-right-radius:20px;border-bottom-left-radius:20px;border-bottom-right-radius:20px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:heading {"fontSize":"small"} -->
-<h2 class="wp-block-heading has-small-font-size"><?php esc_html_e('Related posts', 'metis');?></h2>
+<h2 class="wp-block-heading has-small-font-size"><?php esc_html_e( 'Related posts', 'metis' ); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:query {"queryId":0,"query":{"perPage":4,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false,"taxQuery":null,"parents":[],"excludeCurrent":null},"metadata":{"name":"Related Posts Loop"},"layout":{"type":"default"}} -->
+<!-- wp:query {"query":{"perPage":4,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false,"taxQuery":null,"parents":[],"excludeCurrent":null},"metadata":{"name":"Related Posts Loop"},"layout":{"type":"default"}} -->
 <div class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"default"}} -->
 <!-- wp:columns {"metadata":{"name":"Related Post Columns"}} -->
 <div class="wp-block-columns"><!-- wp:column {"width":"90px"} -->
