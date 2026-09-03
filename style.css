@@ -101,17 +101,6 @@ footer.wp-block-template-part {
 	object-fit: cover;
 }
 
-/* Utility — Row wraps below 1080px. Keep the Row's Wrapping toggle OFF
-   and add the class "wrap-on-small". The doubled class beats Gutenberg's
-   per-instance `flex-wrap: nowrap` layout rule (equal specificity, later
-   source order) without !important. Consumer: Homepage "Posts Text Only"
-   QL, "Excerpt and Date Row". */
-@media (max-width: 1079px) {
-	.wrap-on-small.wrap-on-small {
-		flex-wrap: wrap;
-	}
-}
-
 /* Accordion bleed. Items are pulled together with negative margins so each item's
    background crops the title above it. Browsers paint every sibling background
    before any sibling text, so each title would otherwise draw on top of the next

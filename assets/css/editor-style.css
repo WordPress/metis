@@ -50,13 +50,6 @@ footer.wp-block-template-part {
 	object-fit: cover;
 }
 
-/* Utility — Row wraps below 1080px (mirrors style.css). */
-@media (max-width: 1079px) {
-	.wrap-on-small.wrap-on-small {
-		flex-wrap: wrap;
-	}
-}
-
 /* Utility — first-line indent for a paragraph or heading (mirrors style.css). */
 .indent-first-line {
 	text-indent: 33.33%;
