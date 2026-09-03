@@ -9,15 +9,15 @@
 <!-- wp:group {"tagName":"section","metadata":{"name":"Team"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-3","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignwide" style="border-top-color:var(--wp--preset--color--theme-3);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"metadata":{"name":"Intro"},"align":"wide","layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-group alignwide"><!-- wp:paragraph {"fontSize":"x-small"} -->
-<p class="has-x-small-font-size"><?php esc_html_e('WHO YOU WILL WORK WITH', 'metis');?></p>
+<p class="has-x-small-font-size"><?php esc_html_e( 'WHO YOU WILL WORK WITH', 'metis' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"anchor":"three-people-no-handoffs"} -->
-<h2 id="three-people-no-handoffs" class="wp-block-heading"><?php esc_html_e('Three people. No handoffs.', 'metis');?></h2>
+<h2 id="three-people-no-handoffs" class="wp-block-heading"><?php esc_html_e( 'Three people. No handoffs.', 'metis' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><?php esc_html_e('The people you meet in the first conversation are the people who do the work. There is nobody else.', 'metis');?></p>
+<p><?php esc_html_e( 'The people you meet in the first conversation are the people who do the work. There is nobody else.', 'metis' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -29,11 +29,11 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"anchor":"cora-vale","fontSize":"x-large"} -->
-<h3 id="cora-vale" class="wp-block-heading has-x-large-font-size"><?php esc_html_e('Cora Vale', 'metis');?></h3>
+<h3 id="cora-vale" class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'Cora Vale', 'metis' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"theme-3","fontSize":"small"} -->
-<p class="has-theme-3-color has-text-color has-small-font-size"><?php esc_html_e('Design. Draws the maps.', 'metis');?></p>
+<p class="has-theme-3-color has-text-color has-small-font-size"><?php esc_html_e( 'Design. Draws the maps.', 'metis' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -45,11 +45,11 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"anchor":"iris-calder","fontSize":"x-large"} -->
-<h3 id="iris-calder" class="wp-block-heading has-x-large-font-size"><?php esc_html_e('Iris Calder', 'metis');?></h3>
+<h3 id="iris-calder" class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'Iris Calder', 'metis' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"theme-3","fontSize":"small"} -->
-<p class="has-theme-3-color has-text-color has-small-font-size"><?php esc_html_e('Words. Names the places.', 'metis');?></p>
+<p class="has-theme-3-color has-text-color has-small-font-size"><?php esc_html_e( 'Words. Names the places.', 'metis' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -61,11 +61,11 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"anchor":"ada-fenn","fontSize":"x-large"} -->
-<h3 id="ada-fenn" class="wp-block-heading has-x-large-font-size"><?php esc_html_e('Ada Fenn', 'metis');?></h3>
+<h3 id="ada-fenn" class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'Ada Fenn', 'metis' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"theme-3","fontSize":"small"} -->
-<p class="has-theme-3-color has-text-color has-small-font-size"><?php esc_html_e('Build. Gets us home.', 'metis');?></p>
+<p class="has-theme-3-color has-text-color has-small-font-size"><?php esc_html_e( 'Build. Gets us home.', 'metis' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>

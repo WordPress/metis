@@ -7,42 +7,42 @@
 			"postTypes": [
 				"page"
 			],
-			"title": "Metis Business"
+			"title": "Mētis Business"
 		},
 		{
 			"name": "news",
 			"postTypes": [
 				"page"
 			],
-			"title": "Metis News"
+			"title": "Mētis News"
 		},
 		{
 			"name": "portfolio",
 			"postTypes": [
 				"page"
 			],
-			"title": "Metis Portfolio"
+			"title": "Mētis Portfolio"
 		},
 		{
 			"name": "magazine",
 			"postTypes": [
 				"page"
 			],
-			"title": "Metis Magazine"
+			"title": "Mētis Magazine"
 		},
 		{
 			"name": "personal",
 			"postTypes": [
 				"page"
 			],
-			"title": "Metis Personal"
+			"title": "Mētis Personal"
 		},
 		{
 			"name": "writer",
 			"postTypes": [
 				"page"
 			],
-			"title": "Metis Writer"
+			"title": "Mētis Writer"
 		},
 		{
 			"name": "single-with-sidebar",

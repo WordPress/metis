@@ -12,12 +12,12 @@
 
 <!-- wp:group {"metadata":{"name":"Title Block Wrapper"},"align":"wide","style":{"spacing":{"padding":{"top":"0","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-group alignwide" style="padding-top:0;padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:heading {"level":1,"fontSize":"medium"} -->
-<h1 class="wp-block-heading has-medium-font-size"><?php esc_html_e('404', 'metis');?></h1>
+<h1 class="wp-block-heading has-medium-font-size"><?php esc_html_e( '404', 'metis' ); ?></h1>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"align":"full","fitText":true} -->
-<h2 class="wp-block-heading alignfull has-fit-text"><?php esc_html_e('Off the map', 'metis');?></h2>
+<h2 class="wp-block-heading alignfull has-fit-text"><?php esc_html_e( 'Off the map', 'metis' ); ?></h2>
 <!-- /wp:heading --></section>
 <!-- /wp:group -->
 
@@ -30,10 +30,10 @@
 <!-- wp:column {"width":"66.66%"} -->
 <div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:group {"metadata":{"name":"404 Copy Wrapper"},"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><?php esc_html_e('The page you wanted isn\'t here. It may have moved, or it never existed. Find your way from the search below.', 'metis');?></h3>
+<h3 class="wp-block-heading"><?php esc_html_e( 'The page you wanted isn\'t here. It may have moved, or it never existed. Find your way from the search below.', 'metis' ); ?></h3>
 <!-- /wp:heading -->
 
-<!-- wp:search {"label":"<?php esc_attr_e('Search', 'metis');?>","showLabel":false,"buttonText":"<?php esc_attr_e('Search', 'metis');?>","buttonPosition":"button-inside","buttonUseIcon":true} /--></div>
+<!-- wp:search {"label":"<?php esc_attr_e( 'Search', 'metis' ); ?>","showLabel":false,"buttonText":"<?php esc_attr_e( 'Search', 'metis' ); ?>","buttonPosition":"button-inside","buttonUseIcon":true} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></main>
