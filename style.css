@@ -101,42 +101,6 @@ footer.wp-block-template-part {
 	object-fit: cover;
 }
 
-/* Utility — hide a media column when the post has no Featured Image.
-   Add the class "media-column" to the column holding the Post Featured
-   Image block. With no image set, the block outputs no frontend markup,
-   so the column hides and the flexible siblings absorb its space.
-   (The editor mirror in editor-style.css keys on a missing <img> instead,
-   because the editor renders a placeholder that keeps the block class.) */
-.media-column:not(:has(.wp-block-post-featured-image)) {
-	display: none;
-}
-
-/* Utility — Row wraps below 1080px. Keep the Row's Wrapping toggle OFF
-   and add the class "wrap-on-small". The doubled class beats Gutenberg's
-   per-instance `flex-wrap: nowrap` layout rule (equal specificity, later
-   source order) without !important. Consumer: Homepage "Posts Text Only"
-   QL, "Excerpt and Date Row". */
-@media (max-width: 1079px) {
-	.wrap-on-small.wrap-on-small {
-		flex-wrap: wrap;
-	}
-}
-
-/* Utility — Columns stack below 1080px instead of core's 782px.
-   Add the class "stack-on-small" to the Columns block and leave its
-   "Stack on mobile" toggle ON. Core pins both properties with !important
-   between 782–1079px, so the overrides must be !important too; this
-   sheet loads after core's block CSS, so these win deterministically. */
-@media (max-width: 1079px) {
-	.wp-block-columns.stack-on-small {
-		flex-wrap: wrap !important;
-	}
-
-	.wp-block-columns.stack-on-small > .wp-block-column {
-		flex-basis: 100% !important;
-	}
-}
-
 /* Accordion bleed. Items are pulled together with negative margins so each item's
    background crops the title above it. Browsers paint every sibling background
    before any sibling text, so each title would otherwise draw on top of the next
