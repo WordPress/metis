@@ -6,8 +6,8 @@
  * Description: Three ways to work together, priced plainly, each with its own call to action.
  */
 ?>
-<!-- wp:group {"tagName":"section","metadata":{"name":"Pricing"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-5","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignwide" style="border-top-color:var(--wp--preset--color--theme-5);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"metadata":{"name":"Intro"},"align":"wide","layout":{"type":"constrained","justifyContent":"left"}} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"Pricing"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-3","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignwide" style="border-top-color:var(--wp--preset--color--theme-3);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"metadata":{"name":"Intro"},"align":"wide","layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-group alignwide"><!-- wp:paragraph {"fontSize":"x-small"} -->
 <p class="has-x-small-font-size"><?php esc_html_e( 'WHAT IT COSTS', 'metis' ); ?></p>
 <!-- /wp:paragraph -->
@@ -19,8 +19,8 @@
 
 <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|40"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:group {"metadata":{"name":"Plan"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|30"},"border":{"color":"var:preset|color|theme-4","style":"solid","width":"1px"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group has-border-color" style="border-color:var(--wp--preset--color--theme-4);border-style:solid;border-width:1px;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:heading {"level":3,"anchor":"studio-day","fontSize":"x-large"} -->
+<div class="wp-block-column"><!-- wp:group {"metadata":{"name":"Plan"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|30"},"border":{"color":"var:preset|color|theme-7","style":"solid","width":"1px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group has-border-color" style="border-color:var(--wp--preset--color--theme-7);border-style:solid;border-width:1px;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:heading {"level":3,"anchor":"studio-day","fontSize":"x-large"} -->
 <h3 id="studio-day" class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'Studio Day', 'metis' ); ?></h3>
 <!-- /wp:heading -->
 
@@ -55,8 +55,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:group {"metadata":{"name":"Plan"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|30"},"border":{"color":"var:preset|color|theme-4","style":"solid","width":"1px"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group has-border-color" style="border-color:var(--wp--preset--color--theme-4);border-style:solid;border-width:1px;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:heading {"level":3,"anchor":"project","fontSize":"x-large"} -->
+<div class="wp-block-column"><!-- wp:group {"metadata":{"name":"Plan"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|30"},"border":{"color":"var:preset|color|theme-7","style":"solid","width":"1px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group has-border-color" style="border-color:var(--wp--preset--color--theme-7);border-style:solid;border-width:1px;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:heading {"level":3,"anchor":"project","fontSize":"x-large"} -->
 <h3 id="project" class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'Project', 'metis' ); ?></h3>
 <!-- /wp:heading -->
 
@@ -91,8 +91,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:group {"metadata":{"name":"Plan"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|30"},"border":{"color":"var:preset|color|theme-4","style":"solid","width":"1px"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group has-border-color" style="border-color:var(--wp--preset--color--theme-4);border-style:solid;border-width:1px;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:heading {"level":3,"anchor":"retainer","fontSize":"x-large"} -->
+<div class="wp-block-column"><!-- wp:group {"metadata":{"name":"Plan"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|30"},"border":{"color":"var:preset|color|theme-7","style":"solid","width":"1px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group has-border-color" style="border-color:var(--wp--preset--color--theme-7);border-style:solid;border-width:1px;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:heading {"level":3,"anchor":"retainer","fontSize":"x-large"} -->
 <h3 id="retainer" class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'Retainer', 'metis' ); ?></h3>
 <!-- /wp:heading -->
 

@@ -53,6 +53,11 @@ footer.wp-block-template-part {
 	text-decoration: none;
 }
 
+.no-underline a:hover,
+.no-underline a:focus-visible {
+	text-decoration: underline;
+}
+
 /* Utility — first-line indent for a paragraph or heading.
    Add the class "indent-first-line" in the block's Advanced →
    Additional CSS class(es) panel. The 33.33% is measured against the
@@ -72,6 +77,28 @@ footer.wp-block-template-part {
 	.md\:order-1 { order: 1; }
 	.md\:grow-0 { flex-grow: 0; }
 	.md\:grow { flex-grow: 1; }
+}
+
+/* Utility — alternate Featured Image aspect ratios inside a Query Loop.
+   Add the class "alternate-ratios" to the Post Template block: odd posts
+   get 3:4, even posts 1:1, whatever ratio the block itself declares.
+   !important is required because the block emits its ratio as an inline
+   style; the block's own [style*=aspect-ratio] img rules (cover/fill)
+   keep applying, so images crop correctly at the new ratios. */
+.alternate-ratios > li:nth-child(odd) .wp-block-post-featured-image {
+	aspect-ratio: 3/4 !important;
+}
+
+.alternate-ratios > li:nth-child(even) .wp-block-post-featured-image {
+	aspect-ratio: 1/1 !important;
+}
+
+/* Core only applies its fill-and-crop rules when the figure carries an
+   inline aspect-ratio; ours comes from the rules above, so replicate. */
+.alternate-ratios .wp-block-post-featured-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 /* Accordion bleed. Items are pulled together with negative margins so each item's

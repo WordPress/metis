@@ -8,8 +8,8 @@
 <!-- wp:template-part {"slug":"header"} /-->
 
 <!-- wp:group {"tagName":"main","metadata":{"name":"Content"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"constrained"}} -->
-<main class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:group {"tagName":"section","metadata":{"name":"Hero"},"align":"full","style":{"spacing":{"blockGap":"0"}},"backgroundColor":"theme-6","layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull has-theme-6-background-color has-background"><!-- wp:group {"metadata":{"name":"Hero Content"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
+<main class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:group {"tagName":"section","metadata":{"name":"Hero"},"align":"full","style":{"spacing":{"blockGap":"0"}},"backgroundColor":"theme-1","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull has-theme-1-background-color has-background"><!-- wp:group {"metadata":{"name":"Hero Content"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:heading {"level":1,"fontSize":"3-x-large"} -->
 <h1 class="wp-block-heading has-3-x-large-font-size"><?php esc_html_e( 'For twenty years I drew maps of the coast. Since then I’ve written about what they leave out.', 'metis' ); ?></h1>
 <!-- /wp:heading -->
@@ -20,8 +20,8 @@
 <!-- /wp:group --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"tagName":"section","metadata":{"name":"About, portrait and bio","patternName":"metis/about-a","description":"A portrait beside a short, plain-spoken biography opened by a one-word heading.","categories":["About"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-5","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"},"anchor":"about"} -->
-<section class="wp-block-group alignwide" id="about" style="border-top-color:var(--wp--preset--color--theme-5);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"align":"wide"} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"About, portrait and bio","patternName":"metis/about-a","description":"A portrait beside a short, plain-spoken biography opened by a one-word heading.","categories":["About"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-3","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"},"anchor":"about"} -->
+<section class="wp-block-group alignwide" id="about" style="border-top-color:var(--wp--preset--color--theme-3);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"align":"wide"} -->
 <h2 class="wp-block-heading alignwide"><?php esc_html_e( 'About', 'metis' ); ?></h2>
 <!-- /wp:heading -->
 
@@ -44,8 +44,8 @@
 <!-- /wp:columns --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"tagName":"section","metadata":{"name":"Featured book, cover and blurb","patternName":"metis/product-overview-a","description":"A single new title: a small label, the title as headline, a short blurb, a call to action, and a cover.","categories":["Call","to","Action"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-5","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"},"anchor":"new-book"} -->
-<section class="wp-block-group alignwide" id="new-book" style="border-top-color:var(--wp--preset--color--theme-5);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"verticalAlignment":"center","align":"wide"} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"Featured book, cover and blurb","patternName":"metis/product-overview-a","description":"A single new title: a small label, the title as headline, a short blurb, a call to action, and a cover.","categories":["Call","to","Action"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-3","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"},"anchor":"new-book"} -->
+<section class="wp-block-group alignwide" id="new-book" style="border-top-color:var(--wp--preset--color--theme-3);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"verticalAlignment":"center","align":"wide"} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:paragraph {"fontSize":"x-small"} -->
 <p class="has-x-small-font-size"><?php esc_html_e( 'NEW BOOK', 'metis' ); ?></p>
@@ -84,8 +84,8 @@
 <!-- /wp:columns --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"tagName":"section","metadata":{"name":"Praise, short quotes","patternName":"metis/testimonials-b","description":"Short review blurbs for a book, three across, each with its source.","categories":["Testimonials"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-5","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"},"anchor":"praise"} -->
-<section class="wp-block-group alignwide" id="praise" style="border-top-color:var(--wp--preset--color--theme-5);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"align":"wide"} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"Praise, short quotes","patternName":"metis/testimonials-b","description":"Short review blurbs for a book, three across, each with its source.","categories":["Testimonials"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-3","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"},"anchor":"praise"} -->
+<section class="wp-block-group alignwide" id="praise" style="border-top-color:var(--wp--preset--color--theme-3);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"align":"wide"} -->
 <h2 class="wp-block-heading alignwide"><?php esc_html_e( 'Praise for Ground Truth', 'metis' ); ?></h2>
 <!-- /wp:heading -->
 
@@ -116,22 +116,22 @@
 <!-- /wp:columns --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"tagName":"section","metadata":{"name":"Writings, essay list","patternName":"metis/news-b","description":"The latest essays in three columns — date, title, and a short excerpt, no images. Opened by a terse heading and an inline link.","categories":["Media"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-5","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"},"anchor":"writings"} -->
-<section class="wp-block-group alignwide" id="writings" style="border-top-color:var(--wp--preset--color--theme-5);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"metadata":{"name":"Header"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"Writings, essay list","patternName":"metis/news-b","description":"The latest essays in three columns — date, title, and a short excerpt, no images. Opened by a terse heading and an inline link.","categories":["Media"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-3","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"},"anchor":"writings"} -->
+<section class="wp-block-group alignwide" id="writings" style="border-top-color:var(--wp--preset--color--theme-3);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"metadata":{"name":"Header"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-group alignwide"><!-- wp:heading -->
 <h2 class="wp-block-heading"><?php esc_html_e( 'Writings', 'metis' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"x-small"} -->
 <p class="has-x-small-font-size"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */
-printf( esc_html__( '%1$sAll essays →%2$s', 'metis' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></p>
+echo sprintf( esc_html__( '%1$sAll essays →%2$s', 'metis' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:query {"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"ignore","inherit":false,"taxQuery":null,"parents":[]},"metadata":{"name":"Essays"},"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-query alignwide"><!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|50"}},"layout":{"type":"grid","columnCount":3}} -->
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:post-date {"format":"M j, Y","metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}},"textColor":"theme-5","fontSize":"x-small"} /-->
+<div class="wp-block-group"><!-- wp:post-date {"format":"M j, Y","metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}},"textColor":"theme-3","fontSize":"x-small"} /-->
 
 <!-- wp:post-title {"level":3,"isLink":true,"fontSize":"large"} /-->
 
@@ -141,15 +141,15 @@ printf( esc_html__( '%1$sAll essays →%2$s', 'metis' ), '<a href="' . esc_url( 
 <!-- /wp:query --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"tagName":"section","metadata":{"name":"Talks, video cards","patternName":"metis/product-list-b","description":"Recorded talks as a row of cards — thumbnail, title, and where it was given. Opened by a terse heading and an inline link.","categories":["Media"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-5","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"},"anchor":"talks"} -->
-<section class="wp-block-group alignwide" id="talks" style="border-top-color:var(--wp--preset--color--theme-5);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"metadata":{"name":"Header"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"Talks, video cards","patternName":"metis/product-list-b","description":"Recorded talks as a row of cards — thumbnail, title, and where it was given. Opened by a terse heading and an inline link.","categories":["Media"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-3","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"},"anchor":"talks"} -->
+<section class="wp-block-group alignwide" id="talks" style="border-top-color:var(--wp--preset--color--theme-3);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"metadata":{"name":"Header"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-group alignwide"><!-- wp:heading -->
 <h2 class="wp-block-heading"><?php esc_html_e( 'Talks', 'metis' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"x-small"} -->
 <p class="has-x-small-font-size"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */
-printf( esc_html__( '%1$sAll talks →%2$s', 'metis' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></p>
+echo sprintf( esc_html__( '%1$sAll talks →%2$s', 'metis' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -204,15 +204,15 @@ printf( esc_html__( '%1$sAll talks →%2$s', 'metis' ), '<a href="' . esc_url( '
 <!-- /wp:columns --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"tagName":"section","metadata":{"name":"Books, cover grid","patternName":"metis/product-list-a","description":"The backlist as a four-up grid of covers with title and imprint. Opened by a terse heading and an inline link.","categories":["Media"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-5","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"},"anchor":"books"} -->
-<section class="wp-block-group alignwide" id="books" style="border-top-color:var(--wp--preset--color--theme-5);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"metadata":{"name":"Header"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"Books, cover grid","patternName":"metis/product-list-a","description":"The backlist as a four-up grid of covers with title and imprint. Opened by a terse heading and an inline link.","categories":["Media"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-3","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"},"anchor":"books"} -->
+<section class="wp-block-group alignwide" id="books" style="border-top-color:var(--wp--preset--color--theme-3);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"metadata":{"name":"Header"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-group alignwide"><!-- wp:heading -->
 <h2 class="wp-block-heading"><?php esc_html_e( 'Books', 'metis' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"x-small"} -->
 <p class="has-x-small-font-size"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */
-printf( esc_html__( '%1$sAll books →%2$s', 'metis' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></p>
+echo sprintf( esc_html__( '%1$sAll books →%2$s', 'metis' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -283,8 +283,8 @@ printf( esc_html__( '%1$sAll books →%2$s', 'metis' ), '<a href="' . esc_url( '
 <!-- /wp:columns --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"tagName":"section","metadata":{"name":"Selected work, timeline","patternName":"metis/f-a-q-b","description":"A reflective opening line over an expandable timeline of long-running work.","categories":["Text"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-5","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"},"anchor":"the-long-work"} -->
-<section class="wp-block-group alignwide" id="the-long-work" style="border-top-color:var(--wp--preset--color--theme-5);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:paragraph {"align":"wide","fontSize":"2-x-large"} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"Selected work, timeline","patternName":"metis/f-a-q-b","description":"A reflective opening line over an expandable timeline of long-running work.","categories":["Text"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-3","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"},"anchor":"the-long-work"} -->
+<section class="wp-block-group alignwide" id="the-long-work" style="border-top-color:var(--wp--preset--color--theme-3);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:paragraph {"align":"wide","fontSize":"2-x-large"} -->
 <p class="alignwide has-2-x-large-font-size"><?php esc_html_e( 'None of it was planned. Looking back, it makes a kind of line — the same few questions, asked in different weather.', 'metis' ); ?></p>
 <!-- /wp:paragraph -->
 
@@ -315,8 +315,8 @@ printf( esc_html__( '%1$sAll books →%2$s', 'metis' ), '<a href="' . esc_url( '
 <!-- /wp:group --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"tagName":"section","metadata":{"name":"Appearances, upcoming dates","patternName":"metis/career-b","description":"Upcoming readings and talks as a short grid — date, event, and place.","categories":["Text"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-5","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"},"anchor":"appearances"} -->
-<section class="wp-block-group alignwide" id="appearances" style="border-top-color:var(--wp--preset--color--theme-5);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"metadata":{"name":"Header"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"Appearances, upcoming dates","patternName":"metis/career-b","description":"Upcoming readings and talks as a short grid — date, event, and place.","categories":["Text"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-3","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"},"anchor":"appearances"} -->
+<section class="wp-block-group alignwide" id="appearances" style="border-top-color:var(--wp--preset--color--theme-3);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"metadata":{"name":"Header"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-group alignwide"><!-- wp:heading -->
 <h2 class="wp-block-heading"><?php esc_html_e( 'Appearances', 'metis' ); ?></h2>
 <!-- /wp:heading -->
@@ -336,8 +336,8 @@ printf( esc_html__( '%1$sAll books →%2$s', 'metis' ), '<a href="' . esc_url( '
 <h3 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'A reading from Ground Truth', 'metis' ); ?></h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"theme-5","fontSize":"small"} -->
-<p class="has-theme-5-color has-text-color has-small-font-size"><?php esc_html_e( 'Field Notes Festival', 'metis' ); ?></p>
+<!-- wp:paragraph {"textColor":"theme-3","fontSize":"small"} -->
+<p class="has-theme-3-color has-text-color has-small-font-size"><?php esc_html_e( 'Field Notes Festival', 'metis' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -350,8 +350,8 @@ printf( esc_html__( '%1$sAll books →%2$s', 'metis' ), '<a href="' . esc_url( '
 <h3 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'In conversation with a cartographer', 'metis' ); ?></h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"theme-5","fontSize":"small"} -->
-<p class="has-theme-5-color has-text-color has-small-font-size"><?php esc_html_e( 'Long Walk Assembly', 'metis' ); ?></p>
+<!-- wp:paragraph {"textColor":"theme-3","fontSize":"small"} -->
+<p class="has-theme-3-color has-text-color has-small-font-size"><?php esc_html_e( 'Long Walk Assembly', 'metis' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -364,8 +364,8 @@ printf( esc_html__( '%1$sAll books →%2$s', 'metis' ), '<a href="' . esc_url( '
 <h3 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Residency: the same coast, again', 'metis' ); ?></h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"theme-5","fontSize":"small"} -->
-<p class="has-theme-5-color has-text-color has-small-font-size"><?php esc_html_e( 'Ordnance House', 'metis' ); ?></p>
+<!-- wp:paragraph {"textColor":"theme-3","fontSize":"small"} -->
+<p class="has-theme-3-color has-text-color has-small-font-size"><?php esc_html_e( 'Ordnance House', 'metis' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></section>
