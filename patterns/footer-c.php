@@ -5,8 +5,8 @@
  * Inserter: no
  */
 ?>
-<!-- wp:group {"tagName":"footer","metadata":{"name":"Footer, watermark on gradient","patternName":"metis/footer-c"},"className":"clip-overflow","style":{"spacing":{"padding":{"top":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|80"},"background":{"gradient":"var:preset|gradient|gradient-8"}},"layout":{"type":"constrained"}} -->
-<footer class="wp-block-group clip-overflow" style="padding-top:var(--wp--preset--spacing--70)"><!-- wp:columns {"align":"wide"} -->
+<!-- wp:group {"tagName":"footer","metadata":{"name":"Footer, watermark on gradient","patternName":"metis/footer-c"},"className":"clip-overflow","style":{"spacing":{"padding":{"top":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|80","margin":{"top":"0","bottom":"0"}},"background":{"gradient":"var:preset|gradient|gradient-8"}},"layout":{"type":"constrained"}} -->
+<footer class="wp-block-group clip-overflow" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--70)"><!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":"33.33%"} -->
 <div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:navigation {"overlayMenu":"never","style":{"typography":{"fontWeight":"600"},"spacing":{"blockGap":"var:preset|spacing|20"}},"fontSize":"small","layout":{"type":"flex","orientation":"vertical","flexWrap":"nowrap"}} -->
 <!-- wp:navigation-link {"label":"<?php esc_attr_e('About TT7', 'metis');?>","url":"#"} /-->
