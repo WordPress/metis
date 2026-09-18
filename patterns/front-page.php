@@ -65,8 +65,8 @@
 <!-- /wp:columns --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"tagName":"main","metadata":{"name":"Content"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"0","padding":{"top":"0","bottom":"0"}},"border":{"left":{"color":"var:preset|color|theme-1","width":"10px"},"right":{"color":"var:preset|color|theme-1","width":"10px"}},"@mobile":{"border":{"width":"0px","style":"none"}},"@tablet":{"border":{"width":"0px","style":"none"}}},"layout":{"type":"constrained"}} -->
-<main class="wp-block-group" style="border-right-color:var(--wp--preset--color--theme-1);border-right-width:10px;border-left-color:var(--wp--preset--color--theme-1);border-left-width:10px;margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0"><!-- wp:group {"tagName":"section","metadata":{"name":"About"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"tagName":"main","metadata":{"name":"Content"},"anchor":"content","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"0","padding":{"top":"0","bottom":"0"}},"border":{"left":{"color":"var:preset|color|theme-1","width":"10px"},"right":{"color":"var:preset|color|theme-1","width":"10px"}},"@mobile":{"border":{"width":"0px","style":"none"}},"@tablet":{"border":{"width":"0px","style":"none"}}},"layout":{"type":"constrained"}} -->
+<main id="content" class="wp-block-group" style="border-right-color:var(--wp--preset--color--theme-1);border-right-width:10px;border-left-color:var(--wp--preset--color--theme-1);border-left-width:10px;margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0"><!-- wp:group {"tagName":"section","metadata":{"name":"About"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"metadata":{"name":"Intro"},"align":"wide","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-group alignwide"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-small"} -->
 <p class="has-x-small-font-size" style="text-transform:uppercase"><?php esc_html_e( 'Meet Mētis', 'metis' ); ?></p>
@@ -83,7 +83,7 @@
 
 <!-- wp:buttons {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|20"}}}} -->
 <div class="wp-block-buttons alignwide"><!-- wp:button {"className":"is-style-glossy"} -->
-<div class="wp-block-button is-style-glossy"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Discover the theme', 'metis' ); ?></a></div>
+<div class="wp-block-button is-style-glossy"><a class="wp-block-button__link wp-element-button" href="#explore"><?php esc_html_e( 'Discover the theme', 'metis' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></section>
 <!-- /wp:group -->
@@ -99,7 +99,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><?php esc_html_e( 'Writing that develops gradually and lines that come suddenly, all together as artifacts in a blog. Some require photographs to convey their message, while others travel through words alone, creating space for images to be imagined as stories unfold.', 'metis' ); ?></p>
+<p><?php esc_html_e( 'Writing that develops gradually and lines that come suddenly, all together as artifacts in a blog. Some require photographs to convey their message, while others travel through words alone, creating space for images to be imagined as stories unfold.', 'metis' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -297,14 +297,14 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"style":{"css":"text-wrap: balance;"},"anchor":"A-different-temperament-for-the-same-site"} -->
-<h2 id="A-different-temperament-for-the-same-site" class="wp-block-heading has-custom-css"><?php esc_html_e( 'A different temperament for the same site.', 'metis' ); ?></h2>
+<h2 id="A-different-temperament-for-the-same-site" class="wp-block-heading has-custom-css"><?php esc_html_e( 'A different temperament for the same site.', 'metis' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"bottom","layout":{"type":"default"}} -->
 <div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:paragraph -->
-<p><?php esc_html_e( 'A variation keeps the patterns and templates where they are and changes how the site carries itself—its type and colour, its whole posture. Metis will ship with around five or six, each a different mood for the same pages. Switch them in the Site Editor, under Styles.', 'metis' ); ?></p>
+<p><?php esc_html_e( 'A variation keeps the patterns and templates where they are and changes how the site carries itself—its type and colour, its whole posture. Metis will ship with around five or six, each a different mood for the same pages. Switch them in the Site Editor, under Styles.', 'metis' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->

@@ -19,7 +19,7 @@
 
 <!-- wp:column {"width":"33.33%"} -->
 <div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:navigation {"overlayMenu":"never","style":{"typography":{"textTransform":"uppercase","fontWeight":"600","lineHeight":"1.2"}},"fontSize":"large","layout":{"type":"flex","orientation":"vertical","flexWrap":"nowrap"}} -->
-<!-- wp:navigation-link {"label":"<?php esc_attr_e('About TT7', 'metis');?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_attr_e('About', 'metis');?>","url":"#"} /-->
 
 <!-- wp:navigation-link {"label":"<?php esc_attr_e('Patterns', 'metis');?>","url":"#"} /-->
 

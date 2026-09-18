@@ -15,7 +15,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":4,"fontSize":"x-large"} -->
-<h4 class="wp-block-heading has-x-large-font-size"><?php esc_html_e('Join our mailing list and stay in the know.', 'metis');?></h4>
+<h4 class="wp-block-heading has-x-large-font-size"><?php esc_html_e('Join our mailing list and stay in the know.', 'metis');?></h4>
 <!-- /wp:heading --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -60,13 +60,13 @@
 <!-- /wp:heading -->
 
 <!-- wp:navigation {"overlayMenu":"never","style":{"typography":{"fontWeight":"600"},"spacing":{"blockGap":"var:preset|spacing|20"}},"fontSize":"medium","layout":{"type":"flex","orientation":"vertical","flexWrap":"nowrap"}} -->
-<!-- wp:navigation-link {"label":"<?php esc_attr_e('About TT7', 'metis');?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_attr_e('Bluesky', 'metis');?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_attr_e('Patterns', 'metis');?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_attr_e('LinkedIn', 'metis');?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_attr_e('Templates', 'metis');?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_attr_e('GitHub', 'metis');?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_attr_e('Variations', 'metis');?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_attr_e('Mastodon', 'metis');?>","url":"#"} /-->
 <!-- /wp:navigation --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>

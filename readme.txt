@@ -16,9 +16,6 @@ A block theme for creators, with flexible patterns and templates designed for re
 == Changelog ==
 
 = 1.0.0 =
-* Updates the theme content and copy to align with the mētis concept.
-
-= 1.0.0 =
 * Initial release
 
 
