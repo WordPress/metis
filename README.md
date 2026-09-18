@@ -21,7 +21,7 @@ npm install
 npm run env:setup
 ```
 
-This starts WordPress, mounts and activates Metis, and installs and activates the Theme Check plugin.
+This starts WordPress, mounts and activates Mētis, and installs and activates the Theme Check plugin.
 
 - Site: <http://localhost:8898>
 - Administration: <http://localhost:8898/wp-admin/>
@@ -57,4 +57,3 @@ define( 'WP_DEBUG_DISPLAY', false );
 ### Browser-only testing
 
 WordPress Playground can install and run a ZIP of the theme entirely in the browser. A one-click repository Blueprint will be added after the public GitHub repository URL is available. Until then, open [WordPress Playground](https://playground.wordpress.net/), choose **Add theme**, upload a Mētis ZIP, and activate it.
-

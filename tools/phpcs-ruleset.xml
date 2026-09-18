@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<ruleset name="Metis WordPress Coding Standards">
+	<description>WordPress Coding Standards for Mētis PHP. Pattern files are checked separately because they mix block markup with PHP. User-facing spelling is enforced by npm run verify:brand.</description>
+
+	<rule ref="WordPress" />
+
+	<!-- Block patterns mix HTML and PHP. Full WPCS is run on functions.php only. -->
+	<file>../functions.php</file>
+
+	<arg name="extensions" value="php" />
+	<arg name="parallel" value="8" />
+	<arg value="ps" />
+
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="metis" />
+			</property>
+		</properties>
+	</rule>
+
+	<rule ref="WordPress.NamingConventions.PrefixAllGlobals">
+		<properties>
+			<property name="prefixes" type="array">
+				<element value="metis" />
+			</property>
+		</properties>
+	</rule>
+</ruleset>
