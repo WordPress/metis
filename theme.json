@@ -812,6 +812,7 @@
 				}
 			},
 			"core/search": {
+				"css": "& .wp-block-search__input {\n\tbackground-color: #1a1a1a08;\n\tborder: 1px solid var(--wp--preset--color--theme-4);\n}\n& .wp-block-search__input:hover {\n\tborder-color: var(--wp--preset--color--theme-3);\n}\n& .wp-block-search__input:focus {\n\tborder-color: var(--wp--preset--color--theme-3);\n\toutline: none;\n}\n&.wp-block-search__button-inside .wp-block-search__inside-wrapper {\n\tbackground-color: #1a1a1a08;\n\tborder: 1px solid var(--wp--preset--color--theme-4);\n}\n&.wp-block-search__button-inside .wp-block-search__inside-wrapper:hover {\n\tborder-color: var(--wp--preset--color--theme-3);\n}\n&.wp-block-search__button-inside .wp-block-search__inside-wrapper:focus-within {\n\tborder-color: var(--wp--preset--color--theme-3);\n}\n&.wp-block-search__button-inside .wp-block-search__inside-wrapper .wp-block-search__input {\n\tbackground-color: transparent;\n\tborder: none;\n}",
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--openrunde)"
 				}
