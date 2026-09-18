@@ -191,4 +191,4 @@
 <!-- /wp:group --></main>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer-a"} /-->
+<!-- wp:template-part {"slug":"footer-c"} /-->

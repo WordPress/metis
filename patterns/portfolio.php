@@ -336,4 +336,4 @@ echo sprintf( esc_html__( '%1$sContact ↘%2$s', 'metis' ), '<a href="' . esc_ur
 <!-- /wp:group --></main>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer-a"} /-->
+<!-- wp:template-part {"slug":"footer-c"} /-->

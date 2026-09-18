@@ -372,4 +372,4 @@ echo sprintf( esc_html__( '%1$sAll books →%2$s', 'metis' ), '<a href="' . esc_
 <!-- /wp:group --></main>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer-a"} /-->
+<!-- wp:template-part {"slug":"footer-c"} /-->
