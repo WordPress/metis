@@ -996,11 +996,6 @@
 	"templateParts": [
 		{
 			"area": "header",
-			"name": "header",
-			"title": "Header"
-		},
-		{
-			"area": "header",
 			"name": "header-a",
 			"title": "Header, uppercase title and search bar"
 		},
