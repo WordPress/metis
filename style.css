@@ -58,6 +58,13 @@ footer.wp-block-template-part {
 	text-decoration: underline;
 }
 
+/* Utility — clip children that intentionally overflow (e.g. the footer
+   watermark title cropped by the section edge). Add "clip-overflow" in
+   Advanced → Additional CSS class(es). */
+.clip-overflow {
+	overflow: hidden;
+}
+
 /* Utility — inset the Search input's text. Opt-in for rounded search
    fields, where the placeholder/text sits too close to the curved edge.
    Add "search-inset" to the Search block's Additional CSS class(es). */
