@@ -110,12 +110,12 @@
 					"slug": "gradient-8"
 				},
 				{
-					"gradient": "linear-gradient(180deg, rgb(from var(--wp--preset--color--theme-5) r g b / 50%) 0%, rgb(from var(--wp--preset--color--theme-5) r g b / 0%) 100%)",
+					"gradient": "linear-gradient(180deg, rgb(from var(--wp--preset--color--theme-1) r g b / 60%) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 100%)",
 					"name": "Glow fade",
 					"slug": "gradient-9"
 				},
 				{
-					"gradient": "linear-gradient(180deg, rgb(from var(--wp--preset--color--theme-5) r g b / 0%) 0%, rgb(from var(--wp--preset--color--theme-4) r g b / 50%) 100%)",
+					"gradient": "linear-gradient(180deg, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 60%) 100%)",
 					"name": "Shade rise",
 					"slug": "gradient-10"
 				}
