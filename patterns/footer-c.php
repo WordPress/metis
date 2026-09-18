@@ -45,7 +45,7 @@ printf( esc_html__( 'Designed with %1$sWordPress%2$s', 'metis' ), '<a href="' . 
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:paragraph {"metadata":{"name":"Site Title + Fit Text"},"align":"full","style":{"typography":{"fontStyle":"normal","fontWeight":"600","lineHeight":"0.5"},"elements":{"link":{"color":{"text":"var:preset|color|theme-4"}}}},"textColor":"theme-4","fontFamily":"openrunde","fitText":true} -->
-<p class="alignfull has-fit-text has-theme-4-color has-text-color has-link-color has-openrunde-font-family" style="font-style:normal;font-weight:600;line-height:0.5"><?php esc_html_e('Mētis', 'metis');?></p>
+<!-- wp:paragraph {"metadata":{"name":"Site Title + Fit Text"},"align":"full","style":{"typography":{"fontStyle":"normal","fontWeight":"600","lineHeight":"0.5"},"spacing":{"margin":{"bottom":"-0.3em"}},"elements":{"link":{"color":{"text":"var:preset|color|theme-4"}}}},"textColor":"theme-4","fontFamily":"openrunde","fitText":true} -->
+<p class="alignfull has-fit-text has-theme-4-color has-text-color has-link-color has-openrunde-font-family" style="margin-bottom:-0.3em;font-style:normal;font-weight:600;line-height:0.5"><?php esc_html_e('Mētis', 'metis');?></p>
 <!-- /wp:paragraph --></footer>
 <!-- /wp:group -->

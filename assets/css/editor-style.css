@@ -50,6 +50,11 @@ footer.wp-block-template-part {
 	object-fit: cover;
 }
 
+/* Utility — clip intentional overflow (mirrors style.css). */
+.clip-overflow {
+	overflow: hidden;
+}
+
 /* Utility — inset the Search input's text (mirrors style.css). */
 .search-inset .wp-block-search__input {
 	padding-inline-start: var(--wp--preset--spacing--30);
