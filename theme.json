@@ -68,6 +68,58 @@
 					"slug": "duotone-1"
 				}
 			],
+			"gradients": [
+				{
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--theme-7) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 100%)",
+					"name": "Gold fade",
+					"slug": "gradient-1"
+				},
+				{
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--theme-8) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 100%)",
+					"name": "Coral fade",
+					"slug": "gradient-2"
+				},
+				{
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--theme-9) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 100%)",
+					"name": "Green fade",
+					"slug": "gradient-3"
+				},
+				{
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--theme-10) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 100%)",
+					"name": "Blue fade",
+					"slug": "gradient-4"
+				},
+				{
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--theme-11) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 100%)",
+					"name": "Periwinkle fade",
+					"slug": "gradient-5"
+				},
+				{
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--theme-12) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 100%)",
+					"name": "Pink fade",
+					"slug": "gradient-6"
+				},
+				{
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--theme-4) 0%, rgb(from var(--wp--preset--color--theme-4) r g b / 0%) 100%)",
+					"name": "Veil fade",
+					"slug": "gradient-7"
+				},
+				{
+					"gradient": "linear-gradient(180deg, rgb(from var(--wp--preset--color--theme-4) r g b / 0%) 0%, var(--wp--preset--color--theme-4) 100%)",
+					"name": "Veil rise",
+					"slug": "gradient-8"
+				},
+				{
+					"gradient": "linear-gradient(180deg, rgb(from var(--wp--preset--color--theme-1) r g b / 60%) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 100%)",
+					"name": "Glow fade",
+					"slug": "gradient-9"
+				},
+				{
+					"gradient": "linear-gradient(180deg, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 60%) 100%)",
+					"name": "Shade rise",
+					"slug": "gradient-10"
+				}
+			],
 			"palette": [
 				{
 					"color": "#FAFAFA",
@@ -128,6 +180,15 @@
 					"color": "#EC86F9",
 					"name": "Pink",
 					"slug": "theme-12"
+				}
+			]
+		},
+		"shadow": {
+			"presets": [
+				{
+					"name": "Soft",
+					"shadow": "0 8px 24px 0 #1a1a1a14",
+					"slug": "shadow-1"
 				}
 			]
 		},
@@ -780,6 +841,7 @@
 				}
 			},
 			"core/search": {
+				"css": "& .wp-block-search__input {\n\tbackground-color: #1a1a1a08;\n\tborder: 1px solid var(--wp--preset--color--theme-4);\n}\n& .wp-block-search__input:hover {\n\tborder-color: var(--wp--preset--color--theme-3);\n}\n& .wp-block-search__input:focus {\n\tborder-color: var(--wp--preset--color--theme-3);\n\toutline: none;\n}\n&.wp-block-search__button-inside .wp-block-search__inside-wrapper {\n\tbackground-color: #1a1a1a08;\n\tborder: 1px solid var(--wp--preset--color--theme-4);\n}\n&.wp-block-search__button-inside .wp-block-search__inside-wrapper:hover {\n\tborder-color: var(--wp--preset--color--theme-3);\n}\n&.wp-block-search__button-inside .wp-block-search__inside-wrapper:focus-within {\n\tborder-color: var(--wp--preset--color--theme-3);\n}\n&.wp-block-search__button-inside .wp-block-search__inside-wrapper .wp-block-search__input {\n\tbackground-color: transparent;\n\tborder: none;\n}",
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--openrunde)"
 				}
@@ -963,13 +1025,43 @@
 	"templateParts": [
 		{
 			"area": "header",
-			"name": "header",
-			"title": "Header"
+			"name": "header-a",
+			"title": "Header, uppercase title and search bar"
+		},
+		{
+			"area": "header",
+			"name": "header-b",
+			"title": "Header, dark bar with inline menu"
+		},
+		{
+			"area": "header",
+			"name": "header-c",
+			"title": "Header, minimal with menu button"
 		},
 		{
 			"area": "footer",
-			"name": "footer",
-			"title": "Footer"
+			"name": "footer-a",
+			"title": "Footer, tagline and pill bar"
+		},
+		{
+			"area": "footer",
+			"name": "footer-b",
+			"title": "Footer, studio contact grid"
+		},
+		{
+			"area": "footer",
+			"name": "footer-c",
+			"title": "Footer, watermark on gradient"
+		},
+		{
+			"area": "footer",
+			"name": "footer-d",
+			"title": "Footer, dark with link pills"
+		},
+		{
+			"area": "footer",
+			"name": "footer-e",
+			"title": "Footer, newsletter and columns"
 		}
 	]
 }

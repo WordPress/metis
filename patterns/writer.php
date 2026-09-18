@@ -5,7 +5,7 @@
  * Inserter: no
  */
 ?>
-<!-- wp:template-part {"slug":"header"} /-->
+<!-- wp:template-part {"slug":"header-a"} /-->
 
 <!-- wp:group {"tagName":"main","metadata":{"name":"Content"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 <main class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:group {"tagName":"section","metadata":{"name":"Hero"},"align":"full","style":{"spacing":{"blockGap":"0"}},"backgroundColor":"theme-1","layout":{"type":"constrained"}} -->
@@ -372,4 +372,4 @@ echo sprintf( esc_html__( '%1$sAll books →%2$s', 'metis' ), '<a href="' . esc_
 <!-- /wp:group --></main>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer"} /-->
+<!-- wp:template-part {"slug":"footer-a"} /-->
