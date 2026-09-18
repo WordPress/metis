@@ -51,4 +51,4 @@ printf( esc_html__( '%1$sAll notes →%2$s', 'metis' ), '<a href="' . esc_url( '
 <!-- /wp:group --></main>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer"} /-->
+<!-- wp:template-part {"slug":"footer-a"} /-->
