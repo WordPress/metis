@@ -6,8 +6,8 @@
  * Description: Two image-and-text rows, mirrored, closed by a line of figures.
  */
 ?>
-<!-- wp:group {"tagName":"section","metadata":{"name":"Approach"},"align":"wide","anchor":"approach","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|60"},"border":{"top":{"color":"var:preset|color|theme-5","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"}} -->
-<section id="approach" class="wp-block-group alignwide" style="border-top-color:var(--wp--preset--color--theme-5);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"metadata":{"name":"Intro"},"align":"wide","layout":{"type":"constrained","justifyContent":"left"}} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"Approach"},"align":"wide","anchor":"approach","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|60"},"border":{"top":{"color":"var:preset|color|theme-3","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"}} -->
+<section id="approach" class="wp-block-group alignwide" style="border-top-color:var(--wp--preset--color--theme-3);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"metadata":{"name":"Intro"},"align":"wide","layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-group alignwide"><!-- wp:paragraph {"fontSize":"x-small"} -->
 <p class="has-x-small-font-size"><?php esc_html_e( 'HOW WE WORK', 'metis' ); ?></p>
 <!-- /wp:paragraph -->
@@ -53,7 +53,7 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:paragraph {"align":"wide","textColor":"theme-5","fontFamily":"recursive-mono","fontSize":"small"} -->
-<p class="alignwide has-theme-5-color has-text-color has-recursive-mono-font-family has-small-font-size"><?php esc_html_e( '12 years · 60 projects · 3 people · 1 studio dog', 'metis' ); ?></p>
+<!-- wp:paragraph {"align":"wide","textColor":"theme-3","fontFamily":"recursive-mono","fontSize":"small"} -->
+<p class="alignwide has-theme-3-color has-text-color has-recursive-mono-font-family has-small-font-size"><?php esc_html_e( '12 years · 60 projects · 3 people · 1 studio dog', 'metis' ); ?></p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->

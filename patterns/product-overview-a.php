@@ -6,8 +6,8 @@
  * Description: A single new title: a small label, the title as headline, a short blurb, a call to action, and a cover.
  */
 ?>
-<!-- wp:group {"tagName":"section","metadata":{"name":"Featured book"},"align":"wide","anchor":"new-book","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-5","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"}} -->
-<section id="new-book" class="wp-block-group alignwide" style="border-top-color:var(--wp--preset--color--theme-5);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|70"}}}} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"Featured book"},"align":"wide","anchor":"new-book","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-3","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"}} -->
+<section id="new-book" class="wp-block-group alignwide" style="border-top-color:var(--wp--preset--color--theme-3);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|70"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"55%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:55%"><!-- wp:paragraph {"fontSize":"x-small"} -->
 <p class="has-x-small-font-size"><?php esc_html_e( 'NEW BOOK', 'metis' ); ?></p>
@@ -17,8 +17,8 @@
 <h2 class="wp-block-heading has-2-x-large-font-size"><?php esc_html_e( 'Ground Truth', 'metis' ); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"theme-5","fontFamily":"recursive-mono","fontSize":"small"} -->
-<p class="has-theme-5-color has-text-color has-recursive-mono-font-family has-small-font-size"><?php esc_html_e( '2026 · Field Press', 'metis' ); ?></p>
+<!-- wp:paragraph {"textColor":"theme-3","fontFamily":"recursive-mono","fontSize":"small"} -->
+<p class="has-theme-3-color has-text-color has-recursive-mono-font-family has-small-font-size"><?php esc_html_e( '2026 · Field Press', 'metis' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
