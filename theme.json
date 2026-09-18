@@ -999,6 +999,21 @@
 			"title": "Header"
 		},
 		{
+			"area": "header",
+			"name": "header-a",
+			"title": "Header, uppercase title and search bar"
+		},
+		{
+			"area": "header",
+			"name": "header-b",
+			"title": "Header, dark bar with inline menu"
+		},
+		{
+			"area": "header",
+			"name": "header-c",
+			"title": "Header, minimal with menu button"
+		},
+		{
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"
