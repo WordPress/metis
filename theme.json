@@ -173,6 +173,15 @@
 				}
 			]
 		},
+		"shadow": {
+			"presets": [
+				{
+					"name": "Soft",
+					"shadow": "0 8px 24px 0 #1a1a1a14",
+					"slug": "shadow-1"
+				}
+			]
+		},
 		"layout": {
 			"contentSize": "742px",
 			"wideSize": "1320px"
