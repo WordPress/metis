@@ -818,7 +818,7 @@
 				"color": {
 					"text": "var(--wp--preset--color--theme-3)"
 				},
-				"css": "font-size: 0;\n\n&::before {\n\tcontent: \"+\";\n\tfont-size: var(--wp--preset--font-size--small);\n}",
+				"css": "&::before {\n\tcontent: \"+ \";\n\tfont-size: var(--wp--preset--font-size--small);\n}",
 				"elements": {
 					"link": {
 						"color": {
@@ -841,7 +841,7 @@
 				}
 			},
 			"core/search": {
-				"css": "& .wp-block-search__input {\n\tbackground-color: #1a1a1a08;\n\tborder: 1px solid var(--wp--preset--color--theme-4);\n}\n& .wp-block-search__input:hover {\n\tborder-color: var(--wp--preset--color--theme-3);\n}\n& .wp-block-search__input:focus {\n\tborder-color: var(--wp--preset--color--theme-3);\n\toutline: none;\n}\n&.wp-block-search__button-inside .wp-block-search__inside-wrapper {\n\tbackground-color: #1a1a1a08;\n\tborder: 1px solid var(--wp--preset--color--theme-4);\n}\n&.wp-block-search__button-inside .wp-block-search__inside-wrapper:hover {\n\tborder-color: var(--wp--preset--color--theme-3);\n}\n&.wp-block-search__button-inside .wp-block-search__inside-wrapper:focus-within {\n\tborder-color: var(--wp--preset--color--theme-3);\n}\n&.wp-block-search__button-inside .wp-block-search__inside-wrapper .wp-block-search__input {\n\tbackground-color: transparent;\n\tborder: none;\n}",
+				"css": "& .wp-block-search__input {\n\tbackground-color: #1a1a1a08;\n\tborder: 1px solid var(--wp--preset--color--theme-4);\n}\n& .wp-block-search__input:hover {\n\tborder-color: var(--wp--preset--color--theme-3);\n}\n& .wp-block-search__input:focus,\n& .wp-block-search__input:focus-visible {\n\tborder-color: var(--wp--preset--color--theme-2);\n\toutline: 2px solid var(--wp--preset--color--theme-2);\n\toutline-offset: 2px;\n}\n&.wp-block-search__button-inside .wp-block-search__inside-wrapper {\n\tbackground-color: #1a1a1a08;\n\tborder: 1px solid var(--wp--preset--color--theme-4);\n}\n&.wp-block-search__button-inside .wp-block-search__inside-wrapper:hover {\n\tborder-color: var(--wp--preset--color--theme-3);\n}\n&.wp-block-search__button-inside .wp-block-search__inside-wrapper:focus-within {\n\tborder-color: var(--wp--preset--color--theme-2);\n\toutline: 2px solid var(--wp--preset--color--theme-2);\n\toutline-offset: 2px;\n}\n&.wp-block-search__button-inside .wp-block-search__inside-wrapper .wp-block-search__input {\n\tbackground-color: transparent;\n\tborder: none;\n\toutline: none;\n}",
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--openrunde)"
 				}

@@ -5,6 +5,43 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+/* Screen reader text (WordPress standard accessibility classes) */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+}
+
+.screen-reader-text:focus,
+.screen-reader-text:focus-visible {
+	background-color: var(--wp--preset--color--theme-6, #ffffff);
+	border: 2px solid var(--wp--preset--color--theme-2, #1a1a1a);
+	border-radius: 4px;
+	box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+	clip: auto !important;
+	clip-path: none;
+	color: var(--wp--preset--color--theme-2, #1a1a1a);
+	display: block;
+	font-family: var(--wp--preset--font-family--openrunde, sans-serif);
+	font-size: var(--wp--preset--font-size--small, 0.875rem);
+	font-weight: 700;
+	height: auto;
+	left: 1rem;
+	line-height: normal;
+	padding: 0.75rem 1.25rem;
+	text-decoration: none;
+	top: 1rem;
+	width: auto;
+	z-index: 100000;
+}
+
 /*
  * Link styles
  * https://github.com/WordPress/gutenberg/issues/42319
@@ -12,6 +49,12 @@ body {
 a {
 	text-decoration-thickness: 1px !important;
 	text-underline-offset: 0.1em;
+}
+
+a:focus-visible {
+	outline: 2px solid currentColor;
+	outline-offset: 3px;
+	border-radius: 2px;
 }
 
 /*

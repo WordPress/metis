@@ -27,7 +27,7 @@
 <div class="wp-block-group"><!-- wp:site-logo {"width":48,"shouldSyncIcon":true} /-->
 
 <!-- wp:navigation {"overlayMenu":"never","style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"600"}},"fontSize":"x-small","layout":{"type":"flex","flexWrap":"wrap"}} -->
-<!-- wp:navigation-link {"label":"<?php esc_attr_e('About TT7', 'metis');?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_attr_e('About', 'metis');?>","url":"#"} /-->
 
 <!-- wp:navigation-link {"label":"<?php esc_attr_e('Patterns', 'metis');?>","url":"#"} /-->
 

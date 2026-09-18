@@ -15,7 +15,7 @@
 
 <!-- wp:group {"metadata":{"name":"Nav Wrapper"},"style":{"layout":{"selfStretch":"fill","flexSize":null},"spacing":{"blockGap":{"left":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
 <div class="wp-block-group"><!-- wp:navigation {"textColor":"theme-1","backgroundColor":"theme-2","icon":"menu","style":{"spacing":{"blockGap":"0"},"layout":{"selfStretch":"fit","flexSize":null}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
-<!-- wp:navigation-link {"label":"<?php esc_attr_e('About TT7', 'metis');?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_attr_e('About', 'metis');?>","url":"#"} /-->
 
 <!-- wp:navigation-link {"label":"<?php esc_attr_e('Patterns', 'metis');?>","url":"#"} /-->
 

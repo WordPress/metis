@@ -7,7 +7,7 @@ Description: A block theme for creators, with flexible patterns and templates de
 Requires at least: 6.7
 Tested up to: 6.9
 Requires PHP: 7.2
-Version: 1.0.1
+Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: metis
@@ -19,6 +19,52 @@ Tags: one-column, full-site-editing, block-patterns, block-styles, style-variati
 	navigation: auto;
 }
 
+@media (prefers-reduced-motion: reduce) {
+
+	::view-transition-group(*),
+	::view-transition-old(*),
+	::view-transition-new(*) {
+		animation: none !important;
+	}
+}
+
+/* Screen reader text (WordPress standard accessibility classes) */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+}
+
+.screen-reader-text:focus,
+.screen-reader-text:focus-visible {
+	background-color: var(--wp--preset--color--theme-6, #ffffff);
+	border: 2px solid var(--wp--preset--color--theme-2, #1a1a1a);
+	border-radius: 4px;
+	box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+	clip: auto !important;
+	clip-path: none;
+	color: var(--wp--preset--color--theme-2, #1a1a1a);
+	display: block;
+	font-family: var(--wp--preset--font-family--openrunde, sans-serif);
+	font-size: var(--wp--preset--font-size--small, 0.875rem);
+	font-weight: 700;
+	height: auto;
+	left: 1rem;
+	line-height: normal;
+	padding: 0.75rem 1.25rem;
+	text-decoration: none;
+	top: 1rem;
+	width: auto;
+	z-index: 100000;
+}
+
 /* Font smoothing */
 body {
 	text-rendering: geometricprecision;
@@ -27,7 +73,16 @@ body {
 }
 
 /* Progressive enhancement to reduce widows and orphans */
-h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+caption,
+figcaption,
+p {
 	text-wrap: pretty;
 }
 
@@ -35,6 +90,12 @@ h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
 a {
 	text-decoration-thickness: 1px !important;
 	text-underline-offset: 0.1em;
+}
+
+a:focus-visible {
+	outline: 2px solid currentColor;
+	outline-offset: 3px;
+	border-radius: 2px;
 }
 
 .more-link {
@@ -81,16 +142,38 @@ footer.wp-block-template-part {
 }
 
 /* Utility classes for custom ordering. */
-.order-0 { order: 0; }
-.order-1 { order: 1; }
-.grow-0 { flex-grow: 0; }
-.grow { flex-grow: 1; }
+.order-0 {
+	order: 0;
+}
+
+.order-1 {
+	order: 1;
+}
+
+.grow-0 {
+	flex-grow: 0;
+}
+
+.grow {
+	flex-grow: 1;
+}
 
 @media (min-width: 600px) {
-	.md\:order-0 { order: 0; }
-	.md\:order-1 { order: 1; }
-	.md\:grow-0 { flex-grow: 0; }
-	.md\:grow { flex-grow: 1; }
+	.md\:order-0 {
+		order: 0;
+	}
+
+	.md\:order-1 {
+		order: 1;
+	}
+
+	.md\:grow-0 {
+		flex-grow: 0;
+	}
+
+	.md\:grow {
+		flex-grow: 1;
+	}
 }
 
 /* Utility — alternate Featured Image aspect ratios inside a Query Loop.
@@ -99,11 +182,11 @@ footer.wp-block-template-part {
    !important is required because the block emits its ratio as an inline
    style; the block's own [style*=aspect-ratio] img rules (cover/fill)
    keep applying, so images crop correctly at the new ratios. */
-.alternate-ratios > li:nth-child(odd) .wp-block-post-featured-image {
+.alternate-ratios>li:nth-child(odd) .wp-block-post-featured-image {
 	aspect-ratio: 3/4 !important;
 }
 
-.alternate-ratios > li:nth-child(even) .wp-block-post-featured-image {
+.alternate-ratios>li:nth-child(even) .wp-block-post-featured-image {
 	aspect-ratio: 1/1 !important;
 }
 
