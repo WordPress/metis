@@ -50,6 +50,11 @@ footer.wp-block-template-part {
 	object-fit: cover;
 }
 
+/* Utility — inset the Search input's text (mirrors style.css). */
+.search-inset .wp-block-search__input {
+	padding-inline-start: var(--wp--preset--spacing--30);
+}
+
 /* Utility — first-line indent for a paragraph or heading (mirrors style.css). */
 .indent-first-line {
 	text-indent: 33.33%;
