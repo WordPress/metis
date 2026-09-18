@@ -68,6 +68,38 @@
 					"slug": "duotone-1"
 				}
 			],
+			"gradients": [
+				{
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--theme-7) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 100%)",
+					"name": "Gold fade",
+					"slug": "gradient-1"
+				},
+				{
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--theme-8) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 100%)",
+					"name": "Coral fade",
+					"slug": "gradient-2"
+				},
+				{
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--theme-9) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 100%)",
+					"name": "Green fade",
+					"slug": "gradient-3"
+				},
+				{
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--theme-10) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 100%)",
+					"name": "Blue fade",
+					"slug": "gradient-4"
+				},
+				{
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--theme-11) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 100%)",
+					"name": "Periwinkle fade",
+					"slug": "gradient-5"
+				},
+				{
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--theme-12) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 100%)",
+					"name": "Pink fade",
+					"slug": "gradient-6"
+				}
+			],
 			"palette": [
 				{
 					"color": "#FAFAFA",
