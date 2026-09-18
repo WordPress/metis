@@ -351,4 +351,4 @@
 <!-- /wp:group --></main>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer-c"} /-->
+<!-- wp:template-part {"slug":"footer-d"} /-->
