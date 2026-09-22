@@ -683,7 +683,7 @@
 				"color": {
 					"text": "var(--wp--preset--color--theme-3)"
 				},
-				"css": "white-space: nowrap;\n&::before {\n\tcontent: \"⊹\";\n\tmargin-inline-end: 0.125rem;\n}",
+				"css": "white-space: nowrap;",
 				"elements": {
 					"link": {
 						":hover": {
@@ -704,6 +704,18 @@
 					"letterSpacing": "0rem",
 					"lineHeight": "1",
 					"textTransform": "none"
+				},
+				"border": {
+					"left": {
+						"color": "var(--wp--preset--color--theme-4)",
+						"style": "solid",
+						"width": "1px"
+					}
+				},
+				"spacing": {
+					"padding": {
+						"left": "var(--wp--preset--spacing--20)"
+					}
 				}
 			},
 			"core/post-excerpt": {
@@ -909,7 +921,7 @@
 			"background": "var(--wp--preset--color--theme-1)",
 			"text": "var(--wp--preset--color--theme-2)"
 		},
-		"css": ".wp-block-post-template li:hover .wp-block-read-more {\n  border-left-color: var(--wp--preset--color--theme-3);\n  border-right-color: var(--wp--preset--color--theme-3);\n}\n.wp-block-post-template li:hover .wp-block-post-excerpt {\n\tcolor: var(--wp--preset--color--theme-2);\n}",
+		"css": ".wp-block-post-template li:hover .wp-block-read-more {\n  border-left-color: var(--wp--preset--color--theme-3);\n  border-right-color: var(--wp--preset--color--theme-3);\n}\n.wp-block-post-template li:hover .wp-block-post-excerpt {\n\tcolor: var(--wp--preset--color--theme-2);\n}\n.wp-block-post-template li:hover .wp-block-post-date {\n  border-left-color: var(--wp--preset--color--theme-3);\n}",
 		"elements": {
 			"button": {
 				":active": {
