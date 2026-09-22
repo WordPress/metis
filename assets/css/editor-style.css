@@ -82,6 +82,14 @@ footer.wp-block-template-part {
 	flex-grow: 1;
 }
 
+.grow-2 {
+	flex-grow: 2;
+}
+
+.grow-3 {
+	flex-grow: 3;
+}
+
 @media (min-width: 600px) {
 	.md\:order-0 {
 		order: 0;
