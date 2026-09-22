@@ -830,7 +830,6 @@
 				"color": {
 					"text": "var(--wp--preset--color--theme-3)"
 				},
-				"css": "font-size: 0;\n\n&::before {\n\tcontent: \"+\";\n\tfont-size: var(--wp--preset--font-size--small);\n}",
 				"elements": {
 					"link": {
 						"color": {
