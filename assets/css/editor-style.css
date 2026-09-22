@@ -66,6 +66,12 @@ footer.wp-block-template-part {
 }
 
 /* Utility classes for custom ordering. */
+/* Utility — block consumes its flex cell (mirrors style.css). */
+.fill-width.fill-width {
+	width: 100%;
+	flex-grow: 1;
+}
+
 .order-0 {
 	order: 0;
 }

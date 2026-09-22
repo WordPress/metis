@@ -80,6 +80,15 @@ footer.wp-block-template-part {
 	text-indent: 33.33%;
 }
 
+/* Utility — make a block consume its flex cell entirely (width + grow).
+   For blocks whose own width UI is unavailable or unreliable, e.g. the
+   Search block inside a growing Row cell. Doubled to beat per-instance
+   layout rules. */
+.fill-width.fill-width {
+	width: 100%;
+	flex-grow: 1;
+}
+
 /* Utility classes for custom ordering. */
 .order-0 { order: 0; }
 .order-1 { order: 1; }
