@@ -50,28 +50,28 @@ footer.wp-block-template-part {
 }
 
 /* ————————————————————————————————————————————————————————————————
-   Utilities. Opt-in classes, added per instance in the block's
-   Advanced → Additional CSS class(es) panel. Doubled selectors
-   (.x.x) outweigh Gutenberg's per-instance layout rules, which
-   print after theme CSS at equal specificity.
+   Utilities. Opt-in via the block's Additional CSS class(es).
+   Doubled selectors (.x.x) beat per-instance layout rules.
    ———————————————————————————————————————————————————————————— */
 
-/* Weighted growth for Row children. The Editor's Width → Grow is
-   always flex-grow: 1; these set the proportions it cannot. */
+/* Growth weights for Row children; the Editor's Grow is always 1.
+   Used: grow-2 on the search cell of "Header, uppercase title and search bar". */
 .grow-0.grow-0 { flex-grow: 0; }
 .grow.grow { flex-grow: 1; }
 .grow-2.grow-2 { flex-grow: 2; }
 .grow-3.grow-3 { flex-grow: 3; }
 
-/* Make a block consume its flex cell entirely. For blocks whose own
-   width control cannot reach the flex item, e.g. the Search block,
-   whose width applies to its inner wrapper only. */
+/* Makes a block fill its Row cell (the Search block's own width only
+   reaches its inner wrapper). Used: the Search in "Header, uppercase
+   title and search bar". */
 .fill-width.fill-width {
 	width: 100%;
 	flex-grow: 1;
 }
 
-/* Hide link underlines at rest, restore on hover/focus. */
+/* Links: no underline at rest, underline on hover/focus.
+   Used: dates and meta in front-page, single, single-with-sidebar,
+   archive, index and search patterns. */
 .no-underline a {
 	text-decoration: none;
 }
@@ -81,27 +81,28 @@ footer.wp-block-template-part {
 	text-decoration: underline;
 }
 
-/* Clip children that intentionally overflow, e.g. the footer
-   watermark title cropped by the section edge. */
+/* Clips children that overhang the container edge.
+   Used: "Footer, watermark on gradient", cropping the fit-text title. */
 .clip-overflow {
 	overflow: hidden;
 }
 
-/* Inset the Search input's text — for rounded fields where the
-   placeholder sits too close to the curved edge. */
+/* Start-pads the Search input so text clears rounded corners.
+   Used: the Search in "Header, uppercase title and search bar". */
 .search-inset .wp-block-search__input {
 	padding-inline-start: var(--wp--preset--spacing--30);
 }
 
-/* First-line indent for a paragraph or heading. Measured against the
-   block's own width, so it scales with the content/section width. */
+/* Indents a text block's first line by a third of its own width.
+   Used: front-page intro heading. */
 .indent-first-line {
 	text-indent: 33.33%;
 }
 
-/* Alternate Featured Image aspect ratios inside a Query Loop: add to
-   the Post Template block; odd posts 3:4, even posts 1:1. !important
-   outweighs the ratio the block emits as an inline style. */
+/* On a Post Template: featured images alternate 3:4 (odd) and 1:1
+   (even); !important beats the block's inline ratio. The img rules
+   restore core's fill-and-crop, which needs an inline ratio to fire.
+   Used: front-page "Posts with Featured Images" query loop. */
 .alternate-ratios > li:nth-child(odd) .wp-block-post-featured-image {
 	aspect-ratio: 3/4 !important;
 }
@@ -110,8 +111,6 @@ footer.wp-block-template-part {
 	aspect-ratio: 1/1 !important;
 }
 
-/* Core only applies its fill-and-crop rules when the figure carries an
-   inline aspect-ratio; ours comes from the rules above, so replicate. */
 .alternate-ratios .wp-block-post-featured-image img {
 	width: 100%;
 	height: 100%;
@@ -122,12 +121,10 @@ footer.wp-block-template-part {
    Block fixes.
    ———————————————————————————————————————————————————————————— */
 
-/* Accordion bleed. Items are pulled together with negative margins so each item's
-   background crops the title above it. Browsers paint every sibling background
-   before any sibling text, so each title would otherwise draw on top of the next
-   item's fill and the bleed would vanish on the front end (the editor doesn't show
-   this, because it wraps each block in a positioned wrapper). Positioning the items
-   makes each paint as a unit in source order, so the fill covers the title above. */
+/* Accordion bleed: items overlap via negative margins; positioning
+   makes each paint atomically in source order, so an item's fill can
+   crop the title above it on the front end (the editor's positioned
+   wrappers already do this). Used: "Selected builds, accordions". */
 .wp-block-accordion-item {
 	position: relative;
 }
