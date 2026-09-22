@@ -49,6 +49,29 @@ footer.wp-block-template-part {
 	margin-block-start: 0 !important;
 }
 
+/* ————————————————————————————————————————————————————————————————
+   Utilities. Opt-in classes, added per instance in the block's
+   Advanced → Additional CSS class(es) panel. Doubled selectors
+   (.x.x) outweigh Gutenberg's per-instance layout rules, which
+   print after theme CSS at equal specificity.
+   ———————————————————————————————————————————————————————————— */
+
+/* Weighted growth for Row children. The Editor's Width → Grow is
+   always flex-grow: 1; these set the proportions it cannot. */
+.grow-0.grow-0 { flex-grow: 0; }
+.grow.grow { flex-grow: 1; }
+.grow-2.grow-2 { flex-grow: 2; }
+.grow-3.grow-3 { flex-grow: 3; }
+
+/* Make a block consume its flex cell entirely. For blocks whose own
+   width control cannot reach the flex item, e.g. the Search block,
+   whose width applies to its inner wrapper only. */
+.fill-width.fill-width {
+	width: 100%;
+	flex-grow: 1;
+}
+
+/* Hide link underlines at rest, restore on hover/focus. */
 .no-underline a {
 	text-decoration: none;
 }
@@ -58,58 +81,27 @@ footer.wp-block-template-part {
 	text-decoration: underline;
 }
 
-/* Utility — clip children that intentionally overflow (e.g. the footer
-   watermark title cropped by the section edge). Add "clip-overflow" in
-   Advanced → Additional CSS class(es). */
+/* Clip children that intentionally overflow, e.g. the footer
+   watermark title cropped by the section edge. */
 .clip-overflow {
 	overflow: hidden;
 }
 
-/* Utility — inset the Search input's text. Opt-in for rounded search
-   fields, where the placeholder/text sits too close to the curved edge.
-   Add "search-inset" to the Search block's Additional CSS class(es). */
+/* Inset the Search input's text — for rounded fields where the
+   placeholder sits too close to the curved edge. */
 .search-inset .wp-block-search__input {
 	padding-inline-start: var(--wp--preset--spacing--30);
 }
 
-/* Utility — first-line indent for a paragraph or heading.
-   Add the class "indent-first-line" in the block's Advanced →
-   Additional CSS class(es) panel. The 33.33% is measured against the
-   block's own width (so it scales with the content/section width). */
+/* First-line indent for a paragraph or heading. Measured against the
+   block's own width, so it scales with the content/section width. */
 .indent-first-line {
 	text-indent: 33.33%;
 }
 
-/* Utility — make a block consume its flex cell entirely (width + grow).
-   For blocks whose own width UI is unavailable or unreliable, e.g. the
-   Search block inside a growing Row cell. Doubled to beat per-instance
-   layout rules. */
-.fill-width.fill-width {
-	width: 100%;
-	flex-grow: 1;
-}
-
-/* Utility classes for custom ordering. */
-.order-0 { order: 0; }
-.order-1 { order: 1; }
-.grow-0.grow-0 { flex-grow: 0; }
-.grow.grow { flex-grow: 1; }
-.grow-2.grow-2 { flex-grow: 2; }
-.grow-3.grow-3 { flex-grow: 3; }
-
-@media (min-width: 600px) {
-	.md\:order-0 { order: 0; }
-	.md\:order-1 { order: 1; }
-	.md\:grow-0.md\:grow-0 { flex-grow: 0; }
-	.md\:grow.md\:grow { flex-grow: 1; }
-}
-
-/* Utility — alternate Featured Image aspect ratios inside a Query Loop.
-   Add the class "alternate-ratios" to the Post Template block: odd posts
-   get 3:4, even posts 1:1, whatever ratio the block itself declares.
-   !important is required because the block emits its ratio as an inline
-   style; the block's own [style*=aspect-ratio] img rules (cover/fill)
-   keep applying, so images crop correctly at the new ratios. */
+/* Alternate Featured Image aspect ratios inside a Query Loop: add to
+   the Post Template block; odd posts 3:4, even posts 1:1. !important
+   outweighs the ratio the block emits as an inline style. */
 .alternate-ratios > li:nth-child(odd) .wp-block-post-featured-image {
 	aspect-ratio: 3/4 !important;
 }
@@ -125,6 +117,10 @@ footer.wp-block-template-part {
 	height: 100%;
 	object-fit: cover;
 }
+
+/* ————————————————————————————————————————————————————————————————
+   Block fixes.
+   ———————————————————————————————————————————————————————————— */
 
 /* Accordion bleed. Items are pulled together with negative margins so each item's
    background crops the title above it. Browsers paint every sibling background
