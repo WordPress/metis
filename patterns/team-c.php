@@ -1,8 +1,9 @@
 <?php
 /**
- * Title: Team C
+ * Title: Team
  * Slug: metis/team-c
  * Categories: Team
+ * Inserter: no
  */
 ?>
 <!-- wp:paragraph -->
