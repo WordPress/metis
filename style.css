@@ -83,16 +83,16 @@ footer.wp-block-template-part {
 /* Utility classes for custom ordering. */
 .order-0 { order: 0; }
 .order-1 { order: 1; }
-.grow-0 { flex-grow: 0; }
-.grow { flex-grow: 1; }
-.grow-2 { flex-grow: 2; }
-.grow-3 { flex-grow: 3; }
+.grow-0.grow-0 { flex-grow: 0; }
+.grow.grow { flex-grow: 1; }
+.grow-2.grow-2 { flex-grow: 2; }
+.grow-3.grow-3 { flex-grow: 3; }
 
 @media (min-width: 600px) {
 	.md\:order-0 { order: 0; }
 	.md\:order-1 { order: 1; }
-	.md\:grow-0 { flex-grow: 0; }
-	.md\:grow { flex-grow: 1; }
+	.md\:grow-0.md\:grow-0 { flex-grow: 0; }
+	.md\:grow.md\:grow { flex-grow: 1; }
 }
 
 /* Utility — alternate Featured Image aspect ratios inside a Query Loop.
