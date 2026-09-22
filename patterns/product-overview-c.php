@@ -1,8 +1,9 @@
 <?php
 /**
- * Title: Product Overview C
+ * Title: Product Overview
  * Slug: metis/product-overview-c
  * Categories: Call to Action
+ * Inserter: no
  */
 ?>
 <!-- wp:paragraph -->

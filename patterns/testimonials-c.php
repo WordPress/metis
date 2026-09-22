@@ -1,8 +1,9 @@
 <?php
 /**
- * Title: Testimonials C
+ * Title: Testimonials
  * Slug: metis/testimonials-c
  * Categories: Testimonials
+ * Inserter: no
  */
 ?>
 <!-- wp:paragraph -->

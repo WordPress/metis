@@ -18,15 +18,5 @@ printf( esc_html__( '%1$sAll essays →%2$s', 'metis' ), '<a href="' . esc_url( 
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:query {"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"ignore","inherit":false,"taxQuery":null,"parents":[]},"metadata":{"name":"Essays"},"align":"wide","layout":{"type":"default"}} -->
-<div class="wp-block-query alignwide"><!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|50"}},"layout":{"type":"grid","columnCount":3}} -->
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:post-date {"format":"M j, Y","isLink":false,"textColor":"theme-3","fontSize":"x-small"} /-->
-
-<!-- wp:post-title {"level":3,"isLink":true,"fontSize":"large"} /-->
-
-<!-- wp:post-excerpt {"showMoreOnNewLine":false,"excerptLength":24} /--></div>
-<!-- /wp:group -->
-<!-- /wp:post-template --></div>
-<!-- /wp:query --></section>
+<!-- wp:pattern {"slug":"metis/posts-g"} /--></section>
 <!-- /wp:group -->

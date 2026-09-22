@@ -11,15 +11,5 @@
 <h2 class="wp-block-heading alignwide"><?php esc_html_e( 'Archive', 'metis' ); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:query {"query":{"perPage":6,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"ignore","inherit":false,"taxQuery":null,"parents":[]},"metadata":{"name":"Articles"},"align":"wide","layout":{"type":"default"}} -->
-<div class="wp-block-query alignwide"><!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"grid","columnCount":3}} -->
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:post-featured-image {"isLink":true,"aspectRatio":"4/3"} /-->
-
-<!-- wp:post-terms {"term":"category","textColor":"theme-3","fontFamily":"recursive-mono","fontSize":"x-small"} /-->
-
-<!-- wp:post-title {"level":3,"isLink":true,"fontSize":"large"} /--></div>
-<!-- /wp:group -->
-<!-- /wp:post-template --></div>
-<!-- /wp:query --></section>
+<!-- wp:pattern {"slug":"metis/posts-i"} /--></section>
 <!-- /wp:group -->

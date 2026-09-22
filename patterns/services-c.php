@@ -1,8 +1,9 @@
 <?php
 /**
- * Title: Services C
+ * Title: Services
  * Slug: metis/services-c
  * Categories: Services
+ * Inserter: no
  */
 ?>
 <!-- wp:paragraph -->

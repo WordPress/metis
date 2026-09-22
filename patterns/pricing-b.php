@@ -1,8 +1,9 @@
 <?php
 /**
- * Title: Pricing B
+ * Title: Pricing
  * Slug: metis/pricing-b
  * Categories: Services
+ * Inserter: no
  */
 ?>
 <!-- wp:paragraph -->
