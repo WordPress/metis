@@ -143,8 +143,8 @@ if ( ! function_exists( 'metis_comments_cta_binding' ) ) :
 						return '';
 					}
 					return ( 0 === (int) get_comments_number( $post_id ) )
-						? __( 'Start conversation', 'metis' )
-						: __( 'Join the conversation', 'metis' );
+						? __( 'Comment first', 'metis' )
+						: __( 'Join in', 'metis' );
 				},
 			)
 		);
