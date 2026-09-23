@@ -127,15 +127,31 @@ add_action( 'init', 'metis_pattern_categories' );
 /*
  * Conversational labels for the Comments Link block: invite the first
  * comment when there are none, invite joining when there are some.
- * Runs through the core `comments_number` filter, which that block's
- * link text passes through.
+ * The block (core/post-comments-link, WP 6.9) builds its own strings,
+ * so this filters its rendered output; the screen-reader post-title
+ * suffix is preserved.
  */
 if ( ! function_exists( 'metis_comments_link_labels' ) ) :
-	function metis_comments_link_labels( $text, $number ) {
-		if ( 0 === (int) $number ) {
-			return __( 'Be the first to comment', 'metis' );
+	function metis_comments_link_labels( $content, $block, $instance ) {
+		$post_id = isset( $instance->context['postId'] ) ? $instance->context['postId'] : get_the_ID();
+		if ( ! $post_id ) {
+			return $content;
 		}
-		return __( 'Join the conversation', 'metis' );
+		$label = ( 0 === (int) get_comments_number( $post_id ) )
+			? __( 'Be the first to comment', 'metis' )
+			: __( 'Join the conversation', 'metis' );
+		$label_html = esc_html( $label ) . '<span class="screen-reader-text"> ' . sprintf(
+			/* translators: %s: post title */
+			esc_html__( 'on %s', 'metis' ),
+			esc_html( get_the_title( $post_id ) )
+		) . '</span>';
+		return preg_replace_callback(
+			'#(<a[^>]*>).*?(</a>)#s',
+			static function ( $m ) use ( $label_html ) {
+				return $m[1] . $label_html . $m[2];
+			},
+			$content
+		);
 	}
 endif;
-add_filter( 'comments_number', 'metis_comments_link_labels', 10, 2 );
+add_filter( 'render_block_core/post-comments-link', 'metis_comments_link_labels', 10, 3 );
