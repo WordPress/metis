@@ -123,3 +123,32 @@ if ( ! function_exists( 'metis_pattern_categories' ) ) :
 	}
 endif;
 add_action( 'init', 'metis_pattern_categories' );
+
+/*
+ * Comments call-to-action binding source. Bind a paragraph's content to
+ * "metis/comments-cta" and it renders "Be the first to comment" when the
+ * post has no comments, "Join the conversation" once it has some - meant
+ * to sit beside the Comments Link block, which keeps showing the count.
+ */
+if ( ! function_exists( 'metis_comments_cta_binding' ) ) :
+	function metis_comments_cta_binding() {
+		register_block_bindings_source(
+			'metis/comments-cta',
+			array(
+				'label'              => __( 'Comments CTA', 'metis' ),
+				'uses_context'       => array( 'postId' ),
+				'get_value_callback' => function ( $args, $block ) {
+					$post_id = isset( $block->context['postId'] ) ? $block->context['postId'] : get_the_ID();
+					if ( ! $post_id ) {
+						return '';
+					}
+					$label = ( 0 === (int) get_comments_number( $post_id ) )
+						? __( 'Comment first', 'metis' )
+						: __( 'Join in', 'metis' );
+					return '<a href="' . esc_url( get_comments_link( $post_id ) ) . '">' . esc_html( $label ) . '</a>';
+				},
+			)
+		);
+	}
+endif;
+add_action( 'init', 'metis_comments_cta_binding' );

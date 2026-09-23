@@ -189,6 +189,11 @@
 					"name": "Soft",
 					"shadow": "0 8px 24px 0 #1a1a1a14",
 					"slug": "shadow-1"
+				},
+				{
+					"name": "Close",
+					"shadow": "0 2px 8px 0 var(--wp--preset--color--theme-4)",
+					"slug": "shadow-2"
 				}
 			]
 		},
@@ -430,12 +435,6 @@
 	"styles": {
 		"blocks": {
 			"core/button": {
-				":active": {
-					"color": {
-						"background": "color-mix(in srgb, var(--wp--preset--color--theme-2) 85%, transparent)",
-						"text": "var(--wp--preset--color--theme-6)"
-					}
-				},
 				":focus": {
 					"color": {
 						"background": "color-mix(in srgb, var(--wp--preset--color--theme-2) 85%, transparent)",
@@ -536,7 +535,11 @@
 								"right": "var(--wp--preset--spacing--50)",
 								"top": "var(--wp--preset--spacing--30)"
 							}
-						}
+						},
+						"color": {
+							"gradient": "var(--wp--preset--gradient--gradient-8)"
+						},
+						"css": "&:hover {\n\tbackground: var(--wp--preset--color--theme-6);\n}"
 					}
 				}
 			},
@@ -584,7 +587,8 @@
 						"right": "var(--wp--preset--spacing--30)",
 						"top": "var(--wp--preset--spacing--30)"
 					}
-				}
+				},
+				"shadow": "var(--wp--preset--shadow--shadow-2)"
 			},
 			"core/comment-date": {
 				"typography": {
@@ -923,12 +927,6 @@
 		"css": ".wp-block-post-template li:hover .wp-block-read-more {\n  border-left-color: var(--wp--preset--color--theme-3);\n  border-right-color: var(--wp--preset--color--theme-3);\n}\n.wp-block-post-template li:hover .wp-block-post-excerpt {\n\tcolor: var(--wp--preset--color--theme-2);\n}\n.wp-block-post-template li:hover .wp-block-post-date {\n  border-left-color: var(--wp--preset--color--theme-3);\n}",
 		"elements": {
 			"button": {
-				":active": {
-					"color": {
-						"background": "color-mix(in srgb, var(--wp--preset--color--theme-2) 85%, transparent)",
-						"text": "var(--wp--preset--color--theme-6)"
-					}
-				},
 				":focus": {
 					"color": {
 						"background": "color-mix(in srgb, var(--wp--preset--color--theme-2) 85%, transparent)",
@@ -1048,6 +1046,11 @@
 			"area": "header",
 			"name": "header-c",
 			"title": "Header, minimal with menu button"
+		},
+		{
+			"area": "uncategorized",
+			"name": "comments",
+			"title": "Comments"
 		},
 		{
 			"area": "footer",

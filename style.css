@@ -99,6 +99,20 @@ footer.wp-block-template-part {
 	text-indent: 33.33%;
 }
 
+/* Removes the meta symbol (the ::before glyph on Date or Author
+   Name) from one instance. Used: Author Name in the single template. */
+.no-symbol.no-symbol::before {
+	content: none;
+}
+
+/* Removes the Date's left stroke and its padding from one instance
+   (the bar set in theme.json core/post-date). Doubled: the global rule
+   carries :root. Used: opt-in wherever a Date drops the bar. */
+.no-stroke.no-stroke {
+	border-left: none;
+	padding-left: 0;
+}
+
 /* On a Post Template: featured images alternate 3:4 (odd) and 1:1
    (even); !important beats the block's inline ratio. The img rules
    restore core's fill-and-crop, which needs an inline ratio to fire.
@@ -115,6 +129,39 @@ footer.wp-block-template-part {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+}
+
+/* ————————————————————————————————————————————————————————————————
+   Buttons — shared action grammar. Every Button-block style grows on
+   hover, squishes on press, and shares the pressed surface: theme-4
+   with theme-2 text. !important outranks per-instance color presets,
+   which are themselves important. Skins (fill, outline, glossy) style
+   the resting and hover surfaces on top of this.
+   ———————————————————————————————————————————————————————————— */
+.wp-block-button .wp-block-button__link {
+	transition: transform 260ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.wp-block-button .wp-block-button__link:hover {
+	transform: scale(1.04);
+}
+
+.wp-block-button .wp-block-button__link:active {
+	transform: scale(0.97);
+	background: var(--wp--preset--color--theme-4) !important;
+	border-color: var(--wp--preset--color--theme-2) !important;
+	color: var(--wp--preset--color--theme-2) !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.wp-block-button .wp-block-button__link {
+		transition: none;
+	}
+
+	.wp-block-button .wp-block-button__link:hover,
+	.wp-block-button .wp-block-button__link:active {
+		transform: none;
+	}
 }
 
 /* ————————————————————————————————————————————————————————————————
