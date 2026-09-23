@@ -582,7 +582,8 @@
 						"right": "var(--wp--preset--spacing--30)",
 						"top": "var(--wp--preset--spacing--30)"
 					}
-				}
+				},
+				"shadow": "var(--wp--preset--shadow--shadow-1)"
 			},
 			"core/comment-date": {
 				"typography": {
