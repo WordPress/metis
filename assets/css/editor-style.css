@@ -75,7 +75,7 @@ footer.wp-block-template-part {
 }
 
 /* Removes the meta symbol from one instance. */
-.no-symbol::before {
+.no-symbol.no-symbol::before {
 	content: none;
 }
 

@@ -101,7 +101,7 @@ footer.wp-block-template-part {
 
 /* Removes the meta symbol (the ::before glyph on Date or Author
    Name) from one instance. Used: Author Name in the single template. */
-.no-symbol::before {
+.no-symbol.no-symbol::before {
 	content: none;
 }
 
