@@ -189,6 +189,11 @@
 					"name": "Soft",
 					"shadow": "0 8px 24px 0 #1a1a1a14",
 					"slug": "shadow-1"
+				},
+				{
+					"name": "Close",
+					"shadow": "0 2px 8px 0 #1a1a1a29",
+					"slug": "shadow-2"
 				}
 			]
 		},
@@ -583,7 +588,7 @@
 						"top": "var(--wp--preset--spacing--30)"
 					}
 				},
-				"shadow": "var(--wp--preset--shadow--shadow-1)"
+				"shadow": "var(--wp--preset--shadow--shadow-2)"
 			},
 			"core/comment-date": {
 				"typography": {
