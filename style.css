@@ -99,6 +99,12 @@ footer.wp-block-template-part {
 	text-indent: 33.33%;
 }
 
+/* Removes the meta symbol (the ::before glyph on Date or Author
+   Name) from one instance. Used: Author Name in the single template. */
+.no-symbol::before {
+	content: none;
+}
+
 /* On a Post Template: featured images alternate 3:4 (odd) and 1:1
    (even); !important beats the block's inline ratio. The img rules
    restore core's fill-and-crop, which needs an inline ratio to fire.

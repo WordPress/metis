@@ -74,6 +74,11 @@ footer.wp-block-template-part {
 	text-indent: 33.33%;
 }
 
+/* Removes the meta symbol from one instance. */
+.no-symbol::before {
+	content: none;
+}
+
 /* Alternate Featured Image aspect ratios. The canvas renders a hidden
    duplicate <li> for the active item, which shifts plain nth-child
    parity — so count only the visible items via the `of` filter. */
