@@ -135,7 +135,7 @@ if ( ! function_exists( 'metis_comments_cta_binding' ) ) :
 		register_block_bindings_source(
 			'metis/comments-cta',
 			array(
-				'label'              => __( 'Comments call to action', 'metis' ),
+				'label'              => __( 'Comments CTA', 'metis' ),
 				'uses_context'       => array( 'postId' ),
 				'get_value_callback' => function ( $args, $block ) {
 					$post_id = isset( $block->context['postId'] ) ? $block->context['postId'] : get_the_ID();
