@@ -85,6 +85,15 @@ footer.wp-block-template-part {
 	padding-left: 0;
 }
 
+/* Tag toasts (mirrors theme.json core/post-terms css; the canvas
+   needs the rule locally). */
+.wp-block-post-terms.taxonomy-post_tag a {
+	display: inline-block;
+	background-color: var(--wp--preset--color--theme-4);
+	border-radius: 10px;
+	padding: var(--wp--preset--spacing--20);
+}
+
 /* Alternate Featured Image aspect ratios. The canvas renders a hidden
    duplicate <li> for the active item, which shifts plain nth-child
    parity — so count only the visible items via the `of` filter. */
