@@ -540,7 +540,7 @@
 						"color": {
 							"gradient": "var(--wp--preset--gradient--gradient-8)"
 						},
-						"css": "&:hover {\n\tbackground: var(--wp--preset--color--theme-6);\n}"
+						"css": "&:hover:not(:active) {\n\tbackground: var(--wp--preset--color--theme-6);\n}"
 					}
 				}
 			},

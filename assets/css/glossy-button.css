@@ -37,7 +37,7 @@
 }
 
 /* On hover the sheen fades toward transparent (the gloss "settles") */
-.wp-block-button.is-style-glossy .wp-block-button__link:hover {
+.wp-block-button.is-style-glossy .wp-block-button__link:hover:not(:active) {
 	background-color: var(--wp--preset--color--theme-2) !important;
 }
 .wp-block-button.is-style-glossy .wp-block-button__link:hover::before { opacity: 0.25; }
