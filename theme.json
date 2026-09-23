@@ -192,7 +192,7 @@
 				},
 				{
 					"name": "Close",
-					"shadow": "0 2px 8px 0 #1a1a1a29",
+					"shadow": "0 2px 8px 0 var(--wp--preset--color--theme-4)",
 					"slug": "shadow-2"
 				}
 			]
