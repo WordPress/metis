@@ -757,7 +757,7 @@
 				"color": {
 					"text": "var(--wp--preset--color--theme-3)"
 				},
-				"css": "word-break: normal;\n&.taxonomy-post_tag a {\n\tdisplay: inline-block;\n\tbackground-color: var(--wp--preset--color--theme-4);\n\tborder-radius: 10px;\n\tpadding: var(--wp--preset--spacing--20);\n}",
+				"css": "word-break: normal;\n&.taxonomy-post_tag {\n\tdisplay: flex;\n\tflex-wrap: wrap;\n\tgap: var(--wp--preset--spacing--20);\n}\n&.taxonomy-post_tag .wp-block-post-terms__separator {\n\tdisplay: none;\n}\n&.taxonomy-post_tag a {\n\tdisplay: inline-block;\n\tbackground-color: var(--wp--preset--color--theme-4);\n\tborder-radius: 10px;\n\tpadding: var(--wp--preset--spacing--20);\n}",
 				"elements": {
 					"link": {
 						":hover": {

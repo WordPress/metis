@@ -87,6 +87,16 @@ footer.wp-block-template-part {
 
 /* Tag toasts (mirrors theme.json core/post-terms css; the canvas
    needs the rule locally). */
+.wp-block-post-terms.taxonomy-post_tag {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--wp--preset--spacing--20);
+}
+
+.wp-block-post-terms.taxonomy-post_tag .wp-block-post-terms__separator {
+	display: none;
+}
+
 .wp-block-post-terms.taxonomy-post_tag a {
 	display: inline-block;
 	background-color: var(--wp--preset--color--theme-4);
