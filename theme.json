@@ -1048,6 +1048,11 @@
 			"title": "Header, minimal with menu button"
 		},
 		{
+			"area": "uncategorized",
+			"name": "comments",
+			"title": "Comments"
+		},
+		{
 			"area": "footer",
 			"name": "footer-a",
 			"title": "Footer, tagline and pill bar"
