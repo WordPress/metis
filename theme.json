@@ -432,8 +432,8 @@
 			"core/button": {
 				":active": {
 					"color": {
-						"background": "color-mix(in srgb, var(--wp--preset--color--theme-2) 85%, transparent)",
-						"text": "var(--wp--preset--color--theme-6)"
+						"background": "var(--wp--preset--color--theme-4)",
+						"text": "var(--wp--preset--color--theme-2)"
 					}
 				},
 				":focus": {
@@ -540,7 +540,7 @@
 						"color": {
 							"gradient": "var(--wp--preset--gradient--gradient-8)"
 						},
-						"css": "&:hover {\n\tbackground: var(--wp--preset--color--theme-6);\n}\n&:active {\n\tbackground: var(--wp--preset--color--theme-4);\n}"
+						"css": "&:hover {\n\tbackground: var(--wp--preset--color--theme-6);\n}"
 					}
 				}
 			},

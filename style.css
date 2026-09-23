@@ -118,6 +118,38 @@ footer.wp-block-template-part {
 }
 
 /* ————————————————————————————————————————————————————————————————
+   Buttons — shared action grammar. Every Button-block style grows on
+   hover, squishes on press, and shares the pressed surface: theme-4
+   with theme-2 text. !important outranks per-instance color presets,
+   which are themselves important. Skins (fill, outline, glossy) style
+   the resting and hover surfaces on top of this.
+   ———————————————————————————————————————————————————————————— */
+.wp-block-button .wp-block-button__link {
+	transition: transform 260ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.wp-block-button .wp-block-button__link:hover {
+	transform: scale(1.04);
+}
+
+.wp-block-button .wp-block-button__link:active {
+	transform: scale(0.97);
+	background: var(--wp--preset--color--theme-4) !important;
+	color: var(--wp--preset--color--theme-2) !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.wp-block-button .wp-block-button__link {
+		transition: none;
+	}
+
+	.wp-block-button .wp-block-button__link:hover,
+	.wp-block-button .wp-block-button__link:active {
+		transform: none;
+	}
+}
+
+/* ————————————————————————————————————————————————————————————————
    Block fixes.
    ———————————————————————————————————————————————————————————— */
 
