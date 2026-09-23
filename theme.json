@@ -536,7 +536,11 @@
 								"right": "var(--wp--preset--spacing--50)",
 								"top": "var(--wp--preset--spacing--30)"
 							}
-						}
+						},
+						"color": {
+							"gradient": "var(--wp--preset--gradient--gradient-8)"
+						},
+						"css": "&:hover {\n\tbackground: var(--wp--preset--color--theme-6);\n}"
 					}
 				}
 			},
