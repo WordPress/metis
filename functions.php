@@ -123,3 +123,19 @@ if ( ! function_exists( 'metis_pattern_categories' ) ) :
 	}
 endif;
 add_action( 'init', 'metis_pattern_categories' );
+
+/*
+ * Conversational labels for the Comments Link block: invite the first
+ * comment when there are none, invite joining when there are some.
+ * Runs through the core `comments_number` filter, which that block's
+ * link text passes through.
+ */
+if ( ! function_exists( 'metis_comments_link_labels' ) ) :
+	function metis_comments_link_labels( $text, $number ) {
+		if ( 0 === (int) $number ) {
+			return __( 'Be the first to comment', 'metis' );
+		}
+		return __( 'Join the conversation', 'metis' );
+	}
+endif;
+add_filter( 'comments_number', 'metis_comments_link_labels', 10, 2 );
