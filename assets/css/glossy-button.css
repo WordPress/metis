@@ -37,9 +37,16 @@
 }
 
 /* On hover the sheen fades toward transparent (the gloss "settles") */
-.wp-block-button.is-style-glossy .wp-block-button__link:hover { transform: scale(1.04); }
+.wp-block-button.is-style-glossy .wp-block-button__link:hover {
+	transform: scale(1.04);
+	background-color: var(--wp--preset--color--theme-2) !important;
+}
 .wp-block-button.is-style-glossy .wp-block-button__link:hover::before { opacity: 0.25; }
-.wp-block-button.is-style-glossy .wp-block-button__link:active { transform: scale(0.97); }
+.wp-block-button.is-style-glossy .wp-block-button__link:active {
+	transform: scale(0.97);
+	background-color: var(--wp--preset--color--theme-4) !important;
+	color: var(--wp--preset--color--theme-2) !important;
+}
 
 @media (prefers-reduced-motion: reduce) {
 	.wp-block-button.is-style-glossy .wp-block-button__link,
