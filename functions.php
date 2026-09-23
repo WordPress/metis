@@ -145,7 +145,7 @@ if ( ! function_exists( 'metis_comments_cta_binding' ) ) :
 					$label = ( 0 === (int) get_comments_number( $post_id ) )
 						? __( 'Comment first', 'metis' )
 						: __( 'Join in', 'metis' );
-					return '<a href="' . esc_url( get_comments_link( $post_id ) ) . '">' . esc_html( $label ) . ' ›</a>';
+					return '<a href="' . esc_url( get_comments_link( $post_id ) ) . '">' . esc_html( $label ) . '</a>';
 				},
 			)
 		);
