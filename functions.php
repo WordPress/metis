@@ -142,9 +142,10 @@ if ( ! function_exists( 'metis_comments_cta_binding' ) ) :
 					if ( ! $post_id ) {
 						return '';
 					}
-					return ( 0 === (int) get_comments_number( $post_id ) )
+					$label = ( 0 === (int) get_comments_number( $post_id ) )
 						? __( 'Comment first', 'metis' )
 						: __( 'Join in', 'metis' );
+					return '<a href="' . esc_url( get_comments_link( $post_id ) ) . '">' . esc_html( $label ) . '</a>';
 				},
 			)
 		);
