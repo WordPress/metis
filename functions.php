@@ -125,33 +125,29 @@ endif;
 add_action( 'init', 'metis_pattern_categories' );
 
 /*
- * Conversational labels for the Comments Link block: invite the first
- * comment when there are none, invite joining when there are some.
- * The block (core/post-comments-link, WP 6.9) builds its own strings,
- * so this filters its rendered output; the screen-reader post-title
- * suffix is preserved.
+ * Comments call-to-action binding source. Bind a paragraph's content to
+ * "metis/comments-cta" and it renders "Be the first to comment" when the
+ * post has no comments, "Join the conversation" once it has some - meant
+ * to sit beside the Comments Link block, which keeps showing the count.
  */
-if ( ! function_exists( 'metis_comments_link_labels' ) ) :
-	function metis_comments_link_labels( $content, $block, $instance ) {
-		$post_id = isset( $instance->context['postId'] ) ? $instance->context['postId'] : get_the_ID();
-		if ( ! $post_id ) {
-			return $content;
-		}
-		$label = ( 0 === (int) get_comments_number( $post_id ) )
-			? __( 'Be the first to comment', 'metis' )
-			: __( 'Join the conversation', 'metis' );
-		$label_html = esc_html( $label ) . '<span class="screen-reader-text"> ' . sprintf(
-			/* translators: %s: post title */
-			esc_html__( 'on %s', 'metis' ),
-			esc_html( get_the_title( $post_id ) )
-		) . '</span>';
-		return preg_replace_callback(
-			'#(<a[^>]*>).*?(</a>)#s',
-			static function ( $m ) use ( $label_html ) {
-				return $m[1] . $label_html . $m[2];
-			},
-			$content
+if ( ! function_exists( 'metis_comments_cta_binding' ) ) :
+	function metis_comments_cta_binding() {
+		register_block_bindings_source(
+			'metis/comments-cta',
+			array(
+				'label'              => __( 'Comments call to action', 'metis' ),
+				'uses_context'       => array( 'postId' ),
+				'get_value_callback' => function ( $args, $block ) {
+					$post_id = isset( $block->context['postId'] ) ? $block->context['postId'] : get_the_ID();
+					if ( ! $post_id ) {
+						return '';
+					}
+					return ( 0 === (int) get_comments_number( $post_id ) )
+						? __( 'Be the first to comment', 'metis' )
+						: __( 'Join the conversation', 'metis' );
+				},
+			)
 		);
 	}
 endif;
-add_filter( 'render_block_core/post-comments-link', 'metis_comments_link_labels', 10, 3 );
+add_action( 'init', 'metis_comments_cta_binding' );
