@@ -79,6 +79,12 @@ footer.wp-block-template-part {
 	content: none;
 }
 
+/* Removes the Date's left stroke from one instance. */
+.no-stroke.no-stroke {
+	border-left: none;
+	padding-left: 0;
+}
+
 /* Alternate Featured Image aspect ratios. The canvas renders a hidden
    duplicate <li> for the active item, which shifts plain nth-child
    parity — so count only the visible items via the `of` filter. */

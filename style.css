@@ -105,6 +105,14 @@ footer.wp-block-template-part {
 	content: none;
 }
 
+/* Removes the Date's left stroke and its padding from one instance
+   (the bar set in theme.json core/post-date). Doubled: the global rule
+   carries :root. Used: opt-in wherever a Date drops the bar. */
+.no-stroke.no-stroke {
+	border-left: none;
+	padding-left: 0;
+}
+
 /* On a Post Template: featured images alternate 3:4 (odd) and 1:1
    (even); !important beats the block's inline ratio. The img rules
    restore core's fill-and-crop, which needs an inline ratio to fire.
