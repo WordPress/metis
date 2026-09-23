@@ -430,12 +430,6 @@
 	"styles": {
 		"blocks": {
 			"core/button": {
-				":active": {
-					"color": {
-						"background": "var(--wp--preset--color--theme-4)",
-						"text": "var(--wp--preset--color--theme-2)"
-					}
-				},
 				":focus": {
 					"color": {
 						"background": "color-mix(in srgb, var(--wp--preset--color--theme-2) 85%, transparent)",
@@ -540,7 +534,7 @@
 						"color": {
 							"gradient": "var(--wp--preset--gradient--gradient-8)"
 						},
-						"css": "&:hover:not(:active) {\n\tbackground: var(--wp--preset--color--theme-6);\n}"
+						"css": "&:hover {\n\tbackground: var(--wp--preset--color--theme-6);\n}"
 					}
 				}
 			},
@@ -927,12 +921,6 @@
 		"css": ".wp-block-post-template li:hover .wp-block-read-more {\n  border-left-color: var(--wp--preset--color--theme-3);\n  border-right-color: var(--wp--preset--color--theme-3);\n}\n.wp-block-post-template li:hover .wp-block-post-excerpt {\n\tcolor: var(--wp--preset--color--theme-2);\n}\n.wp-block-post-template li:hover .wp-block-post-date {\n  border-left-color: var(--wp--preset--color--theme-3);\n}",
 		"elements": {
 			"button": {
-				":active": {
-					"color": {
-						"background": "color-mix(in srgb, var(--wp--preset--color--theme-2) 85%, transparent)",
-						"text": "var(--wp--preset--color--theme-6)"
-					}
-				},
 				":focus": {
 					"color": {
 						"background": "color-mix(in srgb, var(--wp--preset--color--theme-2) 85%, transparent)",
