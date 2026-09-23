@@ -757,7 +757,7 @@
 				"color": {
 					"text": "var(--wp--preset--color--theme-3)"
 				},
-				"css": "word-break: normal;",
+				"css": "word-break: normal;\n&.taxonomy-post_tag a {\n\tdisplay: inline-block;\n\tbackground-color: var(--wp--preset--color--theme-4);\n\tborder-radius: 10px;\n\tpadding: 0.2em var(--wp--preset--spacing--20);\n}",
 				"elements": {
 					"link": {
 						":hover": {
