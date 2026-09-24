@@ -136,6 +136,16 @@ footer.wp-block-template-part {
 	object-fit: cover;
 }
 
+/* On a three-column Post Template grid: steps the middle card down.
+   Desktop only — below 783px the grid stacks and the offset must not
+   apply. Used: "Post cards, staggered grid" (via "Posts, staggered
+   cards") and its inlined copy in the Personal template. */
+@media (min-width: 783px) {
+	.stagger-middle > li:nth-child(3n+2) {
+		margin-top: var(--wp--preset--spacing--70);
+	}
+}
+
 /* ————————————————————————————————————————————————————————————————
    Buttons — shared action grammar. Every Button-block style grows on
    hover, squishes on press, and shares the pressed surface: theme-4
