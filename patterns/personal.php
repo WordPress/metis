@@ -7,11 +7,11 @@
 ?>
 <!-- wp:group {"tagName":"section","metadata":{"name":"Masthead with Gradient"},"align":"full","style":{"spacing":{"blockGap":"0"},"border":{"top":{"color":"var:preset|color|theme-1","width":"10px"},"right":{"color":"var:preset|color|theme-1","width":"10px"},"left":{"color":"var:preset|color|theme-1","width":"10px"}},"@mobile":{"border":{"width":"0px","style":"none"}},"@tablet":{"border":{"width":"0px","style":"none"}},"background":{"gradient":"var:preset|gradient|gradient-3"}},"layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull" style="border-top-color:var(--wp--preset--color--theme-1);border-top-width:10px;border-right-color:var(--wp--preset--color--theme-1);border-right-width:10px;border-left-color:var(--wp--preset--color--theme-1);border-left-width:10px"><!-- wp:group {"metadata":{"name":"Header Wrapper"},"align":"wide","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide"><!-- wp:template-part {"slug":"header-a","theme":"metis"} /--></div>
+<div class="wp-block-group alignwide"><!-- wp:template-part {"slug":"header-c","theme":"metis","area":"header"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"Hero Block Wrapper"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained","justifyContent":"left"}} -->
-<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"align":"wide"} -->
+<!-- wp:group {"metadata":{"name":"Hero Block Wrapper"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained","justifyContent":"left"}} -->
+<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":""} -->
 <div class="wp-block-column"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","metadata":{"name":"Author Portrait"},"style":{"border":{"radius":{"topLeft":"5px","topRight":"5px","bottomLeft":"5px","bottomRight":"5px"}}}} -->
 <figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-personal-portrait-1.jpg" alt="" class="" style="border-top-left-radius:5px;border-top-right-radius:5px;border-bottom-left-radius:5px;border-bottom-right-radius:5px"/></figure>
@@ -28,26 +28,22 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"main","metadata":{"name":"Content"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"constrained"}} -->
-<main class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:group {"tagName":"section","metadata":{"name":"Selected builds, accordions","patternName":"metis/services-b","description":"An expandable list of builds — each opens to a short line and two screens. The items bleed into one another until one is opened.","categories":["Portfolio"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"},"blockGap":"var:preset|spacing|70"}},"backgroundColor":"theme-1","layout":{"type":"constrained"},"anchor":"builds"} -->
-<section class="wp-block-group alignwide has-theme-1-background-color has-background" id="builds" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:group {"metadata":{"name":"Section title and read more"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<main class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:group {"tagName":"section","metadata":{"name":"Selected builds, accordions","patternName":"metis/services-b","description":"An expandable list of builds — each opens to a short line and two screens. The items bleed into one another until one is opened.","categories":["Portfolio"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"},"blockGap":"var:preset|spacing|60"}},"backgroundColor":"theme-1","layout":{"type":"constrained"},"anchor":"builds"} -->
+<section class="wp-block-group alignwide has-theme-1-background-color has-background" id="builds" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:group {"metadata":{"name":"Section title"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group alignwide"><!-- wp:heading {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.01rem"}},"fontSize":"small"} -->
 <h2 class="wp-block-heading has-small-font-size" style="letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('Selected Builds', 'metis');?></h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph {"className":"no-underline","style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"},":hover":{"color":{"text":"var:preset|color|theme-2"}}}}},"textColor":"theme-3","fontSize":"small","fontFamily":"openrunde"} -->
-<p class="no-underline has-theme-3-color has-text-color has-link-color has-openrunde-font-family has-small-font-size" style="font-style:normal;font-weight:600"><a href="#"><?php esc_html_e('+ Learn more', 'metis');?></a></p>
-<!-- /wp:paragraph --></div>
+<!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:accordion {"align":"wide","backgroundColor":"theme-1"} -->
-<div role="group" class="wp-block-accordion alignwide has-theme-1-background-color has-background"><!-- wp:accordion-item {"openByDefault":true,"style":{"spacing":{"margin":{"top":"-40px","bottom":"0"}},"border":{"top":{"width":"1px","style":"dotted"},"right":[],"bottom":[],"left":[]}},"backgroundColor":"theme-1"} -->
-<div class="wp-block-accordion-item is-open has-theme-1-background-color has-background" style="border-top-style:dotted;border-top-width:1px;margin-top:-40px;margin-bottom:0"><!-- wp:accordion-heading {"fontSize":"4-x-large"} -->
+<div role="group" class="wp-block-accordion alignwide has-theme-1-background-color has-background"><!-- wp:accordion-item {"style":{"spacing":{"margin":{"top":"-40px","bottom":"0"}},"border":{"top":{"width":"1px","style":"dotted"},"right":[],"bottom":[],"left":[]}},"backgroundColor":"theme-1"} -->
+<div class="wp-block-accordion-item has-theme-1-background-color has-background" style="border-top-style:dotted;border-top-width:1px;margin-top:-40px;margin-bottom:0"><!-- wp:accordion-heading {"fontSize":"4-x-large"} -->
 <h3 class="wp-block-accordion-heading has-icon has-icon-right has-4-x-large-font-size"><button type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e('The Almanac Press', 'metis');?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
 <!-- /wp:accordion-heading -->
 
 <!-- wp:accordion-panel {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"backgroundColor":"theme-1"} -->
 <div role="region" class="wp-block-accordion-panel has-theme-1-background-color has-background" style="padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"width":"66.66%"} -->
+<div class="wp-block-columns"><!-- wp:column {"width":"66.66%","layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:group {"metadata":{"name":"Accordion Copy"},"style":{"spacing":{"padding":{"top":"0","bottom":"var:preset|spacing|50"},"blockGap":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group" style="padding-top:0;padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:paragraph -->
 <p><?php esc_html_e('Every issue runs on a single text size, so a long essay never earns importance just by getting bigger. I built a baseline grid deep enough to carry both full-bleed photography and a footnoted column without either one re-flowing the other. The stock shifts with the season — heavier in the winter issue, thinner and brighter in summer. It’s the studio’s quarterly, long-form, printed magazine, set season by season, with words by Iris Calder.', 'metis');?></p>
@@ -109,7 +105,7 @@
 
 <!-- wp:accordion-panel {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"backgroundColor":"theme-1"} -->
 <div role="region" class="wp-block-accordion-panel has-theme-1-background-color has-background" style="padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"width":"66.66%"} -->
+<div class="wp-block-columns"><!-- wp:column {"width":"66.66%","layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:group {"metadata":{"name":"Accordion Copy"},"style":{"spacing":{"padding":{"top":"0","bottom":"var:preset|spacing|50"},"blockGap":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group" style="padding-top:0;padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:paragraph -->
 <p><?php esc_html_e('A front page that assembles itself. Parallel reads the newsroom\'s morning list and lays the day out in columns nobody has to babysit—I keep the templates honest and the ink black.', 'metis');?></p>
@@ -171,7 +167,7 @@
 
 <!-- wp:accordion-panel {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"backgroundColor":"theme-1"} -->
 <div role="region" class="wp-block-accordion-panel has-theme-1-background-color has-background" style="padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"width":"66.66%"} -->
+<div class="wp-block-columns"><!-- wp:column {"width":"66.66%","layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:group {"metadata":{"name":"Accordion Copy"},"style":{"spacing":{"padding":{"top":"0","bottom":"var:preset|spacing|50"},"blockGap":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group" style="padding-top:0;padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:paragraph -->
 <p><?php esc_html_e('Twenty years of coastal survey sheets, rescanned and pinned to one slippy map. The Atlas is less a website than a drawer that finally closes.', 'metis');?></p>
@@ -233,7 +229,7 @@
 
 <!-- wp:accordion-panel {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"backgroundColor":"theme-1"} -->
 <div role="region" class="wp-block-accordion-panel has-theme-1-background-color has-background" style="padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"width":"66.66%"} -->
+<div class="wp-block-columns"><!-- wp:column {"width":"66.66%","layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:group {"metadata":{"name":"Accordion Copy"},"style":{"spacing":{"padding":{"top":"0","bottom":"var:preset|spacing|50"},"blockGap":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group" style="padding-top:0;padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:paragraph -->
 <p><?php esc_html_e('A pocket companion for people who work outdoors—tides, light, and a place to write down what the day did. Built offline-first: the signal comes and goes, the notes stay.', 'metis');?></p>
