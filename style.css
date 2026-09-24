@@ -175,3 +175,10 @@ footer.wp-block-template-part {
 .wp-block-accordion-item {
 	position: relative;
 }
+
+/* An open item adds the 40px the bleed removes: the next item's
+   -40px overlap would otherwise cover the expanded panel. !important
+   outranks the items' inline margin attributes. */
+.wp-block-accordion-item.is-open {
+	margin-bottom: 40px !important;
+}

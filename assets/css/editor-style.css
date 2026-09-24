@@ -101,3 +101,8 @@ footer.wp-block-template-part {
 	height: 100%;
 	object-fit: cover;
 }
+
+/* Open accordion items add back the bleed overlap (mirrors style.css). */
+.wp-block-accordion-item.is-open {
+	margin-bottom: 40px !important;
+}
