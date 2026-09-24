@@ -9,7 +9,10 @@ body {
  * Link styles
  * https://github.com/WordPress/gutenberg/issues/42319
  */
-a {
+a,
+button,
+a *,
+button * {
 	text-decoration-thickness: 1px !important;
 	text-underline-offset: 0.1em;
 }

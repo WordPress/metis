@@ -31,8 +31,13 @@ h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
 	text-wrap: pretty;
 }
 
-/* Link styles */
-a {
+/* Link styles. Buttons and inner elements included: core often
+   declares the underline on a child (the accordion toggle's title
+   span), and thickness does not inherit. */
+a,
+button,
+a *,
+button * {
 	text-decoration-thickness: 1px !important;
 	text-underline-offset: 0.1em;
 }
