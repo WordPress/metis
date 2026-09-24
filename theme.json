@@ -726,6 +726,7 @@
 				"color": {
 					"text": "var(--wp--preset--color--theme-3)"
 				},
+				"css": "& .wp-block-post-excerpt__more-link{text-decoration: underline;}",
 				"elements": {
 					"link": {
 						"color": {

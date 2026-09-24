@@ -9,7 +9,10 @@ body {
  * Link styles
  * https://github.com/WordPress/gutenberg/issues/42319
  */
-a {
+a,
+button,
+a *,
+button * {
 	text-decoration-thickness: 1px !important;
 	text-underline-offset: 0.1em;
 }
@@ -100,4 +103,22 @@ footer.wp-block-template-part {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+}
+
+/* Steps the middle card of a three-column grid down (desktop only).
+   The canvas renders a hidden duplicate li, so count visible items. */
+@media (min-width: 783px) {
+	.stagger-middle > li:nth-child(3n+2 of li:not([style*="none"])) {
+		margin-top: var(--wp--preset--spacing--70);
+	}
+}
+
+/* Open accordion items add back the bleed overlap (mirrors style.css). */
+.wp-block-accordion-item.is-open {
+	margin-bottom: 40px !important;
+}
+
+.wp-block-accordion-item:not(.is-open) .wp-block-accordion-panel {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
 }

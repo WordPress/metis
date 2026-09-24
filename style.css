@@ -31,8 +31,13 @@ h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
 	text-wrap: pretty;
 }
 
-/* Link styles */
-a {
+/* Link styles. Buttons and inner elements included: core often
+   declares the underline on a child (the accordion toggle's title
+   span), and thickness does not inherit. */
+a,
+button,
+a *,
+button * {
 	text-decoration-thickness: 1px !important;
 	text-underline-offset: 0.1em;
 }
@@ -131,6 +136,16 @@ footer.wp-block-template-part {
 	object-fit: cover;
 }
 
+/* On a three-column Post Template grid: steps the middle card down.
+   Desktop only — below 783px the grid stacks and the offset must not
+   apply. Used: "Post cards, staggered grid" (via "Posts, staggered
+   cards") and its inlined copy in the Personal template. */
+@media (min-width: 783px) {
+	.stagger-middle > li:nth-child(3n+2) {
+		margin-top: var(--wp--preset--spacing--70);
+	}
+}
+
 /* ————————————————————————————————————————————————————————————————
    Buttons — shared action grammar. Every Button-block style grows on
    hover, squishes on press, and shares the pressed surface: theme-4
@@ -174,4 +189,19 @@ footer.wp-block-template-part {
    wrappers already do this). Used: "Selected builds, accordions". */
 .wp-block-accordion-item {
 	position: relative;
+}
+
+/* An open item adds the 40px the bleed removes: the next item's
+   -40px overlap would otherwise cover the expanded panel. !important
+   outranks the items' inline margin attributes. */
+.wp-block-accordion-item.is-open {
+	margin-bottom: 40px !important;
+}
+
+/* Closed panels keep their box (hidden-until-found), so instance
+   padding would hold items open as phantom height and break the
+   bleed. Zero it while closed; the open state keeps the spacing. */
+.wp-block-accordion-item:not(.is-open) .wp-block-accordion-panel {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
 }

@@ -1,9 +1,9 @@
 <?php
 /**
- * Title: Selected builds, accordions
+ * Title: Accordions, bleeding list
  * Slug: metis/services-b
  * Categories: Portfolio
- * Description: An expandable list of builds — each opens to a short line and two screens. The items bleed into one another until one is opened.
+ * Description: An expandable accordion list — each item opens to a short line and two screens. The items bleed into one another until one is opened.
  */
 ?>
 <!-- wp:group {"tagName":"section","metadata":{"name":"Selected builds"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"},"blockGap":"var:preset|spacing|70"}},"backgroundColor":"theme-1","layout":{"type":"constrained"},"anchor":"builds"} -->
