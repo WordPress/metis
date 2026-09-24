@@ -182,3 +182,11 @@ footer.wp-block-template-part {
 .wp-block-accordion-item.is-open {
 	margin-bottom: 40px !important;
 }
+
+/* Closed panels keep their box (hidden-until-found), so instance
+   padding would hold items open as phantom height and break the
+   bleed. Zero it while closed; the open state keeps the spacing. */
+.wp-block-accordion-item:not(.is-open) .wp-block-accordion-panel {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}

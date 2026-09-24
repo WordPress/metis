@@ -106,3 +106,8 @@ footer.wp-block-template-part {
 .wp-block-accordion-item.is-open {
 	margin-bottom: 40px !important;
 }
+
+.wp-block-accordion-item:not(.is-open) .wp-block-accordion-panel {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
