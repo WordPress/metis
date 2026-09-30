@@ -67,8 +67,8 @@
 <!-- /wp:group --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"tagName":"main","metadata":{"name":"Content"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"0","padding":{"top":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
-<main class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60)"><!-- wp:group {"tagName":"section","metadata":{"name":"About, ledger and portrait","patternName":"metis/about-b","description":"Label-left ledger rows — awards, influences, approach — closed by a portrait and contact block.","categories":["About"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"},"anchor":"about"} -->
+<!-- wp:group {"tagName":"main","metadata":{"name":"Content"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"0","padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
+<main class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:group {"tagName":"section","metadata":{"name":"About, ledger and portrait","patternName":"metis/about-b","description":"Label-left ledger rows — awards, influences, approach — closed by a portrait and contact block.","categories":["About"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"},"anchor":"about"} -->
 <section class="wp-block-group alignwide" id="about" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"","style":{"@tablet":{"spacing":{"blockGap":"var:preset|spacing|60"}},"@mobile":{"spacing":{"blockGap":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-column is-vertically-aligned-top"><!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
@@ -150,8 +150,8 @@
 
 <!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"blockGap":"var:preset|spacing|20"}}} -->
 <div class="wp-block-column is-vertically-aligned-top"><!-- wp:group {"metadata":{"name":"Experience 1"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"},"margin":{"bottom":"var:preset|spacing|60"}},"@tablet":{"spacing":{"margin":{"bottom":"var:preset|spacing|70"}}},"@mobile":{"spacing":{"margin":{"bottom":"var:preset|spacing|70"}}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--60)"><!-- wp:paragraph {"metadata":{"name":"Period"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}},"fontSize":"small"} -->
-<p class="has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--40);font-style:normal;font-weight:600"><?php esc_html_e('2016—now', 'metis');?></p>
+<div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--60)"><!-- wp:paragraph {"metadata":{"name":"Period"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"fontSize":"small"} -->
+<p class="has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--20);font-style:normal;font-weight:600"><?php esc_html_e('2016—now', 'metis');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"fontSize":"x-large"} -->
@@ -164,8 +164,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Experience 2"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"},"margin":{"bottom":"var:preset|spacing|60"}},"@tablet":{"spacing":{"margin":{"bottom":"var:preset|spacing|70"}}},"@mobile":{"spacing":{"margin":{"bottom":"var:preset|spacing|70"}}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--60)"><!-- wp:paragraph {"metadata":{"name":"Period"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}},"fontSize":"small"} -->
-<p class="has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--40);font-style:normal;font-weight:600">2011—2016</p>
+<div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--60)"><!-- wp:paragraph {"metadata":{"name":"Period"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"fontSize":"small"} -->
+<p class="has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--20);font-style:normal;font-weight:600">2011—2016</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"fontSize":"x-large"} -->
@@ -178,8 +178,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Experience 3"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"},"margin":{"bottom":"var:preset|spacing|60"}},"@tablet":{"spacing":{"margin":{"bottom":"var:preset|spacing|70"}}},"@mobile":{"spacing":{"margin":{"bottom":"var:preset|spacing|70"}}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--60)"><!-- wp:paragraph {"metadata":{"name":"Period"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}},"fontSize":"small"} -->
-<p class="has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--40);font-style:normal;font-weight:600">2008—2011</p>
+<div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--60)"><!-- wp:paragraph {"metadata":{"name":"Period"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"fontSize":"small"} -->
+<p class="has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--20);font-style:normal;font-weight:600">2008—2011</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"fontSize":"x-large"} -->
@@ -192,8 +192,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Experience 4"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"},"margin":{"bottom":"var:preset|spacing|60"}},"@tablet":{"spacing":{"margin":{"bottom":"var:preset|spacing|70"}}},"@mobile":{"spacing":{"margin":{"bottom":"var:preset|spacing|70"}}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--60)"><!-- wp:paragraph {"metadata":{"name":"Period"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}},"fontSize":"small"} -->
-<p class="has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--40);font-style:normal;font-weight:600">2006—2008</p>
+<div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--60)"><!-- wp:paragraph {"metadata":{"name":"Period"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"fontSize":"small"} -->
+<p class="has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--20);font-style:normal;font-weight:600">2006—2008</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"fontSize":"x-large"} -->
@@ -210,28 +210,26 @@
 
 <!-- wp:group {"tagName":"section","metadata":{"name":"Sound, playlist","patternName":"metis/playlist-a","description":"A static stand-in for the core Playlist block — cover, waveform, now-playing bar, and a numbered tracklist. Swap for the real Playlist block once audio and covers exist.","categories":["Portfolio"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|70"}},"layout":{"type":"constrained"},"anchor":"sound"} -->
 <section class="wp-block-group alignwide" id="sound" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|40"}}}} -->
-<div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"33.3%"} -->
-<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:33.3%"><!-- wp:heading {"align":"wide","style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.01rem","lineHeight":1.6000000000000001}},"fontSize":"small"} -->
+<div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"20%"} -->
+<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:20%"><!-- wp:heading {"align":"wide","style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.01rem","lineHeight":1.6000000000000001}},"fontSize":"small"} -->
 <h2 class="wp-block-heading alignwide has-small-font-size" style="letter-spacing:0.01rem;line-height:1.6;text-transform:uppercase"><?php esc_html_e('Music', 'metis');?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"blockGap":"var:preset|spacing|20"}}} -->
-<div class="wp-block-column is-vertically-aligned-top"><!-- wp:heading {"fontSize":"2-x-large"} -->
-<h2 class="wp-block-heading has-2-x-large-font-size"><?php esc_html_e('When the drawing’s done, I make things you listen to instead of look at—voice, field recordings, the odd remix, mostly gathered from the same coasts I spend the day surveying.', 'metis');?></h2>
+<div class="wp-block-column is-vertically-aligned-top"><!-- wp:heading {"fontSize":"3-x-large"} -->
+<h2 class="wp-block-heading has-3-x-large-font-size"><?php esc_html_e('When the drawing’s done, I make things you listen to instead of look at—voice, field recordings, the odd remix, mostly gathered from the same coasts I spend the day surveying.', 'metis');?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:group {"metadata":{"name":"Playlist Wrapper"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}},"border":{"radius":{"topLeft":"10px","topRight":"10px","bottomLeft":"10px","bottomRight":"10px"}}},"backgroundColor":"theme-2","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignwide has-theme-2-background-color has-background" style="border-top-left-radius:10px;border-top-right-radius:10px;border-bottom-left-radius:10px;border-bottom-right-radius:10px;padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--30)"><!-- wp:playlist {"showPlayButtonArtwork":true,"showArtists":false,"showNumbers":false,"waveformColor":"#fafafa","waveformBackgroundColor":"#0a0a0a40","align":"wide","style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-1"}}}},"backgroundColor":"theme-2","textColor":"theme-1"} -->
-<figure class="wp-block-playlist alignwide has-theme-1-color has-theme-2-background-color has-text-color has-background has-link-color"><ol class="wp-block-playlist__tracklist wp-block-playlist__tracklist-artist-is-hidden"><!-- wp:playlist-track {"src":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/audio/ancient-roman-lyre-music.mp3","album":"Unknown album","artist":"Unknown artist","image":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-img-4-3.png","imageAlt":"","length":"3:14","title":"Ancient Roman Lyre Music"} /-->
+<!-- wp:playlist {"showPlayButtonArtwork":true,"showArtists":false,"showNumbers":false,"waveformColor":"#fafafa","waveformBackgroundColor":"#0a0a0a40","align":"wide","style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-1"}}}},"textColor":"theme-1"} -->
+<figure class="wp-block-playlist alignwide has-theme-1-color has-text-color has-link-color"><ol class="wp-block-playlist__tracklist wp-block-playlist__tracklist-artist-is-hidden"><!-- wp:playlist-track {"src":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/audio/ancient-roman-lyre-music.mp3","album":"Unknown album","artist":"Unknown artist","image":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/sappho_marble-profile.jpg","imageAlt":"","length":"3:14","title":"Ancient Roman Lyre Music"} /-->
 
-<!-- wp:playlist-track {"src":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/audio/drama.mp3","album":"Unknown album","artist":"Unknown artist","image":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-img-4-3.png","imageAlt":"","length":"2:58","title":"Drama"} /-->
+<!-- wp:playlist-track {"src":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/audio/drama.mp3","album":"Unknown album","artist":"Unknown artist","image":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Man-on-Tennis-Court-scaled.jpg","imageAlt":"","length":"2:58","title":"Drama"} /-->
 
-<!-- wp:playlist-track {"src":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/audio/dreamland.mp3","album":"Unknown album","artist":"Unknown artist","image":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-img-4-3.png","imageAlt":"","length":"0:35","title":"Dreamland"} /--></ol></figure>
-<!-- /wp:playlist --></div>
-<!-- /wp:group --></section>
+<!-- wp:playlist-track {"src":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/audio/dreamland.mp3","album":"Unknown album","artist":"Unknown artist","image":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/stranger-theme-portrait.jpg","imageAlt":"","length":"0:35","title":"Dreamland"} /--></ol></figure>
+<!-- /wp:playlist --></section>
 <!-- /wp:group --></main>
 <!-- /wp:group -->
 
