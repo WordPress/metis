@@ -224,11 +224,11 @@
 <!-- /wp:columns -->
 
 <!-- wp:playlist {"showPlayButtonArtwork":true,"showArtists":false,"showNumbers":false,"waveformColor":"#fafafa","waveformBackgroundColor":"#0a0a0a40","align":"wide","style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-1"}}}},"textColor":"theme-1"} -->
-<figure class="wp-block-playlist alignwide has-theme-1-color has-text-color has-link-color"><ol class="wp-block-playlist__tracklist wp-block-playlist__tracklist-artist-is-hidden"><!-- wp:playlist-track {"src":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/audio/1-small-things.mp3","album":"Unknown album","artist":"3xBlast","image":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/sappho_marble-profile.jpg","imageAlt":"","length":"1:03","title":"Small Things"} /-->
+<figure class="wp-block-playlist alignwide has-theme-1-color has-text-color has-link-color"><ol class="wp-block-playlist__tracklist wp-block-playlist__tracklist-artist-is-hidden"><!-- wp:playlist-track {"src":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/audio/1-small-things.mp3","album":"Unknown album","artist":"3xBlast","image":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact—audio-track-1.jpg","imageAlt":"","length":"1:03","title":"Small Things"} /-->
 
-<!-- wp:playlist-track {"src":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/audio/2-near-and-far.mp3","album":"Unknown album","artist":"Joth","image":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Man-on-Tennis-Court-scaled.jpg","imageAlt":"","length":"0:54","title":"Near and Far"} /-->
+<!-- wp:playlist-track {"src":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/audio/2-near-and-far.mp3","album":"Unknown album","artist":"Joth","image":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact—audio-track-2.jpg","imageAlt":"","length":"0:54","title":"Near and Far"} /-->
 
-<!-- wp:playlist-track {"src":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/audio/3-long-journey.mp3","album":"Unknown album","artist":"Sudocolon","image":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/stranger-theme-portrait.jpg","imageAlt":"","length":"0:52","title":"Long Journey"} /--></ol></figure>
+<!-- wp:playlist-track {"src":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/audio/3-long-journey.mp3","album":"Unknown album","artist":"Sudocolon","image":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact—audio-track-3.jpg","imageAlt":"","length":"0:52","title":"Long Journey"} /--></ol></figure>
 <!-- /wp:playlist --></section>
 <!-- /wp:group --></main>
 <!-- /wp:group -->
