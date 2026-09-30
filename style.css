@@ -205,3 +205,10 @@ footer.wp-block-template-part {
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
 }
+
+/* Air between the Playlist's current-track header and its tracklist.
+   Core zeroes the list's margins; !important beats that at any load
+   order. Used: the Playlist in the Portfolio template. */
+.wp-block-playlist .wp-block-playlist__tracklist {
+	margin-top: var(--wp--preset--spacing--40) !important;
+}
