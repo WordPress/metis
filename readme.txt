@@ -42,6 +42,14 @@ Mētis is based on Ichi (https://wordpress.org/themes/ichi/), (C) 2025 Automatti
 Ichi is based on Twenty Twenty-Five/twentytwentyfive (https://wordpress.org/themes/twentytwentyfive/), (C) the WordPress team, [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)
 
 
+== Images ==
+
+The imagery distributed across the theme was generated with AI using Midjourney.
+Author: Henrique Iamarino (https://profiles.wordpress.org/iamarinoh)
+License: CC0 1.0 Universal - dedicated to the public domain by the author.
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+
+
 == Music ==
 
 Title: 1-small-things.mp3 ("Small Things")
