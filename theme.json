@@ -641,6 +641,9 @@
 				}
 			},
 			"core/playlist": {
+				"border": {
+					"radius": "10px"
+				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--openrunde)"
 				}
