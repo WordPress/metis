@@ -152,3 +152,33 @@ if ( ! function_exists( 'metis_comments_cta_binding' ) ) :
 	}
 endif;
 add_action( 'init', 'metis_comments_cta_binding' );
+
+/**
+ * Let file-based Playlist tracks render on the front end.
+ *
+ * The Playlist block's render callback skips any track without an
+ * attachment id and returns nothing when no tracks survive — but a
+ * theme pattern can only ship file URLs, never media-library ids.
+ * Give id-less tracks with a source a placeholder id; the callback
+ * only checks that it is non-empty, and every rendered value comes
+ * from the track's own attributes. Remove once fixed upstream:
+ * https://github.com/WordPress/gutenberg/issues/83857
+ */
+if ( ! function_exists( 'metis_playlist_track_placeholder_id' ) ) :
+	function metis_playlist_track_placeholder_id( $parsed_block ) {
+		if ( ! empty( $parsed_block['innerBlocks'] ) ) {
+			foreach ( $parsed_block['innerBlocks'] as $i => $inner_block ) {
+				$parsed_block['innerBlocks'][ $i ] = metis_playlist_track_placeholder_id( $inner_block );
+			}
+		}
+		if (
+			'core/playlist-track' === $parsed_block['blockName'] &&
+			empty( $parsed_block['attrs']['id'] ) &&
+			! empty( $parsed_block['attrs']['src'] )
+		) {
+			$parsed_block['attrs']['id'] = -1;
+		}
+		return $parsed_block;
+	}
+endif;
+add_filter( 'render_block_data', 'metis_playlist_track_placeholder_id' );
