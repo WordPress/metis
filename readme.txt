@@ -40,3 +40,32 @@ GNU General Public License for more details.
 
 Mētis is based on Ichi (https://wordpress.org/themes/ichi/), (C) 2025 Automattic, [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)
 Ichi is based on Twenty Twenty-Five/twentytwentyfive (https://wordpress.org/themes/twentytwentyfive/), (C) the WordPress team, [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)
+
+
+== Images ==
+
+The imagery distributed across the theme was generated with AI using Midjourney.
+Author: Henrique Iamarino (https://profiles.wordpress.org/iamarinoh)
+License: CC0 1.0 Universal - dedicated to the public domain by the author.
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+
+
+== Music ==
+
+Title: 1-small-things.mp3 ("Small Things")
+Author: 3xBlast (https://opengameart.org/users/3xblast)
+Source: https://opengameart.org/content/small-things
+License: CC0 1.0 Universal - dedicated to the public domain by the author.
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+
+Title: 2-near-and-far.mp3 ("Near and Far")
+Author: Joth (https://opengameart.org/users/joth)
+Source: https://opengameart.org/content/near-and-far
+License: CC0 1.0 Universal - dedicated to the public domain by the author.
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+
+Title: 3-long-journey.mp3 ("Long Journey")
+Author: Sudocolon (https://opengameart.org/users/sudocolon)
+Source: https://opengameart.org/content/long-journey
+License: CC0 1.0 Universal - dedicated to the public domain by the author.
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
