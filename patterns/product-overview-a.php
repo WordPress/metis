@@ -10,7 +10,7 @@
 <section class="wp-block-group alignwide" id="new-book" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"verticalAlignment":"center","align":"wide"} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"35%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:35%"><!-- wp:image {"width":"800px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/TT7-artifact-book-1.png" alt="" style="width:800px;height:auto"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact-book-1.png" alt="" style="width:800px;height:auto"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
