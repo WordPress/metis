@@ -2,7 +2,7 @@
 /**
  * Title: Posts, archive grid
  * Slug: metis/posts-i
- * Categories: Posts
+ * Categories: posts
  * Description: Recent posts in a flat archive grid with taxonomy meta.
  */
 ?>

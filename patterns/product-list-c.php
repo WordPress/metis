@@ -2,7 +2,7 @@
 /**
  * Title: Articles, archive grid
  * Slug: metis/product-list-c
- * Categories: Posts
+ * Categories: posts
  * Description: A thumbnail grid of the full archive — featured image, title, and department, from a query.
  */
 ?>

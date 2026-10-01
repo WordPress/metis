@@ -111,7 +111,7 @@ if ( ! function_exists( 'metis_pattern_categories' ) ) :
 			'Clients'        => __( 'Clients', 'metis' ),
 			'Contact'        => __( 'Contact', 'metis' ),
 			'Portfolio'      => __( 'Portfolio', 'metis' ),
-			'Posts'          => __( 'Posts', 'metis' ),
+			'posts'          => __( 'Posts', 'metis' ),
 			'Services'       => __( 'Services', 'metis' ),
 			'Team'           => __( 'Team', 'metis' ),
 			'Testimonials'   => __( 'Testimonials', 'metis' ),
@@ -182,3 +182,21 @@ if ( ! function_exists( 'metis_playlist_track_placeholder_id' ) ) :
 	}
 endif;
 add_filter( 'render_block_data', 'metis_playlist_track_placeholder_id' );
+
+/*
+ * Core bundles its generic Query Loop patterns under a category that is
+ * also labelled "Posts", so the inserter shows two Posts groups beside
+ * the theme's own. The theme's Posts collection covers that ground, so
+ * core's are dropped and the heading collapses back to one.
+ */
+if ( ! function_exists( 'metis_collapse_posts_patterns' ) ) :
+	function metis_collapse_posts_patterns() {
+		foreach ( WP_Block_Patterns_Registry::get_instance()->get_all_registered() as $pattern ) {
+			$categories = (array) ( $pattern['categories'] ?? array() );
+			if ( 0 === strpos( $pattern['name'], 'core/' ) && array_intersect( array( 'query', 'posts' ), $categories ) ) {
+				unregister_block_pattern( $pattern['name'] );
+			}
+		}
+	}
+endif;
+add_action( 'init', 'metis_collapse_posts_patterns', 20 );

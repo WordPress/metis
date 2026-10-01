@@ -14,7 +14,7 @@
 <div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":""} -->
 <div class="wp-block-column"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","metadata":{"name":"Author Portrait"},"style":{"border":{"radius":{"topLeft":"5px","topRight":"5px","bottomLeft":"5px","bottomRight":"5px"}}}} -->
-<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-personal-portrait-1.jpg" alt="" class="" style="border-top-left-radius:5px;border-top-right-radius:5px;border-bottom-left-radius:5px;border-bottom-right-radius:5px"/></figure>
+<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-personal-portrait-1.jpg" alt="" style="border-top-left-radius:5px;border-top-right-radius:5px;border-bottom-left-radius:5px;border-bottom-right-radius:5px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
@@ -29,10 +29,10 @@
 
 <!-- wp:group {"tagName":"main","metadata":{"name":"Content"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 <main class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:group {"tagName":"section","metadata":{"name":"Accordions, bleeding list","patternName":"metis/services-b","description":"An expandable accordion list — each item opens to a short line and two screens. The items bleed into one another until one is opened.","categories":["Portfolio"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"},"blockGap":"var:preset|spacing|70"}},"backgroundColor":"theme-1","layout":{"type":"constrained"},"anchor":"builds"} -->
-<section class="wp-block-group alignwide has-theme-1-background-color has-background" id="builds" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:group {"metadata":{"name":"Section title"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group alignwide"><!-- wp:heading {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.01rem"}},"fontSize":"small"} -->
-<h2 class="wp-block-heading has-small-font-size" style="letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('Selected Builds', 'metis');?></h2>
-<!-- /wp:heading --></div>
+<section class="wp-block-group alignwide has-theme-1-background-color has-background" id="builds" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:group {"metadata":{"name":"Section title and read more"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group alignwide"><!-- wp:paragraph {"metadata":{"name":"Eyebrow"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem","lineHeight":1.6000000000000001}},"fontSize":"small","fontFamily":"openrunde"} -->
+<p class="has-openrunde-font-family has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;line-height:1.6;text-transform:uppercase"><?php esc_html_e('Selected builds', 'metis');?></p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:accordion {"align":"wide","backgroundColor":"theme-1"} -->
@@ -92,7 +92,7 @@
 
 <!-- wp:cover {"customOverlayColor":"#c37e3e","isUserOverlayColor":true,"contentPosition":"bottom center","isDark":false,"style":{"spacing":{"padding":{"bottom":"0","top":"var:preset|spacing|60","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-cover is-light has-custom-content-position is-position-bottom-center" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:0;padding-left:var(--wp--preset--spacing--60)"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#c37e3e"></span><div class="wp-block-cover__inner-container"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","align":"wide"} -->
-<figure class="wp-block-image alignwide size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--tap-system-ui.png" alt="" class=""/></figure>
+<figure class="wp-block-image alignwide size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--tap-system-ui.png" alt=""/></figure>
 <!-- /wp:image --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:accordion-panel --></div>
@@ -154,7 +154,7 @@
 
 <!-- wp:cover {"customOverlayColor":"#c37e3e","isUserOverlayColor":true,"contentPosition":"bottom center","isDark":false,"style":{"spacing":{"padding":{"bottom":"0","top":"var:preset|spacing|60","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-cover is-light has-custom-content-position is-position-bottom-center" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:0;padding-left:var(--wp--preset--spacing--60)"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#c37e3e"></span><div class="wp-block-cover__inner-container"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","align":"wide"} -->
-<figure class="wp-block-image alignwide size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--tap-system-ui.png" alt="" class=""/></figure>
+<figure class="wp-block-image alignwide size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--tap-system-ui.png" alt=""/></figure>
 <!-- /wp:image --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:accordion-panel --></div>
@@ -216,7 +216,7 @@
 
 <!-- wp:cover {"customOverlayColor":"#c37e3e","isUserOverlayColor":true,"contentPosition":"bottom center","isDark":false,"style":{"spacing":{"padding":{"bottom":"0","top":"var:preset|spacing|60","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-cover is-light has-custom-content-position is-position-bottom-center" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:0;padding-left:var(--wp--preset--spacing--60)"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#c37e3e"></span><div class="wp-block-cover__inner-container"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","align":"wide"} -->
-<figure class="wp-block-image alignwide size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--tap-system-ui.png" alt="" class=""/></figure>
+<figure class="wp-block-image alignwide size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--tap-system-ui.png" alt=""/></figure>
 <!-- /wp:image --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:accordion-panel --></div>
@@ -278,7 +278,7 @@
 
 <!-- wp:cover {"customOverlayColor":"#c37e3e","isUserOverlayColor":true,"contentPosition":"bottom center","isDark":false,"style":{"spacing":{"padding":{"bottom":"0","top":"var:preset|spacing|60","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-cover is-light has-custom-content-position is-position-bottom-center" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:0;padding-left:var(--wp--preset--spacing--60)"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#c37e3e"></span><div class="wp-block-cover__inner-container"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","align":"wide"} -->
-<figure class="wp-block-image alignwide size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--tap-system-ui.png" alt="" class=""/></figure>
+<figure class="wp-block-image alignwide size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--tap-system-ui.png" alt=""/></figure>
 <!-- /wp:image --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:accordion-panel --></div>
@@ -288,11 +288,11 @@
 
 <!-- wp:group {"tagName":"section","metadata":{"name":"Post cards, staggered grid","patternName":"metis/news-c","description":"A three-column grid of post cards — cover, meta, title, excerpt — under a small heading and an inline link; the middle card steps down on desktop.","categories":["Posts"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"},"anchor":"log"} -->
 <section class="wp-block-group alignwide" id="log" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:group {"metadata":{"name":"Section title and read more"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group alignwide"><!-- wp:heading {"level":6} -->
-<h6 class="wp-block-heading"><?php esc_html_e('The log', 'metis');?></h6>
-<!-- /wp:heading -->
+<div class="wp-block-group alignwide"><!-- wp:paragraph {"metadata":{"name":"Eyebrow"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem","lineHeight":1.6000000000000001}},"fontSize":"small","fontFamily":"openrunde"} -->
+<p class="has-openrunde-font-family has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;line-height:1.6;text-transform:uppercase"><?php esc_html_e('The log', 'metis');?></p>
+<!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"no-underline","style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"},":hover":{"color":{"text":"var:preset|color|theme-2"}}}}},"textColor":"theme-3","fontSize":"small","fontFamily":"openrunde"} -->
+<!-- wp:paragraph {"metadata":{"name":"Link"},"className":"no-underline","style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"},":hover":{"color":{"text":"var:preset|color|theme-2"}}}}},"textColor":"theme-3","fontSize":"small","fontFamily":"openrunde"} -->
 <p class="no-underline has-theme-3-color has-text-color has-link-color has-openrunde-font-family has-small-font-size" style="font-style:normal;font-weight:600"><a href="#"><?php esc_html_e('+ Learn more', 'metis');?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->

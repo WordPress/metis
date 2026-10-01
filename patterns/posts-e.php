@@ -2,7 +2,7 @@
 /**
  * Title: Posts, related sidebar
  * Slug: metis/posts-e
- * Categories: Posts
+ * Categories: posts
  * Description: Small thumbnail rows of recent posts, for sidebars.
  */
 ?>

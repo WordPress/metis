@@ -2,7 +2,7 @@
 /**
  * Title: Posts, staggered cards
  * Slug: metis/posts-h
- * Categories: Posts
+ * Categories: posts
  * Description: Recent posts as compact cards with cover, meta, title and excerpt; the middle card steps down on desktop.
  */
 ?>

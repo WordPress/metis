@@ -2,7 +2,7 @@
 /**
  * Title: Posts, alternating image grid
  * Slug: metis/posts-a
- * Categories: Posts
+ * Categories: posts
  * Description: Recent posts in an auto-fit grid, featured images alternating portrait and square.
  */
 ?>
