@@ -2,7 +2,7 @@
 /**
  * Title: Post cards, staggered grid
  * Slug: metis/news-c
- * Categories: Posts
+ * Categories: posts
  * Description: A three-column grid of post cards — cover, meta, title, excerpt — under a small heading and an inline link; the middle card steps down on desktop.
  */
 ?>

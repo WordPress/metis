@@ -111,7 +111,7 @@ if ( ! function_exists( 'metis_pattern_categories' ) ) :
 			'Clients'        => __( 'Clients', 'metis' ),
 			'Contact'        => __( 'Contact', 'metis' ),
 			'Portfolio'      => __( 'Portfolio', 'metis' ),
-			'Posts'          => __( 'Posts', 'metis' ),
+			'posts'          => __( 'Posts', 'metis' ),
 			'Services'       => __( 'Services', 'metis' ),
 			'Team'           => __( 'Team', 'metis' ),
 			'Testimonials'   => __( 'Testimonials', 'metis' ),

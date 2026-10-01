@@ -2,7 +2,7 @@
 /**
  * Title: Posts, text only
  * Slug: metis/posts-b
- * Categories: Posts
+ * Categories: posts
  * Description: Recent posts as text rows: title, excerpt, date and a read-more mark.
  */
 ?>

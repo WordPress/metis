@@ -2,7 +2,7 @@
 /**
  * Title: Latest posts, grid
  * Slug: metis/news-a
- * Categories: Posts
+ * Categories: posts
  * Description: The three most recent posts in a grid, with image, date, and excerpt.
  */
 ?>

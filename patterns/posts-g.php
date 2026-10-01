@@ -2,7 +2,7 @@
 /**
  * Title: Posts, essay list
  * Slug: metis/posts-g
- * Categories: Posts
+ * Categories: posts
  * Description: Recent posts as an inline essay list with dates and excerpts.
  */
 ?>

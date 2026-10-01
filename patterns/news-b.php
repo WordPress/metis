@@ -2,7 +2,7 @@
 /**
  * Title: Writings, essay list
  * Slug: metis/news-b
- * Categories: Posts
+ * Categories: posts
  * Description: The latest essays in three columns — date, title, and a short excerpt, no images. Opened by a terse heading and an inline link.
  */
 ?>

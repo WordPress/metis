@@ -2,7 +2,7 @@
 /**
  * Title: Posts, compact list
  * Slug: metis/posts-d
- * Categories: Posts
+ * Categories: posts
  * Description: A dense post list with dates and a read-more mark.
  */
 ?>
