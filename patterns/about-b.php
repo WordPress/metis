@@ -6,112 +6,74 @@
  * Description: Label-left ledger rows — awards, influences, approach — closed by a portrait and contact block.
  */
 ?>
-<!-- wp:group {"tagName":"section","metadata":{"name":"About"},"align":"wide","anchor":"about","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|60"},"border":{"top":{"color":"var:preset|color|theme-3","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"}} -->
-<section id="about" class="wp-block-group alignwide" style="border-top-color:var(--wp--preset--color--theme-3);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
-<div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"22%"} -->
-<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:22%"><!-- wp:heading {"level":2,"fontSize":"x-small"} -->
-<h2 class="wp-block-heading has-x-small-font-size"><?php esc_html_e( 'Selected awards', 'metis' ); ?></h2>
+<!-- wp:group {"tagName":"section","metadata":{"name":"About, ledger and portrait","patternName":"metis/about-b","description":"Label-left ledger rows — awards, influences, approach — closed by a portrait and contact block.","categories":["About"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"},"anchor":"about"} -->
+<section class="wp-block-group alignwide" id="about" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"","style":{"@tablet":{"spacing":{"blockGap":"var:preset|spacing|60"}},"@mobile":{"spacing":{"blockGap":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-column is-vertically-aligned-top"><!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"25%"} -->
+<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:25%"><!-- wp:heading {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.01rem","lineHeight":1.6000000000000001}},"fontSize":"small"} -->
+<h2 class="wp-block-heading has-small-font-size" style="letter-spacing:0.01rem;line-height:1.6;text-transform:uppercase"><?php esc_html_e('Selected awards', 'metis');?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"top"} -->
-<div class="wp-block-column is-vertically-aligned-top"><!-- wp:list -->
-<ul class="wp-block-list"><!-- wp:list-item -->
-<li><?php esc_html_e( 'D&AD Pencil', 'metis' ); ?></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><?php esc_html_e( 'Type Directors Club', 'metis' ); ?></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><?php esc_html_e( 'Information Is Beautiful Awards', 'metis' ); ?></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><?php esc_html_e( 'Society of Publication Designers', 'metis' ); ?></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><?php esc_html_e( 'Webby Awards', 'metis' ); ?></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><?php esc_html_e( 'Awwwards', 'metis' ); ?></li>
-<!-- /wp:list-item --></ul>
-<!-- /wp:list --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
-
-<!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
-<div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"22%"} -->
-<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:22%"><!-- wp:heading {"level":2,"fontSize":"x-small"} -->
-<h2 class="wp-block-heading has-x-small-font-size"><?php esc_html_e( 'What she looks at', 'metis' ); ?></h2>
-<!-- /wp:heading --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"top"} -->
-<div class="wp-block-column is-vertically-aligned-top"><!-- wp:list -->
-<ul class="wp-block-list"><!-- wp:list-item -->
-<li><?php esc_html_e( 'Old transit maps', 'metis' ); ?></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><?php esc_html_e( 'Marginalia and footnotes', 'metis' ); ?></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><?php esc_html_e( 'Iris’s field notebooks', 'metis' ); ?></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><?php esc_html_e( 'Ada’s half-finished tools', 'metis' ); ?></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><?php esc_html_e( 'Signage in languages she cannot read', 'metis' ); ?></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><?php esc_html_e( 'The last page of an atlas', 'metis' ); ?></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><?php esc_html_e( 'Bad weather', 'metis' ); ?></li>
-<!-- /wp:list-item --></ul>
-<!-- /wp:list --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
-
-<!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
-<div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"22%"} -->
-<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:22%"><!-- wp:heading {"level":2,"fontSize":"x-small"} -->
-<h2 class="wp-block-heading has-x-small-font-size"><?php esc_html_e( 'How she works', 'metis' ); ?></h2>
-<!-- /wp:heading --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"top"} -->
-<div class="wp-block-column is-vertically-aligned-top"><!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size"><?php esc_html_e( 'She starts on paper and stays there as long as she can. The best systems are the ones you stop noticing — the map that gets you home without asking to be admired on the way. She would rather cut a feature than explain it.', 'metis' ); ?></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
-
-<!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
-<div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"45%"} -->
-<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:45%"><!-- wp:image {"aspectRatio":"3/4","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|duotone-1"}}} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-img-4-3.png" alt="<?php esc_attr_e( 'Portrait of Cora Vale', 'metis' ); ?>" style="aspect-ratio:3/4;object-fit:cover"/></figure>
-<!-- /wp:image --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} -->
-<div class="wp-block-column is-vertically-aligned-top"><!-- wp:paragraph -->
-<p><?php /* translators: %1$s and %2$s are the opening and closing link tags. */ printf( esc_html__( '%1$sEmail%2$s', 'metis' ), '<a href="' . esc_url( 'mailto:cora@landmark.studio' ) . '">', '</a>' ); ?></p>
+<!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"padding":{"right":"var:preset|spacing|60"}}},"layout":{"type":"constrained","justifyContent":"left"}} -->
+<div class="wp-block-column is-vertically-aligned-top" style="padding-right:var(--wp--preset--spacing--60)"><!-- wp:group {"metadata":{"name":"Links"},"style":{"spacing":{"blockGap":{"top":"0"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontFamily":"openrunde"} -->
+<p class="has-openrunde-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e('D&amp;AD Pencil', 'metis');?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p><?php /* translators: %1$s and %2$s are the opening and closing link tags. */ printf( esc_html__( '%1$sLinkedIn%2$s', 'metis' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></p>
+<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontFamily":"openrunde"} -->
+<p class="has-openrunde-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e('Type Directors Club', 'metis');?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontFamily":"openrunde"} -->
+<p class="has-openrunde-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e('Information Is Beautiful Awards', 'metis');?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontFamily":"openrunde"} -->
+<p class="has-openrunde-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e('Society of Publication Designers', 'metis');?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontFamily":"openrunde"} -->
+<p class="has-openrunde-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e('Webby Awards', 'metis');?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontFamily":"openrunde"} -->
+<p class="has-openrunde-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e('Awwwards', 'metis');?></p>
 <!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"25%"} -->
+<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:25%"><!-- wp:heading {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.01rem","lineHeight":1.6000000000000001}},"fontSize":"small"} -->
+<h2 class="wp-block-heading has-small-font-size" style="letter-spacing:0.01rem;line-height:1.6;text-transform:uppercase"><?php esc_html_e('About', 'metis');?></h2>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"padding":{"right":"var:preset|spacing|60"},"blockGap":"var:preset|spacing|50"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
+<div class="wp-block-column is-vertically-aligned-top" style="padding-right:var(--wp--preset--spacing--60)"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontFamily":"openrunde"} -->
+<p class="has-openrunde-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e('She starts on paper and stays there as long as she can. The best systems are the ones you stop noticing—the map that gets you home without asking to be admired on the way. She would rather cut a feature than explain it.', 'metis');?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"metadata":{"name":"Big Links"},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Big Link"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"x-large","fontFamily":"openrunde"} -->
+<p class="has-openrunde-font-family has-x-large-font-size" style="font-style:normal;font-weight:600"><a href="mailto:cora@landmark.studio"><?php esc_html_e('Email', 'metis');?></a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"metadata":{"name":"Big Link"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"x-large","fontFamily":"openrunde"} -->
+<p class="has-openrunde-font-family has-x-large-font-size" style="font-style:normal;font-weight:600"><a href="#"><?php esc_html_e('LinkedIn', 'metis');?></a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"top","width":"25%","style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} -->
+<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:25%"><!-- wp:image {"width":"960px","aspectRatio":"0.6666666666666666","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|duotone-1"},"border":{"radius":{"topLeft":"5px","topRight":"5px","bottomLeft":"5px","bottomRight":"5px"}}}} -->
+<figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--avatar-cora.png" alt="" class="" style="border-top-left-radius:5px;border-top-right-radius:5px;border-bottom-left-radius:5px;border-bottom-right-radius:5px;aspect-ratio:0.6666666666666666;object-fit:cover;width:960px;height:auto"/></figure>
+<!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></section>
 <!-- /wp:group -->
