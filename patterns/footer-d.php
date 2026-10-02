@@ -6,7 +6,7 @@
  */
 ?>
 <!-- wp:group {"tagName":"footer","metadata":{"name":"Footer, dark with link pills","patternName":"metis/footer-d"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|60"},"@mobile":{"spacing":{"blockGap":"var:preset|spacing|60"}}},"backgroundColor":"theme-2","textColor":"theme-1","layout":{"type":"constrained"}} -->
-<footer class="wp-block-group alignfull has-theme-1-color has-theme-2-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|70"}},"@tablet":{"spacing":{"blockGap":{"top":"var:preset|spacing|60"}}}}} -->
+<footer class="wp-block-group alignfull has-theme-1-color has-theme-2-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|70"}},"@tablet":{"spacing":{"blockGap":{"top":"var:preset|spacing|50"}}},"@mobile":{"spacing":{"blockGap":{"top":"var:preset|spacing|50"}}}}} -->
 <div class="wp-block-columns alignwide" style="margin-bottom:var(--wp--preset--spacing--70)"><!-- wp:column {"width":"50%"} -->
 <div class="wp-block-column" style="flex-basis:50%"><!-- wp:paragraph {"metadata":{"name":"Site Title + Fit Text"},"align":"full","style":{"typography":{"fontStyle":"normal","fontWeight":"600","letterSpacing":"-1rem","lineHeight":"0.9"}},"fontFamily":"openrunde","fitText":true} -->
 <p class="alignfull has-fit-text has-openrunde-font-family" style="font-style:normal;font-weight:600;letter-spacing:-1rem;line-height:0.9"><?php esc_html_e('Mētis', 'metis');?></p>
@@ -19,7 +19,9 @@
 <h6 class="wp-block-heading has-x-small-font-size"><?php esc_html_e('Menu', 'metis');?></h6>
 <!-- /wp:heading -->
 
-<!-- wp:navigation {"overlayMenu":"never","style":{"typography":{"fontWeight":"600","lineHeight":"1.2"},"spacing":{"blockGap":"0"},"@tablet":{"layout":{"orientation":"horizontal"},"spacing":{"blockGap":"var:preset|spacing|40"}},"@mobile":{"layout":{"orientation":"horizontal"},"spacing":{"blockGap":"var:preset|spacing|40"}}},"fontSize":"x-large","layout":{"type":"flex","orientation":"vertical","flexWrap":"nowrap"}} -->
+<!-- wp:navigation {"overlayMenu":"never","metadata":{"blockVisibility":{"viewport":{"tablet":false,"mobile":false}}},"style":{"typography":{"fontWeight":"600","lineHeight":"1.2"},"spacing":{"blockGap":"0"},"@tablet":{"layout":{"orientation":"horizontal"},"spacing":{"blockGap":"var:preset|spacing|40"}},"@mobile":{"spacing":{"blockGap":"var:preset|spacing|40"}}},"fontSize":"x-large","layout":{"type":"flex","orientation":"vertical","flexWrap":"nowrap"}} /-->
+
+<!-- wp:navigation {"overlayMenu":"never","metadata":{"blockVisibility":{"viewport":{"desktop":false}}},"style":{"typography":{"fontWeight":"600"},"spacing":{"blockGap":"0"},"@tablet":{"layout":{"orientation":"horizontal"},"spacing":{"blockGap":"var:preset|spacing|40"}},"@mobile":{"spacing":{"blockGap":"var:preset|spacing|40"}}},"fontSize":"x-large","layout":{"type":"flex","orientation":"horizontal","flexWrap":"nowrap"}} -->
 <!-- wp:navigation-link {"label":"<?php esc_attr_e('About', 'metis');?>","url":"#"} /-->
 
 <!-- wp:navigation-link {"label":"<?php esc_attr_e('Matches', 'metis');?>","url":"#"} /-->
@@ -117,8 +119,7 @@
 
 <!-- wp:group {"metadata":{"name":"Credits"},"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|20"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"},"elements":{"link":{"color":{"text":"var:preset|color|theme-1"}}}},"textColor":"theme-1","fontSize":"x-small"} -->
-<p class="has-theme-1-color has-text-color has-link-color has-x-small-font-size" style="text-transform:uppercase"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */
-printf( esc_html__( 'Designed with %1$sWordPress%2$s', 'metis' ), '<a href="' . esc_url( 'https://wordpress.org' ) . '" rel="nofollow">', '</a>' ); ?></p>
+<p class="has-theme-1-color has-text-color has-link-color has-x-small-font-size" style="text-transform:uppercase"><?php esc_html_e('Designed with', 'metis');?> <a href="https://wordpress.org" rel="nofollow"><?php esc_html_e('WordPress', 'metis');?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></footer>
