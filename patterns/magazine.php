@@ -11,8 +11,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Hero Block Wrapper"},"align":"full","style":{"spacing":{"margin":{"top":"-3.5rem"}},"@tablet":{"spacing":{"margin":{"top":"-2rem"}}},"@mobile":{"spacing":{"margin":{"top":"-2rem"}}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="margin-top:-3.5rem"><!-- wp:heading {"level":1,"align":"full","style":{"typography":{"lineHeight":"0.8"}},"fitText":true} -->
-<h1 class="wp-block-heading alignfull has-fit-text" style="line-height:0.8"><?php esc_html_e('Almanac', 'metis');?></h1>
+<div class="wp-block-group alignfull" style="margin-top:-3.5rem"><!-- wp:heading {"level":1,"align":"full","style":{"typography":{"lineHeight":"0.8","letterSpacing":"-1rem","textAlign":"center"},"@mobile":{"typography":{"letterSpacing":"-0.05rem","textAlign":"center"}}},"fitText":true} -->
+<h1 class="wp-block-heading has-text-align-center alignfull has-fit-text" style="letter-spacing:-1rem;line-height:0.8"><?php esc_html_e('Almanac', 'metis');?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:group {"metadata":{"name":"Issue Detail Wrapper"},"align":"wide","style":{"spacing":{"padding":{"top":"0","bottom":"0"},"margin":{"top":"-3.5rem","bottom":"0"}},"@tablet":{"spacing":{"margin":{"top":"-2rem"}}},"@mobile":{"spacing":{"margin":{"top":"-2rem"}}}},"layout":{"type":"constrained","justifyContent":"right"}} -->
