@@ -543,6 +543,15 @@
 					}
 				}
 			},
+			"core/categories": {
+				"css": "& {display:flex;flex-wrap:wrap;align-items:center;gap:var(--wp--preset--spacing--20);list-style:none;padding-inline-start:0;} & li{margin:0;} & li a{display:inline-block;border:1px solid currentColor;border-radius:9999px;padding:var(--wp--preset--spacing--20) var(--wp--preset--spacing--30);text-decoration:none;line-height:1;} & li.current-cat > a{border:none;padding-left:0;padding-right:0;}",
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--openrunde)",
+					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontStyle": "normal",
+					"fontWeight": "600"
+				}
+			},
 			"core/code": {
 				"border": {
 					"color": "var(--wp--preset--color--theme-7)",
