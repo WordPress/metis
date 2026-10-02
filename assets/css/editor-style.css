@@ -128,3 +128,10 @@ footer.wp-block-template-part {
 .wp-block-playlist .wp-block-playlist__tracklist {
 	margin-top: var(--wp--preset--spacing--40) !important;
 }
+
+/* Keeps a block above anything it overlaps (mirrors style.css —
+   deliberately active in the canvas too). */
+.on-top.on-top {
+	position: relative;
+	z-index: 100;
+}

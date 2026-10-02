@@ -146,6 +146,15 @@ footer.wp-block-template-part {
 	}
 }
 
+/* Keeps a block above anything it overlaps: positions it and raises
+   it over sibling stacking (covers, bleeds, negative margins alike).
+   Active in the editor too. Used: opt-in via Additional CSS classes.
+*/
+.on-top.on-top {
+	position: relative;
+	z-index: 100;
+}
+
 /* ————————————————————————————————————————————————————————————————
    Buttons — shared action grammar. Every Button-block style grows on
    hover, squishes on press, and shares the pressed surface: theme-4
