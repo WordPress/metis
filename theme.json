@@ -118,6 +118,16 @@
 					"gradient": "linear-gradient(180deg, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 60%) 100%)",
 					"name": "Shade rise",
 					"slug": "gradient-10"
+				},
+				{
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--theme-6) 40%, rgb(from var(--wp--preset--color--theme-6) r g b / 0%) 100%)",
+					"name": "White fade",
+					"slug": "gradient-11"
+				},
+				{
+					"gradient": "linear-gradient(180deg, rgb(from var(--wp--preset--color--theme-6) r g b / 0%) 0%, var(--wp--preset--color--theme-6) 60%)",
+					"name": "White rise",
+					"slug": "gradient-12"
 				}
 			],
 			"palette": [
