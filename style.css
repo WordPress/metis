@@ -104,6 +104,18 @@ footer.wp-block-template-part {
 	text-indent: 33.33%;
 }
 
+/* Dims the images inside a container to half strength, each one
+   waking to full on its own hover. Used: the Partner Logos in
+   "Clients, logo row" (Business). */
+.dim-images .wp-block-image img {
+	opacity: 0.5;
+	transition: opacity 0.2s ease-out;
+}
+
+.dim-images .wp-block-image img:hover {
+	opacity: 1;
+}
+
 /* Balances a heading's line lengths, eating widows that
    text-wrap: pretty declines to fix (it is a cost heuristic aimed at
    body text). Browsers cap balancing at ~6 lines, fine for headings.

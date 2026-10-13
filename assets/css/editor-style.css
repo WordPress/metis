@@ -77,6 +77,16 @@ footer.wp-block-template-part {
 	text-indent: 33.33%;
 }
 
+/* Dims a container's images until hovered (mirrors style.css). */
+.dim-images .wp-block-image img {
+	opacity: 0.5;
+	transition: opacity 0.2s ease-out;
+}
+
+.dim-images .wp-block-image img:hover {
+	opacity: 1;
+}
+
 /* Balances a heading's line lengths (mirrors style.css). */
 .balance-text.balance-text {
 	text-wrap: balance;
