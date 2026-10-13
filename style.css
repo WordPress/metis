@@ -66,6 +66,16 @@ footer.wp-block-template-part {
 .grow-2.grow-2 { flex-grow: 2; }
 .grow-3.grow-3 { flex-grow: 3; }
 
+/* Gives a Row's children equal widths regardless of content: every
+   child grows from a zero flex-basis, so four stacks and a cover
+   split the row evenly. The appender guard keeps the canvas's
+   inserter chip out of the math. Used: "Numbers (Cards Row)" in the
+   Business template. */
+.equal-widths.equal-widths > *:not(.block-list-appender) {
+	flex: 1 1 0;
+	min-width: 0;
+}
+
 /* Makes a block fill its Row cell (the Search block's own width only
    reaches its inner wrapper). Used: the Search in "Header, uppercase
    title and search bar". */

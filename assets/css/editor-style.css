@@ -46,6 +46,12 @@ footer.wp-block-template-part {
 	flex-grow: 3;
 }
 
+/* Equal-width Row children (mirrors style.css). */
+.equal-widths.equal-widths > *:not(.block-list-appender) {
+	flex: 1 1 0;
+	min-width: 0;
+}
+
 /* Block consumes its flex cell. */
 .fill-width.fill-width {
 	width: 100%;
