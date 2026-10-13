@@ -880,7 +880,7 @@
 					"background": "var(--wp--preset--color--theme-6)",
 					"text": "var(--wp--preset--color--theme-3)"
 				},
-				"css": "&::before{content:\"❝\";display:block;color:var(--wp--preset--color--theme-4);font-size:var(--wp--preset--font-size--2-x-large);line-height:1;} & cite::before{content:\"— \";} & p{color:var(--wp--preset--color--theme-2);}",
+				"css": "&::before{content:\"❝\";display:block;color:var(--wp--preset--color--theme-4);font-size:var(--wp--preset--font-size--2-x-large);line-height:1;} & cite::before{content:\"— \";} & p{color:var(--wp--preset--color--theme-2);} &.is-style-hanging{position:relative;background:transparent;border-radius:0;box-shadow:none;padding:0 0 0 var(--wp--preset--font-size--4-x-large);} &.is-style-hanging::before{position:absolute;left:0;top:0;font-size:var(--wp--preset--font-size--4-x-large);} &.is-style-hanging cite{text-transform:uppercase;letter-spacing:0.01rem;} &.is-style-blank::before{content:none;}",
 				"elements": {
 					"cite": {
 						"typography": {

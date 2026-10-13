@@ -54,6 +54,31 @@ if ( ! function_exists( 'metis_glossy_button_style' ) ) :
 endif;
 add_action( 'init', 'metis_glossy_button_style' );
 
+/*
+ * Two more Quote postures beside the default bubble and core's Plain:
+ * Hanging seats the ❝ beside the text, testimonial-style;
+ * Blank keeps the bubble but silences the mark.
+ */
+if ( ! function_exists( 'metis_quote_styles' ) ) :
+	function metis_quote_styles() {
+		register_block_style(
+			'core/quote',
+			array(
+				'name'  => 'hanging',
+				'label' => __( 'Hanging', 'metis' ),
+			)
+		);
+		register_block_style(
+			'core/quote',
+			array(
+				'name'  => 'blank',
+				'label' => __( 'Blank', 'metis' ),
+			)
+		);
+	}
+endif;
+add_action( 'init', 'metis_quote_styles' );
+
 if ( ! function_exists( 'metis_glossy_button_assets' ) ) :
 	function metis_glossy_button_assets() {
 		wp_enqueue_style(
