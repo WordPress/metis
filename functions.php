@@ -54,23 +54,6 @@ if ( ! function_exists( 'metis_glossy_button_style' ) ) :
 endif;
 add_action( 'init', 'metis_glossy_button_style' );
 
-/*
- * The Categories List's pill treatment (theme.json core/categories)
- * gets a Toast variation: 10px corners instead of fully round.
- */
-if ( ! function_exists( 'metis_categories_toast_style' ) ) :
-	function metis_categories_toast_style() {
-		register_block_style(
-			'core/categories',
-			array(
-				'name'  => 'toast',
-				'label' => __( 'Toast', 'metis' ),
-			)
-		);
-	}
-endif;
-add_action( 'init', 'metis_categories_toast_style' );
-
 if ( ! function_exists( 'metis_glossy_button_assets' ) ) :
 	function metis_glossy_button_assets() {
 		wp_enqueue_style(
