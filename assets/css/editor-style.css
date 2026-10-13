@@ -77,6 +77,11 @@ footer.wp-block-template-part {
 	text-indent: 33.33%;
 }
 
+/* Balances a heading's line lengths (mirrors style.css). */
+.balance-text.balance-text {
+	text-wrap: balance;
+}
+
 /* Removes the meta symbol from one instance. */
 .no-symbol.no-symbol::before {
 	content: none;

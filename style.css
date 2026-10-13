@@ -104,6 +104,14 @@ footer.wp-block-template-part {
 	text-indent: 33.33%;
 }
 
+/* Balances a heading's line lengths, eating widows that
+   text-wrap: pretty declines to fix (it is a cost heuristic aimed at
+   body text). Browsers cap balancing at ~6 lines, fine for headings.
+   Used: the Business template's main heading. */
+.balance-text.balance-text {
+	text-wrap: balance;
+}
+
 /* Removes the meta symbol (the ::before glyph on Date or Author
    Name) from one instance. Used: Author Name in the single template. */
 .no-symbol.no-symbol::before {
