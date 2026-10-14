@@ -83,6 +83,12 @@ footer.wp-block-template-part {
 	text-indent: 33.33%;
 }
 
+/* Pulls a block sideways under its neighbors (mirrors style.css). */
+.pull-sides.pull-sides {
+	margin-left: calc(-1 * var(--wp--preset--spacing--60));
+	margin-right: calc(-1 * var(--wp--preset--spacing--60));
+}
+
 /* Dims a container's images until hovered (mirrors style.css). */
 .dim-images .wp-block-image img {
 	opacity: 0.5;

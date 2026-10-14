@@ -114,6 +114,16 @@ footer.wp-block-template-part {
 	text-indent: 33.33%;
 }
 
+/* Pulls a block sideways under its flex neighbors by one token on
+   each side (the Group block offers no horizontal margin controls).
+   Pair the neighbors with on-top so they paint above the pulled
+   block. Used: the Image Stack in "Testing Possibilities" (Business).
+*/
+.pull-sides.pull-sides {
+	margin-left: calc(-1 * var(--wp--preset--spacing--60));
+	margin-right: calc(-1 * var(--wp--preset--spacing--60));
+}
+
 /* Dims the images inside a container to half strength, each one
    waking to full on its own hover. Used: the Partner Logos in
    "Clients, logo row" (Business). */
