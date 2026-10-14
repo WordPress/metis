@@ -2,7 +2,7 @@
 /**
  * Title: Contact, display heading
  * Slug: metis/contact-b
- * Categories: Contact
+ * Categories: contact
  * Description: A closing call to action — an oversized Contact heading that links to email, with a short open-to-work line.
  */
 ?>

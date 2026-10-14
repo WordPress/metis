@@ -2,7 +2,7 @@
 /**
  * Title: Experience, dated roles
  * Slug: metis/career-a
- * Categories: Text
+ * Categories: text
  * Description: A work history as a dated ledger — year on the left, role and place on the right, one row each.
  */
 ?>

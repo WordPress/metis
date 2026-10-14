@@ -2,7 +2,7 @@
 /**
  * Title: About, portrait and bio
  * Slug: metis/about-a
- * Categories: About
+ * Categories: about
  * Description: A portrait beside a short, plain-spoken biography opened by a one-word heading.
  */
 ?>

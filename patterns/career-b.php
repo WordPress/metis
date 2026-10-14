@@ -2,7 +2,7 @@
 /**
  * Title: Appearances, upcoming dates
  * Slug: metis/career-b
- * Categories: Text
+ * Categories: text
  * Description: Upcoming readings and talks as a short grid — date, event, and place.
  */
 ?>

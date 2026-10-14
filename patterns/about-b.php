@@ -2,7 +2,7 @@
 /**
  * Title: About, ledger and portrait
  * Slug: metis/about-b
- * Categories: About
+ * Categories: about
  * Description: Label-left ledger rows — awards, influences, approach — closed by a portrait and contact block.
  */
 ?>

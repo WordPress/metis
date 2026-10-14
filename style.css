@@ -66,6 +66,33 @@ footer.wp-block-template-part {
 .grow-2.grow-2 { flex-grow: 2; }
 .grow-3.grow-3 { flex-grow: 3; }
 
+/* Gives a Row's children equal widths regardless of content: every
+   child grows from a zero flex-basis, so four stacks and a cover
+   split the row evenly. The appender guard keeps the canvas's
+   inserter chip out of the math. Used: "Numbers (Cards Row)" in the
+   Business template. */
+.equal-widths.equal-widths > *:not(.block-list-appender) {
+	flex: 1 1 0;
+	min-width: 0;
+}
+
+.equal-widths.equal-widths > .wp-block-button > .wp-block-button__link {
+	width: 100%;
+}
+
+/* The same even split, but only below the phone boundary — content
+   widths above it. Used: the CTA button pair in Business. */
+@media (max-width: 480px) {
+	.equal-widths-phone.equal-widths-phone > *:not(.block-list-appender) {
+		flex: 1 1 0;
+		min-width: 0;
+	}
+
+	.equal-widths-phone.equal-widths-phone > .wp-block-button > .wp-block-button__link {
+		width: 100%;
+	}
+}
+
 /* Makes a block fill its Row cell (the Search block's own width only
    reaches its inner wrapper). Used: the Search in "Header, uppercase
    title and search bar". */
@@ -102,6 +129,36 @@ footer.wp-block-template-part {
    Used: front-page intro heading. */
 .indent-first-line {
 	text-indent: 33.33%;
+}
+
+/* Pulls a block sideways under its flex neighbors by one token on
+   each side (the Group block offers no horizontal margin controls).
+   Pair the neighbors with on-top so they paint above the pulled
+   block. Used: the Image Stack in "Testing Possibilities" (Business).
+*/
+.pull-sides.pull-sides {
+	margin-left: calc(-1 * var(--wp--preset--spacing--60));
+	margin-right: calc(-1 * var(--wp--preset--spacing--60));
+}
+
+/* Dims the images inside a container to half strength, each one
+   waking to full on its own hover. Used: the Partner Logos in
+   "Clients, logo row" (Business). */
+.dim-images .wp-block-image img {
+	opacity: 0.5;
+	transition: opacity 0.2s ease-out;
+}
+
+.dim-images .wp-block-image img:hover {
+	opacity: 1;
+}
+
+/* Balances a heading's line lengths, eating widows that
+   text-wrap: pretty declines to fix (it is a cost heuristic aimed at
+   body text). Browsers cap balancing at ~6 lines, fine for headings.
+   Used: the Business template's main heading. */
+.balance-text.balance-text {
+	text-wrap: balance;
 }
 
 /* Removes the meta symbol (the ::before glyph on Date or Author
@@ -201,9 +258,10 @@ footer.wp-block-template-part {
 }
 
 /* An open item adds the 40px the bleed removes: the next item's
-   -40px overlap would otherwise cover the expanded panel. !important
-   outranks the items' inline margin attributes. */
-.wp-block-accordion-item.is-open {
+   -40px overlap would otherwise cover the expanded panel. Keyed to
+   the bleed's own inline margin so non-bleeding accordions are
+   untouched. !important outranks the inline margin attributes. */
+.wp-block-accordion-item[style*="margin-top:-40"].is-open {
 	margin-bottom: 40px !important;
 }
 

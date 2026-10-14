@@ -2,7 +2,7 @@
 /**
  * Title: Services
  * Slug: metis/services-c
- * Categories: Services
+ * Categories: services
  * Inserter: no
  */
 ?>

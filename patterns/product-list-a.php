@@ -2,7 +2,7 @@
 /**
  * Title: Books, cover grid
  * Slug: metis/product-list-a
- * Categories: Portfolio
+ * Categories: portfolio
  * Description: The backlist as a four-up grid of covers with title and imprint. Opened by a terse heading and an inline link.
  */
 ?>

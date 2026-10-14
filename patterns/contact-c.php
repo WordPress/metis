@@ -2,7 +2,7 @@
 /**
  * Title: Contact C
  * Slug: metis/contact-c
- * Categories: Contact
+ * Categories: contact
  */
 ?>
 <!-- wp:paragraph -->

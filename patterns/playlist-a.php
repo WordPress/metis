@@ -2,7 +2,7 @@
 /**
  * Title: Sound, playlist
  * Slug: metis/playlist-a
- * Categories: Portfolio
+ * Categories: portfolio
  * Description: The listening section on ink — the core Playlist block with the theme's three sample tracks, covers, and waveform.
  */
 ?>

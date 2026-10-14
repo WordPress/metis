@@ -2,7 +2,7 @@
 /**
  * Title: Team
  * Slug: metis/team-c
- * Categories: Team
+ * Categories: team
  * Inserter: no
  */
 ?>

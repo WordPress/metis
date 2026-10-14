@@ -2,7 +2,7 @@
 /**
  * Title: Selected work, accordion list
  * Slug: metis/features-b
- * Categories: Portfolio
+ * Categories: portfolio
  * Description: Selected projects as an expandable list — each row opens to a short account, credits, and a link. No thumbnails.
  */
 ?>
