@@ -76,6 +76,23 @@ footer.wp-block-template-part {
 	min-width: 0;
 }
 
+.equal-widths.equal-widths > .wp-block-button > .wp-block-button__link {
+	width: 100%;
+}
+
+/* The same even split, but only below the phone boundary — content
+   widths above it. Used: the CTA button pair in Business. */
+@media (max-width: 480px) {
+	.equal-widths-phone.equal-widths-phone > *:not(.block-list-appender) {
+		flex: 1 1 0;
+		min-width: 0;
+	}
+
+	.equal-widths-phone.equal-widths-phone > .wp-block-button > .wp-block-button__link {
+		width: 100%;
+	}
+}
+
 /* Makes a block fill its Row cell (the Search block's own width only
    reaches its inner wrapper). Used: the Search in "Header, uppercase
    title and search bar". */
