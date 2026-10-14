@@ -50,6 +50,24 @@ License: CC0 1.0 Universal - dedicated to the public domain by the author.
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
 
 
+
+== Fonts ==
+
+Open Runde
+Copyright 2024 Laurids Kern; a rounded variant of Inter, Copyright 2016 The Inter Project Authors (https://github.com/rsms/inter)
+License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
+Source: https://github.com/lauridskern/open-runde
+
+Recursive Linear
+Copyright 2020 The Recursive Project Authors (https://github.com/arrowtype/recursive)
+License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
+Source: https://www.recursive.design
+
+Recursive Mono
+Copyright 2020 The Recursive Project Authors (https://github.com/arrowtype/recursive)
+License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
+Source: https://www.recursive.design
+
 == Music ==
 
 Title: 1-small-things.mp3 ("Small Things")
