@@ -1162,6 +1162,11 @@
 			"title": "Header, minimal with menu button"
 		},
 		{
+			"area": "navigation-overlay",
+			"name": "navigation-overlay",
+			"title": "Navigation Overlay"
+		},
+		{
 			"area": "uncategorized",
 			"name": "comments",
 			"title": "Comments"

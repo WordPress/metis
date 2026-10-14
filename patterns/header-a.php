@@ -16,15 +16,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Nav Wrapper"},"style":{"spacing":{"blockGap":"var:preset|spacing|20"},"layout":{"selfStretch":"fill","flexSize":null}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center","justifyContent":"right"}} -->
-<div class="wp-block-group"><!-- wp:navigation {"overlayMenu":"always","icon":"menu","hasIcon":false,"style":{"typography":{"textTransform":"uppercase"}},"layout":{"type":"flex"}} -->
-<!-- wp:navigation-link {"label":"<?php esc_attr_e('About TT7', 'metis');?>","url":"#"} /-->
-
-<!-- wp:navigation-link {"label":"<?php esc_attr_e('Patterns', 'metis');?>","url":"#"} /-->
-
-<!-- wp:navigation-link {"label":"<?php esc_attr_e('Templates', 'metis');?>","url":"#"} /-->
-
-<!-- wp:navigation-link {"label":"<?php esc_attr_e('Variations', 'metis');?>","url":"#"} /-->
-<!-- /wp:navigation --></div>
+<div class="wp-block-group"><!-- wp:navigation {"overlayMenu":"always","overlay":"navigation-overlay","icon":"menu","hasIcon":false,"style":{"typography":{"textTransform":"uppercase"}},"layout":{"type":"flex"}} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></header>
 <!-- /wp:group -->
