@@ -6,24 +6,30 @@
  */
 ?>
 <!-- wp:group {"tagName":"section","metadata":{"name":"Masthead with Gradient"},"align":"full","className":"clip-overflow","style":{"border":{"top":{"color":"var:preset|color|theme-1","width":"10px"},"right":{"color":"var:preset|color|theme-1","width":"10px"},"left":{"color":"var:preset|color|theme-1","width":"10px"},"bottom":{"width":"1px","style":"dotted"}},"@mobile":{"border":{"width":"0px","style":"none"}},"@tablet":{"border":{"width":"0px","style":"none"}},"spacing":{"blockGap":"0"}},"backgroundColor":"theme-7","layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull clip-overflow has-theme-7-background-color has-background" style="border-top-color:var(--wp--preset--color--theme-1);border-top-width:10px;border-right-color:var(--wp--preset--color--theme-1);border-right-width:10px;border-bottom-style:dotted;border-bottom-width:1px;border-left-color:var(--wp--preset--color--theme-1);border-left-width:10px"><!-- wp:group {"metadata":{"name":"Header Wrapper"},"align":"full","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull"><!-- wp:group {"metadata":{"name":"Header Wrapper Wide Width"},"align":"wide","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull clip-overflow has-theme-7-background-color has-background" style="border-top-color:var(--wp--preset--color--theme-1);border-top-width:10px;border-right-color:var(--wp--preset--color--theme-1);border-right-width:10px;border-bottom-style:dotted;border-bottom-width:1px;border-left-color:var(--wp--preset--color--theme-1);border-left-width:10px"><!-- wp:group {"metadata":{"name":"Header Wrapper"},"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide"><!-- wp:template-part {"slug":"header-c","theme":"metis","area":"header"} /--></div>
-<!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"Hero Block Wrapper","blockVisibility":{"viewport":{"tablet":false,"mobile":false}}},"align":"full","style":{"@tablet":{"spacing":{"margin":{"top":"-2rem"}}},"@mobile":{"spacing":{"margin":{"top":"-2rem"}}},"spacing":{"margin":{"bottom":"-3rem"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="margin-bottom:-3rem"><!-- wp:columns {"align":"wide"} -->
-<div class="wp-block-columns alignwide"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:paragraph {"metadata":{"name":"News"},"style":{"typography":{"textAlign":"left","fontStyle":"normal","fontWeight":"600","letterSpacing":"-0.5rem","lineHeight":"1"}},"fontFamily":"openrunde","fitText":true} -->
+<!-- wp:group {"metadata":{"name":"Hero Block Wrapper","blockVisibility":{"viewport":{"tablet":false,"mobile":false}}},"align":"full","style":{"@tablet":{"spacing":{"margin":{"top":"-2rem"}}},"@mobile":{"spacing":{"margin":{"top":"-2rem"}}},"spacing":{"margin":{"bottom":"-4rem"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-bottom:-4rem"><!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"bottom"} -->
+<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:paragraph {"metadata":{"name":"News"},"style":{"typography":{"textAlign":"left","fontStyle":"normal","fontWeight":"600","letterSpacing":"-0.5rem","lineHeight":"1"}},"fontFamily":"openrunde","fitText":true} -->
 <p class="has-text-align-left has-fit-text has-openrunde-font-family" style="font-style:normal;font-weight:600;letter-spacing:-0.5rem;line-height:1"><?php esc_html_e('News', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
+<!-- wp:column {"verticalAlignment":"top"} -->
+<div class="wp-block-column is-vertically-aligned-top"><!-- wp:columns {"metadata":{"blockVisibility":{"viewport":{"tablet":false,"mobile":false}}},"style":{"spacing":{"blockGap":{"top":"0","left":"0"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
+<div class="wp-block-columns" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:column -->
+<div class="wp-block-column"></div>
+<!-- /wp:column -->
+
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:group {"metadata":{"name":"Categories"},"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|40"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"right"}} -->
-<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:categories {"showOnlyTopLevel":true,"align":"wide","className":"is-style-toast","style":{"typography":{"letterSpacing":"0.01rem","textTransform":"uppercase"},"elements":{"link":{"color":{"text":"var:preset|color|theme-2"}}}},"textColor":"theme-2","fontSize":"x-small","fontFamily":"recursive-linear"} /--></div>
-<!-- /wp:group --></div>
+<div class="wp-block-column"><!-- wp:heading {"level":1,"style":{"typography":{"letterSpacing":"-0.02rem","lineHeight":"1.5"}},"fontSize":"medium"} -->
+<h1 class="wp-block-heading has-medium-font-size" style="letter-spacing:-0.02rem;line-height:1.5"><?php esc_html_e('The news, gathered each morning—what happened, what it changed, and what is still moving.', 'metis');?></h1>
+<!-- /wp:heading --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
@@ -154,6 +160,38 @@
 <!-- /wp:query-no-results --></div>
 <!-- /wp:group --></div>
 <!-- /wp:query --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Newsletter, branded","categories":["Call","to","Action"]},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:columns {"verticalAlignment":null,"align":"wide","style":{"spacing":{"blockGap":{"top":"0"}}}} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"top"} -->
+<div class="wp-block-column is-vertically-aligned-top"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
+<div class="wp-block-columns are-vertically-aligned-center" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:column {"verticalAlignment":"center","width":"25%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:25%"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","metadata":{"name":"Brand"}} -->
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact-p-logo.png" alt="" class=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","width":"75%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:75%"><!-- wp:group {"metadata":{"name":"Title and subtitle"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"left"}} -->
+<div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-2"}}}},"textColor":"theme-2","fontSize":"x-large","anchor":"newsletter"} -->
+<h3 id="newsletter" class="wp-block-heading has-theme-2-color has-text-color has-link-color has-x-large-font-size"><?php esc_html_e('Parallel, every Friday', 'metis');?></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"text-balance","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontFamily":"openrunde"} -->
+<p class="text-balance has-openrunde-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e('One email. The week’s dispatches, and nothing we would not read ourselves.', 'metis');?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:group {"tagName":"section","metadata":{"name":"Card Wrapper","categories":["Contact"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|50","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|40"},"border":{"radius":{"topLeft":"10px","topRight":"10px","bottomLeft":"10px","bottomRight":"10px"}},"shadow":"var:preset|shadow|shadow-1"},"backgroundColor":"theme-6","layout":{"type":"default"}} -->
+<section class="wp-block-group alignwide has-theme-6-background-color has-background" style="border-top-left-radius:10px;border-top-right-radius:10px;border-bottom-left-radius:10px;border-bottom-right-radius:10px;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);box-shadow:var(--wp--preset--shadow--shadow-1)"><!-- wp:jetpack/contact-form {"jetpackCRM":false,"variationName":"lead-capture-form","salesforceData":{"organizationId":"","sendToSalesforce":false},"mailpoet":{"listId":null,"listName":null,"enabledForForm":false},"className":"is-style-animated","layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical","justifyContent":"stretch","verticalAlignment":"top"}} /--></section>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
 <!-- /wp:group --></main>
 <!-- /wp:group -->
 
