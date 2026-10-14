@@ -258,9 +258,10 @@ footer.wp-block-template-part {
 }
 
 /* An open item adds the 40px the bleed removes: the next item's
-   -40px overlap would otherwise cover the expanded panel. !important
-   outranks the items' inline margin attributes. */
-.wp-block-accordion-item.is-open {
+   -40px overlap would otherwise cover the expanded panel. Keyed to
+   the bleed's own inline margin so non-bleeding accordions are
+   untouched. !important outranks the inline margin attributes. */
+.wp-block-accordion-item[style*="margin-top:-40"].is-open {
 	margin-bottom: 40px !important;
 }
 

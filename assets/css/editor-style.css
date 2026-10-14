@@ -157,8 +157,9 @@ footer.wp-block-template-part {
 	}
 }
 
-/* Open accordion items add back the bleed overlap (mirrors style.css). */
-.wp-block-accordion-item.is-open {
+/* Open accordion items add back the bleed overlap (mirrors style.css;
+   keyed to the bleed's inline margin). */
+.wp-block-accordion-item[style*="margin-top:-40"].is-open {
 	margin-bottom: 40px !important;
 }
 
