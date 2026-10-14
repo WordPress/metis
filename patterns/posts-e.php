@@ -6,7 +6,7 @@
  * Description: Small thumbnail rows of recent posts, for sidebars.
  */
 ?>
-<!-- wp:query {"queryId":7,"query":{"perPage":4,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false,"taxQuery":null,"parents":[],"excludeCurrent":null},"metadata":{"name":"Posts, related sidebar"},"layout":{"type":"default"}} -->
+<!-- wp:query {"queryId":7,"query":{"perPage":4,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false,"taxQuery":null,"parents":[],"excludeCurrent":null},"metadata":{"name":"Posts, related sidebar","patternName":"metis/posts-e","description":"Small thumbnail rows of recent posts, for sidebars.","categories":["Posts"]},"layout":{"type":"default"}} -->
 <div class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"default"}} -->
 <!-- wp:columns {"metadata":{"name":"Related Post Columns"}} -->
 <div class="wp-block-columns"><!-- wp:column {"width":"90px"} -->
