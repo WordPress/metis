@@ -131,16 +131,16 @@ add_action( 'wp_enqueue_scripts', 'metis_gradient_assets' );
 if ( ! function_exists( 'metis_pattern_categories' ) ) :
 	function metis_pattern_categories() {
 		$categories = array(
-			'About'          => __( 'About', 'metis' ),
-			'Call to Action' => __( 'Call to Action', 'metis' ),
-			'Clients'        => __( 'Clients', 'metis' ),
-			'Contact'        => __( 'Contact', 'metis' ),
-			'Portfolio'      => __( 'Portfolio', 'metis' ),
+			'about'          => __( 'About', 'metis' ),
+			'call-to-action' => __( 'Call to Action', 'metis' ),
+			'clients'        => __( 'Clients', 'metis' ),
+			'contact'        => __( 'Contact', 'metis' ),
+			'portfolio'      => __( 'Portfolio', 'metis' ),
 			'posts'          => __( 'Posts', 'metis' ),
-			'Services'       => __( 'Services', 'metis' ),
-			'Team'           => __( 'Team', 'metis' ),
-			'Testimonials'   => __( 'Testimonials', 'metis' ),
-			'Text'           => __( 'Text', 'metis' ),
+			'services'       => __( 'Services', 'metis' ),
+			'team'           => __( 'Team', 'metis' ),
+			'testimonials'   => __( 'Testimonials', 'metis' ),
+			'text'           => __( 'Text', 'metis' ),
 		);
 		foreach ( $categories as $slug => $label ) {
 			register_block_pattern_category( $slug, array( 'label' => $label ) );

@@ -2,7 +2,7 @@
 /**
  * Title: Features, mirrored rows
  * Slug: metis/features-a
- * Categories: Services
+ * Categories: services
  * Description: Two image-and-text rows, mirrored, closed by a line of figures.
  */
 ?>

@@ -2,7 +2,7 @@
 /**
  * Title: Newsletter, closing block
  * Slug: metis/cta-a
- * Categories: Call to Action
+ * Categories: call-to-action
  * Description: A closing invitation — the newsletter heading beside a one-field subscribe form.
  */
 ?>

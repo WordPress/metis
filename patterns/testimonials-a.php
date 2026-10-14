@@ -2,7 +2,7 @@
 /**
  * Title: Testimonial, one quote
  * Slug: metis/testimonials-a
- * Categories: Testimonials
+ * Categories: testimonials
  * Description: One client quote, large enough to carry a section.
  */
 ?>

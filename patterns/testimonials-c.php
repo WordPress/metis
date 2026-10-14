@@ -2,7 +2,7 @@
 /**
  * Title: Testimonials
  * Slug: metis/testimonials-c
- * Categories: Testimonials
+ * Categories: testimonials
  * Inserter: no
  */
 ?>

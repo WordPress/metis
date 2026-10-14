@@ -2,7 +2,7 @@
 /**
  * Title: FAQ, accordion
  * Slug: metis/f-a-q-a
- * Categories: Text
+ * Categories: text
  * Description: Common questions that unfold one at a time.
  */
 ?>

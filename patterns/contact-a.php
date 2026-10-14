@@ -2,7 +2,7 @@
 /**
  * Title: Contact, closing band
  * Slug: metis/contact-a
- * Categories: Contact
+ * Categories: contact
  * Description: A full-width closing band with one invitation to get in touch.
  */
 ?>

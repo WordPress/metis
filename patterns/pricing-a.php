@@ -2,7 +2,7 @@
 /**
  * Title: Pricing, 3 plans
  * Slug: metis/pricing-a
- * Categories: Services
+ * Categories: services
  * Description: Three ways to work together, priced plainly, each with its own call to action.
  */
 ?>

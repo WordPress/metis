@@ -2,7 +2,7 @@
 /**
  * Title: Praise, short quotes
  * Slug: metis/testimonials-b
- * Categories: Testimonials
+ * Categories: testimonials
  * Description: Short review blurbs for a book, three across, each with its source.
  */
 ?>

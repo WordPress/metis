@@ -2,7 +2,7 @@
 /**
  * Title: Featured book, cover and blurb
  * Slug: metis/product-overview-a
- * Categories: Call to Action
+ * Categories: call-to-action
  * Description: A single new title: a small label, the title as headline, a short blurb, a call to action, and a cover.
  */
 ?>

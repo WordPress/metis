@@ -2,7 +2,7 @@
 /**
  * Title: Pricing
  * Slug: metis/pricing-b
- * Categories: Services
+ * Categories: services
  * Inserter: no
  */
 ?>

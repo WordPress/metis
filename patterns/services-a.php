@@ -2,7 +2,7 @@
 /**
  * Title: Services, 3 columns
  * Slug: metis/services-a
- * Categories: Services
+ * Categories: services
  * Description: Three services, each given one column and a few honest lines.
  */
 ?>

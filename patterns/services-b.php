@@ -2,7 +2,7 @@
 /**
  * Title: Accordions, bleeding list
  * Slug: metis/services-b
- * Categories: Portfolio
+ * Categories: portfolio
  * Description: An expandable accordion list — each item opens to a short line and two screens. The items bleed into one another until one is opened.
  */
 ?>

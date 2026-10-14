@@ -2,7 +2,7 @@
 /**
  * Title: Team, 3 portraits
  * Slug: metis/team-a
- * Categories: Team
+ * Categories: team
  * Description: Three people, three portraits, one role each.
  */
 ?>

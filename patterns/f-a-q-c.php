@@ -2,7 +2,7 @@
 /**
  * Title: F.A.Q. C
  * Slug: metis/f-a-q-c
- * Categories: Text
+ * Categories: text
  */
 ?>
 <!-- wp:group {"metadata":{"name":"F.A.Q. Large type, one column"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->

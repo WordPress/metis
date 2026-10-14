@@ -2,7 +2,7 @@
 /**
  * Title: Selected work, timeline
  * Slug: metis/f-a-q-b
- * Categories: Portfolio
+ * Categories: portfolio
  * Description: A reflective opening line over an expandable timeline of long-running work.
  */
 ?>

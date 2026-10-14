@@ -2,7 +2,7 @@
 /**
  * Title: Selected work, portfolio grid
  * Slug: metis/features-d
- * Categories: Portfolio
+ * Categories: portfolio
  * Description: A two-by-two grid of projects — image, title, one line, and a short credit. A glanceable index of the work.
  */
 ?>

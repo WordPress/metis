@@ -2,7 +2,7 @@
 /**
  * Title: Talks, video cards
  * Slug: metis/product-list-b
- * Categories: Portfolio
+ * Categories: portfolio
  * Description: Recorded talks as a row of cards — thumbnail, title, and where it was given. Opened by a terse heading and an inline link.
  */
 ?>

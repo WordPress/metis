@@ -2,7 +2,7 @@
 /**
  * Title: Clients, logo row
  * Slug: metis/clients-a
- * Categories: Clients
+ * Categories: clients
  * Description: A quiet row of client logos, matched in black and white.
  */
 ?>

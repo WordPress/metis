@@ -2,7 +2,7 @@
 /**
  * Title: Product Overview
  * Slug: metis/product-overview-b
- * Categories: Call to Action
+ * Categories: call-to-action
  * Inserter: no
  */
 ?>
