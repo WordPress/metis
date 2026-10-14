@@ -640,6 +640,9 @@
 					"fontWeight": "600"
 				}
 			},
+			"core/list": {
+				"css": "&{padding-inline-start:var(--wp--preset--spacing--40);} & ul{padding-inline-start:var(--wp--preset--spacing--40);} & ol{padding-inline-start:var(--wp--preset--spacing--40);} & li::marker{color:var(--wp--preset--color--theme-3);}"
+			},
 			"core/navigation": {
 				"css": "& .wp-block-navigation__container{row-gap:0;}",
 				"elements": {
