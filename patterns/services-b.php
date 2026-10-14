@@ -1,22 +1,20 @@
 <?php
 /**
- * Title: Accordions, bleeding list
+ * Title: Work, accordion list
  * Slug: metis/services-b
  * Categories: portfolio
- * Description: An expandable accordion list — each item opens to a short line and two screens. The items bleed into one another until one is opened.
+ * Description: Selected works in a plain accordion — each item opens to a short line and two covers.
  */
 ?>
-<!-- wp:group {"tagName":"section","metadata":{"name":"Accordions, bleeding list","patternName":"metis/services-b","description":"An expandable accordion list — each item opens to a short line and two screens. The items bleed into one another until one is opened.","categories":["Portfolio"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"},"blockGap":"var:preset|spacing|70"}},"backgroundColor":"theme-1","layout":{"type":"constrained"},"anchor":"builds"} -->
-<section class="wp-block-group alignwide has-theme-1-background-color has-background" id="builds" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:group {"metadata":{"name":"Section title and read more"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group alignwide"><!-- wp:paragraph {"metadata":{"name":"Eyebrow"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem","lineHeight":1.6000000000000001}},"fontSize":"small","fontFamily":"openrunde"} -->
-<p class="has-openrunde-font-family has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;line-height:1.6;text-transform:uppercase"><?php esc_html_e('Selected builds', 'metis');?></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"Selected work, accordion","patternName":"metis/services-b","description":"An expandable accordion list — each item opens to a short line and two screens. The items bleed into one another until one is opened.","categories":["Portfolio"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"},"blockGap":"var:preset|spacing|60"}},"backgroundColor":"theme-1","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignwide has-theme-1-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:heading {"metadata":{"name":"Eyebrow"},"align":"wide","style":{"typography":{"letterSpacing":"0.01rem","textTransform":"uppercase"}},"fontSize":"small"} -->
+<h2 class="wp-block-heading alignwide has-small-font-size" style="letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('Selected work', 'metis');?></h2>
+<!-- /wp:heading -->
 
-<!-- wp:accordion {"align":"wide","backgroundColor":"theme-1"} -->
-<div role="group" class="wp-block-accordion alignwide has-theme-1-background-color has-background"><!-- wp:accordion-item {"style":{"spacing":{"margin":{"top":"-40px","bottom":"0"}},"@tablet":{"spacing":{"margin":{"top":"-15px"}}},"@mobile":{"spacing":{"margin":{"top":"-15px"}}}},"backgroundColor":"theme-1"} -->
-<div class="wp-block-accordion-item has-theme-1-background-color has-background" style="margin-top:-40px;margin-bottom:0"><!-- wp:accordion-heading -->
-<h3 class="wp-block-accordion-heading has-icon has-icon-right"><button type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e('The Almanac Press', 'metis');?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+<!-- wp:accordion {"autoclose":true,"align":"wide","style":{"spacing":{"blockGap":"0"}},"backgroundColor":"theme-1"} -->
+<div role="group" class="wp-block-accordion alignwide has-theme-1-background-color has-background"><!-- wp:accordion-item {"backgroundColor":"theme-1"} -->
+<div class="wp-block-accordion-item has-theme-1-background-color has-background"><!-- wp:accordion-heading {"fontSize":"x-large"} -->
+<h3 class="wp-block-accordion-heading has-icon has-icon-right has-x-large-font-size"><button type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e('The Almanac Press', 'metis');?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
 <!-- /wp:accordion-heading -->
 
 <!-- wp:accordion-panel {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"backgroundColor":"theme-1"} -->
@@ -76,9 +74,9 @@
 <!-- /wp:accordion-panel --></div>
 <!-- /wp:accordion-item -->
 
-<!-- wp:accordion-item {"style":{"spacing":{"margin":{"top":"-40px","bottom":"0"}},"border":{"top":{"width":"1px","style":"dotted"},"right":[],"bottom":[],"left":[]},"@tablet":{"spacing":{"margin":{"top":"-15px"}}},"@mobile":{"spacing":{"margin":{"top":"-15px"}}}},"backgroundColor":"theme-1"} -->
-<div class="wp-block-accordion-item has-theme-1-background-color has-background" style="border-top-style:dotted;border-top-width:1px;margin-top:-40px;margin-bottom:0"><!-- wp:accordion-heading -->
-<h3 class="wp-block-accordion-heading has-icon has-icon-right"><button type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e('Parallel', 'metis');?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+<!-- wp:accordion-item {"style":{"border":{"top":{"width":"1px","style":"dotted"},"right":[],"bottom":[],"left":[]}},"backgroundColor":"theme-1"} -->
+<div class="wp-block-accordion-item has-theme-1-background-color has-background" style="border-top-style:dotted;border-top-width:1px"><!-- wp:accordion-heading {"fontSize":"x-large"} -->
+<h3 class="wp-block-accordion-heading has-icon has-icon-right has-x-large-font-size"><button type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e('Parallel', 'metis');?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
 <!-- /wp:accordion-heading -->
 
 <!-- wp:accordion-panel {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"backgroundColor":"theme-1"} -->
@@ -138,9 +136,9 @@
 <!-- /wp:accordion-panel --></div>
 <!-- /wp:accordion-item -->
 
-<!-- wp:accordion-item {"style":{"spacing":{"margin":{"top":"-40px","bottom":"0"}},"border":{"top":{"width":"1px","style":"dotted"},"right":[],"bottom":[],"left":[]},"@tablet":{"spacing":{"margin":{"top":"-15px"}}},"@mobile":{"spacing":{"margin":{"top":"-15px"}}}},"backgroundColor":"theme-1"} -->
-<div class="wp-block-accordion-item has-theme-1-background-color has-background" style="border-top-style:dotted;border-top-width:1px;margin-top:-40px;margin-bottom:0"><!-- wp:accordion-heading -->
-<h3 class="wp-block-accordion-heading has-icon has-icon-right"><button type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e('The Coast Atlas', 'metis');?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+<!-- wp:accordion-item {"style":{"border":{"top":{"width":"1px","style":"dotted"},"right":[],"bottom":[],"left":[]}},"backgroundColor":"theme-1"} -->
+<div class="wp-block-accordion-item has-theme-1-background-color has-background" style="border-top-style:dotted;border-top-width:1px"><!-- wp:accordion-heading {"fontSize":"x-large"} -->
+<h3 class="wp-block-accordion-heading has-icon has-icon-right has-x-large-font-size"><button type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e('The Coast Atlas', 'metis');?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
 <!-- /wp:accordion-heading -->
 
 <!-- wp:accordion-panel {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"backgroundColor":"theme-1"} -->
@@ -200,9 +198,9 @@
 <!-- /wp:accordion-panel --></div>
 <!-- /wp:accordion-item -->
 
-<!-- wp:accordion-item {"style":{"spacing":{"margin":{"top":"-40px","bottom":"0"}},"border":{"top":{"width":"1px","style":"dotted"},"right":[],"bottom":[],"left":[]},"@tablet":{"spacing":{"margin":{"top":"-15px"}}},"@mobile":{"spacing":{"margin":{"top":"-15px"}}}},"backgroundColor":"theme-1"} -->
-<div class="wp-block-accordion-item has-theme-1-background-color has-background" style="border-top-style:dotted;border-top-width:1px;margin-top:-40px;margin-bottom:0"><!-- wp:accordion-heading -->
-<h3 class="wp-block-accordion-heading has-icon has-icon-right"><button type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e('Field Kit', 'metis');?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+<!-- wp:accordion-item {"style":{"border":{"top":{"width":"1px","style":"dotted"},"right":[],"bottom":[],"left":[]}},"backgroundColor":"theme-1"} -->
+<div class="wp-block-accordion-item has-theme-1-background-color has-background" style="border-top-style:dotted;border-top-width:1px"><!-- wp:accordion-heading {"fontSize":"x-large"} -->
+<h3 class="wp-block-accordion-heading has-icon has-icon-right has-x-large-font-size"><button type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e('Field Kit', 'metis');?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
 <!-- /wp:accordion-heading -->
 
 <!-- wp:accordion-panel {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"backgroundColor":"theme-1"} -->
