@@ -1,12 +1,12 @@
 <?php
 /**
- * Title: Sound, playlist
+ * Title: CTA and playlist
  * Slug: metis/playlist-a
- * Categories: portfolio
- * Description: The listening section on ink — the core Playlist block with the theme's three sample tracks, covers, and waveform.
+ * Categories: call-to-action
+ * Description: An invitation to listen — eyebrow and statement heading over the core Playlist block with the theme's sample tracks.
  */
 ?>
-<!-- wp:group {"tagName":"section","metadata":{"name":"Sound, playlist","patternName":"metis/playlist-a","description":"A static stand-in for the core Playlist block — cover, waveform, now-playing bar, and a numbered tracklist. Swap for the real Playlist block once audio and covers exist.","categories":["Portfolio"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|70"}},"layout":{"type":"constrained"},"anchor":"sound"} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"CTA and playlist","patternName":"metis/playlist-a","description":"A static stand-in for the core Playlist block — cover, waveform, now-playing bar, and a numbered tracklist. Swap for the real Playlist block once audio and covers exist.","categories":["Portfolio"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|70"}},"layout":{"type":"constrained"},"anchor":"sound"} -->
 <section class="wp-block-group alignwide" id="sound" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|40"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"20%"} -->
 <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:20%"><!-- wp:heading {"align":"wide","className":"is-style-eyebrow"} -->
