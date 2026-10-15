@@ -58,32 +58,32 @@
 <!-- wp:column {"width":"33.33%"} -->
 <div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:group {"metadata":{"name":"Accordion Detail Rows"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group"><!-- wp:group {"metadata":{"name":"Detail Row Line 1"},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontSize":"small"} -->
-<p class="has-theme-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('Role', 'metis');?></p>
+<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-theme-3-color has-text-color has-link-color"><?php esc_html_e('Role', 'metis');?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontSize":"small"} -->
-<p class="has-theme-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('Design', 'metis');?></p>
+<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-theme-3-color has-text-color has-link-color"><?php esc_html_e('Design', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Detail Row Line 2"},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontSize":"small"} -->
-<p class="has-theme-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('Year', 'metis');?></p>
+<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-theme-3-color has-text-color has-link-color"><?php esc_html_e('Year', 'metis');?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontSize":"small"} -->
-<p class="has-theme-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('2022—ongoing', 'metis');?></p>
+<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-theme-3-color has-text-color has-link-color"><?php esc_html_e('2022—ongoing', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Detail Row Line 3"},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontSize":"small"} -->
-<p class="has-theme-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('Format', 'metis');?></p>
+<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-theme-3-color has-text-color has-link-color"><?php esc_html_e('Format', 'metis');?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontSize":"small"} -->
-<p class="has-theme-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('Print, quarterly', 'metis');?></p>
+<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-theme-3-color has-text-color has-link-color"><?php esc_html_e('Print, quarterly', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -120,32 +120,32 @@
 <!-- wp:column {"width":"33.33%"} -->
 <div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:group {"metadata":{"name":"Accordion Detail Rows"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group"><!-- wp:group {"metadata":{"name":"Detail Row Line 1"},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontSize":"small"} -->
-<p class="has-theme-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('Role', 'metis');?></p>
+<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-theme-3-color has-text-color has-link-color"><?php esc_html_e('Role', 'metis');?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontSize":"small"} -->
-<p class="has-theme-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('Design', 'metis');?></p>
+<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-theme-3-color has-text-color has-link-color"><?php esc_html_e('Design', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Detail Row Line 2"},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontSize":"small"} -->
-<p class="has-theme-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('Year', 'metis');?></p>
+<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-theme-3-color has-text-color has-link-color"><?php esc_html_e('Year', 'metis');?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontSize":"small"} -->
-<p class="has-theme-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('2023—ongoing', 'metis');?></p>
+<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-theme-3-color has-text-color has-link-color"><?php esc_html_e('2023—ongoing', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Detail Row Line 3"},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontSize":"small"} -->
-<p class="has-theme-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('Format', 'metis');?></p>
+<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-theme-3-color has-text-color has-link-color"><?php esc_html_e('Format', 'metis');?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontSize":"small"} -->
-<p class="has-theme-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('Newsprint, daily', 'metis');?></p>
+<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-theme-3-color has-text-color has-link-color"><?php esc_html_e('Newsprint, daily', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -182,32 +182,32 @@
 <!-- wp:column {"width":"33.33%"} -->
 <div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:group {"metadata":{"name":"Accordion Detail Rows"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group"><!-- wp:group {"metadata":{"name":"Detail Row Line 1"},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontSize":"small"} -->
-<p class="has-theme-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('Role', 'metis');?></p>
+<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-theme-3-color has-text-color has-link-color"><?php esc_html_e('Role', 'metis');?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontSize":"small"} -->
-<p class="has-theme-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('Design', 'metis');?></p>
+<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-theme-3-color has-text-color has-link-color"><?php esc_html_e('Design', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Detail Row Line 2"},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontSize":"small"} -->
-<p class="has-theme-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('Year', 'metis');?></p>
+<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-theme-3-color has-text-color has-link-color"><?php esc_html_e('Year', 'metis');?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontSize":"small"} -->
-<p class="has-theme-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase">2024</p>
+<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-theme-3-color has-text-color has-link-color">2024</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Detail Row Line 3"},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontSize":"small"} -->
-<p class="has-theme-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('Format', 'metis');?></p>
+<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-theme-3-color has-text-color has-link-color"><?php esc_html_e('Format', 'metis');?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontSize":"small"} -->
-<p class="has-theme-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('Archive, web', 'metis');?></p>
+<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-theme-3-color has-text-color has-link-color"><?php esc_html_e('Archive, web', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -244,32 +244,32 @@
 <!-- wp:column {"width":"33.33%"} -->
 <div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:group {"metadata":{"name":"Accordion Detail Rows"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group"><!-- wp:group {"metadata":{"name":"Detail Row Line 1"},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontSize":"small"} -->
-<p class="has-theme-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('Role', 'metis');?></p>
+<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-theme-3-color has-text-color has-link-color"><?php esc_html_e('Role', 'metis');?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontSize":"small"} -->
-<p class="has-theme-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('Design', 'metis');?></p>
+<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-theme-3-color has-text-color has-link-color"><?php esc_html_e('Design', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Detail Row Line 2"},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontSize":"small"} -->
-<p class="has-theme-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('Year', 'metis');?></p>
+<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-theme-3-color has-text-color has-link-color"><?php esc_html_e('Year', 'metis');?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontSize":"small"} -->
-<p class="has-theme-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('2025—ongoing', 'metis');?></p>
+<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-theme-3-color has-text-color has-link-color"><?php esc_html_e('2025—ongoing', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Detail Row Line 3"},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontSize":"small"} -->
-<p class="has-theme-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('Format', 'metis');?></p>
+<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-theme-3-color has-text-color has-link-color"><?php esc_html_e('Format', 'metis');?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontSize":"small"} -->
-<p class="has-theme-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('App, iOS and web', 'metis');?></p>
+<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-theme-3-color has-text-color has-link-color"><?php esc_html_e('App, iOS and web', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

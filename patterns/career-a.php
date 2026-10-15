@@ -9,8 +9,8 @@
 <!-- wp:group {"tagName":"section","metadata":{"name":"Experience, dated roles","patternName":"metis/career-a","description":"A work history as a dated ledger — year on the left, role and place on the right, one row each.","categories":["Text"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"},"anchor":"experience"} -->
 <section class="wp-block-group alignwide" id="experience" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"verticalAlignment":"top","align":"wide"} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"20%"} -->
-<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:20%"><!-- wp:heading {"align":"wide","style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.01rem","lineHeight":1.6000000000000001}},"fontSize":"small"} -->
-<h2 class="wp-block-heading alignwide has-small-font-size" style="letter-spacing:0.01rem;line-height:1.6;text-transform:uppercase"><?php esc_html_e('Experience', 'metis');?></h2>
+<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:20%"><!-- wp:heading {"align":"wide","className":"is-style-eyebrow"} -->
+<h2 class="is-style-eyebrow wp-block-heading alignwide"><?php esc_html_e('Experience', 'metis');?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 

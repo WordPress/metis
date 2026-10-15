@@ -17,8 +17,8 @@
 
 <!-- wp:group {"metadata":{"name":"Issue Detail Wrapper"},"align":"wide","style":{"spacing":{"padding":{"top":"0","bottom":"0"},"margin":{"top":"-3.5rem","bottom":"0"}},"@tablet":{"spacing":{"margin":{"top":"-2rem"}}},"@mobile":{"spacing":{"margin":{"top":"-2rem"}}}},"layout":{"type":"constrained","justifyContent":"right"}} -->
 <div class="wp-block-group alignwide" style="margin-top:-3.5rem;margin-bottom:0;padding-top:0;padding-bottom:0"><!-- wp:group {"metadata":{"name":"Issue Detail"},"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|20"},"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|20","right":"var:preset|spacing|20"},"margin":{"top":"0","bottom":"0"}},"@tablet":{"spacing":{"padding":{"right":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"@mobile":{"spacing":{"blockGap":{"left":"var:preset|spacing|20"},"padding":{"right":"var:preset|spacing|30","left":"var:preset|spacing|30"}}}},"backgroundColor":"theme-2","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group has-theme-2-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)"><!-- wp:paragraph {"metadata":{"name":"Issue Info"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem","lineHeight":"1.6"},"@mobile":{"typography":{"fontSize":"var:preset|font-size|x-small"}}},"fontSize":"small","fontFamily":"openrunde"} -->
-<p class="has-openrunde-font-family has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;line-height:1.6;text-transform:uppercase"><?php esc_html_e('Issue No. 12 · Winter', 'metis');?></p>
+<div class="wp-block-group has-theme-2-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)"><!-- wp:paragraph {"metadata":{"name":"Issue Info"},"style":{"@mobile":{"typography":{"fontSize":"var:preset|font-size|x-small"}}},"className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow"><?php esc_html_e('Issue No. 12 · Winter', 'metis');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"metadata":{"name":"Line Row"},"style":{"layout":{"selfStretch":"fill","flexSize":null},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"},"margin":{"top":"0","bottom":"0"}},"dimensions":{"minHeight":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
@@ -27,8 +27,8 @@
 <!-- /wp:separator --></div>
 <!-- /wp:group -->
 
-<!-- wp:paragraph {"metadata":{"name":"Issue Info"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.01rem","lineHeight":"1.6"},"@mobile":{"typography":{"fontSize":"var:preset|font-size|x-small"}}},"fontSize":"small","fontFamily":"openrunde"} -->
-<p class="has-openrunde-font-family has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;line-height:1.6;text-transform:uppercase"><?php esc_html_e('A quarterly from Landmark', 'metis');?></p>
+<!-- wp:paragraph {"metadata":{"name":"Issue Info"},"style":{"@mobile":{"typography":{"fontSize":"var:preset|font-size|x-small"}}},"className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow"><?php esc_html_e('A quarterly from Landmark', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -129,8 +129,8 @@
 <!-- /wp:columns -->
 
 <!-- wp:group {"metadata":{"name":"Posts with title, magazine archive","categories":["posts"],"patternName":"metis/news-d"},"align":"wide","style":{"layout":{"selfStretch":"fill","flexSize":null},"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained","justifyContent":"left"}} -->
-<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:heading {"metadata":{"name":"Eyebrow"},"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.01rem"}},"fontSize":"small"} -->
-<h2 class="wp-block-heading has-small-font-size" style="letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('The Almanac Archive', 'metis');?></h2>
+<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:heading {"metadata":{"name":"Eyebrow"},"className":"is-style-eyebrow"} -->
+<h2 class="is-style-eyebrow wp-block-heading"><?php esc_html_e('The Almanac Archive', 'metis');?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:query {"queryId":4,"query":{"perPage":6,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":null,"parents":[],"excludeCurrent":null},"metadata":{"categories":["posts"],"name":"Posts, media columns"},"align":"wide","layout":{"type":"default"}} -->

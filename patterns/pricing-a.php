@@ -31,8 +31,8 @@
 <p class="has-openrunde-font-family has-3-x-large-font-size" style="font-style:normal;font-weight:600;letter-spacing:-0.05rem">$1200.00</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"metadata":{"name":"Per Month"},"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"600","letterSpacing":"0.01rem"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"fontSize":"x-small","fontFamily":"openrunde"} -->
-<p class="has-openrunde-font-family has-x-small-font-size" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('/month', 'metis');?></p>
+<!-- wp:paragraph {"metadata":{"name":"Per Month"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><?php esc_html_e('/month', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -95,8 +95,8 @@
 <p class="has-openrunde-font-family has-3-x-large-font-size" style="font-style:normal;font-weight:600;letter-spacing:-0.05rem">$800.00</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"metadata":{"name":"Per Month"},"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"600","letterSpacing":"0.01rem"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"fontSize":"x-small","fontFamily":"openrunde"} -->
-<p class="has-openrunde-font-family has-x-small-font-size" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('/month', 'metis');?></p>
+<!-- wp:paragraph {"metadata":{"name":"Per Month"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><?php esc_html_e('/month', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -145,8 +145,8 @@
 <p class="has-openrunde-font-family has-3-x-large-font-size" style="font-style:normal;font-weight:600;letter-spacing:-0.05rem">$240.00</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"metadata":{"name":"Per Month"},"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"600","letterSpacing":"0.01rem"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"fontSize":"x-small","fontFamily":"openrunde"} -->
-<p class="has-openrunde-font-family has-x-small-font-size" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('/month', 'metis');?></p>
+<!-- wp:paragraph {"metadata":{"name":"Per Month"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><?php esc_html_e('/month', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -197,8 +197,8 @@
 <p class="has-openrunde-font-family has-3-x-large-font-size" style="font-style:normal;font-weight:600;letter-spacing:-0.05rem">$1200.00</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"metadata":{"name":"Per Month"},"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"600","letterSpacing":"0.01rem"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"@tablet":{"typography":{"lineHeight":"1"}}},"fontSize":"x-small","fontFamily":"openrunde"} -->
-<p class="has-openrunde-font-family has-x-small-font-size" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('/month', 'metis');?></p>
+<!-- wp:paragraph {"metadata":{"name":"Per Month"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"@tablet":{"typography":{"lineHeight":"1"}}},"className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><?php esc_html_e('/month', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -247,8 +247,8 @@
 <p class="has-openrunde-font-family has-3-x-large-font-size" style="font-style:normal;font-weight:600;letter-spacing:-0.05rem">$800.00</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"metadata":{"name":"Per Month"},"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"600","letterSpacing":"0.01rem"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"@tablet":{"typography":{"lineHeight":"1"}}},"fontSize":"x-small","fontFamily":"openrunde"} -->
-<p class="has-openrunde-font-family has-x-small-font-size" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('/month', 'metis');?></p>
+<!-- wp:paragraph {"metadata":{"name":"Per Month"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"@tablet":{"typography":{"lineHeight":"1"}}},"className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><?php esc_html_e('/month', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -297,8 +297,8 @@
 <p class="has-openrunde-font-family has-3-x-large-font-size" style="font-style:normal;font-weight:600;letter-spacing:-0.05rem">$240.00</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"metadata":{"name":"Per Month"},"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"600","letterSpacing":"0.01rem"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"@tablet":{"typography":{"lineHeight":"1"}}},"fontSize":"x-small","fontFamily":"openrunde"} -->
-<p class="has-openrunde-font-family has-x-small-font-size" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);font-style:normal;font-weight:600;letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('/month', 'metis');?></p>
+<!-- wp:paragraph {"metadata":{"name":"Per Month"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"@tablet":{"typography":{"lineHeight":"1"}}},"className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><?php esc_html_e('/month', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
