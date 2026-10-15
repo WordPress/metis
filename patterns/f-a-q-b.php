@@ -1,12 +1,12 @@
 <?php
 /**
- * Title: Selected work, timeline
+ * Title: Selected work, accordion list
  * Slug: metis/f-a-q-b
  * Categories: portfolio
- * Description: A reflective opening line over an expandable timeline of long-running work.
+ * Description: A reflective opening line over an expandable accordion of long-running work.
  */
 ?>
-<!-- wp:group {"tagName":"section","metadata":{"name":"Selected work, timeline","patternName":"metis/f-a-q-b","description":"A reflective opening line over an expandable timeline of long-running work.","categories":["Text"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"},"anchor":"the-long-work"} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"Selected work, accordion list","patternName":"metis/f-a-q-b","description":"A reflective opening line over an expandable timeline of long-running work.","categories":["Text"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"},"anchor":"the-long-work"} -->
 <section class="wp-block-group alignwide" id="the-long-work" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"verticalAlignment":"top","align":"wide"} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"35%","layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:35%"><!-- wp:group {"metadata":{"name":"Column Stack"},"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
