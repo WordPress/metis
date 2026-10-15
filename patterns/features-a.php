@@ -10,8 +10,8 @@
 <section class="wp-block-group alignwide balance-text" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"33.33%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.33%"><!-- wp:group {"metadata":{"name":"Eyebrow and Title"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Eyebrow"},"style":{"typography":{"letterSpacing":"0.01rem","lineHeight":1.6000000000000001,"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase"}},"fontSize":"small","fontFamily":"openrunde"} -->
-<p class="has-openrunde-font-family has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;line-height:1.6;text-transform:uppercase"><?php esc_html_e('How we work', 'metis');?></p>
+<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Eyebrow"},"className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow"><?php esc_html_e('How we work', 'metis');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"balance-text","fontSize":"3-x-large"} -->
@@ -68,8 +68,8 @@
 <p class="has-text-align-center has-openrunde-font-family has-4-x-large-font-size" id="identity" style="font-style:normal;font-weight:600;line-height:1.3">12</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"letterSpacing":"0.01rem","lineHeight":1.6000000000000001,"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","textAlign":"center"}},"fontSize":"small","fontFamily":"openrunde"} -->
-<p class="has-text-align-center has-openrunde-font-family has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;line-height:1.6;text-transform:uppercase"><?php esc_html_e('Years', 'metis');?></p>
+<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"textAlign":"center"}},"className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-text-align-center"><?php esc_html_e('Years', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -80,8 +80,8 @@
 <p class="has-text-align-center has-openrunde-font-family has-4-x-large-font-size" id="identity" style="font-style:normal;font-weight:600;line-height:1.3">60</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"letterSpacing":"0.01rem","lineHeight":1.6000000000000001,"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","textAlign":"center"}},"fontSize":"small","fontFamily":"openrunde"} -->
-<p class="has-text-align-center has-openrunde-font-family has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;line-height:1.6;text-transform:uppercase"><?php esc_html_e('Projects', 'metis');?></p>
+<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"textAlign":"center"}},"className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-text-align-center"><?php esc_html_e('Projects', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -92,8 +92,8 @@
 <p class="has-text-align-center has-openrunde-font-family has-4-x-large-font-size" id="identity" style="font-style:normal;font-weight:600;line-height:1.3">3</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"letterSpacing":"0.01rem","lineHeight":1.6000000000000001,"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","textAlign":"center"}},"fontSize":"small","fontFamily":"openrunde"} -->
-<p class="has-text-align-center has-openrunde-font-family has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;line-height:1.6;text-transform:uppercase"><?php esc_html_e('People', 'metis');?></p>
+<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"textAlign":"center"}},"className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-text-align-center"><?php esc_html_e('People', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -104,8 +104,8 @@
 <p class="has-text-align-center has-openrunde-font-family has-4-x-large-font-size" id="identity" style="font-style:normal;font-weight:600;line-height:1.3">1</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"letterSpacing":"0.01rem","lineHeight":1.6000000000000001,"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","textAlign":"center"}},"fontSize":"small","fontFamily":"openrunde"} -->
-<p class="has-text-align-center has-openrunde-font-family has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;line-height:1.6;text-transform:uppercase"><?php esc_html_e('Studio Dog', 'metis');?></p>
+<!-- wp:paragraph {"metadata":{"name":"Detail"},"style":{"typography":{"textAlign":"center"}},"className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow has-text-align-center"><?php esc_html_e('Studio Dog', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

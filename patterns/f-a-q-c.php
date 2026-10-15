@@ -1,8 +1,9 @@
 <?php
 /**
- * Title: F.A.Q. C
+ * Title: FAQ, big text
  * Slug: metis/f-a-q-c
  * Categories: text
+ * Description: Questions in a single column of large type, each answer folding open beneath its line.
  */
 ?>
 <!-- wp:group {"metadata":{"name":"F.A.Q. Large type, one column"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->

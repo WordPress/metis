@@ -12,8 +12,8 @@
 
 <!-- wp:group {"metadata":{"name":"Hero Block Wrapper"},"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide"><!-- wp:group {"metadata":{"name":"Intro"},"align":"wide","style":{"spacing":{"blockGap":"0","padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained","justifyContent":"left"}} -->
-<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:paragraph {"metadata":{"name":"Eyebrown"},"style":{"typography":{"lineHeight":1.6000000000000001,"letterSpacing":"0.01rem","fontStyle":"normal","fontWeight":"600","textTransform":"uppercase"}},"fontSize":"small","fontFamily":"openrunde"} -->
-<p class="has-openrunde-font-family has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;line-height:1.6;text-transform:uppercase"><?php esc_html_e('Profile', 'metis');?></p>
+<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:paragraph {"metadata":{"name":"Eyebrown"},"className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow"><?php esc_html_e('Profile', 'metis');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"align":"wide","className":"indent-first-line","style":{"spacing":{"margin":{"top":"-1.5rem"}}}} -->
@@ -73,8 +73,8 @@
 <div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"","style":{"@tablet":{"spacing":{"blockGap":"var:preset|spacing|60"}},"@mobile":{"spacing":{"blockGap":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-column is-vertically-aligned-top"><!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"25%"} -->
-<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:25%"><!-- wp:heading {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.01rem","lineHeight":1.6000000000000001}},"fontSize":"small"} -->
-<h2 class="wp-block-heading has-small-font-size" style="letter-spacing:0.01rem;line-height:1.6;text-transform:uppercase"><?php esc_html_e('Selected awards', 'metis');?></h2>
+<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:25%"><!-- wp:heading {"className":"is-style-eyebrow"} -->
+<h2 class="is-style-eyebrow wp-block-heading"><?php esc_html_e('Selected awards', 'metis');?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
@@ -109,8 +109,8 @@
 
 <!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"25%"} -->
-<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:25%"><!-- wp:heading {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.01rem","lineHeight":1.6000000000000001}},"fontSize":"small"} -->
-<h2 class="wp-block-heading has-small-font-size" style="letter-spacing:0.01rem;line-height:1.6;text-transform:uppercase"><?php esc_html_e('About', 'metis');?></h2>
+<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:25%"><!-- wp:heading {"className":"is-style-eyebrow"} -->
+<h2 class="is-style-eyebrow wp-block-heading"><?php esc_html_e('About', 'metis');?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
@@ -143,8 +143,8 @@
 <!-- wp:group {"tagName":"section","metadata":{"name":"Experience, dated roles","patternName":"metis/career-a","description":"A work history as a dated ledger — year on the left, role and place on the right, one row each.","categories":["Text"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"},"anchor":"experience"} -->
 <section class="wp-block-group alignwide" id="experience" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"verticalAlignment":"top","align":"wide"} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"20%"} -->
-<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:20%"><!-- wp:heading {"align":"wide","style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.01rem","lineHeight":1.6000000000000001}},"fontSize":"small"} -->
-<h2 class="wp-block-heading alignwide has-small-font-size" style="letter-spacing:0.01rem;line-height:1.6;text-transform:uppercase"><?php esc_html_e('Experience', 'metis');?></h2>
+<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:20%"><!-- wp:heading {"align":"wide","className":"is-style-eyebrow"} -->
+<h2 class="is-style-eyebrow wp-block-heading alignwide"><?php esc_html_e('Experience', 'metis');?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
@@ -208,11 +208,11 @@
 <!-- /wp:columns --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"tagName":"section","metadata":{"name":"Sound, playlist","patternName":"metis/playlist-a","description":"A static stand-in for the core Playlist block — cover, waveform, now-playing bar, and a numbered tracklist. Swap for the real Playlist block once audio and covers exist.","categories":["Portfolio"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|70"}},"layout":{"type":"constrained"},"anchor":"sound"} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"CTA and playlist","patternName":"metis/playlist-a","description":"A static stand-in for the core Playlist block — cover, waveform, now-playing bar, and a numbered tracklist. Swap for the real Playlist block once audio and covers exist.","categories":["Portfolio"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|70"}},"layout":{"type":"constrained"},"anchor":"sound"} -->
 <section class="wp-block-group alignwide" id="sound" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|40"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"20%"} -->
-<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:20%"><!-- wp:heading {"align":"wide","style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.01rem","lineHeight":1.6000000000000001}},"fontSize":"small"} -->
-<h2 class="wp-block-heading alignwide has-small-font-size" style="letter-spacing:0.01rem;line-height:1.6;text-transform:uppercase"><?php esc_html_e('Music', 'metis');?></h2>
+<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:20%"><!-- wp:heading {"align":"wide","className":"is-style-eyebrow"} -->
+<h2 class="is-style-eyebrow wp-block-heading alignwide"><?php esc_html_e('Music', 'metis');?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 

@@ -141,6 +141,22 @@ footer.wp-block-template-part {
 	margin-right: calc(-1 * var(--wp--preset--spacing--60));
 }
 
+/* Lets a Cover's content fill its full height: the cover's inner
+   container is an auto-height flex item, so children's percentage
+   heights resolve to nothing — this stretches it and grows the
+   single child, so a Stack inside can space-between across the
+   whole cover. The class goes on the Cover block. Used: "About,
+   builder portrait". */
+.fill-cover.fill-cover > .wp-block-cover__inner-container {
+	align-self: stretch;
+	display: flex;
+	flex-direction: column;
+}
+
+.fill-cover.fill-cover > .wp-block-cover__inner-container > * {
+	flex-grow: 1;
+}
+
 /* Dims the images inside a container to half strength, each one
    waking to full on its own hover. Used: the Partner Logos in
    "Clients, logo row" (Business). */

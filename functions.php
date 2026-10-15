@@ -79,6 +79,37 @@ if ( ! function_exists( 'metis_quote_styles' ) ) :
 endif;
 add_action( 'init', 'metis_quote_styles' );
 
+/*
+ * The Eyebrow: the small uppercase openrunde line that opens sections
+ * throughout the theme, set manually many times over — now one style
+ * on paragraphs and headings alike. style_data compiles through the
+ * style engine, so the canvas renders it natively and any property
+ * stays overridable per instance.
+ */
+if ( ! function_exists( 'metis_eyebrow_style' ) ) :
+	function metis_eyebrow_style() {
+		register_block_style(
+			array( 'core/paragraph', 'core/heading' ),
+			array(
+				'name'       => 'eyebrow',
+				'label'      => __( 'Eyebrow', 'metis' ),
+				'style_data' => array(
+					'typography' => array(
+						'fontFamily'    => 'var:preset|font-family|openrunde',
+						'fontSize'      => 'var:preset|font-size|small',
+						'fontStyle'     => 'normal',
+						'fontWeight'    => '600',
+						'lineHeight'    => '1.6',
+						'letterSpacing' => '0.01rem',
+						'textTransform' => 'uppercase',
+					),
+				),
+			)
+		);
+	}
+endif;
+add_action( 'init', 'metis_eyebrow_style' );
+
 if ( ! function_exists( 'metis_glossy_button_assets' ) ) :
 	function metis_glossy_button_assets() {
 		wp_enqueue_style(

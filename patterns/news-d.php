@@ -7,8 +7,8 @@
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Posts with title, magazine archive","categories":["posts"],"patternName":"metis/news-d"},"align":"wide","style":{"layout":{"selfStretch":"fill","flexSize":null},"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|50"}},"layout":{"type":"constrained","justifyContent":"center"}} -->
-<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:heading {"metadata":{"name":"Eyebrow"},"align":"wide","style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.01rem"}},"fontSize":"small"} -->
-<h2 class="wp-block-heading alignwide has-small-font-size" style="letter-spacing:0.01rem;text-transform:uppercase"><?php esc_html_e('The Almanac Archive', 'metis');?></h2>
+<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:heading {"metadata":{"name":"Eyebrow"},"align":"wide","className":"is-style-eyebrow"} -->
+<h2 class="is-style-eyebrow wp-block-heading alignwide"><?php esc_html_e('The Almanac Archive', 'metis');?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:query {"queryId":4,"query":{"perPage":6,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":null,"parents":[],"excludeCurrent":null},"metadata":{"categories":["posts"],"name":"Posts, media columns"},"align":"wide","layout":{"type":"default"}} -->

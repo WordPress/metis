@@ -11,8 +11,8 @@
 <div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"","style":{"@tablet":{"spacing":{"blockGap":"var:preset|spacing|60"}},"@mobile":{"spacing":{"blockGap":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-column is-vertically-aligned-top"><!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"25%"} -->
-<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:25%"><!-- wp:heading {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.01rem","lineHeight":1.6000000000000001}},"fontSize":"small"} -->
-<h2 class="wp-block-heading has-small-font-size" style="letter-spacing:0.01rem;line-height:1.6;text-transform:uppercase"><?php esc_html_e('Selected awards', 'metis');?></h2>
+<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:25%"><!-- wp:heading {"className":"is-style-eyebrow"} -->
+<h2 class="is-style-eyebrow wp-block-heading"><?php esc_html_e('Selected awards', 'metis');?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
@@ -47,8 +47,8 @@
 
 <!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"25%"} -->
-<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:25%"><!-- wp:heading {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.01rem","lineHeight":1.6000000000000001}},"fontSize":"small"} -->
-<h2 class="wp-block-heading has-small-font-size" style="letter-spacing:0.01rem;line-height:1.6;text-transform:uppercase"><?php esc_html_e('About', 'metis');?></h2>
+<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:25%"><!-- wp:heading {"className":"is-style-eyebrow"} -->
+<h2 class="is-style-eyebrow wp-block-heading"><?php esc_html_e('About', 'metis');?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 

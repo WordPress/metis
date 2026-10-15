@@ -13,10 +13,10 @@
 
 <!-- wp:column {"width":"66.66%"} -->
 <div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:group {"metadata":{"name":"Title Wrapper"},"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group"><!-- wp:site-title {"level":0,"textColor":"theme-3","fontSize":"large"} /-->
+<div class="wp-block-group"><!-- wp:site-title {"level":0,"fontSize":"large"} /-->
 
-<!-- wp:heading {"level":4,"fontSize":"large"} -->
-<h4 class="wp-block-heading has-large-font-size"><?php esc_html_e('A place of your own, for work that keeps changing shape. You find your way without a complete map—reading the moment, making something from what’s at hand, and keeping the record where you can return to it.', 'metis');?></h4>
+<!-- wp:heading {"level":4,"className":"text-balance","style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontSize":"large"} -->
+<h4 class="wp-block-heading text-balance has-theme-3-color has-text-color has-link-color has-large-font-size"><?php esc_html_e('A place of your own, for work that keeps changing shape. You find your way without a complete map—reading the moment, making something from what’s at hand, and keeping a record you can return to.', 'metis');?></h4>
 <!-- /wp:heading --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
@@ -54,8 +54,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-small"} -->
-<p class="has-x-small-font-size" style="text-transform:uppercase"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */
-printf( esc_html__( 'Designed with %1$sWordPress%2$s', 'metis' ), '<a href="' . esc_url( 'https://wordpress.org' ) . '" rel="nofollow">', '</a>' ); ?></p>
+<p class="has-x-small-font-size" style="text-transform:uppercase"><?php esc_html_e('Designed with', 'metis');?> <a href="https://wordpress.org" rel="nofollow"><?php esc_html_e('WordPress', 'metis');?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
