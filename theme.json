@@ -1143,6 +1143,14 @@
 			},
 			"jetpack/contact-form": {
 				"css": "& .grunion-field:not([type=checkbox]):not([type=radio]) {background-color:#1a1a1a08;color:var(--wp--preset--color--theme-2);font-family:var(--wp--preset--font-family--openrunde);border:1px solid var(--wp--preset--color--theme-4);border-radius:5px;} & .grunion-field:not([type=checkbox]):not([type=radio]):hover {border-color:var(--wp--preset--color--theme-3);} & .grunion-field:not([type=checkbox]):not([type=radio]):focus {border-color:var(--wp--preset--color--theme-3);outline:none;} & .jetpack-field__input {background-color:#1a1a1a08;color:var(--wp--preset--color--theme-2);font-family:var(--wp--preset--font-family--openrunde);border:1px solid var(--wp--preset--color--theme-4);border-radius:5px;} & .jetpack-field__input:hover {border-color:var(--wp--preset--color--theme-3);} & .jetpack-field__input:focus {border-color:var(--wp--preset--color--theme-3);outline:none;} & .jetpack-field__input-element {background-color:#1a1a1a08;color:var(--wp--preset--color--theme-2);font-family:var(--wp--preset--font-family--openrunde);border:1px solid var(--wp--preset--color--theme-4);border-radius:5px;} & .jetpack-field__input-element:hover {border-color:var(--wp--preset--color--theme-3);} & .jetpack-field__input-element:focus {border-color:var(--wp--preset--color--theme-3);outline:none;} & .jetpack-field__textarea {background-color:#1a1a1a08;color:var(--wp--preset--color--theme-2);font-family:var(--wp--preset--font-family--openrunde);border:1px solid var(--wp--preset--color--theme-4);border-radius:5px;} & .jetpack-field__textarea:hover {border-color:var(--wp--preset--color--theme-3);} & .jetpack-field__textarea:focus {border-color:var(--wp--preset--color--theme-3);outline:none;} & .jetpack-field select {background-color:#1a1a1a08;color:var(--wp--preset--color--theme-2);font-family:var(--wp--preset--font-family--openrunde);border:1px solid var(--wp--preset--color--theme-4);border-radius:5px;} & .jetpack-field select:hover {border-color:var(--wp--preset--color--theme-3);} & .jetpack-field select:focus {border-color:var(--wp--preset--color--theme-3);outline:none;} & .grunion-field[type=checkbox] {background-color:#1a1a1a08;border:1px solid var(--wp--preset--color--theme-4);border-radius:3px;} & .jetpack-field__checkbox {background-color:#1a1a1a08;border:1px solid var(--wp--preset--color--theme-4);border-radius:3px;} & label {font-family:var(--wp--preset--font-family--openrunde);} & .grunion-field-wrap .grunion-field:not([type=checkbox]):not([type=radio]) {padding:26px 16px 10px;} & .jetpack-field .jetpack-field__input, & .jetpack-field .jetpack-field__textarea {padding:26px 16px 10px;}"
+			},
+			"jetpack/label": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontStyle": "normal",
+					"fontWeight": "600",
+					"letterSpacing": "0.01rem"
+				}
 			}
 		},
 		"color": {
