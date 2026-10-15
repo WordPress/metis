@@ -100,6 +100,17 @@ footer.wp-block-template-part {
 	text-indent: 33.33%;
 }
 
+/* Cover content fills the cover's full height (mirrors style.css). */
+.fill-cover.fill-cover > .wp-block-cover__inner-container {
+	align-self: stretch;
+	display: flex;
+	flex-direction: column;
+}
+
+.fill-cover.fill-cover > .wp-block-cover__inner-container > * {
+	flex-grow: 1;
+}
+
 /* Pulls a block sideways under its neighbors (mirrors style.css). */
 .pull-sides.pull-sides {
 	margin-left: calc(-1 * var(--wp--preset--spacing--60));
