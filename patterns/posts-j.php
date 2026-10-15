@@ -6,7 +6,8 @@
  * Description: The three most recent posts in a grid, with image, date, and excerpt.
  */
 ?>
-<!-- wp:query {"queryId":5,"query":{"perPage":4,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"ignore","inherit":false,"taxQuery":null,"parents":[],"excludeCurrent":null},"metadata":{"name":"Posts, magazine list","description":"The three most recent posts in a grid, with image, date, and excerpt.","categories":["posts"],"patternName":"metis/posts-j"},"align":"wide","layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"Posts, magazine list"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
+<section class="wp-block-group" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:query {"queryId":5,"query":{"perPage":4,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"ignore","inherit":false,"taxQuery":null,"parents":[],"excludeCurrent":null},"metadata":{"name":"Posts, magazine list","description":"The three most recent posts in a grid, with image, date, and excerpt.","categories":["posts"],"patternName":"metis/posts-j"},"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-query alignwide"><!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|70"}},"layout":{"type":"default","columnCount":3}} -->
 <!-- wp:columns {"verticalAlignment":"bottom"} -->
 <div class="wp-block-columns are-vertically-aligned-bottom"><!-- wp:column {"verticalAlignment":"bottom","width":"25%"} -->
@@ -32,4 +33,5 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 <!-- /wp:post-template --></div>
-<!-- /wp:query -->
+<!-- /wp:query --></section>
+<!-- /wp:group -->
