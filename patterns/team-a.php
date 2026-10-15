@@ -10,8 +10,8 @@
 <section class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"metadata":{"name":"Intro"},"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"metadata":{"name":"Eyebrow and Description"},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Eyebrow"},"style":{"typography":{"letterSpacing":"0.01rem","lineHeight":1.6000000000000001,"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase"}},"fontSize":"small","fontFamily":"openrunde"} -->
-<p class="has-openrunde-font-family has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;line-height:1.6;text-transform:uppercase"><?php esc_html_e('Who you will work with', 'metis');?></p>
+<div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Eyebrow"},"className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow"><?php esc_html_e('Who you will work with', 'metis');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

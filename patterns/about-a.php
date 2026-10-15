@@ -17,8 +17,8 @@
 <!-- wp:column {"verticalAlignment":"stretch"} -->
 <div class="wp-block-column is-vertically-aligned-stretch"><!-- wp:group {"metadata":{"name":"Column Stack"},"align":"wide","style":{"dimensions":{"minHeight":"100%"},"spacing":{"blockGap":{"top":"0"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group alignwide" style="min-height:100%"><!-- wp:group {"metadata":{"name":"Section title and heading"},"align":"wide","style":{"layout":{"selfStretch":"fill","flexSize":null}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group alignwide"><!-- wp:paragraph {"metadata":{"name":"Eyebrow"},"style":{"typography":{"letterSpacing":"0.01rem","lineHeight":1.6000000000000001,"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase"}},"fontSize":"small","fontFamily":"openrunde"} -->
-<p class="has-openrunde-font-family has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;line-height:1.6;text-transform:uppercase"><?php esc_html_e('About', 'metis');?></p>
+<div class="wp-block-group alignwide"><!-- wp:paragraph {"metadata":{"name":"Eyebrow"},"className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow"><?php esc_html_e('About', 'metis');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"fontSize":"2-x-large"} -->

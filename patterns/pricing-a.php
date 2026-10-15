@@ -7,8 +7,8 @@
  */
 ?>
 <!-- wp:group {"tagName":"section","metadata":{"name":"Pricing, 3 plans","patternName":"metis/pricing-a","categories":["Services"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:paragraph {"metadata":{"name":"Eyebrow"},"align":"wide","style":{"typography":{"letterSpacing":"0.01rem","lineHeight":1.6000000000000001,"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase"}},"fontSize":"small","fontFamily":"openrunde"} -->
-<p class="alignwide has-openrunde-font-family has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;line-height:1.6;text-transform:uppercase"><?php esc_html_e('What it costs', 'metis');?></p>
+<section class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:paragraph {"metadata":{"name":"Eyebrow"},"align":"wide","className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow alignwide"><?php esc_html_e('What it costs', 'metis');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"metadata":{"name":"Price Table Outer Wrapper"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}},"border":{"radius":{"topLeft":"15px","topRight":"15px","bottomLeft":"15px","bottomRight":"15px"}},"background":{"gradient":"var:preset|gradient|gradient-8"}},"layout":{"type":"default"}} -->

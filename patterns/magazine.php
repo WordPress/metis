@@ -77,8 +77,8 @@
 
 <!-- wp:column {"width":"25%"} -->
 <div class="wp-block-column" style="flex-basis:25%"><!-- wp:group {"metadata":{"name":"Section title and heading"},"align":"wide","style":{"layout":{"selfStretch":"fill","flexSize":null},"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group alignwide" style="margin-bottom:var(--wp--preset--spacing--60)"><!-- wp:paragraph {"metadata":{"name":"Eyebrow"},"style":{"typography":{"letterSpacing":"0.01rem","lineHeight":1.6000000000000001,"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase"}},"fontSize":"small","fontFamily":"openrunde"} -->
-<p class="has-openrunde-font-family has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.01rem;line-height:1.6;text-transform:uppercase"><?php esc_html_e('About the Magazine', 'metis');?></p>
+<div class="wp-block-group alignwide" style="margin-bottom:var(--wp--preset--spacing--60)"><!-- wp:paragraph {"metadata":{"name":"Eyebrow"},"className":"is-style-eyebrow"} -->
+<p class="is-style-eyebrow"><?php esc_html_e('About the Magazine', 'metis');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"style":{"typography":{"lineHeight":"1.6"}},"fontSize":"medium"} -->
