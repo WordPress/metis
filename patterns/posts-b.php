@@ -6,7 +6,8 @@
  * Description: Recent posts as text rows: title, excerpt, date and a read-more mark.
  */
 ?>
-<!-- wp:query {"queryId":3,"query":{"perPage":4,"pages":0,"offset":"4","postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"ignore","inherit":false,"taxQuery":null,"parents":[],"excludeCurrent":null},"metadata":{"name":"Posts, text only","patternName":"metis/posts-b","description":"Recent posts as text rows: title, excerpt, date and a read-more mark.","categories":["Posts"]},"align":"wide","layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"Posts, text only"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
+<section class="wp-block-group" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:query {"queryId":3,"query":{"perPage":4,"pages":0,"offset":"4","postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"ignore","inherit":false,"taxQuery":null,"parents":[],"excludeCurrent":null},"metadata":{"name":"Posts, text only","patternName":"metis/posts-b","description":"Recent posts as text rows: title, excerpt, date and a read-more mark.","categories":["Posts"]},"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-query alignwide"><!-- wp:post-template {"layout":{"type":"default","columnCount":3}} -->
 <!-- wp:columns {"metadata":{"name":"Post Template Inline Columns + Row"},"style":{"border":{"bottom":{"color":"var:preset|color|theme-4","width":"1px"}},"spacing":{"padding":{"bottom":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-columns" style="border-bottom-color:var(--wp--preset--color--theme-4);border-bottom-width:1px;padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:column {"width":"33.33%"} -->
@@ -28,4 +29,5 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 <!-- /wp:post-template --></div>
-<!-- /wp:query -->
+<!-- /wp:query --></section>
+<!-- /wp:group -->
