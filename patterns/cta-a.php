@@ -29,7 +29,7 @@
 <!-- wp:jetpack/input {"style":{"border":{"style":"solid"}}} /--></div>
 <!-- /wp:jetpack/field-email -->
 
-<!-- wp:button {"tagName":"button","type":"submit","lock":{"move":false,"remove":true},"className":"is-style-glossy","style":{"dimensions":{"width":"var:preset|dimension|25"}}} -->
+<!-- wp:button {"tagName":"button","type":"submit","lock":{"move":false,"remove":true},"className":"is-style-glossy","style":{"dimensions":{"width":"var:preset|dimension|100"}}} -->
 <div class="wp-block-button is-style-glossy"><button type="submit" class="wp-block-button__link wp-element-button"><?php esc_html_e('Subscribe', 'metis');?></button></div>
 <!-- /wp:button --></div>
 <!-- /wp:jetpack/contact-form --></div>
