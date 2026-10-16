@@ -2,7 +2,7 @@
 /**
  * Title: Infos, story and people
  * Slug: metis/infos-a
- * Categories: about
+ * Categories: about, team
  * Description: A studio letter beside the people — story paragraphs with dash breaks, the address and phone, a large photo and a two-up portrait grid.
  */
 ?>

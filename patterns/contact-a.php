@@ -2,7 +2,7 @@
 /**
  * Title: Contact, closing band
  * Slug: metis/contact-a
- * Categories: contact
+ * Categories: contact, team
  * Description: A closing band — display heading, a short note, the address, email and phone in large type, and a photo row to wrap.
  */
 ?>

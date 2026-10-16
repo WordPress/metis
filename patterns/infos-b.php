@@ -2,7 +2,7 @@
 /**
  * Title: Infos, ledger and crew
  * Slug: metis/infos-b
- * Categories: about
+ * Categories: about, team
  * Description: A mono-set studio index — two intro paragraphs, ruled ledger rows of services and ventures, and a four-up crew with roles and short bios.
  */
 ?>
