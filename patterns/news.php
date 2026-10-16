@@ -188,7 +188,17 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"tagName":"section","metadata":{"name":"Card Wrapper","categories":["Contact"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|50","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|40"},"border":{"radius":{"topLeft":"10px","topRight":"10px","bottomLeft":"10px","bottomRight":"10px"}},"shadow":"var:preset|shadow|shadow-1"},"backgroundColor":"theme-6","layout":{"type":"default"}} -->
-<section class="wp-block-group alignwide has-theme-6-background-color has-background" style="border-top-left-radius:10px;border-top-right-radius:10px;border-bottom-left-radius:10px;border-bottom-right-radius:10px;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);box-shadow:var(--wp--preset--shadow--shadow-1)"><!-- wp:jetpack/contact-form {"jetpackCRM":false,"variationName":"lead-capture-form","salesforceData":{"organizationId":"","sendToSalesforce":false},"mailpoet":{"listId":null,"listName":null,"enabledForForm":false},"className":"is-style-animated","layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical","justifyContent":"stretch","verticalAlignment":"top"}} /--></section>
+<section class="wp-block-group alignwide has-theme-6-background-color has-background" style="border-top-left-radius:10px;border-top-right-radius:10px;border-bottom-left-radius:10px;border-bottom-right-radius:10px;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);box-shadow:var(--wp--preset--shadow--shadow-1)"><!-- wp:jetpack/contact-form {"jetpackCRM":false,"variationName":"lead-capture-form","salesforceData":{"organizationId":"","sendToSalesforce":false},"mailpoet":{"listId":null,"listName":null,"enabledForForm":false},"className":"is-style-animated","layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical","justifyContent":"stretch","verticalAlignment":"top"}} -->
+<div class="wp-block-jetpack-contact-form is-style-animated"><!-- wp:jetpack/field-email {"id":"","required":true} -->
+<div><!-- wp:jetpack/label {"label":"<?php esc_attr_e('Email', 'metis');?>"} /-->
+
+<!-- wp:jetpack/input {"style":{"border":{"style":"solid"}}} /--></div>
+<!-- /wp:jetpack/field-email -->
+
+<!-- wp:button {"tagName":"button","type":"submit","lock":{"move":false,"remove":true},"className":"is-style-glossy","style":{"dimensions":{"width":"var:preset|dimension|25"}}} -->
+<div class="wp-block-button is-style-glossy"><button type="submit" class="wp-block-button__link wp-element-button"><?php esc_html_e('Subscribe', 'metis');?></button></div>
+<!-- /wp:button --></div>
+<!-- /wp:jetpack/contact-form --></section>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
