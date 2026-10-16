@@ -6,8 +6,8 @@
  * Description: A portrait beside a short, plain-spoken biography of the one who builds, opened by a one-word heading.
  */
 ?>
-<!-- wp:group {"tagName":"section","metadata":{"name":"About"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"},"anchor":"about"} -->
-<section class="wp-block-group alignwide" id="about" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|50"}}}} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"About"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"},"anchor":"about"} -->
+<section class="wp-block-group alignwide" id="about" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|50"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"bottom","width":"","layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:group {"metadata":{"name":"Column Stack"},"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|50"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group alignwide"><!-- wp:group {"metadata":{"name":"Section title and heading"},"align":"wide","style":{"layout":{"selfStretch":"fit","flexSize":null},"spacing":{"blockGap":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex","orientation":"vertical"}} -->

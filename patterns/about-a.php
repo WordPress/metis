@@ -6,11 +6,11 @@
  * Description: A portrait beside a short, plain-spoken biography opened by a one-word heading.
  */
 ?>
-<!-- wp:group {"tagName":"section","metadata":{"name":"About"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|50"},"border":{"top":{"color":"var:preset|color|theme-3","style":"dotted","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"},"anchor":"about"} -->
-<section class="wp-block-group alignwide" id="about" style="border-top-color:var(--wp--preset--color--theme-3);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"verticalAlignment":null,"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"About"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}},"elements":{"link":{"color":{"text":"var:preset|color|theme-1"}}}},"backgroundColor":"theme-2","textColor":"theme-1","layout":{"type":"constrained"},"anchor":"about"} -->
+<section class="wp-block-group alignwide has-theme-1-color has-theme-2-background-color has-text-color has-background has-link-color" id="about" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"top","width":"38%"} -->
 <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:38%"><!-- wp:image {"width":"800px","aspectRatio":"3/4","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|duotone-1"},"border":{"radius":{"topLeft":"5px","topRight":"5px","bottomLeft":"5px","bottomRight":"5px"}}}} -->
-<figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--avatar-iris.png" alt="" class="" style="border-top-left-radius:5px;border-top-right-radius:5px;border-bottom-left-radius:5px;border-bottom-right-radius:5px;aspect-ratio:3/4;object-fit:cover;width:800px;height:auto"/></figure>
+<figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--avatar-iris.png" alt="" style="border-top-left-radius:5px;border-top-right-radius:5px;border-bottom-left-radius:5px;border-bottom-right-radius:5px;aspect-ratio:3/4;object-fit:cover;width:800px;height:auto"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 

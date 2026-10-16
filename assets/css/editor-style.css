@@ -56,6 +56,10 @@ footer.wp-block-template-part {
 	width: 100%;
 }
 
+.equal-widths.equal-widths > .wp-block-image img {
+	width: 100%;
+}
+
 /* Phone-only even split (mirrors style.css). */
 @media (max-width: 480px) {
 	.equal-widths-phone.equal-widths-phone > *:not(.block-list-appender) {

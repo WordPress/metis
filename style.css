@@ -80,6 +80,10 @@ footer.wp-block-template-part {
 	width: 100%;
 }
 
+.equal-widths.equal-widths > .wp-block-image img {
+	width: 100%;
+}
+
 /* The same even split, but only below the phone boundary — content
    widths above it. Used: the CTA button pair in Business. */
 @media (max-width: 480px) {
