@@ -23,7 +23,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:jetpack/contact-form {"jetpackCRM":false,"variationName":"lead-capture-form","salesforceData":{"organizationId":"","sendToSalesforce":false},"mailpoet":{"listId":null,"listName":null,"enabledForForm":false},"className":"is-style-animated","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical","justifyContent":"stretch","verticalAlignment":"top"}} -->
-<div class="wp-block-jetpack-contact-form is-style-animated"><!-- wp:jetpack/field-email {"id":"","required":true} -->
+<div class="wp-block-jetpack-contact-form is-style-animated" style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0"><!-- wp:jetpack/field-email {"id":"","required":true} -->
 <div><!-- wp:jetpack/label {"label":"<?php esc_attr_e('Email', 'metis');?>"} /-->
 
 <!-- wp:jetpack/input {"style":{"border":{"style":"solid"}}} /--></div>
