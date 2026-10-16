@@ -204,6 +204,11 @@
 					"name": "Close",
 					"shadow": "0 2px 8px 0 var(--wp--preset--color--theme-4)",
 					"slug": "shadow-2"
+				},
+				{
+					"name": "Far",
+					"shadow": "12px 12px 50px rgba(26, 26, 26, 0.2)",
+					"slug": "shadow-3"
 				}
 			]
 		},
