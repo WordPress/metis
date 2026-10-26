@@ -195,3 +195,114 @@ footer.wp-block-template-part {
 	position: relative;
 	z-index: 100;
 }
+
+/* The overlay Navigation toggle offers icon OR label, never both -
+   this puts a two-bar menu mark before the "Menu" text, drawn in
+   currentColor via mask so it follows the text. Used: "Header,
+   uppercase title and search bar". */
+.menu-and-icon .wp-block-navigation__responsive-container-open {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4em;
+}
+
+.menu-and-icon .wp-block-navigation__responsive-container-open::before {
+	content: "";
+	width: 1.1em;
+	height: 1.1em;
+	background-color: currentColor;
+	-webkit-mask: url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22%3E%3Cpath d=%22M5 8v1.5h14V8H5zm0 6.5v1.5h14v-1.5H5z%22/%3E%3C/svg%3E') no-repeat center / contain;
+	mask: url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22%3E%3Cpath d=%22M5 8v1.5h14V8H5zm0 6.5v1.5h14v-1.5H5z%22/%3E%3C/svg%3E') no-repeat center / contain;
+}
+
+/* Hero rotation: the covers in a Row take turns opening - pure CSS.
+   Every cover's flex-grow runs the same staggered cycle: 4s on
+   stage, 0.8s handovers. Base timing assumes four covers; quantity
+   queries (:nth-last-child(N of ...)) retime the whole cycle when
+   the row holds two, three or five, so the turn always lands on a
+   real cover and the row never sits all-closed. The row keeps its
+   own 2:1 ratio; the covers' aspect ratios yield to the stretch.
+   TEST - Hero Animation (test) pattern. */
+.hero-rotate.hero-rotate {
+	aspect-ratio: 2/1;
+}
+
+.hero-rotate.hero-rotate > .wp-block-cover {
+	flex: 0 1 15%;
+	aspect-ratio: auto !important;
+	min-height: 0;
+	overflow: hidden;
+	animation: metis-hero-turn-4 16s ease-in-out infinite;
+}
+
+.hero-rotate.hero-rotate > .wp-block-cover:nth-child(2) {
+	animation-delay: 4s;
+}
+
+.hero-rotate.hero-rotate > .wp-block-cover:nth-child(3) {
+	animation-delay: 8s;
+}
+
+.hero-rotate.hero-rotate > .wp-block-cover:nth-child(4) {
+	animation-delay: 12s;
+}
+
+.hero-rotate.hero-rotate > .wp-block-cover:nth-child(5) {
+	animation-delay: 16s;
+}
+
+.hero-rotate.hero-rotate > .wp-block-cover:first-child:nth-last-child(2 of .wp-block-cover),
+.hero-rotate.hero-rotate > .wp-block-cover:first-child:nth-last-child(2 of .wp-block-cover) ~ .wp-block-cover {
+	animation-name: metis-hero-turn-2;
+	animation-duration: 8s;
+}
+
+.hero-rotate.hero-rotate > .wp-block-cover:first-child:nth-last-child(3 of .wp-block-cover),
+.hero-rotate.hero-rotate > .wp-block-cover:first-child:nth-last-child(3 of .wp-block-cover) ~ .wp-block-cover {
+	animation-name: metis-hero-turn-3;
+	animation-duration: 12s;
+}
+
+.hero-rotate.hero-rotate > .wp-block-cover:first-child:nth-last-child(5 of .wp-block-cover),
+.hero-rotate.hero-rotate > .wp-block-cover:first-child:nth-last-child(5 of .wp-block-cover) ~ .wp-block-cover {
+	animation-name: metis-hero-turn-5;
+	animation-duration: 20s;
+}
+
+@keyframes metis-hero-turn-2 {
+	0% { flex-grow: 0; }
+	10% { flex-grow: 1; }
+	50% { flex-grow: 1; }
+	60% { flex-grow: 0; }
+	100% { flex-grow: 0; }
+}
+
+@keyframes metis-hero-turn-3 {
+	0% { flex-grow: 0; }
+	6.7% { flex-grow: 1; }
+	33.3% { flex-grow: 1; }
+	40% { flex-grow: 0; }
+	100% { flex-grow: 0; }
+}
+
+@keyframes metis-hero-turn-4 {
+	0% { flex-grow: 0; }
+	5% { flex-grow: 1; }
+	25% { flex-grow: 1; }
+	30% { flex-grow: 0; }
+	100% { flex-grow: 0; }
+}
+
+@keyframes metis-hero-turn-5 {
+	0% { flex-grow: 0; }
+	4% { flex-grow: 1; }
+	20% { flex-grow: 1; }
+	24% { flex-grow: 0; }
+	100% { flex-grow: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.hero-rotate.hero-rotate > .wp-block-cover {
+		animation: none;
+	}
+}
