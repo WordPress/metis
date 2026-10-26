@@ -301,7 +301,7 @@ footer.wp-block-template-part {
 }
 
 /* The overlay Navigation toggle offers icon OR label, never both -
-   this puts the hamburger back beside the "Menu" text, drawn in
+   this puts a two-bar menu mark before the "Menu" text, drawn in
    currentColor via mask so it follows the text. Used: "Header,
    uppercase title and search bar". */
 .menu-and-icon .wp-block-navigation__responsive-container-open {
@@ -310,13 +310,13 @@ footer.wp-block-template-part {
 	gap: 0.4em;
 }
 
-.menu-and-icon .wp-block-navigation__responsive-container-open::after {
+.menu-and-icon .wp-block-navigation__responsive-container-open::before {
 	content: "";
 	width: 1.1em;
 	height: 1.1em;
 	background-color: currentColor;
-	-webkit-mask: url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22%3E%3Cpath d=%22M5 5v1.5h14V5H5zm0 7.8h14v-1.5H5v1.5zM5 19h14v-1.5H5V19z%22/%3E%3C/svg%3E') no-repeat center / contain;
-	mask: url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22%3E%3Cpath d=%22M5 5v1.5h14V5H5zm0 7.8h14v-1.5H5v1.5zM5 19h14v-1.5H5V19z%22/%3E%3C/svg%3E') no-repeat center / contain;
+	-webkit-mask: url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22%3E%3Cpath d=%22M5 8v1.5h14V8H5zm0 6.5v1.5h14v-1.5H5z%22/%3E%3C/svg%3E') no-repeat center / contain;
+	mask: url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22%3E%3Cpath d=%22M5 8v1.5h14V8H5zm0 6.5v1.5h14v-1.5H5z%22/%3E%3C/svg%3E') no-repeat center / contain;
 }
 
 /* Hero rotation: the covers in a Row take turns opening - pure CSS.
