@@ -172,6 +172,23 @@ footer.wp-block-template-part {
 	}
 }
 
+/* Keeps a media row on one line so long titles wrap their text instead
+   of stacking the row; the shrink pin keeps every image at its fixed
+   size (mirrors style.css, desktop only). */
+@media (min-width: 783px) {
+	.no-stacking.no-stacking {
+		flex-wrap: nowrap;
+	}
+
+	.no-stacking.no-stacking > * {
+		min-width: 0;
+	}
+
+	.no-stacking.no-stacking > .wp-block-post-featured-image {
+		flex-shrink: 0;
+	}
+}
+
 /* Open accordion items add back the bleed overlap (mirrors style.css;
    keyed to the bleed's inline margin). */
 .wp-block-accordion-item[style*="margin-top:-40"].is-open {
