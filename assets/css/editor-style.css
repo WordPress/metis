@@ -25,6 +25,18 @@ footer.wp-block-template-part {
 	margin-block-start: 0 !important;
 }
 
+/* The post/page editor canvas inherits the template's Content-block
+   layout, so composing starts left-pinned wherever a template pins
+   its content left (the Page template's wide editorial measure). On
+   the bare canvas that pin has no wide container around it and reads
+   as broken — re-center top-level children while writing. Canvas root
+   only: the front end, the Site Editor template view, and any
+   justification set on blocks inside the content keep the real pin. */
+.editor-styles-wrapper .is-root-container.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
 /* ————————————————————————————————————————————————————————————————
    Utilities (mirror style.css).
    ———————————————————————————————————————————————————————————— */
