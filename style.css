@@ -223,6 +223,29 @@ footer.wp-block-template-part {
 	}
 }
 
+/* On a media row (fixed image + fill content): keeps both on one line,
+   so a long title wraps its own text instead of throwing the content
+   below the image — every item in a Query Loop stays consistent. The
+   image's fixed size is only a flex-basis (flex: 0 1), so without the
+   shrink pin the longest-title row would squeeze its image narrower
+   than its siblings'; min-width: 0 sends all the squeeze to the fill
+   group instead. Desktop only: below 783px the image goes full width
+   and the row stacks by design. Used: the "Media and Content" rows in
+   archive, index, search, magazine, news-d and posts-c. */
+@media (min-width: 783px) {
+	.no-stacking.no-stacking {
+		flex-wrap: nowrap;
+	}
+
+	.no-stacking.no-stacking > * {
+		min-width: 0;
+	}
+
+	.no-stacking.no-stacking > .wp-block-post-featured-image {
+		flex-shrink: 0;
+	}
+}
+
 /* Keeps a block above anything it overlaps: positions it and raises
    it over sibling stacking (covers, bleeds, negative margins alike).
    Active in the editor too. Used: opt-in via Additional CSS classes.

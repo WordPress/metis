@@ -20,7 +20,7 @@
 <div class="wp-block-columns alignwide" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:column {"width":"66.66%"} -->
 <div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:group {"metadata":{"name":"Content Wrapper"},"align":"full","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|70"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"Title and meta"},"layout":{"type":"constrained","justifyContent":"left"}} -->
-<div class="wp-block-group"><!-- wp:post-title /-->
+<div class="wp-block-group"><!-- wp:post-title {"fontSize":"3-x-large"} /-->
 
 <!-- wp:group {"metadata":{"name":"Meta Single Posts"},"className":"has-link-color","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"blockGap":{"left":"var:preset|spacing|30"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
 <div class="wp-block-group has-link-color" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:group {"metadata":{"name":"Date"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20","left":"var:preset|spacing|20"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -49,7 +49,7 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:post-content {"layout":{"type":"constrained","justifyContent":"left"}} /-->
+<!-- wp:post-content {"layout":{"type":"constrained","justifyContent":"center"}} /-->
 
 <!-- wp:group {"metadata":{"name":"About the article"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"0"},"blockGap":{"top":"var:preset|spacing|30"}},"border":{"top":{"color":"var:preset|color|theme-4","style":"dotted","width":"1px"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group" style="border-top-color:var(--wp--preset--color--theme-4);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--40);padding-bottom:0"><!-- wp:group {"metadata":{"name":"Author and Categories"},"style":{"spacing":{"blockGap":{"left":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->

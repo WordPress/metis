@@ -320,7 +320,7 @@
 							"fontStyle": "normal",
 							"fontWeight": "300",
 							"src": [
-								"file:./assets/fonts/recursive-linear/recursive-linear-300-normal.ttf"
+								"file:./assets/fonts/recursive-linear/recursive-linear-300-normal.woff2"
 							]
 						},
 						{
@@ -329,7 +329,7 @@
 							"fontStyle": "normal",
 							"fontWeight": "400",
 							"src": [
-								"file:./assets/fonts/recursive-linear/recursive-linear-400-normal.ttf"
+								"file:./assets/fonts/recursive-linear/recursive-linear-400-normal.woff2"
 							]
 						},
 						{
@@ -338,7 +338,7 @@
 							"fontStyle": "normal",
 							"fontWeight": "700",
 							"src": [
-								"file:./assets/fonts/recursive-linear/recursive-linear-700-normal.ttf"
+								"file:./assets/fonts/recursive-linear/recursive-linear-700-normal.woff2"
 							]
 						}
 					],
@@ -354,7 +354,7 @@
 							"fontStyle": "normal",
 							"fontWeight": "300",
 							"src": [
-								"file:./assets/fonts/recursive-mono/recursive-mono-300-normal.ttf"
+								"file:./assets/fonts/recursive-mono/recursive-mono-300-normal.woff2"
 							]
 						},
 						{
@@ -363,7 +363,7 @@
 							"fontStyle": "normal",
 							"fontWeight": "400",
 							"src": [
-								"file:./assets/fonts/recursive-mono/recursive-mono-400-normal.ttf"
+								"file:./assets/fonts/recursive-mono/recursive-mono-400-normal.woff2"
 							]
 						},
 						{
@@ -372,7 +372,7 @@
 							"fontStyle": "normal",
 							"fontWeight": "700",
 							"src": [
-								"file:./assets/fonts/recursive-mono/recursive-mono-700-normal.ttf"
+								"file:./assets/fonts/recursive-mono/recursive-mono-700-normal.woff2"
 							]
 						}
 					],
@@ -938,6 +938,9 @@
 							"textDecoration": "none"
 						}
 					}
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--x-large)"
 				}
 			},
 			"core/pullquote": {

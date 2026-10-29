@@ -25,6 +25,18 @@ footer.wp-block-template-part {
 	margin-block-start: 0 !important;
 }
 
+/* The post/page editor canvas inherits the template's Content-block
+   layout, so composing starts left-pinned wherever a template pins
+   its content left (the Page template's wide editorial measure). On
+   the bare canvas that pin has no wide container around it and reads
+   as broken — re-center top-level children while writing. Canvas root
+   only: the front end, the Site Editor template view, and any
+   justification set on blocks inside the content keep the real pin. */
+.editor-styles-wrapper .is-root-container.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
 /* ————————————————————————————————————————————————————————————————
    Utilities (mirror style.css).
    ———————————————————————————————————————————————————————————— */
@@ -169,6 +181,23 @@ footer.wp-block-template-part {
 @media (min-width: 783px) {
 	.stagger-middle > li:nth-child(3n+2 of li:not([style*="none"])) {
 		margin-top: var(--wp--preset--spacing--70);
+	}
+}
+
+/* Keeps a media row on one line so long titles wrap their text instead
+   of stacking the row; the shrink pin keeps every image at its fixed
+   size (mirrors style.css, desktop only). */
+@media (min-width: 783px) {
+	.no-stacking.no-stacking {
+		flex-wrap: nowrap;
+	}
+
+	.no-stacking.no-stacking > * {
+		min-width: 0;
+	}
+
+	.no-stacking.no-stacking > .wp-block-post-featured-image {
+		flex-shrink: 0;
 	}
 }
 
