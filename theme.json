@@ -938,6 +938,9 @@
 							"textDecoration": "none"
 						}
 					}
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--x-large)"
 				}
 			},
 			"core/pullquote": {
