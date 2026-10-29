@@ -10,8 +10,8 @@
 <div class="wp-block-group alignwide" style="padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:template-part {"slug":"header-a","theme":"metis"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"Title Block Wrapper"},"align":"wide","style":{"spacing":{"padding":{"top":"0","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained","justifyContent":"left"}} -->
-<div class="wp-block-group alignwide" style="padding-top:0;padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:query-title {"type":"archive","align":"wide"} /--></div>
+<!-- wp:group {"metadata":{"name":"Title Block Wrapper"},"align":"wide","style":{"spacing":{"padding":{"top":"0","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained","justifyContent":"left"}} -->
+<div class="wp-block-group alignwide" style="padding-top:0;padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:query-title {"type":"archive","align":"wide"} /--></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
 

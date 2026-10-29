@@ -49,7 +49,7 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:post-content {"layout":{"type":"constrained","justifyContent":"left"}} /-->
+<!-- wp:post-content {"layout":{"type":"constrained","justifyContent":"center"}} /-->
 
 <!-- wp:group {"metadata":{"name":"About the article"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"0"},"blockGap":{"top":"var:preset|spacing|30"}},"border":{"top":{"color":"var:preset|color|theme-4","style":"dotted","width":"1px"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group" style="border-top-color:var(--wp--preset--color--theme-4);border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--40);padding-bottom:0"><!-- wp:group {"metadata":{"name":"Author and Categories"},"style":{"spacing":{"blockGap":{"left":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
