@@ -3,7 +3,7 @@
  *
  * CSS-only, Editor-safe section background. One linear ramp from a contrasting
  * colour at the top down to Base (theme-1, the page background); its LENGTH
- * breathes between 55rem and 25rem — collapsing slowly, returning a touch
+ * breathes between 65rem and 30rem — collapsing slowly, returning a touch
  * quicker, a tide rather than a pulse. The ramp is
  * sized min(<rem>, 100%): on sections shorter than the ramp it pins to the
  * section bottom, so the fade always completes and never seams against the
@@ -26,7 +26,7 @@
 		var(--wp--preset--color--theme-1) 100%
 	);
 	background-repeat: no-repeat;
-	background-size: 100% min(50rem, 100%);
+	background-size: 100% min(60rem, 100%);
 	background-position: 50% 0%;
 }
 
@@ -48,10 +48,10 @@
 @keyframes metis-gradient-breathe {
 	0%,
 	100% {
-		background-size: 100% min(55rem, 100%);
+		background-size: 100% min(65rem, 100%);
 	}
 	60% {
-		background-size: 100% min(25rem, 100%);
+		background-size: 100% min(30rem, 100%);
 	}
 }
 

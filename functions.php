@@ -148,7 +148,7 @@ if ( ! function_exists( 'metis_gradient_assets' ) ) :
 			'metis-animated-gradient',
 			get_stylesheet_directory_uri() . '/assets/css/animated-gradient.css',
 			array(),
-			'0.9.1'
+			'0.9.2'
 		);
 	}
 endif;
