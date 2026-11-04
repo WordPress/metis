@@ -50,6 +50,13 @@
 				"post"
 			],
 			"title": "Single with Sidebar"
+		},
+		{
+			"name": "single-no-image",
+			"postTypes": [
+				"post"
+			],
+			"title": "Single without Image"
 		}
 	],
 	"settings": {
