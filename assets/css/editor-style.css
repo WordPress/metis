@@ -325,6 +325,19 @@ footer.wp-block-template-part {
 }
 
 /* Tabs as sidebar + stage (mirrors style.css, desktop only). */
+/* Stacked (mobile) state: the rail-to-stage spacing follows the same
+   block gap his columns use when they stack, and core's side padding
+   is zeroed for the same edge alignment. */
+@media (max-width: 782px) {
+	.wp-block-tabs.tabs-split {
+		padding: 0;
+	}
+
+	.wp-block-tabs.tabs-split > .wp-block-tab-panels {
+		margin-block-start: var(--wp--style--block-gap, 2em);
+	}
+}
+
 @media (min-width: 783px) {
 	.wp-block-tabs.tabs-split {
 		display: flex;

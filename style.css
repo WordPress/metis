@@ -437,9 +437,22 @@ footer.wp-block-template-part {
 /* Splits a Tabs block into sidebar + stage: the tab list becomes a
    left rail (vertical, full-width buttons), the panels the right
    column. Desktop only — below 783px the rail returns to core's
-   horizontal row above the panels. Core resets the buttons and draws
-   the active underline; this only reshapes the geometry. Used: the
+   horizontal row above the panels. Core resets the buttons; the active
+   state is restyled here (core underline retired, + becomes minus). Used: the
    Homepage "Templates" section. Opt-in via Additional CSS classes. */
+/* Stacked (mobile) state: the rail-to-stage spacing follows the same
+   block gap his columns use when they stack, and core's side padding
+   is zeroed for the same edge alignment. */
+@media (max-width: 782px) {
+	.wp-block-tabs.tabs-split {
+		padding: 0;
+	}
+
+	.wp-block-tabs.tabs-split > .wp-block-tab-panels {
+		margin-block-start: var(--wp--style--block-gap, 2em);
+	}
+}
+
 @media (min-width: 783px) {
 	.wp-block-tabs.tabs-split {
 		display: flex;
