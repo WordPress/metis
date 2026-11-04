@@ -341,8 +341,38 @@ footer.wp-block-template-part {
 		min-width: 0;
 	}
 
+	/* Each item mirrors his hand-built template row: dotted 1px top
+	   rule, spacing-30 vertical padding, the title as an x-large
+	   heading, a body-font "+" pushed to the right. The active item
+	   swaps + for \2212 (minus); core's underline is retired here. */
 	.wp-block-tabs.tabs-split > .wp-block-tab-list button {
 		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		border-top: 1px dotted currentColor;
+		padding: var(--wp--preset--spacing--30) 0;
+		font-family: var(--wp--preset--font-family--openrunde);
+		font-size: var(--wp--preset--font-size--x-large);
+		font-weight: 600;
+		letter-spacing: -0.02em;
+		line-height: 1.3;
+	}
+
+	.wp-block-tabs.tabs-split > .wp-block-tab-list button::after {
+		content: "+";
+		font-family: var(--wp--preset--font-family--recursive-linear);
+		font-size: var(--wp--preset--font-size--large);
+		font-weight: 400;
+		letter-spacing: 0;
+	}
+
+	.wp-block-tabs.tabs-split > .wp-block-tab-list button[aria-selected="true"]::after {
+		content: "\2212";
+	}
+
+	.wp-block-tabs.tabs-split > .wp-block-tab-list button[aria-selected="true"]::before {
+		content: none;
 	}
 
 	.wp-block-tabs.tabs-split > .wp-block-tab-panels {
