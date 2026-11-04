@@ -323,3 +323,26 @@ footer.wp-block-template-part {
 		animation: none;
 	}
 }
+
+/* Tabs as sidebar + stage (mirrors style.css, desktop only). */
+@media (min-width: 783px) {
+	.wp-block-tabs.tabs-split {
+		display: flex;
+		gap: var(--wp--preset--spacing--60);
+		align-items: flex-start;
+	}
+
+	.wp-block-tabs.tabs-split > .wp-block-tab-list {
+		flex-direction: column;
+		flex: 0 0 33.33%;
+	}
+
+	.wp-block-tabs.tabs-split > .wp-block-tab-list button {
+		width: 100%;
+	}
+
+	.wp-block-tabs.tabs-split > .wp-block-tab-panels {
+		flex: 1 1 0;
+		min-width: 0;
+	}
+}
