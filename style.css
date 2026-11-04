@@ -443,13 +443,17 @@ footer.wp-block-template-part {
 @media (min-width: 783px) {
 	.wp-block-tabs.tabs-split {
 		display: flex;
-		gap: var(--wp--preset--spacing--60);
+		padding: 0;
+		gap: var(--wp--style--block-gap, 2em);
 		align-items: flex-start;
 	}
 
+	/* Mirror a core Columns block (auto column + 66.66% column) exactly:
+	   the rail behaves like the unset column, the stage like the fixed one. */
 	.wp-block-tabs.tabs-split > .wp-block-tab-list {
 		flex-direction: column;
-		flex: 0 0 33.33%;
+		flex: 1 1 0;
+		min-width: 0;
 	}
 
 	.wp-block-tabs.tabs-split > .wp-block-tab-list button {
@@ -457,7 +461,7 @@ footer.wp-block-template-part {
 	}
 
 	.wp-block-tabs.tabs-split > .wp-block-tab-panels {
-		flex: 1 1 0;
+		flex: 0 1 66.66%;
 		min-width: 0;
 	}
 }
