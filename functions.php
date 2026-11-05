@@ -155,6 +155,21 @@ endif;
 add_action( 'wp_enqueue_scripts', 'metis_gradient_assets' );
 
 /*
+ * Motion-blur SVG filter — the defs behind the .metis-motion-blur utility
+ * (see style.css). An anisotropic Gaussian: 12px of blur along x, none
+ * along y, so a Cover's featured image streaks sideways instead of just
+ * softening. Printed inline on wp_body_open because browsers only resolve
+ * filter references within the same document; the element is 0x0 and
+ * invisible. Same mechanism core uses for duotone.
+ */
+if ( ! function_exists( 'metis_motion_blur_svg' ) ) :
+	function metis_motion_blur_svg() {
+		echo '<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><filter id="metis-motion-blur" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="12 0" /></filter></svg>';
+	}
+endif;
+add_action( 'wp_body_open', 'metis_motion_blur_svg' );
+
+/*
  * Register the pattern categories the theme's patterns declare, so every pattern
  * groups under a labelled tab in the inserter instead of scattering or hiding.
  * Slugs match the `Categories:` headers the patterns already use.
