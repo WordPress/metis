@@ -508,3 +508,19 @@ footer.wp-block-template-part {
 		min-width: 0;
 	}
 }
+
+/*
+ * Motion blur — a horizontal streak on a Cover's featured image, and only
+ * on the image: the filter sits on the img element the Cover renders for
+ * its featured image, so the header, title and anything else inside the
+ * Cover stay sharp. The blur is directional (12px along x, none along y),
+ * echoing the movement in the photography and quietly masking small or
+ * upscaled uploads. It references the inline SVG filter functions.php
+ * prints on wp_body_open; the slight scale hides the soft edge the blur
+ * leaves behind (the Cover clips the overflow). Front end only — the
+ * Editor canvas has no SVG defs, so it shows the image unblurred.
+ */
+.wp-block-cover.metis-motion-blur img.wp-block-cover__image-background {
+	filter: url(#metis-motion-blur);
+	transform: scale(1.08);
+}

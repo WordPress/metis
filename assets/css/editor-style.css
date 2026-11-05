@@ -393,3 +393,11 @@ footer.wp-block-template-part {
 		min-width: 0;
 	}
 }
+
+/* Motion blur (see style.css) — inert in the canvas (no SVG defs in the
+   editor iframe), kept here so the selector ships in both worlds if the
+   defs ever reach the canvas. */
+.wp-block-cover.metis-motion-blur img.wp-block-cover__image-background {
+	filter: url(#metis-motion-blur);
+	transform: scale(1.08);
+}

@@ -6,8 +6,8 @@
  * Description: A mono-set studio index — two intro paragraphs, ruled ledger rows of services and ventures, and a four-up crew with roles and short bios.
  */
 ?>
-<!-- wp:group {"tagName":"section","metadata":{"name":"Infos, ledger and crew"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"},"blockGap":"var:preset|spacing|60"}},"layout":{"type":"constrained"}} -->
-<section class="wp-block-group" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:columns {"align":"wide"} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"Infos, ledger and crew"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"},"blockGap":"var:preset|spacing|60"}},"layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:paragraph -->
 <p><?php esc_html_e('Landmark is a studio that works across disciplines and fields of design. Projects here grow out of a patient process — one that looks for an honest relationship with the client, whatever the size of the venture.', 'metis');?></p>
