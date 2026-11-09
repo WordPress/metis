@@ -13,9 +13,9 @@
 <!-- wp:group {"metadata":{"name":"Hero Block Wrapper","blockVisibility":{"viewport":{"tablet":false,"mobile":false}}},"align":"full","style":{"@tablet":{"spacing":{"margin":{"top":"-2rem"}}},"@mobile":{"spacing":{"margin":{"top":"-2rem"}}},"spacing":{"margin":{"bottom":"-4rem"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull" style="margin-bottom:-4rem"><!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"bottom"} -->
-<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:paragraph {"metadata":{"name":"News"},"style":{"typography":{"textAlign":"left","fontStyle":"normal","fontWeight":"600","letterSpacing":"-0.5rem","lineHeight":"1"}},"fontFamily":"openrunde","fitText":true} -->
-<p class="has-text-align-left has-fit-text has-openrunde-font-family" style="font-style:normal;font-weight:600;letter-spacing:-0.5rem;line-height:1"><?php esc_html_e('News', 'metis');?></p>
-<!-- /wp:paragraph --></div>
+<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:heading {"level":1,"metadata":{"name":"News"},"style":{"typography":{"textAlign":"left","fontStyle":"normal","fontWeight":"600","letterSpacing":"-0.5rem","lineHeight":"1"}},"fitText":true} -->
+<h1 class="wp-block-heading has-text-align-left has-fit-text" style="font-style:normal;font-weight:600;letter-spacing:-0.5rem;line-height:1"><?php esc_html_e('News', 'metis');?></h1>
+<!-- /wp:heading --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"top"} -->
@@ -25,9 +25,9 @@
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading {"level":1,"style":{"typography":{"letterSpacing":"-0.02rem","lineHeight":"1.5"}},"fontSize":"medium"} -->
-<h1 class="wp-block-heading has-medium-font-size" style="letter-spacing:-0.02rem;line-height:1.5"><?php esc_html_e('The news, gathered each morning—what happened, what it changed, and what is still moving.', 'metis');?></h1>
-<!-- /wp:heading --></div>
+<div class="wp-block-column"><!-- wp:paragraph {"metadata":{"name":"Statement"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"medium","fontFamily":"openrunde"} -->
+<p class="has-openrunde-font-family has-medium-font-size" style="font-style:normal;font-weight:600"><?php esc_html_e('The news, gathered each morning—what happened, what it changed, and what is still moving.', 'metis');?></p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:column --></div>
@@ -35,9 +35,9 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Hero Block Wrapper Mobile","blockVisibility":{"viewport":{"desktop":false}}},"align":"wide","style":{"@tablet":{"spacing":{"margin":{"top":"-2rem"}}},"@mobile":{"spacing":{"margin":{"top":"-2rem"}}},"border":{"bottom":{"width":"1px","style":"dotted"}},"spacing":{"padding":{"top":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignwide" style="border-bottom-style:dotted;border-bottom-width:1px;padding-top:var(--wp--preset--spacing--80)"><!-- wp:paragraph {"metadata":{"name":"News"},"style":{"typography":{"textAlign":"center","fontStyle":"normal","fontWeight":"600","letterSpacing":"-0.61rem","lineHeight":"0.5"}},"fontFamily":"openrunde","fitText":true} -->
-<p class="has-text-align-center has-fit-text has-openrunde-font-family" style="font-style:normal;font-weight:600;letter-spacing:-0.61rem;line-height:0.5"><?php esc_html_e('News', 'metis');?></p>
-<!-- /wp:paragraph --></div>
+<div class="wp-block-group alignwide" style="border-bottom-style:dotted;border-bottom-width:1px;padding-top:var(--wp--preset--spacing--80)"><!-- wp:heading {"level":1,"metadata":{"name":"News"},"style":{"typography":{"textAlign":"center","fontStyle":"normal","fontWeight":"600","letterSpacing":"-0.61rem","lineHeight":"0.5"}},"fitText":true} -->
+<h1 class="wp-block-heading has-text-align-center has-fit-text" style="font-style:normal;font-weight:600;letter-spacing:-0.61rem;line-height:0.5"><?php esc_html_e('News', 'metis');?></h1>
+<!-- /wp:heading --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
 
@@ -167,7 +167,7 @@
 <div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"top"} -->
 <div class="wp-block-column is-vertically-aligned-top"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
 <div class="wp-block-columns are-vertically-aligned-center" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:column {"verticalAlignment":"center","width":"25%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:25%"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","metadata":{"name":"Brand"}} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:25%"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","metadata":{"name":"Brand"},"style":{"color":{"duotone":"var:preset|duotone|duotone-2"}}} -->
 <figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--p-logo.webp" alt="" class=""/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
@@ -195,7 +195,7 @@
 <!-- wp:jetpack/input {"style":{"border":{"style":"solid"}}} /--></div>
 <!-- /wp:jetpack/field-email -->
 
-<!-- wp:button {"tagName":"button","type":"submit","lock":{"move":false,"remove":true},"className":"is-style-glossy","style":{"dimensions":{"width":"var:preset|dimension|25"}}} -->
+<!-- wp:button {"tagName":"button","type":"submit","lock":{"move":false,"remove":true},"className":"is-style-glossy","style":{"dimensions":{"width":"var:preset|dimension|100"}}} -->
 <div class="wp-block-button is-style-glossy"><button type="submit" class="wp-block-button__link wp-element-button"><?php esc_html_e('Subscribe', 'metis');?></button></div>
 <!-- /wp:button --></div>
 <!-- /wp:jetpack/contact-form --></section>

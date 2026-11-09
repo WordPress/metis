@@ -28,8 +28,8 @@
 <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:50%"><!-- wp:group {"metadata":{"name":"Timeline"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide"><!-- wp:accordion {"style":{"spacing":{"blockGap":"0"}}} -->
 <div role="group" class="wp-block-accordion"><!-- wp:accordion-item {"openByDefault":true,"style":{"spacing":{"blockGap":"var:preset|spacing|20","margin":{"top":"0","bottom":"0"}},"border":{"top":{"width":"1px","style":"dotted"}}}} -->
-<div class="wp-block-accordion-item is-open" style="border-top-style:dotted;border-top-width:1px;margin-top:0;margin-bottom:0"><!-- wp:accordion-heading {"fontSize":"medium","fontFamily":"recursive-linear"} -->
-<h3 class="wp-block-accordion-heading has-icon has-icon-right has-recursive-linear-font-family has-medium-font-size"><button type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e('2019 · The Ground Truth Archive', 'metis');?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+<div class="wp-block-accordion-item is-open" style="border-top-style:dotted;border-top-width:1px;margin-top:0;margin-bottom:0"><!-- wp:accordion-heading {"fontSize":"medium"} -->
+<h3 class="wp-block-accordion-heading has-icon has-icon-right has-medium-font-size"><button type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e('2019 · The Ground Truth Archive', 'metis');?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
 <!-- /wp:accordion-heading -->
 
 <!-- wp:accordion-panel {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|60"}}}} -->
@@ -44,8 +44,8 @@
 <!-- /wp:accordion-item -->
 
 <!-- wp:accordion-item {"style":{"spacing":{"blockGap":"var:preset|spacing|20","margin":{"top":"0","bottom":"0"}},"border":{"top":{"width":"1px","style":"dotted"}}}} -->
-<div class="wp-block-accordion-item" style="border-top-style:dotted;border-top-width:1px;margin-top:0;margin-bottom:0"><!-- wp:accordion-heading {"fontSize":"medium","fontFamily":"recursive-linear"} -->
-<h3 class="wp-block-accordion-heading has-icon has-icon-right has-recursive-linear-font-family has-medium-font-size"><button type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e('2011 · The Marginal Notes', 'metis');?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+<div class="wp-block-accordion-item" style="border-top-style:dotted;border-top-width:1px;margin-top:0;margin-bottom:0"><!-- wp:accordion-heading {"fontSize":"medium"} -->
+<h3 class="wp-block-accordion-heading has-icon has-icon-right has-medium-font-size"><button type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e('2011 · The Marginal Notes', 'metis');?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
 <!-- /wp:accordion-heading -->
 
 <!-- wp:accordion-panel {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|60"}}}} -->
@@ -56,8 +56,8 @@
 <!-- /wp:accordion-item -->
 
 <!-- wp:accordion-item {"style":{"spacing":{"blockGap":"var:preset|spacing|20","margin":{"top":"0","bottom":"0"}},"border":{"top":{"width":"1px","style":"dotted"}}}} -->
-<div class="wp-block-accordion-item" style="border-top-style:dotted;border-top-width:1px;margin-top:0;margin-bottom:0"><!-- wp:accordion-heading {"fontSize":"medium","fontFamily":"recursive-linear"} -->
-<h3 class="wp-block-accordion-heading has-icon has-icon-right has-recursive-linear-font-family has-medium-font-size"><button type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e('2004 · The Long Walk Society', 'metis');?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+<div class="wp-block-accordion-item" style="border-top-style:dotted;border-top-width:1px;margin-top:0;margin-bottom:0"><!-- wp:accordion-heading {"fontSize":"medium"} -->
+<h3 class="wp-block-accordion-heading has-icon has-icon-right has-medium-font-size"><button type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e('2004 · The Long Walk Society', 'metis');?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
 <!-- /wp:accordion-heading -->
 
 <!-- wp:accordion-panel {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|60"}}}} -->
@@ -68,8 +68,8 @@
 <!-- /wp:accordion-item -->
 
 <!-- wp:accordion-item {"style":{"spacing":{"blockGap":"var:preset|spacing|20","margin":{"top":"0","bottom":"0"}},"border":{"top":{"width":"1px","style":"dotted"}}}} -->
-<div class="wp-block-accordion-item" style="border-top-style:dotted;border-top-width:1px;margin-top:0;margin-bottom:0"><!-- wp:accordion-heading {"fontSize":"medium","fontFamily":"recursive-linear"} -->
-<h3 class="wp-block-accordion-heading has-icon has-icon-right has-recursive-linear-font-family has-medium-font-size"><button type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e('1996-2016 · The Coast Survey', 'metis');?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+<div class="wp-block-accordion-item" style="border-top-style:dotted;border-top-width:1px;margin-top:0;margin-bottom:0"><!-- wp:accordion-heading {"fontSize":"medium"} -->
+<h3 class="wp-block-accordion-heading has-icon has-icon-right has-medium-font-size"><button type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e('1996-2016 · The Coast Survey', 'metis');?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
 <!-- /wp:accordion-heading -->
 
 <!-- wp:accordion-panel {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|60"}}}} -->

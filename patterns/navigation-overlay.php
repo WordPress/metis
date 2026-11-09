@@ -17,8 +17,8 @@
 <!-- wp:site-title {"style":{"typography":{"textAlign":"center"}},"fontSize":"2-x-large"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"Nav Wrapper"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:navigation {"showSubmenuIcon":false,"submenuVisibility":"always","overlayMenu":"never","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.3","fontStyle":"normal","fontWeight":"600"},"spacing":{"blockGap":"0"}},"fontSize":"3-x-large","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<!-- wp:group {"metadata":{"name":"Nav Wrapper"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:navigation {"showSubmenuIcon":false,"submenuVisibility":"always","overlayMenu":"never","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.3","fontStyle":"normal","fontWeight":"600"},"spacing":{"blockGap":"0"}},"fontSize":"3-x-large","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 <!-- wp:navigation-link {"label":"<?php esc_attr_e('About TT7', 'metis');?>","url":"#"} /-->
 
 <!-- wp:navigation-link {"label":"<?php esc_attr_e('Patterns', 'metis');?>","url":"#"} /-->
@@ -29,14 +29,14 @@
 <!-- /wp:navigation --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"More"},"style":{"border":{"top":{"width":"1px","style":"dotted"},"right":[],"bottom":[],"left":[]},"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-<div class="wp-block-group" style="border-top-style:dotted;border-top-width:1px;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:paragraph {"style":{"typography":{"textAlign":"center"}}} -->
-<p class="has-text-align-center"><?php esc_html_e('Landmark is a studio that holds many things at once.', 'metis');?> <a href="#"><?php esc_html_e('About the studio', 'metis');?></a></p>
+<!-- wp:group {"metadata":{"name":"More"},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"textAlign":"center"}},"fontSize":"small"} -->
+<p class="has-text-align-center has-small-font-size"><?php esc_html_e('Landmark is a studio that holds many things at once.', 'metis');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
-<div class="wp-block-buttons"><!-- wp:button {"style":{"typography":{"textTransform":"uppercase"}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" style="text-transform:uppercase"><?php esc_html_e('Start a conversation', 'metis');?></a></div>
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-glossy","style":{"typography":{"textTransform":"uppercase"}}} -->
+<div class="wp-block-button is-style-glossy"><a class="wp-block-button__link wp-element-button" style="text-transform:uppercase"><?php esc_html_e('About the Studio', 'metis');?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

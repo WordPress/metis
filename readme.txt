@@ -68,6 +68,41 @@ Copyright 2020 The Recursive Project Authors (https://github.com/arrowtype/recur
 License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
 Source: https://www.recursive.design
 
+Piazzolla
+Copyright 2018 The Piazzolla Project Authors (https://github.com/huertatipografica/piazzolla)
+License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
+Source: https://github.com/huertatipografica/piazzolla
+
+Fraunces
+Copyright 2020 The Fraunces Project Authors (https://github.com/undercasetype/Fraunces)
+License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
+Source: https://github.com/undercasetype/Fraunces
+
+Martian Grotesk
+Copyright 2021 The Martian Grotesk Project Authors (https://github.com/evilmartians/grotesk)
+License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
+Source: https://github.com/evilmartians/grotesk
+
+Plus Jakarta Sans
+Copyright 2020 The Plus Jakarta Sans Project Authors (https://github.com/tokotype/PlusJakartaSans)
+License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
+Source: https://github.com/tokotype/PlusJakartaSans
+
+Barlow Semi Condensed
+Copyright 2017 The Barlow Project Authors (https://github.com/jpt/barlow)
+License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
+Source: https://github.com/jpt/barlow
+
+TASA Explorer
+Copyright 2023 Local Remote, with Reserved Font Name TASA Explorer
+License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
+Source: https://github.com/localremotetw/TASA-Typeface-Collection
+
+Texturina
+Copyright 2020 The Texturina Project Authors (https://github.com/Omnibus-Type/Texturina)
+License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
+Source: https://github.com/Omnibus-Type/Texturina
+
 == Music ==
 
 Title: 1-small-things.mp3 ("Small Things")

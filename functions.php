@@ -271,3 +271,93 @@ if ( ! function_exists( 'metis_collapse_posts_patterns' ) ) :
 	}
 endif;
 add_action( 'init', 'metis_collapse_posts_patterns', 20 );
+
+/**
+ * Dark Mode toggle — a per-visitor switch to the colours of the Cimmeria style.
+ *
+ * Add the class metis-mode-toggle to a Group, such as one holding an Icon, to
+ * make it the switch. A click sets a flag
+ * on <html>, which overrides the palette variables for that visitor only;
+ * turning it off removes the flag, so the site's active style returns. Colours
+ * are read from styles/cimmeria.json. Pages without the button print nothing:
+ * block templates render before wp_head, so the flag below is already known.
+ */
+if ( ! function_exists( 'metis_mode_toggle_render' ) ) :
+	function metis_mode_toggle_render( $block_content, $block ) {
+		if ( ! str_contains( $block['attrs']['className'] ?? '', 'metis-mode-toggle' ) ) {
+			return $block_content;
+		}
+		$GLOBALS['metis_mode_toggle'] = true;
+		$tags                         = new WP_HTML_Tag_Processor( $block_content );
+		if ( $tags->next_tag() ) {
+			$tags->set_attribute( 'role', 'button' );
+			$tags->set_attribute( 'tabindex', '0' );
+			$tags->set_attribute( 'aria-pressed', 'false' );
+			$tags->set_attribute( 'aria-label', __( 'Dark mode', 'metis' ) );
+		}
+		return $tags->get_updated_html();
+	}
+endif;
+add_filter( 'render_block_core/group', 'metis_mode_toggle_render', 10, 2 );
+
+if ( ! function_exists( 'metis_mode_toggle_colors' ) ) :
+	function metis_mode_toggle_colors() {
+		$style = wp_json_file_decode( get_theme_file_path( 'styles/cimmeria.json' ), array( 'associative' => true ) );
+		return $style['settings']['color'] ?? array();
+	}
+endif;
+
+if ( ! function_exists( 'metis_mode_toggle_head' ) ) :
+	function metis_mode_toggle_head() {
+		if ( empty( $GLOBALS['metis_mode_toggle'] ) ) {
+			return;
+		}
+		$colors = metis_mode_toggle_colors();
+		$css    = 'color-scheme:dark;--wp--preset--duotone--duotone-2:url(#metis-mode-artwork);';
+		foreach ( $colors['palette'] ?? array() as $color ) {
+			$css .= "--wp--preset--color--{$color['slug']}:{$color['color']};";
+		}
+		foreach ( $colors['gradients'] ?? array() as $gradient ) {
+			$css .= "--wp--preset--gradient--{$gradient['slug']}:{$gradient['gradient']};";
+		}
+		echo '<style id="metis-mode-toggle">html[data-metis-mode="dark"]{' . wp_strip_all_tags( $css ) . "}.metis-mode-toggle{cursor:pointer}</style>\n";
+		wp_print_inline_script_tag(
+			"(function(){var k='metis-mode',h=document.documentElement,s='.metis-mode-toggle';" .
+			"function sync(){document.querySelectorAll(s).forEach(function(b){b.setAttribute('aria-pressed',h.dataset.metisMode?'true':'false')})}" .
+			"function toggle(){if(h.dataset.metisMode){delete h.dataset.metisMode}else{h.dataset.metisMode='dark'}sync();" .
+			"try{if(h.dataset.metisMode){localStorage.setItem(k,'dark')}else{localStorage.removeItem(k)}}catch(e){}}" .
+			"try{if(localStorage.getItem(k)==='dark'){h.dataset.metisMode='dark'}}catch(e){}" .
+			"document.addEventListener('DOMContentLoaded',sync);" .
+			"document.addEventListener('click',function(e){if(e.target.closest(s)){toggle()}});" .
+			"document.addEventListener('keydown',function(e){if((e.key==='Enter'||e.key===' ')&&!e.repeat&&e.target.matches(s)){e.preventDefault();toggle()}})})();"
+		);
+	}
+endif;
+add_action( 'wp_head', 'metis_mode_toggle_head' );
+
+/**
+ * Keeps the dark logos and icons (the Artwork duotone) visible in Dark Mode:
+ * a filter that paints them in Cimmeria's Artwork colour and keeps their alpha.
+ */
+if ( ! function_exists( 'metis_mode_toggle_svg' ) ) :
+	function metis_mode_toggle_svg() {
+		if ( empty( $GLOBALS['metis_mode_toggle'] ) ) {
+			return;
+		}
+		$duotone = wp_list_filter( metis_mode_toggle_colors()['duotone'] ?? array(), array( 'slug' => 'duotone-2' ) );
+		$hex     = reset( $duotone )['colors'][1] ?? '#FFFFFF';
+		list( $r, $g, $b ) = array_map(
+			static function ( $channel ) {
+				return round( $channel / 255, 3 );
+			},
+			sscanf( $hex, '#%02x%02x%02x' )
+		);
+		printf(
+			'<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><filter id="metis-mode-artwork" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="0 0 0 0 %1$s 0 0 0 0 %2$s 0 0 0 0 %3$s 0 0 0 1 0" /></filter></svg>',
+			esc_attr( $r ),
+			esc_attr( $g ),
+			esc_attr( $b )
+		);
+	}
+endif;
+add_action( 'wp_body_open', 'metis_mode_toggle_svg' );
