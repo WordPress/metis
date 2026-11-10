@@ -82,14 +82,14 @@ add_action( 'init', 'metis_quote_styles' );
 /*
  * The Eyebrow: the small uppercase openrunde line that opens sections
  * throughout the theme, set manually many times over — now one style
- * on paragraphs and headings alike. style_data compiles through the
+ * on paragraphs, headings and the overlay's Close button alike. style_data compiles through the
  * style engine, so the canvas renders it natively and any property
  * stays overridable per instance.
  */
 if ( ! function_exists( 'metis_eyebrow_style' ) ) :
 	function metis_eyebrow_style() {
 		register_block_style(
-			array( 'core/paragraph', 'core/heading' ),
+			array( 'core/paragraph', 'core/heading', 'core/navigation-overlay-close' ),
 			array(
 				'name'       => 'eyebrow',
 				'label'      => __( 'Eyebrow', 'metis' ),
@@ -277,18 +277,17 @@ add_action( 'init', 'metis_collapse_posts_patterns', 20 );
  *
  * Add the class metis-mode-toggle to a Group, such as one holding an Icon, to
  * make it the switch. A click sets a flag
- * on <html>, which overrides the palette variables for that visitor only;
- * turning it off removes the flag, so the site's active style returns. Colours
- * are read from styles/cimmeria.json. Pages without the button print nothing:
- * block templates render before wp_head, so the flag below is already known.
+ * on <html>, which overrides the palette variables for that visitor only and
+ * stays on across every page until the next click, including pages without the
+ * switch. Turning it off removes the flag, so the site's active style returns.
+ * Colours are read from styles/cimmeria.json.
  */
 if ( ! function_exists( 'metis_mode_toggle_render' ) ) :
 	function metis_mode_toggle_render( $block_content, $block ) {
 		if ( ! str_contains( $block['attrs']['className'] ?? '', 'metis-mode-toggle' ) ) {
 			return $block_content;
 		}
-		$GLOBALS['metis_mode_toggle'] = true;
-		$tags                         = new WP_HTML_Tag_Processor( $block_content );
+		$tags = new WP_HTML_Tag_Processor( $block_content );
 		if ( $tags->next_tag() ) {
 			$tags->set_attribute( 'role', 'button' );
 			$tags->set_attribute( 'tabindex', '0' );
@@ -309,9 +308,6 @@ endif;
 
 if ( ! function_exists( 'metis_mode_toggle_head' ) ) :
 	function metis_mode_toggle_head() {
-		if ( empty( $GLOBALS['metis_mode_toggle'] ) ) {
-			return;
-		}
 		$colors = metis_mode_toggle_colors();
 		$css    = 'color-scheme:dark;--wp--preset--duotone--duotone-2:url(#metis-mode-artwork);';
 		foreach ( $colors['palette'] ?? array() as $color ) {
@@ -341,9 +337,6 @@ add_action( 'wp_head', 'metis_mode_toggle_head' );
  */
 if ( ! function_exists( 'metis_mode_toggle_svg' ) ) :
 	function metis_mode_toggle_svg() {
-		if ( empty( $GLOBALS['metis_mode_toggle'] ) ) {
-			return;
-		}
 		$duotone = wp_list_filter( metis_mode_toggle_colors()['duotone'] ?? array(), array( 'slug' => 'duotone-2' ) );
 		$hex     = reset( $duotone )['colors'][1] ?? '#FFFFFF';
 		list( $r, $g, $b ) = array_map(

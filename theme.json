@@ -45,6 +45,13 @@
 			"title": "Mētis Writer"
 		},
 		{
+			"name": "page-no-title",
+			"postTypes": [
+				"page"
+			],
+			"title": "Page without Title"
+		},
+		{
 			"name": "single-with-sidebar",
 			"postTypes": [
 				"post"
