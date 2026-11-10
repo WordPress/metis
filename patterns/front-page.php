@@ -278,9 +278,7 @@
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></section>
-<!-- /wp:group -->
-
-</main>
+<!-- /wp:group --></main>
 <!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"footer-c","theme":"metis"} /-->

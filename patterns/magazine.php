@@ -15,9 +15,9 @@
 <h1 class="wp-block-heading has-text-align-center alignfull has-fit-text" style="letter-spacing:-1rem;line-height:0.8"><?php esc_html_e('Almanac', 'metis');?></h1>
 <!-- /wp:heading -->
 
-<!-- wp:group {"metadata":{"name":"Issue Detail Wrapper"},"align":"wide","style":{"spacing":{"padding":{"top":"0","bottom":"0"},"margin":{"top":"-3.5rem","bottom":"0"}},"@tablet":{"spacing":{"margin":{"top":"-2rem"}}},"@mobile":{"spacing":{"margin":{"top":"-2rem"}}}},"layout":{"type":"constrained","justifyContent":"right"}} -->
-<div class="wp-block-group alignwide" style="margin-top:-3.5rem;margin-bottom:0;padding-top:0;padding-bottom:0"><!-- wp:group {"metadata":{"name":"Issue Detail"},"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|20"},"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|20","right":"var:preset|spacing|20"},"margin":{"top":"0","bottom":"0"}},"@tablet":{"spacing":{"padding":{"right":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"@mobile":{"spacing":{"blockGap":{"left":"var:preset|spacing|20"},"padding":{"right":"var:preset|spacing|30","left":"var:preset|spacing|30"}}}},"backgroundColor":"theme-2","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group has-theme-2-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)"><!-- wp:paragraph {"metadata":{"name":"Issue Info"},"style":{"@mobile":{"typography":{"fontSize":"var:preset|font-size|x-small"}}},"className":"is-style-eyebrow"} -->
+<!-- wp:group {"metadata":{"name":"Issue Detail Wrapper"},"align":"wide","style":{"spacing":{"padding":{"top":"0","bottom":"0"},"margin":{"top":"-2.5rem","bottom":"0"}},"@tablet":{"spacing":{"margin":{"top":"-2rem"}}},"@mobile":{"spacing":{"margin":{"top":"-2rem"}}}},"layout":{"type":"constrained","justifyContent":"right"}} -->
+<div class="wp-block-group alignwide" style="margin-top:-2.5rem;margin-bottom:0;padding-top:0;padding-bottom:0"><!-- wp:group {"metadata":{"name":"Issue Detail"},"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|20"},"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|20","right":"var:preset|spacing|20"},"margin":{"top":"0","bottom":"0"}},"@tablet":{"spacing":{"padding":{"right":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"@mobile":{"spacing":{"blockGap":{"left":"var:preset|spacing|20"},"padding":{"right":"var:preset|spacing|30","left":"var:preset|spacing|30"}}}},"backgroundColor":"theme-2","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group has-theme-2-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)"><!-- wp:paragraph {"metadata":{"name":"Issue Info"},"className":"is-style-eyebrow","style":{"@mobile":{"typography":{"fontSize":"var:preset|font-size|x-small"}}}} -->
 <p class="is-style-eyebrow"><?php esc_html_e('Issue No. 12 · Winter', 'metis');?></p>
 <!-- /wp:paragraph -->
 
@@ -27,7 +27,7 @@
 <!-- /wp:separator --></div>
 <!-- /wp:group -->
 
-<!-- wp:paragraph {"metadata":{"name":"Issue Info"},"style":{"@mobile":{"typography":{"fontSize":"var:preset|font-size|x-small"}}},"className":"is-style-eyebrow"} -->
+<!-- wp:paragraph {"metadata":{"name":"Issue Info"},"className":"is-style-eyebrow","style":{"@mobile":{"typography":{"fontSize":"var:preset|font-size|x-small"}}}} -->
 <p class="is-style-eyebrow"><?php esc_html_e('A quarterly from Landmark', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
