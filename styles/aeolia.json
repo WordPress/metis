@@ -152,13 +152,13 @@
 				{
 					"fluid": false,
 					"name": "Large",
-					"size": "1.5rem",
+					"size": "1.15rem",
 					"slug": "large"
 				},
 				{
 					"fluid": {
 						"max": "1.65rem",
-						"min": "1.5rem"
+						"min": "1.25rem"
 					},
 					"name": "X-Large",
 					"size": "1.65rem",
@@ -167,7 +167,7 @@
 				{
 					"fluid": {
 						"max": "2.15rem",
-						"min": "1.75rem"
+						"min": "1.5rem"
 					},
 					"name": "2X-Large",
 					"size": "2.15rem",
@@ -176,7 +176,7 @@
 				{
 					"fluid": {
 						"max": "2.05rem",
-						"min": "1.5rem"
+						"min": "1.55rem"
 					},
 					"name": "3X-Large",
 					"size": "2.05rem",
