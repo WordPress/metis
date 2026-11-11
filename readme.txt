@@ -10,13 +10,28 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-A block theme for creators, with flexible patterns and templates designed for refinement in the Site Editor.
+A block theme for people who work in more than one form. Six starter sites (writer, portfolio, personal blog, studio, magazine, and newspaper) share one pattern library, five style variations, and a Dark Mode switch. Each is designed to be customized in the Site Editor until the site feels like yours.
+
+
+== Frequently Asked Questions ==
+
+= Which header should I use? =
+Mētis comes with three headers to show the range of what's possible. For a consistent site, pick one and use it in every template: in the Site Editor, open a template, select its header and replace it with the one you chose.
+
+= How do I add the Dark Mode switch? =
+The header "Header, minimal with menu button" and the Navigation Overlay already include it. To turn any Group into the switch, select it, open Advanced → Additional CSS class(es) and add metis-mode-toggle. Visitors switch to the colours of the Cimmeria style, and their choice stays on every page until they switch back.
+
+= What are the extra CSS classes? =
+Mētis adds a few opt-in classes for layouts the Editor can't make on its own, such as equal-widths, no-stacking and tabs-split. Add them under Advanced → Additional CSS class(es). Each one is described in style.css, most with an example pattern.
+
+= Which styles does Mētis add to blocks? =
+Look in a block's Styles panel: Glossy for Buttons, Gradient for Groups, Hanging and Blank for Quotes, and Eyebrow for Paragraphs, Headings and the Navigation Overlay's Close button.
+
+= How do I remove the Gradient animation? =
+If the Gradient animation is not for you, you can remove it. It sits in the "Masthead with Gradient" section at the top of ten templates: the front page, blog, single posts (all three), pages (both), archive, search and 404. In the Site Editor, open each template, select "Masthead with Gradient" in List View, and under Advanced → Additional CSS class(es) delete is-style-gradient-flow, or choose Default in the block's Styles panel. The section then shows its plain background. Visitors who ask their device to reduce motion never see the animation.
 
 
 == Changelog ==
-
-= 1.0.0 =
-* Updates the theme content and copy to align with the mētis concept.
 
 = 1.0.0 =
 * Initial release
@@ -68,10 +83,10 @@ Copyright 2020 The Recursive Project Authors (https://github.com/arrowtype/recur
 License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
 Source: https://www.recursive.design
 
-Piazzolla
-Copyright 2018 The Piazzolla Project Authors (https://github.com/huertatipografica/piazzolla)
+Libre Franklin
+Copyright 2020 The Libre Franklin Project Authors (https://github.com/googlefonts/Libre-Franklin)
 License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
-Source: https://github.com/huertatipografica/piazzolla
+Source: https://github.com/googlefonts/Libre-Franklin
 
 Fraunces
 Copyright 2020 The Fraunces Project Authors (https://github.com/undercasetype/Fraunces)
@@ -87,11 +102,6 @@ Plus Jakarta Sans
 Copyright 2020 The Plus Jakarta Sans Project Authors (https://github.com/tokotype/PlusJakartaSans)
 License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
 Source: https://github.com/tokotype/PlusJakartaSans
-
-Barlow Semi Condensed
-Copyright 2017 The Barlow Project Authors (https://github.com/jpt/barlow)
-License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
-Source: https://github.com/jpt/barlow
 
 TASA Explorer
 Copyright 2023 Local Remote, with Reserved Font Name TASA Explorer
