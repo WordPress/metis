@@ -15,7 +15,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:heading {"className":"text-balance","style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontSize":"x-large"} -->
-<h2 class="wp-block-heading text-balance has-theme-3-color has-text-color has-link-color has-x-large-font-size"><?php esc_html_e('Join our mailing list and stay in the know.', 'metis');?></h2>
+<h2 class="wp-block-heading text-balance has-theme-3-color has-text-color has-link-color has-x-large-font-size"><?php esc_html_e('Join our mailing list and stay in the know.', 'metis');?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->

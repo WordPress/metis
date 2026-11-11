@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: search
+ * Title: Search Results
  * Slug: metis/search
  * Inserter: no
  */

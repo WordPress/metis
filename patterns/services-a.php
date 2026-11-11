@@ -30,8 +30,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Title and Copy"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"},"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:heading {"level":3,"fontSize":"x-large","anchor":"identity"} -->
-<h3 id="identity" class="wp-block-heading has-x-large-font-size"><?php esc_html_e('Identity', 'metis');?></h3>
+<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:heading {"level":3,"fontSize":"x-large"} -->
+<h3 class="wp-block-heading has-x-large-font-size"><?php esc_html_e('Identity', 'metis');?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3"} -->
@@ -52,8 +52,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Title and Copy"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"},"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:heading {"level":3,"fontSize":"x-large","anchor":"words"} -->
-<h3 id="words" class="wp-block-heading has-x-large-font-size"><?php esc_html_e('Words', 'metis');?></h3>
+<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:heading {"level":3,"fontSize":"x-large"} -->
+<h3 class="wp-block-heading has-x-large-font-size"><?php esc_html_e('Words', 'metis');?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3"} -->
@@ -74,8 +74,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Title and Copy"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"},"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:heading {"level":3,"fontSize":"x-large","anchor":"sites"} -->
-<h3 id="sites" class="wp-block-heading has-x-large-font-size"><?php esc_html_e('Sites', 'metis');?></h3>
+<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:heading {"level":3,"fontSize":"x-large"} -->
+<h3 class="wp-block-heading has-x-large-font-size"><?php esc_html_e('Sites', 'metis');?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3"} -->
@@ -98,8 +98,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Title and Copy"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"},"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:heading {"level":3,"fontSize":"x-large","anchor":"identity"} -->
-<h3 id="identity" class="wp-block-heading has-x-large-font-size"><?php esc_html_e('Identity', 'metis');?></h3>
+<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:heading {"level":3,"fontSize":"x-large"} -->
+<h3 class="wp-block-heading has-x-large-font-size"><?php esc_html_e('Identity', 'metis');?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3"} -->
@@ -120,8 +120,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Title and Copy"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"},"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:heading {"level":3,"fontSize":"x-large","anchor":"words"} -->
-<h3 id="words" class="wp-block-heading has-x-large-font-size"><?php esc_html_e('Words', 'metis');?></h3>
+<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:heading {"level":3,"fontSize":"x-large"} -->
+<h3 class="wp-block-heading has-x-large-font-size"><?php esc_html_e('Words', 'metis');?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3"} -->
@@ -142,8 +142,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Title and Copy"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"},"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:heading {"level":3,"fontSize":"x-large","anchor":"sites"} -->
-<h3 id="sites" class="wp-block-heading has-x-large-font-size"><?php esc_html_e('Sites', 'metis');?></h3>
+<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:heading {"level":3,"fontSize":"x-large"} -->
+<h3 class="wp-block-heading has-x-large-font-size"><?php esc_html_e('Sites', 'metis');?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3"} -->

@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: page
+ * Title: Page
  * Slug: metis/page
  * Inserter: no
  */

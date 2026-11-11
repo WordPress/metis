@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: writer
+ * Title: Mētis Writer
  * Slug: metis/writer
  * Inserter: no
  */
@@ -18,7 +18,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><?php esc_html_e('Her writings explore the gap between drawing and walking, and how people navigate it regardless. She writes simply and at her own rhythm, from a house at the edge of an incomplete survey.', 'metis');?></p>
+<p><?php esc_html_e('Her writings explore the gap between drawing and walking, and how people navigate it regardless. She writes simply and at her own rhythm, from a house at the edge of an incomplete survey.', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -63,7 +63,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3"} -->
-<p class="has-theme-3-color has-text-color has-link-color"><?php esc_html_e('A surveyor\'s term for the real condition of the ground, checked on foot against the drawing. Twelve essays on what you only learn by going—and what the map was never going to tell you.', 'metis');?></p>
+<p class="has-theme-3-color has-text-color has-link-color"><?php esc_html_e('A surveyor\'s term for the real condition of the ground, checked on foot against the drawing. Twelve essays on what you only learn by going—and what the map was never going to tell you.', 'metis');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|30"}}}} -->
@@ -100,7 +100,7 @@
 <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:50%"><!-- wp:group {"metadata":{"name":"Quotes Row"},"style":{"@tablet":{"layout":{"justifyContent":"stretch","orientation":"vertical"}},"@mobile":{"layout":{"justifyContent":"left","orientation":"vertical"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:quote -->
 <blockquote class="wp-block-quote"><!-- wp:paragraph -->
-<p><?php esc_html_e('A book about maps that turns out to be about attention. I read it twice.', 'metis');?></p>
+<p><?php esc_html_e('A book about maps that turns out to be about attention. I read it twice.', 'metis');?></p>
 <!-- /wp:paragraph --><cite><?php esc_html_e('The Marginal Review', 'metis');?></cite></blockquote>
 <!-- /wp:quote -->
 

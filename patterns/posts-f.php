@@ -3,6 +3,7 @@
  * Title: Posts, card grid
  * Slug: metis/posts-f
  * Categories: posts
+ * Block Types: core/query
  * Description: The three most recent posts in a grid, with image, date, and excerpt.
  */
 ?>

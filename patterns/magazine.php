@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: magazine
+ * Title: Mētis Magazine
  * Slug: metis/magazine
  * Inserter: no
  */

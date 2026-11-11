@@ -23,7 +23,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"text-balance","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontFamily":"openrunde"} -->
-<p class="text-balance has-openrunde-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e('One email. The week’s dispatches, and nothing we would not read ourselves.', 'metis');?></p>
+<p class="text-balance has-openrunde-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e('One email. The week’s dispatches, and nothing we would not read ourselves.', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>

@@ -3,6 +3,7 @@
  * Title: Posts, staggered cards
  * Slug: metis/posts-h
  * Categories: posts
+ * Block Types: core/query
  * Description: Recent posts as compact cards with cover, meta, title and excerpt; the middle card steps down on desktop.
  */
 ?>

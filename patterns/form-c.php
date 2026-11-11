@@ -7,7 +7,7 @@
  * Description: An RSVP with a yes/no choice and room for details.
  */
 ?>
-<!-- wp:jetpack/contact-form {"subject":"A new RSVP from your website","jetpackCRM":false,"salesforceData":{"organizationId":"","sendToSalesforce":false},"mailpoet":{"listId":null,"listName":null,"enabledForForm":false},"className":"is-style-animated"} -->
+<!-- wp:jetpack/contact-form {"subject":"<?php esc_attr_e('A new RSVP from your website', 'metis');?>","jetpackCRM":false,"salesforceData":{"organizationId":"","sendToSalesforce":false},"mailpoet":{"listId":null,"listName":null,"enabledForForm":false},"className":"is-style-animated"} -->
 <div class="wp-block-jetpack-contact-form is-style-animated"><!-- wp:jetpack/field-name {"id":"","required":true,"fieldVariant":"name"} -->
 <div><!-- wp:jetpack/label {"label":"<?php esc_attr_e('Name', 'metis');?>"} /-->
 
@@ -24,9 +24,9 @@
 <div><!-- wp:jetpack/label {"label":"<?php esc_attr_e('Attending?', 'metis');?>"} /-->
 
 <!-- wp:jetpack/options -->
-<ul class="wp-block-jetpack-options"><!-- wp:jetpack/option {"placeholder":"Add option…","label":"<?php esc_attr_e('Yes', 'metis');?>"} /-->
+<ul class="wp-block-jetpack-options"><!-- wp:jetpack/option {"placeholder":"<?php esc_attr_e('Add option…', 'metis');?>","label":"<?php esc_attr_e('Yes', 'metis');?>"} /-->
 
-<!-- wp:jetpack/option {"placeholder":"Add option…","label":"<?php esc_attr_e('No', 'metis');?>"} /--></ul>
+<!-- wp:jetpack/option {"placeholder":"<?php esc_attr_e('Add option…', 'metis');?>","label":"<?php esc_attr_e('No', 'metis');?>"} /--></ul>
 <!-- /wp:jetpack/options --></div>
 <!-- /wp:jetpack/field-radio -->
 

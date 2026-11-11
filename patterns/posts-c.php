@@ -3,6 +3,7 @@
  * Title: Posts, media columns
  * Slug: metis/posts-c
  * Categories: posts
+ * Block Types: core/query
  * Description: Post list in columns: featured image beside title, meta and excerpt.
  */
 ?>

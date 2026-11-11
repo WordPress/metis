@@ -32,8 +32,8 @@
 <!-- /wp:image -->
 
 <!-- wp:group {"metadata":{"name":"Author Info"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"large","anchor":"cora-vale"} -->
-<h3 id="cora-vale" class="wp-block-heading has-large-font-size"><?php esc_html_e('Ada Fenn', 'metis');?></h3>
+<div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"large"} -->
+<h3 class="wp-block-heading has-large-font-size"><?php esc_html_e('Ada Fenn', 'metis');?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"theme-3"} -->
@@ -48,8 +48,8 @@
 <!-- /wp:image -->
 
 <!-- wp:group {"metadata":{"name":"Author Info"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"large","anchor":"cora-vale"} -->
-<h3 id="cora-vale" class="wp-block-heading has-large-font-size"><?php esc_html_e('Cora Vale', 'metis');?></h3>
+<div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"large"} -->
+<h3 class="wp-block-heading has-large-font-size"><?php esc_html_e('Cora Vale', 'metis');?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"theme-3"} -->
@@ -64,8 +64,8 @@
 <!-- /wp:image -->
 
 <!-- wp:group {"metadata":{"name":"Author Info"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"large","anchor":"cora-vale"} -->
-<h3 id="cora-vale" class="wp-block-heading has-large-font-size"><?php esc_html_e('Iris Calder', 'metis');?></h3>
+<div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"large"} -->
+<h3 class="wp-block-heading has-large-font-size"><?php esc_html_e('Iris Calder', 'metis');?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"theme-3"} -->
@@ -82,8 +82,8 @@
 <!-- /wp:image -->
 
 <!-- wp:group {"metadata":{"name":"Author Info"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"x-large","anchor":"cora-vale"} -->
-<h3 id="cora-vale" class="wp-block-heading has-x-large-font-size"><?php esc_html_e('Ada Fenn', 'metis');?></h3>
+<div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"x-large"} -->
+<h3 class="wp-block-heading has-x-large-font-size"><?php esc_html_e('Ada Fenn', 'metis');?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"theme-3"} -->
@@ -98,8 +98,8 @@
 <!-- /wp:image -->
 
 <!-- wp:group {"metadata":{"name":"Author Info"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"x-large","anchor":"cora-vale"} -->
-<h3 id="cora-vale" class="wp-block-heading has-x-large-font-size"><?php esc_html_e('Cora Vale', 'metis');?></h3>
+<div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"x-large"} -->
+<h3 class="wp-block-heading has-x-large-font-size"><?php esc_html_e('Cora Vale', 'metis');?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"theme-3"} -->
@@ -114,8 +114,8 @@
 <!-- /wp:image -->
 
 <!-- wp:group {"metadata":{"name":"Author Info"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"x-large","anchor":"cora-vale"} -->
-<h3 id="cora-vale" class="wp-block-heading has-x-large-font-size"><?php esc_html_e('Iris Calder', 'metis');?></h3>
+<div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"x-large"} -->
+<h3 class="wp-block-heading has-x-large-font-size"><?php esc_html_e('Iris Calder', 'metis');?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"theme-3"} -->

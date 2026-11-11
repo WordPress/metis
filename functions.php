@@ -24,7 +24,7 @@ if ( ! function_exists( 'metis_styles' ) ) :
 	function metis_styles() {
 		wp_register_style(
 			'metis-style',
-			get_stylesheet_directory_uri() . '/style.css',
+			get_parent_theme_file_uri( 'style.css' ),
 			array(),
 			wp_get_theme()->get( 'Version' )
 		);

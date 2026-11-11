@@ -3,6 +3,7 @@
  * Title: Posts, media list
  * Slug: metis/posts-k
  * Categories: posts
+ * Block Types: core/query
  * Description: Post list in compact rows: a featured image beside title and meta.
  */
 ?>

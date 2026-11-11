@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: personal
+ * Title: Mētis Personal
  * Slug: metis/personal
  * Inserter: no
  */
@@ -46,7 +46,7 @@
 <div class="wp-block-columns"><!-- wp:column {"width":"66.66%","layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:group {"metadata":{"name":"Accordion Copy"},"style":{"spacing":{"padding":{"top":"0","bottom":"var:preset|spacing|50"},"blockGap":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group" style="padding-top:0;padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:paragraph -->
-<p><?php esc_html_e('Every issue runs on a single text size, so a long essay never earns importance just by getting bigger. I built a baseline grid deep enough to carry both full-bleed photography and a footnoted column without either one re-flowing the other. The stock shifts with the season — heavier in the winter issue, thinner and brighter in summer. It’s the studio’s quarterly, long-form, printed magazine, set season by season, with words by Iris Calder.', 'metis');?></p>
+<p><?php esc_html_e('Every issue runs on a single text size, so a long essay never earns importance just by getting bigger. I built a baseline grid deep enough to carry both full-bleed photography and a footnoted column without either one re-flowing the other. The stock shifts with the season — heavier in the winter issue, thinner and brighter in summer. It’s the studio’s quarterly, long-form, printed magazine, set season by season, with words by Iris Calder.', 'metis');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

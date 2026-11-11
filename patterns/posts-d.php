@@ -3,6 +3,7 @@
  * Title: Posts, compact list
  * Slug: metis/posts-d
  * Categories: posts
+ * Block Types: core/query
  * Description: A dense post list with dates and a read-more mark.
  */
 ?>

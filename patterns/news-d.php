@@ -3,6 +3,7 @@
  * Title: Posts with title, magazine archive
  * Slug: metis/news-d
  * Categories: posts
+ * Block Types: core/query
  * Description: An archive section opened by a large title, listing posts as magazine rows.
  */
 ?>

@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: portfolio
+ * Title: Mētis Portfolio
  * Slug: metis/portfolio
  * Inserter: no
  */
@@ -218,7 +218,7 @@
 
 <!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"blockGap":"var:preset|spacing|20"}}} -->
 <div class="wp-block-column is-vertically-aligned-top"><!-- wp:heading {"fontSize":"3-x-large"} -->
-<h2 class="wp-block-heading has-3-x-large-font-size"><?php esc_html_e('When the drawing’s done, I make things you listen to instead of look at—voice, field recordings, the odd remix, mostly gathered from the same coasts I spend the day surveying.', 'metis');?></h2>
+<h2 class="wp-block-heading has-3-x-large-font-size"><?php esc_html_e('When the drawing’s done, I make things you listen to instead of look at—voice, field recordings, the odd remix, mostly gathered from the same coasts I spend the day surveying.', 'metis');?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->

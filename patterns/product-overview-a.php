@@ -37,7 +37,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3"} -->
-<p class="has-theme-3-color has-text-color has-link-color"><?php esc_html_e('A surveyor\'s term for the real condition of the ground, checked on foot against the drawing. Twelve essays on what you only learn by going—and what the map was never going to tell you.', 'metis');?></p>
+<p class="has-theme-3-color has-text-color has-link-color"><?php esc_html_e('A surveyor\'s term for the real condition of the ground, checked on foot against the drawing. Twelve essays on what you only learn by going—and what the map was never going to tell you.', 'metis');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|30"}}}} -->

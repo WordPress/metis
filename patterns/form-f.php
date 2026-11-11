@@ -7,7 +7,7 @@
  * Description: A rating scale and one open question.
  */
 ?>
-<!-- wp:jetpack/contact-form {"subject":"New feedback received from your website","jetpackCRM":false,"salesforceData":{"organizationId":"","sendToSalesforce":false},"mailpoet":{"listId":null,"listName":null,"enabledForForm":false},"className":"is-style-animated"} -->
+<!-- wp:jetpack/contact-form {"subject":"<?php esc_attr_e('New feedback received from your website', 'metis');?>","jetpackCRM":false,"salesforceData":{"organizationId":"","sendToSalesforce":false},"mailpoet":{"listId":null,"listName":null,"enabledForForm":false},"className":"is-style-animated"} -->
 <div class="wp-block-jetpack-contact-form is-style-animated"><!-- wp:jetpack/field-name {"id":"","required":true,"fieldVariant":"name"} -->
 <div><!-- wp:jetpack/label {"label":"<?php esc_attr_e('Name', 'metis');?>"} /-->
 

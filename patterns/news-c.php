@@ -3,6 +3,7 @@
  * Title: Posts with title, staggered cards
  * Slug: metis/news-c
  * Categories: posts
+ * Block Types: core/query
  * Description: A three-column grid of post cards — cover, meta, title, excerpt — under a small heading and an inline link; the middle card steps down on desktop.
  */
 ?>

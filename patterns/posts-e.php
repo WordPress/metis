@@ -3,6 +3,7 @@
  * Title: Posts, related sidebar
  * Slug: metis/posts-e
  * Categories: posts
+ * Block Types: core/query
  * Description: Small thumbnail rows of recent posts, for sidebars.
  */
 ?>

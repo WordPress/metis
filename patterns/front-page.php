@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: front-page
+ * Title: Front Page
  * Slug: metis/front-page
  * Inserter: no
  */
@@ -91,7 +91,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph -->
-<p><?php esc_html_e('Some writing develops gradually, while others arrive suddenly. Some require photographs to convey their message, while others travel through words alone, creating space for images to be imagined as stories unfold.', 'metis');?></p>
+<p><?php esc_html_e('Some writing develops gradually, while others arrive suddenly. Some require photographs to convey their message, while others travel through words alone, creating space for images to be imagined as stories unfold.', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

@@ -15,9 +15,9 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"66.66%"} -->
-<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:quote {"align":"wide","className":"is-style-hanging-mark is-style-hanging"} -->
-<blockquote class="wp-block-quote alignwide is-style-hanging-mark is-style-hanging"><!-- wp:heading {"level":3,"style":{"@tablet":{"typography":{"fontSize":"var:preset|font-size|2-x-large"}},"@mobile":{"typography":{"fontSize":"var:preset|font-size|2-x-large"}}},"textColor":"theme-2","fontSize":"3-x-large"} -->
-<h3 class="wp-block-heading has-theme-2-color has-text-color has-3-x-large-font-size"><?php esc_html_e('They asked better questions than we did, and the site is the least of what we left with.', 'metis');?></h3>
+<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:quote {"align":"wide","className":"is-style-hanging"} -->
+<blockquote class="wp-block-quote alignwide is-style-hanging"><!-- wp:heading {"level":3,"style":{"@tablet":{"typography":{"fontSize":"var:preset|font-size|2-x-large"}},"@mobile":{"typography":{"fontSize":"var:preset|font-size|2-x-large"}}},"textColor":"theme-2","fontSize":"3-x-large"} -->
+<h3 class="wp-block-heading has-theme-2-color has-text-color has-3-x-large-font-size"><?php esc_html_e('They asked better questions than we did, and the site is the least of what we left with.', 'metis');?></h3>
 <!-- /wp:heading --><cite><?php esc_html_e('Helena Marsh, Field &amp; Form', 'metis');?></cite></blockquote>
 <!-- /wp:quote --></div>
 <!-- /wp:column --></div>

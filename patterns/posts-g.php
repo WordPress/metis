@@ -3,6 +3,7 @@
  * Title: Posts, essay list
  * Slug: metis/posts-g
  * Categories: posts
+ * Block Types: core/query
  * Description: Recent posts as an inline essay list with dates and excerpts.
  */
 ?>

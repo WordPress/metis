@@ -24,7 +24,7 @@
 <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:50%"><!-- wp:group {"metadata":{"name":"Quotes Row"},"style":{"@tablet":{"layout":{"justifyContent":"stretch","orientation":"vertical"}},"@mobile":{"layout":{"justifyContent":"left","orientation":"vertical"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:quote -->
 <blockquote class="wp-block-quote"><!-- wp:paragraph -->
-<p><?php esc_html_e('A book about maps that turns out to be about attention. I read it twice.', 'metis');?></p>
+<p><?php esc_html_e('A book about maps that turns out to be about attention. I read it twice.', 'metis');?></p>
 <!-- /wp:paragraph --><cite><?php esc_html_e('The Marginal Review', 'metis');?></cite></blockquote>
 <!-- /wp:quote -->
 

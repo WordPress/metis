@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: single-with-sidebar
+ * Title: Single with Sidebar
  * Slug: metis/single-with-sidebar
  * Inserter: no
  */
@@ -24,7 +24,7 @@
 <div class="wp-block-group has-link-color" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:group {"metadata":{"name":"Date"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20","left":"var:preset|spacing|20"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:icon {"icon":"core/calendar","style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3"} /-->
 
-<!-- wp:post-date {"datetime":"2026-09-01T19:17:42.289Z","format":"M j, Y","className":"no-stroke"} /--></div>
+<!-- wp:post-date {"format":"M j, Y","className":"no-stroke"} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Time to read"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20","left":"var:preset|spacing|20"}},"layout":{"selfStretch":"fill","flexSize":null}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->

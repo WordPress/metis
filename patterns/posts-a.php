@@ -3,6 +3,7 @@
  * Title: Posts, alternating image grid
  * Slug: metis/posts-a
  * Categories: posts
+ * Block Types: core/query
  * Description: Recent posts in an auto-fit grid, featured images alternating portrait and square.
  */
 ?>

@@ -3,6 +3,7 @@
  * Title: Posts, text only
  * Slug: metis/posts-b
  * Categories: posts
+ * Block Types: core/query
  * Description: Recent posts as text rows: title, excerpt, date and a read-more mark.
  */
 ?>

@@ -21,7 +21,7 @@
 <!-- /wp:jetpack/field-email -->
 
 <!-- wp:jetpack/field-consent {"id":"","className":"is-style-list"} -->
-<div><!-- wp:jetpack/option {"placeholder":"Add implicit consent message…","label":"<?php esc_attr_e('By submitting your information, you\'re giving us permission to email you. You may unsubscribe at any time.', 'metis');?>","hideInput":true,"isStandalone":true} /--></div>
+<div><!-- wp:jetpack/option {"placeholder":"<?php esc_attr_e('Add implicit consent message…', 'metis');?>","label":"<?php esc_attr_e('By submitting your information, you\'re giving us permission to email you. You may unsubscribe at any time.', 'metis');?>","hideInput":true,"isStandalone":true} /--></div>
 <!-- /wp:jetpack/field-consent -->
 
 <!-- wp:button {"tagName":"button","type":"submit","lock":{"move":false,"remove":true},"className":"is-style-glossy","style":{"dimensions":{"width":"var:preset|dimension|25"}}} -->
