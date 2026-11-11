@@ -56,8 +56,8 @@
 					"slug": "theme-10"
 				},
 				{
-					"color": "#ffa599",
-					"name": "Salmon",
+					"color": "#FF6A3D",
+					"name": "Vermilion",
 					"slug": "theme-11"
 				},
 				{
@@ -89,7 +89,7 @@
 				},
 				{
 					"gradient": "linear-gradient(180deg, var(--wp--preset--color--theme-11) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 100%)",
-					"name": "Salmon fade",
+					"name": "Vermilion fade",
 					"slug": "gradient-5"
 				},
 				{
@@ -152,13 +152,13 @@
 				{
 					"fluid": false,
 					"name": "Large",
-					"size": "1.5rem",
+					"size": "1.15rem",
 					"slug": "large"
 				},
 				{
 					"fluid": {
 						"max": "1.65rem",
-						"min": "1.5rem"
+						"min": "1.25rem"
 					},
 					"name": "X-Large",
 					"size": "1.65rem",
@@ -166,20 +166,20 @@
 				},
 				{
 					"fluid": {
-						"max": "2.15rem",
-						"min": "1.75rem"
+						"max": "2.05rem",
+						"min": "1.5rem"
 					},
 					"name": "2X-Large",
-					"size": "2.15rem",
+					"size": "2.05rem",
 					"slug": "2-x-large"
 				},
 				{
 					"fluid": {
-						"max": "2.05rem",
-						"min": "1.5rem"
+						"max": "2.15rem",
+						"min": "1.55rem"
 					},
 					"name": "3X-Large",
-					"size": "2.05rem",
+					"size": "2.15rem",
 					"slug": "3-x-large"
 				},
 				{

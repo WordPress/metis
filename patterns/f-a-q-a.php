@@ -6,7 +6,7 @@
  * Description: Common questions that unfold one at a time.
  */
 ?>
-<!-- wp:group {"tagName":"section","metadata":{"name":"FAQ, accordion","patternName":"metis/f-a-q-a","categories":["Text"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"FAQ, accordion"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":"33.33%"} -->
 <div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:heading {"className":"text-balance","fontSize":"2-x-large","anchor":"frequently-asked-questions"} -->

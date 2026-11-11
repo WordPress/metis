@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: index
+ * Title: Blog Index
  * Slug: metis/index
  * Inserter: no
  */

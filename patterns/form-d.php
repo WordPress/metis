@@ -7,7 +7,7 @@
  * Description: Registration with phone, a referral dropdown and extra details.
  */
 ?>
-<!-- wp:jetpack/contact-form {"subject":"A new registration from your website","jetpackCRM":false,"salesforceData":{"organizationId":"","sendToSalesforce":false},"mailpoet":{"listId":null,"listName":null,"enabledForForm":false},"className":"is-style-animated"} -->
+<!-- wp:jetpack/contact-form {"subject":"<?php esc_attr_e('A new registration from your website', 'metis');?>","jetpackCRM":false,"salesforceData":{"organizationId":"","sendToSalesforce":false},"mailpoet":{"listId":null,"listName":null,"enabledForForm":false},"className":"is-style-animated"} -->
 <div class="wp-block-jetpack-contact-form is-style-animated"><!-- wp:jetpack/field-name {"id":"","required":true,"fieldVariant":"name"} -->
 <div><!-- wp:jetpack/label {"label":"<?php esc_attr_e('Name', 'metis');?>"} /-->
 
@@ -26,10 +26,10 @@
 <!-- wp:jetpack/phone-input /--></div>
 <!-- /wp:jetpack/field-telephone -->
 
-<!-- wp:jetpack/field-select {"id":"","options":["Search Engine","Social Media","TV","Radio","Friend or Family"]} -->
+<!-- wp:jetpack/field-select {"id":"","options":["<?php esc_attr_e('Search Engine', 'metis');?>","<?php esc_attr_e('Social Media', 'metis');?>","<?php esc_attr_e('TV', 'metis');?>","<?php esc_attr_e('Radio', 'metis');?>","<?php esc_attr_e('Friend or Family', 'metis');?>"]} -->
 <div><!-- wp:jetpack/label {"label":"<?php esc_attr_e('How did you hear about us?', 'metis');?>"} /-->
 
-<!-- wp:jetpack/input {"placeholder":"Select one option","type":"dropdown"} /--></div>
+<!-- wp:jetpack/input {"placeholder":"<?php esc_attr_e('Select one option', 'metis');?>","type":"dropdown"} /--></div>
 <!-- /wp:jetpack/field-select -->
 
 <!-- wp:jetpack/field-textarea {"id":""} -->

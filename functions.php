@@ -8,15 +8,14 @@
  * @since Metis 1.0
  */
 
+/*
+ * Two stylesheets: style.css for the site and assets/css/editor-style.css for
+ * the Editor. They follow the same sections; change a rule in both. The
+ * design itself lives in theme.json.
+ */
 if ( ! function_exists( 'metis_editor_style' ) ) :
 	function metis_editor_style() {
-		add_editor_style(
-			array(
-				'assets/css/editor-style.css',
-				'assets/css/glossy-button.css',
-				'assets/css/animated-gradient.css',
-			)
-		);
+		add_editor_style( 'assets/css/editor-style.css' );
 	}
 endif;
 add_action( 'after_setup_theme', 'metis_editor_style' );
@@ -25,7 +24,7 @@ if ( ! function_exists( 'metis_styles' ) ) :
 	function metis_styles() {
 		wp_register_style(
 			'metis-style',
-			get_stylesheet_directory_uri() . '/style.css',
+			get_parent_theme_file_uri( 'style.css' ),
 			array(),
 			wp_get_theme()->get( 'Version' )
 		);
@@ -35,14 +34,18 @@ endif;
 add_action( 'wp_enqueue_scripts', 'metis_styles' );
 
 /*
- * "Glossy" button style — a CSS-only, fully-editable glossy effect for buttons.
- * Registers a block style for core/button. The CSS is loaded on the front end
- * here, and in the editor via add_editor_style() above, so the gloss shows in
- * both places. Colour, radius, padding, size, and type stay Editor-controlled;
- * the style only adds a translucent gloss + springy press.
+ * Block styles, picked in the Editor from a block's Styles panel.
+ *
+ * - Button, Glossy: a see-through sheen over the colours you choose (CSS in style.css).
+ * - Group, Gradient: a breathing fade into the page background (CSS in style.css).
+ * - Quote, Hanging: the ❝ sits beside the text, testimonial-style (CSS in theme.json).
+ * - Quote, Blank: keeps the bubble without the mark (CSS in theme.json).
+ * - Paragraph, Heading and the overlay's Close button, Eyebrow: the small
+ *   uppercase line that opens sections. Built from style_data, so the Editor
+ *   renders it natively and every property stays editable per block.
  */
-if ( ! function_exists( 'metis_glossy_button_style' ) ) :
-	function metis_glossy_button_style() {
+if ( ! function_exists( 'metis_block_styles' ) ) :
+	function metis_block_styles() {
 		register_block_style(
 			'core/button',
 			array(
@@ -50,17 +53,13 @@ if ( ! function_exists( 'metis_glossy_button_style' ) ) :
 				'label' => __( 'Glossy', 'metis' ),
 			)
 		);
-	}
-endif;
-add_action( 'init', 'metis_glossy_button_style' );
-
-/*
- * Two more Quote postures beside the default bubble and core's Plain:
- * Hanging seats the ❝ beside the text, testimonial-style;
- * Blank keeps the bubble but silences the mark.
- */
-if ( ! function_exists( 'metis_quote_styles' ) ) :
-	function metis_quote_styles() {
+		register_block_style(
+			'core/group',
+			array(
+				'name'  => 'gradient-flow',
+				'label' => __( 'Gradient', 'metis' ),
+			)
+		);
 		register_block_style(
 			'core/quote',
 			array(
@@ -75,19 +74,6 @@ if ( ! function_exists( 'metis_quote_styles' ) ) :
 				'label' => __( 'Blank', 'metis' ),
 			)
 		);
-	}
-endif;
-add_action( 'init', 'metis_quote_styles' );
-
-/*
- * The Eyebrow: the small uppercase openrunde line that opens sections
- * throughout the theme, set manually many times over — now one style
- * on paragraphs, headings and the overlay's Close button alike. style_data compiles through the
- * style engine, so the canvas renders it natively and any property
- * stays overridable per instance.
- */
-if ( ! function_exists( 'metis_eyebrow_style' ) ) :
-	function metis_eyebrow_style() {
 		register_block_style(
 			array( 'core/paragraph', 'core/heading', 'core/navigation-overlay-close' ),
 			array(
@@ -108,59 +94,13 @@ if ( ! function_exists( 'metis_eyebrow_style' ) ) :
 		);
 	}
 endif;
-add_action( 'init', 'metis_eyebrow_style' );
-
-if ( ! function_exists( 'metis_glossy_button_assets' ) ) :
-	function metis_glossy_button_assets() {
-		wp_enqueue_style(
-			'metis-glossy-button',
-			get_stylesheet_directory_uri() . '/assets/css/glossy-button.css',
-			array(),
-			'0.1.4'
-		);
-	}
-endif;
-add_action( 'wp_enqueue_scripts', 'metis_glossy_button_assets' );
+add_action( 'init', 'metis_block_styles' );
 
 /*
- * "Animated Gradient" section style — a CSS-only background gradient from the Rule
- * colour (theme-7) to the Base colour (theme-1) whose length gently breathes. Registers a
- * block style for core/group; the CSS loads on the front end here and in the editor
- * via add_editor_style() above, so it renders (and animates) in both. Motion is
- * disabled under prefers-reduced-motion.
- */
-if ( ! function_exists( 'metis_gradient_style' ) ) :
-	function metis_gradient_style() {
-		register_block_style(
-			'core/group',
-			array(
-				'name'  => 'gradient-flow',
-				'label' => __( 'Gradient', 'metis' ),
-			)
-		);
-	}
-endif;
-add_action( 'init', 'metis_gradient_style' );
-
-if ( ! function_exists( 'metis_gradient_assets' ) ) :
-	function metis_gradient_assets() {
-		wp_enqueue_style(
-			'metis-animated-gradient',
-			get_stylesheet_directory_uri() . '/assets/css/animated-gradient.css',
-			array(),
-			'0.9.2'
-		);
-	}
-endif;
-add_action( 'wp_enqueue_scripts', 'metis_gradient_assets' );
-
-/*
- * Motion-blur SVG filter — the defs behind the .metis-motion-blur utility
- * (see style.css). An anisotropic Gaussian: 12px of blur along x, none
- * along y, so a Cover's featured image streaks sideways instead of just
- * softening. Printed inline on wp_body_open because browsers only resolve
- * filter references within the same document; the element is 0x0 and
- * invisible. Same mechanism core uses for duotone.
+ * The SVG filter behind the metis-motion-blur class (see style.css): 12px of
+ * blur along x and none along y, so a Cover's image streaks sideways. Printed
+ * in the page because CSS filters only reach SVG in the same document; the
+ * element is invisible. Core prints duotone filters the same way.
  */
 if ( ! function_exists( 'metis_motion_blur_svg' ) ) :
 	function metis_motion_blur_svg() {
@@ -178,6 +118,7 @@ if ( ! function_exists( 'metis_pattern_categories' ) ) :
 	function metis_pattern_categories() {
 		$categories = array(
 			'about'          => __( 'About', 'metis' ),
+			'pages'          => __( 'Pages', 'metis' ),
 			'call-to-action' => __( 'Call to Action', 'metis' ),
 			'clients'        => __( 'Clients', 'metis' ),
 			'contact'        => __( 'Contact', 'metis' ),
@@ -197,8 +138,8 @@ add_action( 'init', 'metis_pattern_categories' );
 
 /*
  * Comments call-to-action binding source. Bind a paragraph's content to
- * "metis/comments-cta" and it renders "Be the first to comment" when the
- * post has no comments, "Join the conversation" once it has some - meant
+ * "metis/comments-cta" and it renders "Comment first" when the post has no
+ * comments, "Join in" once it has some - meant
  * to sit beside the Comments Link block, which keeps showing the count.
  */
 if ( ! function_exists( 'metis_comments_cta_binding' ) ) :
@@ -223,6 +164,37 @@ if ( ! function_exists( 'metis_comments_cta_binding' ) ) :
 	}
 endif;
 add_action( 'init', 'metis_comments_cta_binding' );
+
+/*
+ * Site name binding source. Bind a paragraph's content to "metis/site-title"
+ * and it shows the site's own name. The Fit Text watermarks in Footer C and
+ * Footer D use it, since the Site Title block has no Fit Text. The Editor
+ * script shows the same name in the canvas.
+ */
+if ( ! function_exists( 'metis_site_title_binding' ) ) :
+	function metis_site_title_binding() {
+		register_block_bindings_source(
+			'metis/site-title',
+			array(
+				'label'              => __( 'Site Title', 'metis' ),
+				'get_value_callback' => function () {
+					return esc_html( get_bloginfo( 'name' ) );
+				},
+			)
+		);
+	}
+endif;
+add_action( 'init', 'metis_site_title_binding' );
+
+if ( ! function_exists( 'metis_site_title_binding_editor' ) ) :
+	function metis_site_title_binding_editor() {
+		wp_add_inline_script(
+			'wp-blocks',
+			"wp.blocks.registerBlockBindingsSource && wp.blocks.registerBlockBindingsSource({name:'metis/site-title',getValues:function(o){var b=o.select('core').getEntityRecord('root','__unstableBase');return {content:(b&&b.name)||''};}});"
+		);
+	}
+endif;
+add_action( 'enqueue_block_editor_assets', 'metis_site_title_binding_editor' );
 
 /**
  * Let file-based Playlist tracks render on the front end.
@@ -273,13 +245,13 @@ endif;
 add_action( 'init', 'metis_collapse_posts_patterns', 20 );
 
 /**
- * Dark Mode toggle — a per-visitor switch to the colours of the Cimmeria style.
+ * Dark Mode switch: a per-visitor switch to the colours of the Cimmeria style.
  *
  * Add the class metis-mode-toggle to a Group, such as one holding an Icon, to
- * make it the switch. A click sets a flag
- * on <html>, which overrides the palette variables for that visitor only and
- * stays on across every page until the next click, including pages without the
- * switch. Turning it off removes the flag, so the site's active style returns.
+ * make it the switch; this filter gives it the role, focus and label of a
+ * button. A click sets a flag on <html> that swaps the palette for that
+ * visitor only and stays on across every page until the next click, including
+ * pages without the switch. Turning it off brings back the site's own style.
  * Colours are read from styles/cimmeria.json.
  */
 if ( ! function_exists( 'metis_mode_toggle_render' ) ) :
@@ -316,7 +288,7 @@ if ( ! function_exists( 'metis_mode_toggle_head' ) ) :
 		foreach ( $colors['gradients'] ?? array() as $gradient ) {
 			$css .= "--wp--preset--gradient--{$gradient['slug']}:{$gradient['gradient']};";
 		}
-		echo '<style id="metis-mode-toggle">html[data-metis-mode="dark"]{' . wp_strip_all_tags( $css ) . "}.metis-mode-toggle{cursor:pointer}</style>\n";
+		echo '<style id="metis-mode-toggle">html[data-metis-mode="dark"]{' . wp_strip_all_tags( $css ) . "}</style>\n";
 		wp_print_inline_script_tag(
 			"(function(){var k='metis-mode',h=document.documentElement,s='.metis-mode-toggle';" .
 			"function sync(){document.querySelectorAll(s).forEach(function(b){b.setAttribute('aria-pressed',h.dataset.metisMode?'true':'false')})}" .

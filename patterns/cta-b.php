@@ -12,7 +12,7 @@
 <div class="wp-block-column is-vertically-aligned-top"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
 <div class="wp-block-columns are-vertically-aligned-center" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:column {"verticalAlignment":"center","width":"25%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:25%"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","metadata":{"name":"Brand"},"style":{"color":{"duotone":"var:preset|duotone|duotone-2"}}} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--p-logo.webp" alt=""/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--p-logo.webp" alt="<?php esc_attr_e('Parallel logo', 'metis');?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
@@ -23,7 +23,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"text-balance","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontFamily":"openrunde"} -->
-<p class="text-balance has-openrunde-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e('One email. The week’s dispatches, and nothing we would not read ourselves.', 'metis');?></p>
+<p class="text-balance has-openrunde-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e('One email. The week’s dispatches, and nothing we would not read ourselves.', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>

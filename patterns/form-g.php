@@ -7,7 +7,7 @@
  * Description: A lead form mapped to Salesforce fields.
  */
 ?>
-<!-- wp:jetpack/contact-form {"jetpackCRM":false,"formTitle":"Salesforce Lead Form","salesforceData":{"organizationId":"","sendToSalesforce":false},"mailpoet":{"listId":null,"listName":null,"enabledForForm":false},"className":"is-style-animated"} -->
+<!-- wp:jetpack/contact-form {"jetpackCRM":false,"formTitle":"<?php esc_attr_e('Salesforce Lead Form', 'metis');?>","salesforceData":{"organizationId":"","sendToSalesforce":false},"mailpoet":{"listId":null,"listName":null,"enabledForForm":false},"className":"is-style-animated"} -->
 <div class="wp-block-jetpack-contact-form is-style-animated"><!-- wp:jetpack/field-name {"id":"first_name","required":true,"fieldVariant":"name"} -->
 <div><!-- wp:jetpack/label {"label":"<?php esc_attr_e('First Name', 'metis');?>"} /-->
 
