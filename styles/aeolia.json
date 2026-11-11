@@ -166,20 +166,20 @@
 				},
 				{
 					"fluid": {
-						"max": "2.15rem",
+						"max": "2.05rem",
 						"min": "1.5rem"
 					},
 					"name": "2X-Large",
-					"size": "2.15rem",
+					"size": "2.05rem",
 					"slug": "2-x-large"
 				},
 				{
 					"fluid": {
-						"max": "2.05rem",
+						"max": "2.15rem",
 						"min": "1.55rem"
 					},
 					"name": "3X-Large",
-					"size": "2.05rem",
+					"size": "2.15rem",
 					"slug": "3-x-large"
 				},
 				{
