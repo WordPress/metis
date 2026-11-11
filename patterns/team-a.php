@@ -6,7 +6,7 @@
  * Description: Three people, three portraits, one role each.
  */
 ?>
-<!-- wp:group {"tagName":"section","metadata":{"name":"Team, 3 portraits","patternName":"metis/team-a","categories":["Team"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|60"}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"Team, 3 portraits"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|60"}},"layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"metadata":{"name":"Intro"},"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"metadata":{"name":"Eyebrow and Description"},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
@@ -28,7 +28,7 @@
 <!-- wp:columns {"metadata":{"blockVisibility":{"viewport":{"tablet":false,"mobile":false}}},"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"width":"800px","aspectRatio":"0.75","scale":"cover","sizeSlug":"full","linkDestination":"none","metadata":{"name":"Author Portrait"}} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--avatar-ada.webp" alt="" style="aspect-ratio:0.75;object-fit:cover;width:800px;height:auto"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--avatar-ada.webp" alt="<?php esc_attr_e('Portrait of Ada Fenn in a linen shirt, hair loosely pinned up, in soft window light', 'metis');?>" style="aspect-ratio:0.75;object-fit:cover;width:800px;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"metadata":{"name":"Author Info"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
@@ -44,7 +44,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"width":"800px","aspectRatio":"0.75","scale":"cover","sizeSlug":"full","linkDestination":"none","metadata":{"name":"Author Portrait"}} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--avatar-cora.webp" alt="" style="aspect-ratio:0.75;object-fit:cover;width:800px;height:auto"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--avatar-cora.webp" alt="<?php esc_attr_e('Black-and-white portrait: short natural hair, dark turtleneck and pinstripe blazer', 'metis');?>" style="aspect-ratio:0.75;object-fit:cover;width:800px;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"metadata":{"name":"Author Info"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
@@ -60,7 +60,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"width":"800px","aspectRatio":"0.75","scale":"cover","sizeSlug":"full","linkDestination":"none","metadata":{"name":"Author Portrait"}} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--avatar-iris.webp" alt="" style="aspect-ratio:0.75;object-fit:cover;width:800px;height:auto"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--avatar-iris.webp" alt="<?php esc_attr_e('Iris Calder smiling, her shoulder-length hair in loose curls', 'metis');?>" style="aspect-ratio:0.75;object-fit:cover;width:800px;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"metadata":{"name":"Author Info"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
@@ -78,7 +78,7 @@
 <!-- wp:columns {"isStackedOnMobile":false,"metadata":{"name":"Columns Mob","blockVisibility":{"viewport":{"desktop":false}}},"align":"wide"} -->
 <div class="wp-block-columns alignwide is-not-stacked-on-mobile"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"width":"800px","aspectRatio":"0.75","scale":"cover","sizeSlug":"full","linkDestination":"none","metadata":{"name":"Author Portrait"}} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--avatar-ada.webp" alt="" style="aspect-ratio:0.75;object-fit:cover;width:800px;height:auto"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--avatar-ada.webp" alt="<?php esc_attr_e('Portrait of Ada Fenn in a linen shirt, hair loosely pinned up, in soft window light', 'metis');?>" style="aspect-ratio:0.75;object-fit:cover;width:800px;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"metadata":{"name":"Author Info"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
@@ -94,7 +94,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"width":"800px","aspectRatio":"0.75","scale":"cover","sizeSlug":"full","linkDestination":"none","metadata":{"name":"Author Portrait"}} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--avatar-cora.webp" alt="" style="aspect-ratio:0.75;object-fit:cover;width:800px;height:auto"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--avatar-cora.webp" alt="<?php esc_attr_e('Black-and-white portrait: short natural hair, dark turtleneck and pinstripe blazer', 'metis');?>" style="aspect-ratio:0.75;object-fit:cover;width:800px;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"metadata":{"name":"Author Info"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
@@ -110,7 +110,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"width":"800px","aspectRatio":"0.75","scale":"cover","sizeSlug":"full","linkDestination":"none","metadata":{"name":"Author Portrait"}} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--avatar-iris.webp" alt="" style="aspect-ratio:0.75;object-fit:cover;width:800px;height:auto"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--avatar-iris.webp" alt="<?php esc_attr_e('Iris Calder smiling, her shoulder-length hair in loose curls', 'metis');?>" style="aspect-ratio:0.75;object-fit:cover;width:800px;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"metadata":{"name":"Author Info"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->

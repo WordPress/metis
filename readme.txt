@@ -16,7 +16,7 @@ A block theme for people who work in more than one form. Six starter sites (writ
 == Frequently Asked Questions ==
 
 = Which header should I use? =
-Mētis comes with three headers to show the range of what's possible. For a consistent site, pick one and use it in every template: in the Site Editor, open a template, select its header and replace it with the one you chose.
+Mētis comes with three headers to show the range of what's possible. For a consistent site, pick one and use it in every template: in the Site Editor, open a template, select its header and replace it with the one you chose. Headers A and B include a search field and Header C doesn't, so if you choose Header C, add a Search block to the 404 template to keep search on that page.
 
 = How do I add the Dark Mode switch? =
 The header "Header, minimal with menu button" and the Navigation Overlay already include it. To turn any Group into the switch, select it, open Advanced → Additional CSS class(es) and add metis-mode-toggle. Visitors switch to the colours of the Cimmeria style, and their choice stays on every page until they switch back.
@@ -59,11 +59,10 @@ Ichi is based on Twenty Twenty-Five/twentytwentyfive (https://wordpress.org/them
 
 == Images ==
 
-The imagery distributed across the theme was generated with AI using Midjourney.
-Author: Henrique Iamarino (https://profiles.wordpress.org/iamarinoh)
-License: CC0 1.0 Universal - dedicated to the public domain by the author.
+All theme artifacts (images) by Henrique Iamarino
+License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-
+Source: https://iamarino.com
 
 
 == Fonts ==

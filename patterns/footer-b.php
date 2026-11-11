@@ -5,7 +5,7 @@
  * Inserter: no
  */
 ?>
-<!-- wp:group {"tagName":"footer","metadata":{"name":"Footer, studio contact grid","patternName":"metis/footer-b"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|70"}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"tagName":"footer","metadata":{"name":"Footer, studio contact grid"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|70"}},"layout":{"type":"constrained"}} -->
 <footer class="wp-block-group" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"metadata":{"blockVisibility":{"viewport":{"tablet":false,"mobile":false}},"name":"Columns (Desktop)"},"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":"33.33%"} -->
 <div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:paragraph {"metadata":{"name":"Monograms"},"style":{"typography":{"letterSpacing":"-0.25rem"}},"fontSize":"4-x-large","fontFamily":"openrunde"} -->
@@ -19,7 +19,7 @@
 
 <!-- wp:column {"width":"33.33%"} -->
 <div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:navigation {"overlayMenu":"never","style":{"typography":{"textTransform":"uppercase","fontWeight":"600","lineHeight":"1.2"}},"fontSize":"large","layout":{"type":"flex","orientation":"vertical","flexWrap":"nowrap"}} -->
-<!-- wp:navigation-link {"label":"<?php esc_attr_e('About TT7', 'metis');?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_attr_e('About', 'metis');?>","url":"#"} /-->
 
 <!-- wp:navigation-link {"label":"<?php esc_attr_e('Patterns', 'metis');?>","url":"#"} /-->
 
@@ -69,7 +69,7 @@
 
 <!-- wp:column {"verticalAlignment":"top","width":""} -->
 <div class="wp-block-column is-vertically-aligned-top"><!-- wp:paragraph {"metadata":{"name":"Address line"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"large","fontFamily":"openrunde"} -->
-<p class="has-openrunde-font-family has-large-font-size" style="font-style:normal;font-weight:600"><?php esc_html_e('E.', 'metis');?> <a href="mailto:#"><?php esc_html_e('cora@landmark.studio', 'metis');?></a><br><?php esc_html_e('P. (970) 945-5444', 'metis');?></p>
+<p class="has-openrunde-font-family has-large-font-size" style="font-style:normal;font-weight:600"><?php esc_html_e('E.', 'metis');?> <a href="mailto:cora@example.com"><?php esc_html_e('cora@example.com', 'metis');?></a><br><?php esc_html_e('P. (970) 945-5444', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->

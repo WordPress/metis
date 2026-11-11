@@ -6,7 +6,7 @@
  * Description: Three ways to work together, priced plainly, each with its own call to action.
  */
 ?>
-<!-- wp:group {"tagName":"section","metadata":{"name":"Pricing, 3 plans","patternName":"metis/pricing-a","categories":["Services"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"Pricing, 3 plans"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:paragraph {"metadata":{"name":"Eyebrow"},"align":"wide","className":"is-style-eyebrow"} -->
 <p class="is-style-eyebrow alignwide"><?php esc_html_e('What it costs', 'metis');?></p>
 <!-- /wp:paragraph -->

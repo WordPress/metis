@@ -5,10 +5,10 @@
  * Inserter: no
  */
 ?>
-<!-- wp:group {"tagName":"footer","metadata":{"name":"Footer, dark with link pills","patternName":"metis/footer-d"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|60"},"@mobile":{"spacing":{"blockGap":"var:preset|spacing|60"}}},"backgroundColor":"theme-2","textColor":"theme-1","layout":{"type":"constrained"}} -->
+<!-- wp:group {"tagName":"footer","metadata":{"name":"Footer, dark with link pills"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|60"},"@mobile":{"spacing":{"blockGap":"var:preset|spacing|60"}}},"backgroundColor":"theme-2","textColor":"theme-1","layout":{"type":"constrained"}} -->
 <footer class="wp-block-group alignfull has-theme-1-color has-theme-2-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|70"}},"@tablet":{"spacing":{"blockGap":{"top":"var:preset|spacing|50"}}},"@mobile":{"spacing":{"blockGap":{"top":"var:preset|spacing|50"}}}}} -->
 <div class="wp-block-columns alignwide" style="margin-bottom:var(--wp--preset--spacing--70)"><!-- wp:column {"width":"50%"} -->
-<div class="wp-block-column" style="flex-basis:50%"><!-- wp:paragraph {"metadata":{"name":"Site Title + Fit Text"},"align":"full","style":{"typography":{"fontStyle":"normal","fontWeight":"600","letterSpacing":"-1rem","lineHeight":"0.9"}},"fontFamily":"openrunde","fitText":true} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:paragraph {"metadata":{"name":"Site Title + Fit Text","bindings":{"content":{"source":"metis/site-title"}}},"align":"full","style":{"typography":{"fontStyle":"normal","fontWeight":"600","letterSpacing":"-1rem","lineHeight":"0.9"}},"fontFamily":"openrunde","fitText":true} -->
 <p class="alignfull has-fit-text has-openrunde-font-family" style="font-style:normal;font-weight:600;letter-spacing:-1rem;line-height:0.9"><?php esc_html_e('Mētis', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->

@@ -6,7 +6,7 @@
  * Description: The backlist as a four-up grid of covers with title and imprint. Opened by a terse heading and an inline link.
  */
 ?>
-<!-- wp:group {"tagName":"section","metadata":{"name":"Books, cover grid","patternName":"metis/product-list-a","description":"The backlist as a four-up grid of covers with title and imprint. Opened by a terse heading and an inline link.","categories":["Media"]},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"},"blockGap":"var:preset|spacing|50"}},"layout":{"type":"constrained"},"anchor":"books"} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"Books, cover grid","description":"The backlist as a four-up grid of covers with title and imprint. Opened by a terse heading and an inline link."},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"},"blockGap":"var:preset|spacing|50"}},"layout":{"type":"constrained"},"anchor":"books"} -->
 <section class="wp-block-group alignwide" id="books" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:columns {"verticalAlignment":"top","align":"wide"} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"25%"} -->
 <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:25%"><!-- wp:heading {"align":"wide"} -->
@@ -18,7 +18,7 @@
 <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:75%"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|40"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"width":"800px","aspectRatio":"0.75","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--book-2.webp" alt="" class="" style="aspect-ratio:0.75;object-fit:cover;width:800px;height:auto"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--book-2.webp" alt="<?php esc_attr_e('Cover with Iris Calder’s name in white over red-tinted satellite terrain', 'metis');?>" class="" style="aspect-ratio:0.75;object-fit:cover;width:800px;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"metadata":{"name":"Post Template Date and Title"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20","left":"var:preset|spacing|20"},"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
@@ -36,7 +36,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"width":"800px","aspectRatio":"3/4","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--book-3.webp" alt="" class="" style="aspect-ratio:3/4;object-fit:cover;width:800px;height:auto"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--book-3.webp" alt="<?php esc_attr_e('Cover of Contour by Iris Calder: olive and mustard terrain shapes, like a relief map', 'metis');?>" class="" style="aspect-ratio:3/4;object-fit:cover;width:800px;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"metadata":{"name":"Post Template Date and Title"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20","left":"var:preset|spacing|20"},"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
@@ -54,7 +54,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"width":"800px","aspectRatio":"3/4","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--book-4.png" alt="" class="" style="aspect-ratio:3/4;object-fit:cover;width:800px;height:auto"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/metis-artifact--book-4.webp" alt="<?php esc_attr_e('Book cover by Iris Calder: the title in white capitals inside a thin frame, over dark teal water', 'metis');?>" class="" style="aspect-ratio:3/4;object-fit:cover;width:800px;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"metadata":{"name":"Post Template Date and Title"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20","left":"var:preset|spacing|20"},"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->

@@ -118,6 +118,7 @@ if ( ! function_exists( 'metis_pattern_categories' ) ) :
 	function metis_pattern_categories() {
 		$categories = array(
 			'about'          => __( 'About', 'metis' ),
+			'pages'          => __( 'Pages', 'metis' ),
 			'call-to-action' => __( 'Call to Action', 'metis' ),
 			'clients'        => __( 'Clients', 'metis' ),
 			'contact'        => __( 'Contact', 'metis' ),
@@ -163,6 +164,37 @@ if ( ! function_exists( 'metis_comments_cta_binding' ) ) :
 	}
 endif;
 add_action( 'init', 'metis_comments_cta_binding' );
+
+/*
+ * Site name binding source. Bind a paragraph's content to "metis/site-title"
+ * and it shows the site's own name. The Fit Text watermarks in Footer C and
+ * Footer D use it, since the Site Title block has no Fit Text. The Editor
+ * script shows the same name in the canvas.
+ */
+if ( ! function_exists( 'metis_site_title_binding' ) ) :
+	function metis_site_title_binding() {
+		register_block_bindings_source(
+			'metis/site-title',
+			array(
+				'label'              => __( 'Site Title', 'metis' ),
+				'get_value_callback' => function () {
+					return esc_html( get_bloginfo( 'name' ) );
+				},
+			)
+		);
+	}
+endif;
+add_action( 'init', 'metis_site_title_binding' );
+
+if ( ! function_exists( 'metis_site_title_binding_editor' ) ) :
+	function metis_site_title_binding_editor() {
+		wp_add_inline_script(
+			'wp-blocks',
+			"wp.blocks.registerBlockBindingsSource && wp.blocks.registerBlockBindingsSource({name:'metis/site-title',getValues:function(o){var b=o.select('core').getEntityRecord('root','__unstableBase');return {content:(b&&b.name)||''};}});"
+		);
+	}
+endif;
+add_action( 'enqueue_block_editor_assets', 'metis_site_title_binding_editor' );
 
 /**
  * Let file-based Playlist tracks render on the front end.

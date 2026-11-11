@@ -5,7 +5,7 @@
  * Inserter: no
  */
 ?>
-<!-- wp:group {"tagName":"header","metadata":{"name":"Header, uppercase title and search bar","patternName":"metis/header-a"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"tagName":"header","metadata":{"name":"Header, uppercase title and search bar"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
 <header class="wp-block-group" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:group {"metadata":{"name":"Header Uppercase Wrapper"},"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"0"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"center"}} -->
 <div class="wp-block-group alignwide"><!-- wp:group {"metadata":{"name":"Branding Wrapper"},"style":{"layout":{"selfStretch":"fill","flexSize":null}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:site-title {"level":0,"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"small"} /--></div>
