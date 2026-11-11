@@ -64,6 +64,40 @@ License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
 Source: https://iamarino.com
 
+Generated with AI on Midjourney, released under the CC0 license:
+metis-artifact--audio-track-1.webp, metis-artifact--audio-track-2.webp, metis-artifact--audio-track-3.webp, metis-artifact--avatar-ada.webp, metis-artifact--avatar-cora.webp, metis-artifact--avatar-iris.webp, metis-artifact--business-dog.webp, metis-artifact--personal-portrait-1.webp, metis-artifact--writer-illustration.webp
+
+Designs by Henrique Iamarino with images generated with AI on Midjourney, released under the CC0 license:
+metis-artifact--app-design.webp, metis-artifact--heroes-patterns.webp, metis-artifact--heroes-templates.webp, metis-artifact--heroes-variations.webp, metis-artifact--mob-mockup.webp, metis-artifact--spread-feature-1.webp, metis-artifact--system-wend-app-edited.webp
+
+Designs by Henrique Iamarino that include images from other sources:
+
+metis-artifact--spread-essay-1.webp
+Northeaster (1895) by Winslow Homer, via rawpixel
+License: Public Domain
+Source: https://www.rawpixel.com/image/3049929/free-illustration-image-art-water-painting
+
+metis-artifact--book-1.webp
+License: Public Domain
+Source: https://www.rawpixel.com/image/441134/channel-tunnel-space-view
+
+metis-artifact--book-2.webp, metis-artifact--books.webp
+License: Public Domain
+Source: https://www.rawpixel.com/image/441244/free-photo-image-nasa-maps-valley
+
+metis-artifact--book-3.webp
+License: Public Domain
+Source: https://www.rawpixel.com/image/13739755/image-background-paper-cartoon
+
+metis-artifact--book-4.webp, metis-artifact--books.webp
+License: Public Domain
+Source: https://www.rawpixel.com/image/463095/free-photo-image-wave-sea-water
+
+metis-artifact--type-design.webp
+Monoton, by Vernon Adams
+License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
+Source: https://fonts.google.com/specimen/Monoton
+
 
 == Fonts ==
 
