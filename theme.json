@@ -456,35 +456,53 @@
 					"fontFace": [
 						{
 							"fontDisplay": "swap",
-							"fontFamily": "Martian Grotesk",
+							"fontFamily": "Fivo Sans Modern",
 							"fontStyle": "normal",
 							"fontWeight": "400",
 							"src": [
-								"file:./assets/fonts/martian-grotesk/martian-grotesk-wd-400-normal.woff2"
+								"file:./assets/fonts/fivo-sans-modern/fivo-sans-modern-400-normal.woff2"
 							]
 						},
 						{
 							"fontDisplay": "swap",
-							"fontFamily": "Martian Grotesk",
+							"fontFamily": "Fivo Sans Modern",
 							"fontStyle": "normal",
 							"fontWeight": "500",
 							"src": [
-								"file:./assets/fonts/martian-grotesk/martian-grotesk-wd-500-normal.woff2"
+								"file:./assets/fonts/fivo-sans-modern/fivo-sans-modern-500-normal.woff2"
 							]
 						},
 						{
 							"fontDisplay": "swap",
-							"fontFamily": "Martian Grotesk",
+							"fontFamily": "Fivo Sans Modern",
 							"fontStyle": "normal",
 							"fontWeight": "700",
 							"src": [
-								"file:./assets/fonts/martian-grotesk/martian-grotesk-wd-700-normal.woff2"
+								"file:./assets/fonts/fivo-sans-modern/fivo-sans-modern-700-normal.woff2"
+							]
+						},
+						{
+							"fontDisplay": "swap",
+							"fontFamily": "Fivo Sans Modern",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/fivo-sans-modern/fivo-sans-modern-800-normal.woff2"
+							]
+						},
+						{
+							"fontDisplay": "swap",
+							"fontFamily": "Fivo Sans Modern",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/fivo-sans-modern/fivo-sans-modern-900-normal.woff2"
 							]
 						}
 					],
-					"fontFamily": "\"Martian Grotesk\", sans-serif",
-					"name": "Martian Grotesk",
-					"slug": "martian-grotesk"
+					"fontFamily": "\"Fivo Sans Modern\", sans-serif",
+					"name": "Fivo Sans Modern",
+					"slug": "fivo-sans-modern"
 				},
 				{
 					"fontFace": [
@@ -1271,6 +1289,17 @@
 						"bottom": "0",
 						"top": "0"
 					}
+				}
+			},
+			"core/tab-list": {
+				"spacing": {
+					"padding": {
+						"left": "var(--wp--preset--spacing--20)",
+						"right": "var(--wp--preset--spacing--20)"
+					}
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
 			"core/tabs": {

@@ -126,10 +126,10 @@ Copyright 2011 The Bitter Project Authors (https://github.com/solmatas/BitterPro
 License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
 Source: https://github.com/solmatas/BitterPro
 
-Martian Grotesk
-Copyright 2021 The Martian Grotesk Project Authors (https://github.com/evilmartians/grotesk)
+Fivo Sans Modern
+Copyright 2017 Alexander Slobzheninov (www.behance.net/slobzheninov)
 License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
-Source: https://github.com/evilmartians/grotesk
+Source: https://www.behance.net/slobzheninov
 
 TASA Explorer
 Copyright 2023 Local Remote, with Reserved Font Name TASA Explorer
