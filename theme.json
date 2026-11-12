@@ -406,69 +406,51 @@
 					"fontFace": [
 						{
 							"fontDisplay": "swap",
-							"fontFamily": "Libre Franklin",
+							"fontFamily": "Google Sans",
 							"fontStyle": "normal",
-							"fontWeight": "100 900",
+							"fontWeight": "400 700",
 							"src": [
-								"file:./assets/fonts/libre-franklin/libre-franklin-vf-normal.woff2"
+								"file:./assets/fonts/google-sans/google-sans-vf-normal.woff2"
 							]
 						},
 						{
 							"fontDisplay": "swap",
-							"fontFamily": "Libre Franklin",
+							"fontFamily": "Google Sans",
 							"fontStyle": "italic",
-							"fontWeight": "100 900",
+							"fontWeight": "400 700",
 							"src": [
-								"file:./assets/fonts/libre-franklin/libre-franklin-vf-italic.woff2"
+								"file:./assets/fonts/google-sans/google-sans-vf-italic.woff2"
 							]
 						}
 					],
-					"fontFamily": "\"Libre Franklin\", sans-serif",
-					"name": "Libre Franklin",
-					"slug": "libre-franklin"
+					"fontFamily": "\"Google Sans\", sans-serif",
+					"name": "Google Sans",
+					"slug": "google-sans"
 				},
 				{
 					"fontFace": [
 						{
-							"fontFamily": "Fraunces",
-							"fontStretch": "normal",
+							"fontDisplay": "swap",
+							"fontFamily": "Bitter",
 							"fontStyle": "normal",
-							"fontWeight": "400",
+							"fontWeight": "100 900",
 							"src": [
-								"file:./assets/fonts/fraunces/fraunces-400-normal.woff2"
+								"file:./assets/fonts/bitter/bitter-vf-normal.woff2"
 							]
 						},
 						{
-							"fontFamily": "Fraunces",
-							"fontStretch": "normal",
+							"fontDisplay": "swap",
+							"fontFamily": "Bitter",
 							"fontStyle": "italic",
-							"fontWeight": "400",
+							"fontWeight": "100 900",
 							"src": [
-								"file:./assets/fonts/fraunces/fraunces-400-italic.woff2"
-							]
-						},
-						{
-							"fontFamily": "Fraunces",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/fraunces/fraunces-600-normal.woff2"
-							]
-						},
-						{
-							"fontFamily": "Fraunces",
-							"fontStretch": "normal",
-							"fontStyle": "italic",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/fraunces/fraunces-600-italic.woff2"
+								"file:./assets/fonts/bitter/bitter-vf-italic.woff2"
 							]
 						}
 					],
-					"fontFamily": "Fraunces, serif",
-					"name": "Fraunces",
-					"slug": "fraunces"
+					"fontFamily": "\"Bitter\", serif",
+					"name": "Bitter",
+					"slug": "bitter"
 				},
 				{
 					"fontFace": [
@@ -503,31 +485,6 @@
 					"fontFamily": "\"Martian Grotesk\", sans-serif",
 					"name": "Martian Grotesk",
 					"slug": "martian-grotesk"
-				},
-				{
-					"fontFace": [
-						{
-							"fontDisplay": "swap",
-							"fontFamily": "Plus Jakarta Sans",
-							"fontStyle": "normal",
-							"fontWeight": "200 700",
-							"src": [
-								"file:./assets/fonts/plus-jakarta-sans/plus-jakarta-sans-vf-normal.woff2"
-							]
-						},
-						{
-							"fontDisplay": "swap",
-							"fontFamily": "Plus Jakarta Sans",
-							"fontStyle": "italic",
-							"fontWeight": "200 700",
-							"src": [
-								"file:./assets/fonts/plus-jakarta-sans/plus-jakarta-sans-vf-italic.woff2"
-							]
-						}
-					],
-					"fontFamily": "\"Plus Jakarta Sans\", sans-serif",
-					"name": "Plus Jakarta Sans",
-					"slug": "plus-jakarta-sans"
 				},
 				{
 					"fontFace": [

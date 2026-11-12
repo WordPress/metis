@@ -147,16 +147,5 @@
 				}
 			]
 		}
-	},
-	"styles": {
-		"elements": {
-			"heading": {
-				"typography": {
-					"fontFamily": "var:preset|font-family|openrunde",
-					"fontStyle": "normal",
-					"fontWeight": "700"
-				}
-			}
-		}
 	}
 }

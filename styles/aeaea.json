@@ -146,7 +146,7 @@
 				{
 					"fluid": false,
 					"name": "Medium",
-					"size": "1.25rem",
+					"size": "1.125rem",
 					"slug": "medium"
 				},
 				{
@@ -235,7 +235,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var:preset|font-family|libre-franklin",
+			"fontFamily": "var:preset|font-family|google-sans",
 			"letterSpacing": "0rem",
 			"lineHeight": "1.5"
 		},
