@@ -114,10 +114,10 @@ Copyright 2025 The Google Sans Project Authors (https://github.com/googlefonts/g
 License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
 Source: https://github.com/googlefonts/googlesans
 
-Epunda Slab
-Copyright 2023 The Epunda Slab Project Authors (https://github.com/typofactur/epundaslab)
+Bitter
+Copyright 2011 The Bitter Project Authors (https://github.com/solmatas/BitterPro)
 License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
-Source: https://github.com/typofactur/epundaslab
+Source: https://github.com/solmatas/BitterPro
 
 Faculty Glyphic
 Copyright 2024 The Faculty Glyphic Project Authors (https://github.com/DylanYoungKoto/FacultyGlyphic)

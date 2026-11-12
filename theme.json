@@ -431,26 +431,26 @@
 					"fontFace": [
 						{
 							"fontDisplay": "swap",
-							"fontFamily": "Epunda Slab",
+							"fontFamily": "Bitter",
 							"fontStyle": "normal",
-							"fontWeight": "300 900",
+							"fontWeight": "100 900",
 							"src": [
-								"file:./assets/fonts/epunda-slab/epunda-slab-vf-normal.woff2"
+								"file:./assets/fonts/bitter/bitter-vf-normal.woff2"
 							]
 						},
 						{
 							"fontDisplay": "swap",
-							"fontFamily": "Epunda Slab",
+							"fontFamily": "Bitter",
 							"fontStyle": "italic",
-							"fontWeight": "300 900",
+							"fontWeight": "100 900",
 							"src": [
-								"file:./assets/fonts/epunda-slab/epunda-slab-vf-italic.woff2"
+								"file:./assets/fonts/bitter/bitter-vf-italic.woff2"
 							]
 						}
 					],
-					"fontFamily": "\"Epunda Slab\", serif",
-					"name": "Epunda Slab",
-					"slug": "epunda-slab"
+					"fontFamily": "\"Bitter\", serif",
+					"name": "Bitter",
+					"slug": "bitter"
 				},
 				{
 					"fontFace": [
