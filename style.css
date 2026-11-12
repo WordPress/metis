@@ -626,3 +626,10 @@ footer.wp-block-template-part {
 .wp-block-playlist .wp-block-playlist__tracklist {
 	margin-top: var(--wp--preset--spacing--40) !important;
 }
+
+/* Search placeholder on reversed colours (theme-1 text, as in the bar of
+   "Header, dark bar with inline menu"): the light 75% colour, theme-5.
+   Everywhere else the Search block uses theme-3 (theme.json). */
+.has-theme-1-color .wp-block-search__input::placeholder {
+	color: var(--wp--preset--color--theme-5);
+}

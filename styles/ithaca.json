@@ -146,13 +146,13 @@
 				{
 					"fluid": false,
 					"name": "Medium",
-					"size": "1.33rem",
+					"size": "1.125rem",
 					"slug": "medium"
 				},
 				{
 					"fluid": false,
 					"name": "Large",
-					"size": "1.65rem",
+					"size": "1.4375rem",
 					"slug": "large"
 				},
 				{
@@ -240,9 +240,9 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var:preset|font-family|fraunces",
+			"fontFamily": "var:preset|font-family|bitter",
 			"letterSpacing": "0rem",
-			"lineHeight": "1.4"
+			"lineHeight": "1.6"
 		},
 		"blocks": {
 			"core/post-excerpt": {
@@ -258,7 +258,7 @@
 			},
 			"core/tabs": {
 				"typography": {
-					"fontFamily": "var:preset|font-family|fraunces"
+					"fontFamily": "var:preset|font-family|bitter"
 				}
 			}
 		}

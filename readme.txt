@@ -116,25 +116,20 @@ Copyright 2020 The Recursive Project Authors (https://github.com/arrowtype/recur
 License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
 Source: https://www.recursive.design
 
-Libre Franklin
-Copyright 2020 The Libre Franklin Project Authors (https://github.com/googlefonts/Libre-Franklin)
+Google Sans
+Copyright 2025 The Google Sans Project Authors (https://github.com/googlefonts/googlesans)
 License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
-Source: https://github.com/googlefonts/Libre-Franklin
+Source: https://github.com/googlefonts/googlesans
 
-Fraunces
-Copyright 2020 The Fraunces Project Authors (https://github.com/undercasetype/Fraunces)
+Bitter
+Copyright 2011 The Bitter Project Authors (https://github.com/solmatas/BitterPro)
 License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
-Source: https://github.com/undercasetype/Fraunces
+Source: https://github.com/solmatas/BitterPro
 
-Martian Grotesk
-Copyright 2021 The Martian Grotesk Project Authors (https://github.com/evilmartians/grotesk)
+Zalando Sans SemiExpanded
+Copyright 2025 The Zalando Sans Project Authors (https://github.com/zalando/sans), with Reserved Font Name "Zalando"
 License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
-Source: https://github.com/evilmartians/grotesk
-
-Plus Jakarta Sans
-Copyright 2020 The Plus Jakarta Sans Project Authors (https://github.com/tokotype/PlusJakartaSans)
-License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
-Source: https://github.com/tokotype/PlusJakartaSans
+Source: https://github.com/zalando/sans
 
 TASA Explorer
 Copyright 2023 Local Remote, with Reserved Font Name TASA Explorer
