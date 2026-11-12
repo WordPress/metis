@@ -198,7 +198,7 @@
 		"elements": {
 			"heading": {
 				"typography": {
-					"fontFamily": "var:preset|font-family|fivo-sans-modern",
+					"fontFamily": "var:preset|font-family|zalando-sans-semiexpanded",
 					"fontStyle": "normal",
 					"fontWeight": "700"
 				}
@@ -253,7 +253,7 @@
 			},
 			"core/site-title": {
 				"typography": {
-					"fontFamily": "var:preset|font-family|fivo-sans-modern",
+					"fontFamily": "var:preset|font-family|zalando-sans-semiexpanded",
 					"letterSpacing": "0rem"
 				}
 			}

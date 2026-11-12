@@ -456,53 +456,17 @@
 					"fontFace": [
 						{
 							"fontDisplay": "swap",
-							"fontFamily": "Fivo Sans Modern",
+							"fontFamily": "Zalando Sans SemiExpanded",
 							"fontStyle": "normal",
-							"fontWeight": "400",
+							"fontWeight": "200 900",
 							"src": [
-								"file:./assets/fonts/fivo-sans-modern/fivo-sans-modern-400-normal.woff2"
-							]
-						},
-						{
-							"fontDisplay": "swap",
-							"fontFamily": "Fivo Sans Modern",
-							"fontStyle": "normal",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/fivo-sans-modern/fivo-sans-modern-500-normal.woff2"
-							]
-						},
-						{
-							"fontDisplay": "swap",
-							"fontFamily": "Fivo Sans Modern",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/fivo-sans-modern/fivo-sans-modern-700-normal.woff2"
-							]
-						},
-						{
-							"fontDisplay": "swap",
-							"fontFamily": "Fivo Sans Modern",
-							"fontStyle": "normal",
-							"fontWeight": "800",
-							"src": [
-								"file:./assets/fonts/fivo-sans-modern/fivo-sans-modern-800-normal.woff2"
-							]
-						},
-						{
-							"fontDisplay": "swap",
-							"fontFamily": "Fivo Sans Modern",
-							"fontStyle": "normal",
-							"fontWeight": "900",
-							"src": [
-								"file:./assets/fonts/fivo-sans-modern/fivo-sans-modern-900-normal.woff2"
+								"file:./assets/fonts/zalando-sans-semiexpanded/zalando-sans-semiexpanded-vf-normal.woff2"
 							]
 						}
 					],
-					"fontFamily": "\"Fivo Sans Modern\", sans-serif",
-					"name": "Fivo Sans Modern",
-					"slug": "fivo-sans-modern"
+					"fontFamily": "\"Zalando Sans SemiExpanded\", sans-serif",
+					"name": "Zalando Sans SemiExpanded",
+					"slug": "zalando-sans-semiexpanded"
 				},
 				{
 					"fontFace": [
@@ -1289,17 +1253,6 @@
 						"bottom": "0",
 						"top": "0"
 					}
-				}
-			},
-			"core/tab-list": {
-				"spacing": {
-					"padding": {
-						"left": "var(--wp--preset--spacing--20)",
-						"right": "var(--wp--preset--spacing--20)"
-					}
-				},
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
 			"core/tabs": {

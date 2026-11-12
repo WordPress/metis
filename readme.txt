@@ -126,10 +126,10 @@ Copyright 2011 The Bitter Project Authors (https://github.com/solmatas/BitterPro
 License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
 Source: https://github.com/solmatas/BitterPro
 
-Fivo Sans Modern
-Copyright 2017 Alexander Slobzheninov (www.behance.net/slobzheninov)
+Zalando Sans SemiExpanded
+Copyright 2025 The Zalando Sans Project Authors (https://github.com/zalando/sans), with Reserved Font Name "Zalando"
 License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
-Source: https://www.behance.net/slobzheninov
+Source: https://github.com/zalando/sans
 
 TASA Explorer
 Copyright 2023 Local Remote, with Reserved Font Name TASA Explorer
