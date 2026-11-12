@@ -456,6 +456,22 @@
 					"fontFace": [
 						{
 							"fontDisplay": "swap",
+							"fontFamily": "Faculty Glyphic",
+							"fontStyle": "normal",
+							"fontWeight": "400 900",
+							"src": [
+								"file:./assets/fonts/faculty-glyphic/faculty-glyphic-400-normal.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Faculty Glyphic\", serif",
+					"name": "Faculty Glyphic",
+					"slug": "faculty-glyphic"
+				},
+				{
+					"fontFace": [
+						{
+							"fontDisplay": "swap",
 							"fontFamily": "Zalando Sans SemiExpanded",
 							"fontStyle": "normal",
 							"fontWeight": "200 900",
@@ -465,24 +481,8 @@
 						}
 					],
 					"fontFamily": "\"Zalando Sans SemiExpanded\", sans-serif",
-					"name": "Zalando Sans SemiExpanded",
+					"name": "Zalando SE",
 					"slug": "zalando-sans-semiexpanded"
-				},
-				{
-					"fontFace": [
-						{
-							"fontDisplay": "swap",
-							"fontFamily": "TASA Explorer",
-							"fontStyle": "normal",
-							"fontWeight": "400 900",
-							"src": [
-								"file:./assets/fonts/tasa-explorer/tasa-explorer-vf-normal.woff2"
-							]
-						}
-					],
-					"fontFamily": "\"TASA Explorer\", sans-serif",
-					"name": "TASA Explorer",
-					"slug": "tasa-explorer"
 				},
 				{
 					"fontFace": [
