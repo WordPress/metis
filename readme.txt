@@ -9,7 +9,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Mētis is a block theme for creators in an unmapped moment: people who work in more than one form and keep finding their way as the work changes. Six starter-site templates share one pattern library, five style variations, and a Dark Mode switch, all designed to be customized in the Site Editor until the site feels like yours.
+Mētis is a block theme for creators in an unmapped moment: people who work in more than one form and keep finding their way as the work changes. Six starter-site templates share one pattern library, six style variations, and a Dark Mode switch, all designed to be customized in the Site Editor until the site feels like yours.
 
 == Frequently Asked Questions ==
 
