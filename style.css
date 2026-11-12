@@ -633,3 +633,9 @@ footer.wp-block-template-part {
 .has-theme-1-color .wp-block-search__input::placeholder {
 	color: var(--wp--preset--color--theme-5);
 }
+
+/* Navigation submenus open above Groups marked on-top (z-index 100), such
+   as the stat cards beside the phone in the Business hero. */
+.wp-block-navigation .wp-block-navigation-item.has-child .wp-block-navigation__submenu-container {
+	z-index: 101;
+}
