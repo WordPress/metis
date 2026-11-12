@@ -1255,6 +1255,19 @@
 					}
 				}
 			},
+			"core/tab-list": {
+				"@mobile": {
+					"spacing": {
+						"padding": {
+							"left": "var(--wp--preset--spacing--20)",
+							"right": "var(--wp--preset--spacing--20)"
+						}
+					},
+					"typography": {
+						"fontSize": "var(--wp--preset--font-size--small)"
+					}
+				}
+			},
 			"core/tabs": {
 				"spacing": {
 					"blockGap": "0",
