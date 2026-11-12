@@ -198,9 +198,9 @@
 		"elements": {
 			"heading": {
 				"typography": {
-					"fontFamily": "var:preset|font-family|tasa-explorer",
+					"fontFamily": "var:preset|font-family|faculty-glyphic",
 					"fontStyle": "normal",
-					"fontWeight": "800"
+					"fontWeight": "400"
 				}
 			},
 			"h1": {
@@ -240,7 +240,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var:preset|font-family|bitter",
+			"fontFamily": "var:preset|font-family|epunda-slab",
 			"letterSpacing": "0rem",
 			"lineHeight": "1.6"
 		},
@@ -258,7 +258,7 @@
 			},
 			"core/tabs": {
 				"typography": {
-					"fontFamily": "var:preset|font-family|bitter"
+					"fontFamily": "var:preset|font-family|epunda-slab"
 				}
 			}
 		}

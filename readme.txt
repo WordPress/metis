@@ -7,11 +7,9 @@ Requires PHP: 7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-
 == Description ==
 
 Mētis is a block theme for creators in an unmapped moment: people who work in more than one form and keep finding their way as the work changes. Six starter-site templates share one pattern library, five style variations, and a Dark Mode switch, all designed to be customized in the Site Editor until the site feels like yours.
-
 
 == Frequently Asked Questions ==
 
@@ -30,12 +28,10 @@ Look in a block's Styles panel: Glossy for Buttons, Gradient for Groups, Hanging
 = How do I remove the Gradient animation? =
 If the Gradient animation is not for you, you can remove it. It sits in the "Masthead with Gradient" section at the top of ten templates: the front page, blog, single posts (all three), pages (both), archive, search and 404. In the Site Editor, open each template, select "Masthead with Gradient" in List View, and under Advanced → Additional CSS class(es) delete is-style-gradient-flow, or choose Default in the block's Styles panel. The section then shows its plain background. Visitors who ask their device to reduce motion never see the animation.
 
-
 == Changelog ==
 
 = 1.0.0 =
 * Initial release
-
 
 == Copyright ==
 
@@ -52,10 +48,8 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
-
 Mētis is based on Ichi (https://wordpress.org/themes/ichi/), (C) 2025 Automattic, [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)
 Ichi is based on Twenty Twenty-Five/twentytwentyfive (https://wordpress.org/themes/twentytwentyfive/), (C) the WordPress team, [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)
-
 
 == Images ==
 
@@ -98,7 +92,6 @@ Monoton, by Vernon Adams
 License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
 Source: https://fonts.google.com/specimen/Monoton
 
-
 == Fonts ==
 
 Open Runde
@@ -121,20 +114,20 @@ Copyright 2025 The Google Sans Project Authors (https://github.com/googlefonts/g
 License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
 Source: https://github.com/googlefonts/googlesans
 
-Bitter
-Copyright 2011 The Bitter Project Authors (https://github.com/solmatas/BitterPro)
+Epunda Slab
+Copyright 2023 The Epunda Slab Project Authors (https://github.com/typofactur/epundaslab)
 License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
-Source: https://github.com/solmatas/BitterPro
+Source: https://github.com/typofactur/epundaslab
+
+Faculty Glyphic
+Copyright 2024 The Faculty Glyphic Project Authors (https://github.com/DylanYoungKoto/FacultyGlyphic)
+License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
+Source: https://github.com/DylanYoungKoto/FacultyGlyphic
 
 Zalando Sans SemiExpanded
 Copyright 2025 The Zalando Sans Project Authors (https://github.com/zalando/sans), with Reserved Font Name "Zalando"
 License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
 Source: https://github.com/zalando/sans
-
-TASA Explorer
-Copyright 2023 Local Remote, with Reserved Font Name TASA Explorer
-License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
-Source: https://github.com/localremotetw/TASA-Typeface-Collection
 
 Texturina
 Copyright 2020 The Texturina Project Authors (https://github.com/Omnibus-Type/Texturina)

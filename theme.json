@@ -431,26 +431,42 @@
 					"fontFace": [
 						{
 							"fontDisplay": "swap",
-							"fontFamily": "Bitter",
+							"fontFamily": "Epunda Slab",
 							"fontStyle": "normal",
-							"fontWeight": "100 900",
+							"fontWeight": "300 900",
 							"src": [
-								"file:./assets/fonts/bitter/bitter-vf-normal.woff2"
+								"file:./assets/fonts/epunda-slab/epunda-slab-vf-normal.woff2"
 							]
 						},
 						{
 							"fontDisplay": "swap",
-							"fontFamily": "Bitter",
+							"fontFamily": "Epunda Slab",
 							"fontStyle": "italic",
-							"fontWeight": "100 900",
+							"fontWeight": "300 900",
 							"src": [
-								"file:./assets/fonts/bitter/bitter-vf-italic.woff2"
+								"file:./assets/fonts/epunda-slab/epunda-slab-vf-italic.woff2"
 							]
 						}
 					],
-					"fontFamily": "\"Bitter\", serif",
-					"name": "Bitter",
-					"slug": "bitter"
+					"fontFamily": "\"Epunda Slab\", serif",
+					"name": "Epunda Slab",
+					"slug": "epunda-slab"
+				},
+				{
+					"fontFace": [
+						{
+							"fontDisplay": "swap",
+							"fontFamily": "Faculty Glyphic",
+							"fontStyle": "normal",
+							"fontWeight": "400 900",
+							"src": [
+								"file:./assets/fonts/faculty-glyphic/faculty-glyphic-400-normal.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Faculty Glyphic\", serif",
+					"name": "Faculty Glyphic",
+					"slug": "faculty-glyphic"
 				},
 				{
 					"fontFace": [
@@ -467,22 +483,6 @@
 					"fontFamily": "\"Zalando Sans SemiExpanded\", sans-serif",
 					"name": "Zalando SE",
 					"slug": "zalando-sans-semiexpanded"
-				},
-				{
-					"fontFace": [
-						{
-							"fontDisplay": "swap",
-							"fontFamily": "TASA Explorer",
-							"fontStyle": "normal",
-							"fontWeight": "400 900",
-							"src": [
-								"file:./assets/fonts/tasa-explorer/tasa-explorer-vf-normal.woff2"
-							]
-						}
-					],
-					"fontFamily": "\"TASA Explorer\", sans-serif",
-					"name": "TASA Explorer",
-					"slug": "tasa-explorer"
 				},
 				{
 					"fontFace": [
