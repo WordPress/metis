@@ -22,7 +22,8 @@
 				"refType": "branch"
 			},
 			"options": {
-				"activate": true
+				"activate": true,
+				"targetFolderName": "metis"
 			}
 		}
 	]
