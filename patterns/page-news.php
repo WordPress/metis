@@ -108,7 +108,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:query {"queryId":2,"query":{"perPage":4,"pages":0,"offset":"1","postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"ignore","inherit":false,"taxQuery":null,"parents":[],"excludeCurrent":null},"metadata":{"name":"Posts, alternating image grid","description":"Recent posts in an auto-fit grid, featured images alternating portrait and square.","categories":["Posts"]},"align":"wide","layout":{"type":"constrained"}} -->
-<div class="wp-block-query alignwide"><!-- wp:post-template {"align":"wide","className":"alternate-ratios","style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"grid","autoFit":true,"minimumColumnWidth":"16rem"}} -->
+<div class="wp-block-query alignwide"><!-- wp:post-template {"align":"wide","className":"alternate-ratios no-orphan","style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"grid","autoFit":true,"minimumColumnWidth":"16rem"}} -->
 <!-- wp:post-featured-image {"isLink":true,"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} /-->
 
 <!-- wp:group {"metadata":{"name":"Post Template Date and Title"},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20","left":"var:preset|spacing|20"},"padding":{"top":"var:preset|spacing|30","bottom":"0"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
