@@ -329,6 +329,16 @@ footer.wp-block-template-part {
 	object-fit: cover;
 }
 
+/* no-orphan: on a Grid of four posts with 16rem columns and a 16px gap,
+   hides the fourth post while only three fit in a row, so the last card
+   never sits alone. Four, two or one per row show all four.
+   Example: "Posts, alternating image grid". */
+@container (width >= calc(48rem + 32px)) and (width < calc(64rem + 48px)) {
+	.no-orphan > li:nth-child(4 of li:not([style*="none"])) {
+		display: none;
+	}
+}
+
 /* stagger-middle: on a three-column grid, steps the middle card down.
    Above 782px only; narrower grids stay even.
    Example: "Posts, staggered cards". */

@@ -6,7 +6,7 @@
 		"color": {
 			"palette": [
 				{
-					"color": "#51243b",
+					"color": "#6f063c",
 					"name": "Mulberry",
 					"slug": "theme-1"
 				},
@@ -26,42 +26,42 @@
 					"slug": "theme-4"
 				},
 				{
-					"color": "#51243bBF",
+					"color": "#6f063cbf",
 					"name": "Mulberry 75%",
 					"slug": "theme-5"
 				},
 				{
-					"color": "#632c47",
+					"color": "#880745",
 					"name": "Mulberry Light",
 					"slug": "theme-6"
 				},
 				{
-					"color": "#743454",
+					"color": "#971154",
 					"name": "Rose",
 					"slug": "theme-7"
 				},
 				{
-					"color": "#422451",
+					"color": "#4a0c6a",
 					"name": "Plum",
 					"slug": "theme-8"
 				},
 				{
-					"color": "#422451",
+					"color": "#4a0c6a",
 					"name": "Plum 2",
 					"slug": "theme-9"
 				},
 				{
-					"color": "#422451",
+					"color": "#4a0c6a",
 					"name": "Plum 3",
 					"slug": "theme-10"
 				},
 				{
-					"color": "#443474",
-					"name": "Violet",
+					"color": "#181D37",
+					"name": "Ink",
 					"slug": "theme-11"
 				},
 				{
-					"color": "#422451",
+					"color": "#4a0c6a",
 					"name": "Plum 4",
 					"slug": "theme-12"
 				}
@@ -89,7 +89,7 @@
 				},
 				{
 					"gradient": "linear-gradient(180deg, var(--wp--preset--color--theme-11) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 100%)",
-					"name": "Violet fade",
+					"name": "Ink fade",
 					"slug": "gradient-5"
 				},
 				{
