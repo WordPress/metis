@@ -1,9 +1,15 @@
 {
 	"name": "metis",
 	"private": true,
+	"engines": {
+		"node": ">=20"
+	},
 	"scripts": {
+		"check": "node tools/run-checks.mjs",
 		"wp-env": "wp-env",
+		"env:setup": "wp-env start && wp-env run cli wp theme activate metis && wp-env run cli wp plugin install theme-check --activate",
 		"env:start": "wp-env start",
+		"env:status": "wp-env status",
 		"env:stop": "wp-env stop",
 		"env:clean": "wp-env clean all"
 	},

@@ -1,42 +1,73 @@
 /*
-Theme Name: Mētis
-Theme URI: https://wordpress.org/themes/metis/
+Theme Name: Metis
+Theme URI: https://themeshaper.com/metis/
 Author: Automattic
 Author URI: https://automattic.com/
-Description: A block theme for creators, with flexible patterns and templates designed for refinement in the Site Editor.
-Requires at least: 6.7
-Tested up to: 6.9
+Description: Mētis is a block theme for creators in an unmapped moment: people who work in more than one form and keep finding their way as the work changes. Six starter-site templates share one pattern library, six style variations, and a Dark Mode switch, all designed to be customized in the Site Editor until the site feels like yours.
+Requires at least: 7.1
+Tested up to: 7.1
 Requires PHP: 7.2
-Version: 1.0.1
+Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: metis
-Tags: one-column, full-site-editing, block-patterns, block-styles, style-variations, blog
+Tags: one-column, full-site-editing, block-patterns, block-styles, style-variations, blog, translation-ready
 */
 
-/* Crossfade page transition */
-@view-transition {
-	navigation: auto;
+/*
+ * Mētis stylesheet
+ *
+ * Most of the design lives in theme.json, so you can change it in the Site
+ * Editor under Styles. This file holds only what theme.json can't do, for
+ * the site. The Editor loads assets/css/editor-style.css, which follows the
+ * same sections; when you change a rule in one file, change it in the other.
+ *
+ *   1. Base             Site-wide refinements. Automatic.
+ *   2. Buttons          Hover and press motion for every Button, plus the
+ *                       Glossy style (Button → Styles).
+ *   3. Gradient         The Gradient style for Groups (Group → Styles), and
+ *                       the matching metis-day-night class.
+ *   4. Utility classes  Opt-in helpers. Select a block, open Advanced →
+ *                       Additional CSS class(es) and type the class name.
+ *   5. Block fixes      Small fixes to core blocks. Automatic.
+ *
+ * Animations stop for visitors who ask their device to reduce motion.
+ */
+
+
+/* ==========================================================================
+   1. Base
+   ========================================================================== */
+
+/* Crossfade between pages. */
+@media (prefers-reduced-motion: no-preference) {
+	@view-transition {
+		navigation: auto;
+	}
 }
 
-/* Font smoothing */
 body {
 	text-rendering: geometricprecision;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
-/* Progressive enhancement to reduce widows and orphans */
+/* Fewer lonely last words in text. */
 h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
 	text-wrap: pretty;
 }
 
-/* Link styles */
-a {
+/* Thin underlines, a little below the text. Core sometimes underlines a
+   child element (the Accordion title), and thickness does not inherit. */
+a,
+button,
+a *,
+button * {
 	text-decoration-thickness: 1px !important;
 	text-underline-offset: 0.1em;
 }
 
+/* The "Continue reading" link of a post using the More block. */
 .more-link {
 	display: block;
 }
@@ -45,41 +76,576 @@ a {
 	overflow-x: auto;
 }
 
+/* No gap above the footer. */
 footer.wp-block-template-part {
 	margin-block-start: 0 !important;
 }
 
-.no-underline a {
-	text-decoration: none;
+
+/* ==========================================================================
+   2. Buttons
+   ========================================================================== */
+
+/* Every Button grows on hover, squishes on press, and shows the same
+   pressed colours (theme-4 surface, theme-2 text and border). !important
+   outranks the colour picked for a single button. */
+.wp-block-button .wp-block-button__link {
+	transition: transform 260ms cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
-/* Utility — first-line indent for a paragraph or heading.
-   Add the class "indent-first-line" in the block's Advanced →
-   Additional CSS class(es) panel. The 33.33% is measured against the
-   block's own width (so it scales with the content/section width). */
+.wp-block-button .wp-block-button__link:hover {
+	transform: scale(1.04);
+}
+
+.wp-block-button .wp-block-button__link:active {
+	transform: scale(0.97);
+	background: var(--wp--preset--color--theme-4) !important;
+	border-color: var(--wp--preset--color--theme-2) !important;
+	color: var(--wp--preset--color--theme-2) !important;
+}
+
+/* Glossy (Button → Styles): a see-through sheen and a soft inner rim over
+   the colour and corners you choose. On hover the sheen settles and the
+   button turns theme-2, whatever colour was picked. No
+   overflow: hidden, which would knock the button off its row's baseline;
+   the sheen follows the corners through border-radius: inherit. */
+.wp-block-button.is-style-glossy .wp-block-button__link {
+	position: relative;
+	isolation: isolate;
+	box-shadow:
+		inset 0 1px 1px rgba(255, 255, 255, 0.45),
+		inset 0 -10px 16px -6px rgba(0, 0, 0, 0.20);
+}
+
+.wp-block-button.is-style-glossy .wp-block-button__link::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	z-index: -1;
+	border-radius: inherit;
+	pointer-events: none;
+	opacity: 1;
+	transition: opacity 260ms ease;
+	background:
+		radial-gradient(120% 75% at 50% 8%, rgba(255, 255, 255, 0.50), rgba(255, 255, 255, 0) 46%),
+		linear-gradient(180deg, rgba(255, 255, 255, 0.20), rgba(255, 255, 255, 0) 40%);
+}
+
+.wp-block-button.is-style-glossy .wp-block-button__link:hover:not(:active) {
+	background-color: var(--wp--preset--color--theme-2) !important;
+}
+
+.wp-block-button.is-style-glossy .wp-block-button__link:hover::before {
+	opacity: 0.25;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.wp-block-button .wp-block-button__link,
+	.wp-block-button.is-style-glossy .wp-block-button__link::before {
+		transition: none;
+	}
+
+	.wp-block-button .wp-block-button__link:hover,
+	.wp-block-button .wp-block-button__link:active {
+		transform: none;
+	}
+}
+
+
+/* ==========================================================================
+   3. Gradient
+   ========================================================================== */
+
+/* Gradient (Group → Styles): fades from theme-7 at the top into theme-1,
+   the page background, and the fade slowly breathes. On short sections it
+   still ends at the bottom edge, so it never leaves a seam. When the
+   visitor's device is in dark mode the top colour becomes theme-11.
+   Leave the Group's own Background empty: a picked colour shows below the
+   fade, leaving a hard edge on tall sections, and a picked gradient or
+   image replaces the fade. */
+.wp-block-group.is-style-gradient-flow {
+	--metis-gradient-top: var(--wp--preset--color--theme-7);
+	background-color: var(--wp--preset--color--theme-1);
+	background-image: linear-gradient(180deg, var(--metis-gradient-top) 0%, var(--wp--preset--color--theme-1) 100%);
+	background-repeat: no-repeat;
+	background-size: 100% min(60rem, 100%);
+	background-position: 50% 0%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.wp-block-group.is-style-gradient-flow {
+		animation: metis-gradient-breathe 12s ease-in-out infinite;
+	}
+}
+
+@keyframes metis-gradient-breathe {
+	0%,
+	100% {
+		background-size: 100% min(65rem, 100%);
+	}
+
+	60% {
+		background-size: 100% min(30rem, 100%);
+	}
+}
+
+/* metis-day-night: a solid background that matches the Gradient's top
+   colour: theme-7, or theme-11 when the visitor's device is in dark mode.
+   Clear the block's own Background colour. */
+.metis-day-night {
+	background-color: var(--wp--preset--color--theme-7);
+}
+
+@media (prefers-color-scheme: dark) {
+	.wp-block-group.is-style-gradient-flow {
+		--metis-gradient-top: var(--wp--preset--color--theme-11);
+	}
+
+	.metis-day-night {
+		background-color: var(--wp--preset--color--theme-11);
+	}
+}
+
+
+/* ==========================================================================
+   4. Utility classes
+
+   Select a block, open Advanced → Additional CSS class(es), and type the
+   class name. Separate several classes with spaces. Doubled selectors
+   (.grow.grow) let a class win over the block's own layout settings.
+   ========================================================================== */
+
+/* --- Layout -------------------------------------------------------------- */
+
+/* grow: a Row child takes the space left over. Example: the "Search
+   Wrapper" group in "Header, uppercase title and search bar". */
+.grow.grow {
+	flex-grow: 1;
+}
+
+/* equal-widths: on a Row, every child gets the same width, whatever its
+   content. Example: "Contact, closing band". */
+.equal-widths.equal-widths > *:not(.block-list-appender) {
+	flex: 1 1 0;
+	min-width: 0;
+}
+
+.equal-widths.equal-widths > .wp-block-button > .wp-block-button__link,
+.equal-widths.equal-widths > .wp-block-image img {
+	width: 100%;
+}
+
+/* equal-widths-phone: the same, on phones only (480px and narrower).
+   Example: the button pair in the Business template. */
+@media (max-width: 480px) {
+	.equal-widths-phone.equal-widths-phone > *:not(.block-list-appender) {
+		flex: 1 1 0;
+		min-width: 0;
+	}
+
+	.equal-widths-phone.equal-widths-phone > .wp-block-button > .wp-block-button__link {
+		width: 100%;
+	}
+}
+
+/* fill-width: a block fills its Row cell. Needed by Search, whose own
+   width setting only reaches its inner box.
+   Example: "Header, uppercase title and search bar". */
+.fill-width.fill-width {
+	width: 100%;
+	flex-grow: 1;
+}
+
+/* fill-cover: add to a Cover so its content fills the full height, for
+   example a Stack that spaces its items from top to bottom.
+   Example: "About, builder portrait". */
+.fill-cover.fill-cover > .wp-block-cover__inner-container {
+	align-self: stretch;
+	display: flex;
+	flex-direction: column;
+}
+
+.fill-cover.fill-cover > .wp-block-cover__inner-container > * {
+	flex-grow: 1;
+}
+
+/* pull-sides: pulls a block sideways under its neighbours by one spacing
+   step on each side (Groups have no side-margin controls). Give the
+   neighbours on-top so they stay above it.
+   Example: the image stack in the Business template. */
+.pull-sides.pull-sides {
+	margin-left: calc(-1 * var(--wp--preset--spacing--60));
+	margin-right: calc(-1 * var(--wp--preset--spacing--60));
+}
+
+/* on-top: keeps a block above anything that overlaps it.
+   Example: the 404 and Magazine templates. */
+.on-top.on-top {
+	position: relative;
+	z-index: 100;
+}
+
+/* clip-overflow: add to a container to hide whatever sticks out of its
+   edges. Example: the footer group of "Footer, watermark on gradient",
+   which crops its large title. */
+.clip-overflow {
+	overflow: hidden;
+}
+
+/* no-stacking: on a row of image + text, keeps both side by side so a long
+   title wraps instead of dropping below the image, and every image keeps
+   its set size. Above 782px; on screens 782px and narrower (tablets and
+   phones) the row stacks as designed. Example: "Posts, media list". */
+@media (min-width: 783px) {
+	.no-stacking.no-stacking {
+		flex-wrap: nowrap;
+	}
+
+	.no-stacking.no-stacking > * {
+		min-width: 0;
+	}
+
+	.no-stacking.no-stacking > .wp-block-post-featured-image {
+		flex-shrink: 0;
+	}
+}
+
+/* --- Query Loops (add to the Post Template) ------------------------------ */
+
+/* alternate-ratios: Featured Images alternate between 3:4 and 1:1.
+   Example: "Posts, alternating image grid". The Editor adds a hidden copy
+   of the selected post, so only visible items are counted. */
+.alternate-ratios > li:nth-child(odd of li:not([style*="none"])) .wp-block-post-featured-image {
+	aspect-ratio: 3/4 !important;
+}
+
+.alternate-ratios > li:nth-child(even of li:not([style*="none"])) .wp-block-post-featured-image {
+	aspect-ratio: 1/1 !important;
+}
+
+.alternate-ratios .wp-block-post-featured-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/* no-orphan: on a Grid of four posts with 16rem columns and a 16px gap,
+   hides the fourth post while only three fit in a row, so the last card
+   never sits alone. Four, two or one per row show all four.
+   Example: "Posts, alternating image grid". */
+@container (width >= calc(48rem + 32px)) and (width < calc(64rem + 48px)) {
+	.no-orphan > li:nth-child(4 of li:not([style*="none"])) {
+		display: none;
+	}
+}
+
+/* stagger-middle: on a three-column grid, steps the middle card down.
+   Above 782px only; narrower grids stay even.
+   Example: "Posts, staggered cards". */
+@media (min-width: 783px) {
+	.stagger-middle > li:nth-child(3n+2 of li:not([style*="none"])) {
+		margin-top: var(--wp--preset--spacing--70);
+	}
+}
+
+/* --- Text and links ------------------------------------------------------ */
+
+/* balance-text: evens out the line lengths of a heading.
+   Example: "Features, mirrored rows". */
+.balance-text.balance-text {
+	text-wrap: balance;
+}
+
+/* indent-first-line: indents the first line by a third of the width.
+   Example: the heading under "Meet Mētis" on the front page. */
 .indent-first-line {
 	text-indent: 33.33%;
 }
 
-/* Utility classes for custom ordering. */
-.order-0 { order: 0; }
-.order-1 { order: 1; }
-.grow-0 { flex-grow: 0; }
-.grow { flex-grow: 1; }
-
-@media (min-width: 600px) {
-	.md\:order-0 { order: 0; }
-	.md\:order-1 { order: 1; }
-	.md\:grow-0 { flex-grow: 0; }
-	.md\:grow { flex-grow: 1; }
+/* no-underline: links inside show no underline until hovered or focused.
+   Example: dates and meta in the post lists. */
+.no-underline a {
+	text-decoration: none;
 }
 
-/* Accordion bleed. Items are pulled together with negative margins so each item's
-   background crops the title above it. Browsers paint every sibling background
-   before any sibling text, so each title would otherwise draw on top of the next
-   item's fill and the bleed would vanish on the front end (the editor doesn't show
-   this, because it wraps each block in a positioned wrapper). Positioning the items
-   makes each paint as a unit in source order, so the fill covers the title above. */
+.no-underline a:hover,
+.no-underline a:focus-visible {
+	text-decoration: underline;
+}
+
+/* no-symbol: removes the small ¬ before an Author Name. For the line
+   beside a Date, use no-stroke. Example: the author in the Single template. */
+.no-symbol.no-symbol::before {
+	content: none;
+}
+
+/* no-stroke: removes the line beside a Date.
+   Example: the Single template. */
+.no-stroke.no-stroke {
+	border-left: none;
+	padding-left: 0;
+}
+
+/* --- Images -------------------------------------------------------------- */
+
+/* dim-images: images inside show at half strength and brighten when
+   hovered or focused. Example: "Clients, logo row". */
+.dim-images .wp-block-image img {
+	opacity: 0.5;
+	transition: opacity 0.2s ease-out;
+}
+
+.dim-images .wp-block-image img:hover,
+.dim-images .wp-block-image:focus-within img {
+	opacity: 1;
+}
+
+/* metis-motion-blur: add to a Cover to blur its image sideways, like
+   movement; the text stays sharp. Shows on the site, not in the Editor.
+   Example: the Single with Sidebar template. */
+.wp-block-cover.metis-motion-blur img.wp-block-cover__image-background {
+	filter: url(#metis-motion-blur);
+	transform: scale(1.08);
+}
+
+/* --- Header and navigation ----------------------------------------------- */
+
+/* menu-and-icon: shows the menu icon before the "Menu" label on the
+   Navigation's open button (core offers one or the other) and sets the
+   label in capitals. Example: "Header, uppercase title and search bar". */
+.menu-and-icon .wp-block-navigation__responsive-container-open {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4em;
+	text-transform: uppercase;
+}
+
+.menu-and-icon .wp-block-navigation__responsive-container-open::before {
+	content: "";
+	width: 1.1em;
+	height: 1.1em;
+	background-color: currentColor;
+	-webkit-mask: url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22%3E%3Cpath d=%22M5 8v1.5h14V8H5zm0 6.5v1.5h14v-1.5H5z%22/%3E%3C/svg%3E') no-repeat center / contain;
+	mask: url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22%3E%3Cpath d=%22M5 8v1.5h14V8H5zm0 6.5v1.5h14v-1.5H5z%22/%3E%3C/svg%3E') no-repeat center / contain;
+}
+
+/* search-inset: moves the Search text away from rounded corners.
+   Example: "Header, uppercase title and search bar". */
+.search-inset .wp-block-search__input {
+	padding-inline-start: var(--wp--preset--spacing--30);
+}
+
+/* metis-mode-toggle: turns a Group (an Icon inside works well) into the
+   Dark Mode switch. Visitors switch to the Cimmeria colours, and their
+   choice stays on every page until they switch back. functions.php makes
+   the Group a keyboard-accessible button.
+   Example: "Header, minimal with menu button" and the Navigation Overlay. */
+.metis-mode-toggle {
+	cursor: pointer;
+}
+
+/* --- Sections ------------------------------------------------------------ */
+
+/* hero-rotate: add to a Row of 2 to 5 Covers; they take turns opening,
+   four seconds each. The Row keeps a 2:1 shape.
+   Example: "Hero, taking turns", and the hero of the front page. */
+.hero-rotate.hero-rotate {
+	aspect-ratio: 2/1;
+}
+
+.hero-rotate.hero-rotate > .wp-block-cover {
+	flex: 0 1 15%;
+	aspect-ratio: auto !important;
+	min-height: 0;
+	overflow: hidden;
+	animation: metis-hero-turn-4 16s ease-in-out infinite;
+}
+
+.hero-rotate.hero-rotate > .wp-block-cover:nth-child(2) {
+	animation-delay: 4s;
+}
+
+.hero-rotate.hero-rotate > .wp-block-cover:nth-child(3) {
+	animation-delay: 8s;
+}
+
+.hero-rotate.hero-rotate > .wp-block-cover:nth-child(4) {
+	animation-delay: 12s;
+}
+
+.hero-rotate.hero-rotate > .wp-block-cover:nth-child(5) {
+	animation-delay: 16s;
+}
+
+/* The cycle is timed for four Covers; these retime it for two, three or five. */
+.hero-rotate.hero-rotate > .wp-block-cover:first-child:nth-last-child(2 of .wp-block-cover),
+.hero-rotate.hero-rotate > .wp-block-cover:first-child:nth-last-child(2 of .wp-block-cover) ~ .wp-block-cover {
+	animation-name: metis-hero-turn-2;
+	animation-duration: 8s;
+}
+
+.hero-rotate.hero-rotate > .wp-block-cover:first-child:nth-last-child(3 of .wp-block-cover),
+.hero-rotate.hero-rotate > .wp-block-cover:first-child:nth-last-child(3 of .wp-block-cover) ~ .wp-block-cover {
+	animation-name: metis-hero-turn-3;
+	animation-duration: 12s;
+}
+
+.hero-rotate.hero-rotate > .wp-block-cover:first-child:nth-last-child(5 of .wp-block-cover),
+.hero-rotate.hero-rotate > .wp-block-cover:first-child:nth-last-child(5 of .wp-block-cover) ~ .wp-block-cover {
+	animation-name: metis-hero-turn-5;
+	animation-duration: 20s;
+}
+
+@keyframes metis-hero-turn-2 {
+	0% { flex-grow: 0; }
+	10% { flex-grow: 1; }
+	50% { flex-grow: 1; }
+	60% { flex-grow: 0; }
+	100% { flex-grow: 0; }
+}
+
+@keyframes metis-hero-turn-3 {
+	0% { flex-grow: 0; }
+	6.7% { flex-grow: 1; }
+	33.3% { flex-grow: 1; }
+	40% { flex-grow: 0; }
+	100% { flex-grow: 0; }
+}
+
+@keyframes metis-hero-turn-4 {
+	0% { flex-grow: 0; }
+	5% { flex-grow: 1; }
+	25% { flex-grow: 1; }
+	30% { flex-grow: 0; }
+	100% { flex-grow: 0; }
+}
+
+@keyframes metis-hero-turn-5 {
+	0% { flex-grow: 0; }
+	4% { flex-grow: 1; }
+	20% { flex-grow: 1; }
+	24% { flex-grow: 0; }
+	100% { flex-grow: 0; }
+}
+
+/* Reduced motion: the Covers stand still, the first one open. !important
+   outranks the retiming rules above. */
+@media (prefers-reduced-motion: reduce) {
+	.hero-rotate.hero-rotate > .wp-block-cover {
+		animation: none !important;
+	}
+
+	.hero-rotate.hero-rotate > .wp-block-cover:first-child {
+		flex-grow: 1;
+	}
+}
+
+/* tabs-split: add to a Tabs block to put the tab list in a left column
+   and the panels on the right, like a Columns block (auto + 66.66%).
+   Each tab is a large heading with a + that turns into − when open. The
+   tabs use the Tabs block font, so style variations can change it. On
+   screens 782px and narrower the tabs return above the panels.
+   Example: "Tabs, sidebar and stage". */
+@media (max-width: 782px) {
+	.wp-block-tabs.tabs-split {
+		padding: 0;
+	}
+
+	.wp-block-tabs.tabs-split > .wp-block-tab-panels {
+		margin-block-start: var(--wp--style--block-gap, 2em);
+	}
+}
+
+@media (min-width: 783px) {
+	.wp-block-tabs.tabs-split {
+		display: flex;
+		padding: 0;
+		gap: var(--wp--style--block-gap, 2em);
+		align-items: flex-start;
+	}
+
+	.wp-block-tabs.tabs-split > .wp-block-tab-list {
+		flex-direction: column;
+		flex: 1 1 0;
+		min-width: 0;
+	}
+
+	.wp-block-tabs.tabs-split > .wp-block-tab-list button {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		border-top: 1px dotted currentColor;
+		padding: var(--wp--preset--spacing--30) 0;
+		font-family: inherit;
+		font-size: var(--wp--preset--font-size--x-large);
+		font-weight: 600;
+		letter-spacing: -0.02em;
+		line-height: 1.3;
+	}
+
+	/* The + and − are decoration (the tab already announces its state),
+	   so screen readers skip them. */
+	.wp-block-tabs.tabs-split > .wp-block-tab-list button::after {
+		content: "+";
+		content: "+" / "";
+		font-family: var(--wp--preset--font-family--recursive-linear);
+		font-size: var(--wp--preset--font-size--large);
+		font-weight: 400;
+		letter-spacing: 0;
+	}
+
+	.wp-block-tabs.tabs-split > .wp-block-tab-list button[aria-selected="true"]::after {
+		content: "\2212";
+		content: "\2212" / "";
+	}
+
+	.wp-block-tabs.tabs-split > .wp-block-tab-list button[aria-selected="true"]::before {
+		content: none;
+	}
+
+	.wp-block-tabs.tabs-split > .wp-block-tab-panels {
+		flex: 0 1 66.66%;
+		min-width: 0;
+	}
+}
+
+
+/* ==========================================================================
+   5. Block fixes
+   ========================================================================== */
+
+/* Accordion items that overlap (a -40px top margin, as in "Accordions,
+   bleeding list"): each item paints in order, an open item makes room for the
+   one overlapping it, and closed panels drop their padding so they
+   don't hold space. */
 .wp-block-accordion-item {
 	position: relative;
+}
+
+.wp-block-accordion-item[style*="margin-top:-40"].is-open {
+	margin-bottom: 40px !important;
+}
+
+.wp-block-accordion-item:not(.is-open) .wp-block-accordion-panel {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+/* Space between the Playlist's current track and its track list. */
+.wp-block-playlist .wp-block-playlist__tracklist {
+	margin-top: var(--wp--preset--spacing--40) !important;
+}
+
+/* Search placeholder on reversed colours (theme-1 text, as in the bar of
+   "Header, dark bar with inline menu"): the light 75% colour, theme-5.
+   Everywhere else the Search block uses theme-3 (theme.json). */
+.has-theme-1-color .wp-block-search__input::placeholder {
+	color: var(--wp--preset--color--theme-5);
+}
+
+/* Navigation submenus open above Groups marked on-top (z-index 100), such
+   as the stat cards beside the phone in the Business hero. */
+.wp-block-navigation .wp-block-navigation-item.has-child .wp-block-navigation__submenu-container {
+	z-index: 101;
 }
