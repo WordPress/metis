@@ -56,8 +56,8 @@
 					"slug": "theme-10"
 				},
 				{
-					"color": "#FF6A3D",
-					"name": "Vermilion",
+					"color": "#5DD048",
+					"name": "Lime",
 					"slug": "theme-11"
 				},
 				{
@@ -89,7 +89,7 @@
 				},
 				{
 					"gradient": "linear-gradient(180deg, var(--wp--preset--color--theme-11) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 100%)",
-					"name": "Vermilion fade",
+					"name": "Lime fade",
 					"slug": "gradient-5"
 				},
 				{
