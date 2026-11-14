@@ -11,9 +11,17 @@
 		"env:start": "wp-env start",
 		"env:status": "wp-env status",
 		"env:stop": "wp-env stop",
-		"env:clean": "wp-env clean all"
+		"env:clean": "wp-env clean all",
+		"verify:patterns": "node tools/validate-patterns.mjs",
+		"verify:pattern-format": "php tools/fix-patterns.php --check",
+		"verify:pattern-tools": "node --test tools/tests/pattern-tools.test.mjs",
+		"fix:patterns": "php tools/fix-patterns.php",
+		"prepare": "husky"
 	},
 	"devDependencies": {
-		"@wordpress/env": "^11.13.0"
+		"@wordpress/block-serialization-default-parser": "^5.31.0",
+		"@wordpress/env": "^11.13.0",
+		"husky": "^9.1.7",
+		"lint-staged": "^16.2.7"
 	}
 }
