@@ -14,7 +14,7 @@
 <div class="wp-block-group alignwide" style="padding-top:0;padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:query-title {"type":"search","align":"wide"} /-->
 
 <!-- wp:group {"align":"wide","layout":{"type":"constrained","justifyContent":"left"}} -->
-<div class="wp-block-group alignwide"><!-- wp:search {"label":"<?php esc_attr_e('Search', 'metis');?>","showLabel":false,"placeholder":"<?php esc_attr_e('Type here...', 'metis');?>","buttonText":"Search","buttonPosition":"button-inside","buttonUseIcon":true} /--></div>
+<div class="wp-block-group alignwide"><!-- wp:search {"label":"<?php esc_attr_e('Search', 'metis');?>","showLabel":false,"placeholder":"<?php esc_attr_e('Type here...', 'metis');?>","buttonText":"Search","buttonPosition":"button-inside","buttonUseIcon":true,"className":"search-inset","style":{"border":{"radius":{"topLeft":"80px","topRight":"80px","bottomLeft":"80px","bottomRight":"80px"}}}} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
