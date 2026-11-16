@@ -231,13 +231,25 @@ add_filter( 'render_block_data', 'metis_playlist_track_placeholder_id' );
  * also labelled "Posts", so the inserter shows two Posts groups beside
  * the theme's own. The theme's Posts collection covers that ground, so
  * core's are dropped and the heading collapses back to one.
+ *
+ * They are removed by name. Finding them by category would mean reading
+ * the whole pattern registry, which loads every pattern file on every
+ * request. The names match _register_core_block_patterns_and_categories().
  */
 if ( ! function_exists( 'metis_collapse_posts_patterns' ) ) :
 	function metis_collapse_posts_patterns() {
-		foreach ( WP_Block_Patterns_Registry::get_instance()->get_all_registered() as $pattern ) {
-			$categories = (array) ( $pattern['categories'] ?? array() );
-			if ( 0 === strpos( $pattern['name'], 'core/' ) && array_intersect( array( 'query', 'posts' ), $categories ) ) {
-				unregister_block_pattern( $pattern['name'] );
+		$registry      = WP_Block_Patterns_Registry::get_instance();
+		$pattern_names = array(
+			'core/query-standard-posts',
+			'core/query-medium-posts',
+			'core/query-small-posts',
+			'core/query-grid-posts',
+			'core/query-large-title-posts',
+			'core/query-offset-posts',
+		);
+		foreach ( $pattern_names as $pattern_name ) {
+			if ( $registry->is_registered( $pattern_name ) ) {
+				unregister_block_pattern( $pattern_name );
 			}
 		}
 	}
