@@ -28,7 +28,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"typography":{"letterSpacing":"-0.02rem","fontStyle":"normal","fontWeight":"600"}},"fontSize":"large","fontFamily":"openrunde"} -->
-<p class="has-openrunde-font-family has-large-font-size" style="font-style:normal;font-weight:600;letter-spacing:-0.02rem"><?php esc_html_e('The page you are looking for does not exist, or it has been moved. Please try a new search.', 'metis');?></p>
+<p class="has-openrunde-font-family has-large-font-size" style="font-style:normal;font-weight:600;letter-spacing:-0.02rem"><?php esc_html_e('The page you are looking for does not exist, or it has been moved.', 'metis');?><br><?php esc_html_e('Please try a new search.', 'metis');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
