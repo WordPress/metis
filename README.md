@@ -56,5 +56,5 @@ define( 'WP_DEBUG_DISPLAY', false );
 
 ### Browser-only testing
 
-WordPress Playground can install and run a ZIP of the theme entirely in the browser. A one-click repository Blueprint will be added after the public GitHub repository URL is available. Until then, open [WordPress Playground](https://playground.wordpress.net/), choose **Add theme**, upload a Mētis ZIP, and activate it.
+[Open Mētis in WordPress Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/WordPress/metis/trunk/.github/blueprint.json) to try the latest `trunk` in a throwaway WordPress site in your browser, with Mētis already active. Nothing to install; close the tab and it's gone. The Blueprint lives at [`.github/blueprint.json`](.github/blueprint.json).
 
