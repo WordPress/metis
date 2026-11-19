@@ -273,8 +273,13 @@ add_filter( 'render_block_core/group', 'metis_mode_toggle_render', 10, 2 );
 
 if ( ! function_exists( 'metis_mode_toggle_colors' ) ) :
 	function metis_mode_toggle_colors() {
-		$style = wp_json_file_decode( get_theme_file_path( 'styles/cimmeria.json' ), array( 'associative' => true ) );
-		return $style['settings']['color'] ?? array();
+		// Called twice per page (wp_head and wp_body_open), so read the file once.
+		static $colors = null;
+		if ( null === $colors ) {
+			$style  = wp_json_file_decode( get_theme_file_path( 'styles/cimmeria.json' ), array( 'associative' => true ) );
+			$colors = $style['settings']['color'] ?? array();
+		}
+		return $colors;
 	}
 endif;
 
