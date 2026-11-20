@@ -7,7 +7,7 @@
 ?>
 <!-- wp:group {"tagName":"section","metadata":{"name":"Masthead with Gradient"},"align":"full","style":{"border":{"top":{"color":"var:preset|color|theme-1","width":"10px"},"right":{"color":"var:preset|color|theme-1","width":"10px"},"left":{"color":"var:preset|color|theme-1","width":"10px"}},"@mobile":{"border":{"width":"0px","style":"none"}},"@tablet":{"border":{"width":"0px","style":"none"}},"background":{"gradient":"var:preset|gradient|gradient-5"}},"layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull" style="border-top-color:var(--wp--preset--color--theme-1);border-top-width:10px;border-right-color:var(--wp--preset--color--theme-1);border-right-width:10px;border-left-color:var(--wp--preset--color--theme-1);border-left-width:10px"><!-- wp:group {"metadata":{"name":"Header Wrapper"},"align":"wide","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide"><!-- wp:template-part {"slug":"header-b","theme":"metis","area":"header"} /--></div>
+<div class="wp-block-group alignwide"><!-- wp:template-part {"slug":"header-b","area":"header"} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Hero Block Wrapper"},"align":"wide","layout":{"type":"default"}} -->
@@ -969,4 +969,4 @@
 <!-- /wp:group --></main>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer-c","theme":"metis"} /-->
+<!-- wp:template-part {"slug":"footer-c"} /-->
