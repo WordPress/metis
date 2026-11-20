@@ -851,6 +851,11 @@
 					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
+			"core/navigation-overlay-close": {
+				"border": {
+					"radius": "10px"
+				}
+			},
 			"core/playlist": {
 				"border": {
 					"radius": "10px"
