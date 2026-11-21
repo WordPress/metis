@@ -11,7 +11,8 @@
 /*
  * Two stylesheets: style.css for the site and assets/css/editor-style.css for
  * the Editor. They follow the same sections; change a rule in both. The
- * design itself lives in theme.json.
+ * design itself lives in theme.json. The site loads style.min.css, which
+ * `npm run build` makes from style.css.
  */
 if ( ! function_exists( 'metis_editor_style' ) ) :
 	function metis_editor_style() {
@@ -22,11 +23,30 @@ add_action( 'after_setup_theme', 'metis_editor_style' );
 
 if ( ! function_exists( 'metis_styles' ) ) :
 	function metis_styles() {
+		$style_path     = get_parent_theme_file_path( 'style.css' );
+		$style_min_path = get_parent_theme_file_path( 'style.min.css' );
+
+		/*
+		 * Load the minified copy, unless script debugging is on or style.css
+		 * changed after style.min.css was built. Saving style.css in the Theme
+		 * File Editor, or by hand, makes it the newer file, so the edit shows
+		 * instead of being hidden behind an old style.min.css.
+		 */
+		if (
+			SCRIPT_DEBUG
+			|| ! file_exists( $style_min_path )
+			|| filemtime( $style_path ) > filemtime( $style_min_path )
+		) {
+			$src = 'style.css';
+		} else {
+			$src = 'style.min.css';
+		}
+
 		wp_register_style(
 			'metis-style',
-			get_parent_theme_file_uri( 'style.css' ),
+			get_parent_theme_file_uri( $src ),
 			array(),
-			wp_get_theme()->get( 'Version' )
+			wp_get_theme( get_template() )->get( 'Version' )
 		);
 		wp_enqueue_style( 'metis-style' );
 	}
