@@ -22,6 +22,9 @@ Tags: one-column, full-site-editing, block-patterns, block-styles, style-variati
  * the site. The Editor loads assets/css/editor-style.css, which follows the
  * same sections; when you change a rule in one file, change it in the other.
  *
+ * The site loads style.min.css, a minified copy of this file. Edit this file,
+ * then run `npm run build` and commit both files.
+ *
  *   1. Base             Site-wide refinements. Automatic.
  *   2. Buttons          Hover and press motion for every Button, plus the
  *                       Glossy style (Button → Styles).

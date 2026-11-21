@@ -38,3 +38,8 @@ and its pattern, that is worth an issue rather than a silent fix: knowing
 
 See the repository README for the `wp-env` setup and the available lint and
 validation scripts.
+
+When you change `style.css`, run `npm run build` and commit the regenerated
+`style.min.css` with it. Sites load the minified copy, and a pull request
+fails its checks if the two files don't match. If `style.min.css` conflicts
+in a merge or rebase, resolve `style.css` and run `npm run build` again.

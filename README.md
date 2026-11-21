@@ -8,7 +8,7 @@ The recommended development environment uses [`wp-env`](https://developer.wordpr
 
 ### Requirements
 
-- Node.js 20 or later
+- Node.js 24.18 or later
 - npm
 - Docker Desktop or another running Docker-compatible daemon
 
@@ -52,7 +52,21 @@ define( 'WP_DEVELOPMENT_MODE', 'theme' );
 define( 'WP_DEBUG', true );
 define( 'WP_DEBUG_LOG', true );
 define( 'WP_DEBUG_DISPLAY', false );
+define( 'SCRIPT_DEBUG', true );
 ```
+
+### Editing the stylesheet
+
+Sites load `style.min.css`, a minified copy of `style.css`. When `SCRIPT_DEBUG` is on, as it is in the `wp-env` setup above, the theme loads `style.css` instead, so your edits show up right away.
+
+Edit `style.css`, never `style.min.css`, then regenerate the minified copy and commit both files:
+
+```sh
+npm run build   # Regenerate style.min.css from style.css.
+npm run watch   # Or regenerate it every time style.css changes.
+```
+
+If `style.min.css` conflicts in a merge or rebase, don't edit it: resolve `style.css`, then run `npm run build`.
 
 ### Browser-only testing
 

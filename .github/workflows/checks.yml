@@ -1,0 +1,43 @@
+name: Checks
+
+on:
+    pull_request:
+    push:
+        branches:
+            - trunk
+
+# Cancels earlier runs for the same pull request or commit.
+concurrency:
+    group: ${{ github.workflow }}-${{ github.event_name == 'pull_request' && github.head_ref || github.sha }}
+    cancel-in-progress: true
+
+# Disable permissions for all available scopes by default.
+# Any needed permissions are configured at the job level.
+permissions: {}
+
+jobs:
+    checks:
+        name: npm run check
+        runs-on: ubuntu-24.04
+        permissions:
+            contents: read
+        timeout-minutes: 10
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v7
+              with:
+                  persist-credentials: false
+
+            - name: Set up Node
+              uses: actions/setup-node@v7
+              with:
+                  node-version-file: .nvmrc
+                  cache: npm
+
+            - name: Install npm dependencies
+              run: npm ci
+
+            # Runs every verify:* script in package.json, including the check that
+            # style.min.css was rebuilt from the current style.css.
+            - name: Run checks
+              run: npm run check

@@ -2,10 +2,13 @@
 	"name": "metis",
 	"private": true,
 	"engines": {
-		"node": ">=20"
+		"node": ">=24.18.0"
 	},
 	"scripts": {
+		"build": "postcss style.css --use cssnano --no-map -o style.min.css && node tools/touch-style-min.mjs",
+		"watch": "postcss style.css --use cssnano --no-map -o style.min.css --watch",
 		"check": "node tools/run-checks.mjs",
+		"verify:style-min": "node tools/verify-style-min.mjs",
 		"wp-env": "wp-env",
 		"env:setup": "wp-env start && wp-env run cli wp theme activate metis && wp-env run cli wp plugin install theme-check --activate",
 		"env:start": "wp-env start",
@@ -14,6 +17,13 @@
 		"env:clean": "wp-env clean all"
 	},
 	"devDependencies": {
-		"@wordpress/env": "^11.13.0"
-	}
+		"@wordpress/browserslist-config": "^7.2.0",
+		"@wordpress/env": "^11.13.0",
+		"cssnano": "^9.9.0",
+		"postcss": "^8.5.33",
+		"postcss-cli": "^12.0.0"
+	},
+	"browserslist": [
+		"extends @wordpress/browserslist-config"
+	]
 }
